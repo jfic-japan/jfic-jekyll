@@ -1,12 +1,7 @@
-
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
-
-
 .full {
-    background: url('../img/1920x1080/1920x1080.003.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
+  background: url("../img/1920x1080/1920x1080.003.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
