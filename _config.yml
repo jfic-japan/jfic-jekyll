@@ -1,0 +1,21 @@
+# Site settings
+title: 日本室内自転車競技連盟
+email: info_jfic@yahoo.com
+description: > # >があることで、そこから下の行が有効です
+    サイクルサッカー・サイクルフィギュアの公式サイト、
+    日本室内自転車競技連盟です。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.jfic-japan.com" # the base hostname & protocol for your site
+## twitter_username: jfic
+## github_username:  tkbk
+facebook_page: indoorcycling.jp
+
+# Build settings
+markdown: kramdown
+encoding: utf-8
+##permalink: /:categories/:year/:title.html
+##permalink: /:categories/:title.html
+
+fb-app: disabled
+og: disabled
+tw-card: disabled
