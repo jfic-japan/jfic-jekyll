@@ -6,14 +6,41 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Portfolio Item - Start Bootstrap Template</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="自転車,サイクルサッカー,サイクルフィギュア">
+
+    {% if site.fb-app == 'enabled' %}
+    <meta property="fb:app_id" content="1590682037878658" />
+    {% endif %}
+
+    {% if site.og == 'enabled' %}
+    <meta property="og:title" content="JFIC-日本室内自転車競技連盟" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.jfic-japan.com" />
+    <meta property="og:image" content="http://www.jfic-japan.com/img/og/opengraph_img_20150422.001.png" />
+    <meta property="og:description" content="室内で行う自転車競技、サイクルサッカー・サイクルフィギュアの公式ホームページです！" />
+    <meta property="og:site_name" content="Japan Federation of Indoor Cycling" />
+    {% endif %}
+
+    {% if site.tw-card == 'enabled' %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JFIC-日本室内自転車競技連盟">
+    <meta name="twitter:description" content="室内で行う自転車競技、サイクルサッカー・サイクルフィギュアの公式ホームページです！">
+    <meta name="twitter:image" content="http://www.jfic-japan.com/img/og/twitter-card_img_20150422.001.png">
+    {% endif %}
+
+    <link rel="shortcut icon" href="/logo.ico" type="image/x-ico; charset=binary"><title>日本室内自転競技連盟</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/vendor/bootstrap.min.css" | prepend: site.baseurl }}">
 
     <!-- Custom CSS -->
-    <link href="css/vendor/portfolio-item.css" rel="stylesheet">
-    <link href="css/jfic.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/vendor/portfolio-item.css" | prepend: site.baseurl }}">
+
+    <link rel="stylesheet" href="{{ "/css/jfic.css" | prepend: site.baseurl }}">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,5 +48,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
 </head>

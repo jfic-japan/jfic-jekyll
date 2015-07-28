@@ -28,32 +28,30 @@ layout: default
 <div class="row">
     <div class="col-sm-12 col-xs-12">
         <div class="pre-scrollable">
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <a href="#">
-                        <dt>2015年7月24日</dt>
-                        <dd>全日本選手権の大会情報をアップロードしました</dd>
-                    </a>
+
+
+
+            <ul>
+
+                {% for post in site.posts %}
+                {% if post.tags contains 'competition_info' %}
+                <li>
+                    <span>
+                        {{ post.date | date: "%b %-d, %Y" }}
+                    </span>
+                    <h2>
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {{ post.title }}
+                        </a>
+                    </h2>
                 </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <dt>2015年7月24日</dt>
-                        <dd>全日本選手権の大会情報をアップロードしました</dd>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <dt>2015年7月24日</dt>
-                        <dd>全日本選手権の大会情報をアップロードしました</dd>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <dt>2015年7月24日</dt>
-                        <dd>全日本選手権の大会情報をアップロードしました</dd>
-                    </a>
-                </li>
+                {% endif %}
+                {% endfor %}
+
             </ul>
+
+
+
         </div>
     </div>
 </div>
