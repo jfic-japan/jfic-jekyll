@@ -31,25 +31,25 @@ layout: default
 
 
 
-            <ul>
+            <ul class="list-unstyled">
 
                 {% for post in site.posts %}
                 {% if post.tags contains 'competition_info' %}
                 <li>
-                    <span>
-                        {{ post.date | date: "%b %-d, %Y" }}
-                    </span>
-                    <h2>
-                        <a href="{{ post.url | prepend: site.baseurl }}">
-                            {{ post.title }}
-                        </a>
-                    </h2>
+
+                        <h3>
+                            <a href="{{ post.url | prepend: site.baseurl }}">
+                                {{ post.title }}
+                            </a>
+                            <br>
+                            <small>{{ post.term }}@{{ post.site }}</small>
+
+                        </h3>                        
+                        <hr>
                 </li>
                 {% endif %}
                 {% endfor %}
-
             </ul>
-
 
 
         </div>
