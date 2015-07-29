@@ -27,32 +27,34 @@ layout: default
 <!-- Related Projects Row -->
 <div class="row">
     <div class="col-sm-12 col-xs-12">
-        <div class="pre-scrollable">
+
+
+        <h2>2015年度大会情報</h2>
+
+        <hr>
+
+        <ul class="list-unstyled">
+
+            {% for post in site.posts reversed %}
+            {% if post.tags contains 'competition_info' %}
+            <li>
+
+                <h3>
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        {{ post.title }}
+                    </a>
+                    <br>
+                    <small>{{ post.term }}@{{ post.site }}</small>
+
+                </h3>                        
+                <hr>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
 
 
 
-            <ul class="list-unstyled">
-
-                {% for post in site.posts %}
-                {% if post.tags contains 'competition_info' %}
-                <li>
-
-                        <h3>
-                            <a href="{{ post.url | prepend: site.baseurl }}">
-                                {{ post.title }}
-                            </a>
-                            <br>
-                            <small>{{ post.term }}@{{ post.site }}</small>
-
-                        </h3>                        
-                        <hr>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-
-
-        </div>
     </div>
 </div>
 <!-- /.row -->
