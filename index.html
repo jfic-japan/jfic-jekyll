@@ -61,32 +61,22 @@ layout: default
     <div class="col-sm-4 col-xs-12">
         <h4>Topics</h4>
         <div class="pre-scrollable">
+
             <ul class="list-group">
+
+                {% for post in site.posts %}
+                {% if post.tags contains 'topics' %}            
+
                 <li class="list-group-item">
-                    <a href="#">
-                        <dt>2015年7月24日</dt>
-                        <dd>全日本選手権の大会情報をアップロードしました</dd>
+                    <a href="{{ post.url | prepend: site.baseurl}}">
+                        <dt>{{ post.date | date: "%Y年%m月%d日" }}</dt>
+                        <dd>{{ post.title }}</dd>
                     </a>
                 </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <dt>2015年7月24日</dt>
-                        <dd>全日本選手権の大会情報をアップロードしました</dd>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <dt>2015年7月24日</dt>
-                        <dd>全日本選手権の大会情報をアップロードしました</dd>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <dt>2015年7月24日</dt>
-                        <dd>全日本選手権の大会情報をアップロードしました</dd>
-                    </a>
-                </li>
+                {% endif %}
+                {% endfor %}
             </ul>
+
         </div>
         <a class="btn btn-primary btn-sm" href="topics.html">Topics一覧</a>
     </div>
