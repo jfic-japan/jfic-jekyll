@@ -7,7 +7,7 @@ description: > # >があることで、そこから下の行が有効です
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jfic-japan.com" # the base hostname & protocol for your site
 ## twitter_username: jfic
-## github_username:  tkbk
+github_username:  jfic-japan
 facebook_page: indoorcycling.jp
 
 # Build settings

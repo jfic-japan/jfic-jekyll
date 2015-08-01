@@ -2,6 +2,10 @@
 ---
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
 
 .full {
     background: url('../img/1920x1080/1920x1080.003.png') no-repeat center center fixed;
@@ -11,3 +15,7 @@
     -o-background-size: cover;
 }
 
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "jfic"
+;

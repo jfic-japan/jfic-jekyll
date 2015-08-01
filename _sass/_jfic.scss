@@ -1,0 +1,32 @@
+/* for footer */
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.logo-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left:0;
+}
+.logo-list--item {
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+/* for icon svg */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
