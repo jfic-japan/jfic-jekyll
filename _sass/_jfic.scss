@@ -1,11 +1,9 @@
 /* for footer */
-
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
 }
-
 .logo-list {
     list-style: none;
     margin-left: 0;
@@ -29,4 +27,32 @@
             fill: $grey-color;
         }
     }
+}
+
+/* for media */
+
+.jfic-media {
+    width: 100%
+}
+.jfic-media:before,
+.jfic-media:after {
+    display: table; /*for clearfix*/
+    content: " "; /*for clearfix*/
+}
+.jfic-media:after {
+    clear: both; /*for clearfix*/
+}
+.jfic-media-img {
+    float: left;
+    max-width: 50%;
+    height: auto;
+    margin-right: 1em;
+    
+    > img {
+        display: block;
+        width: 100%;
+    }
+}
+.jfic-media-body {
+    /*overflow: hidden;*/ /*画像の下への文章回り込みを禁止*/
 }
