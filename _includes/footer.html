@@ -1,14 +1,13 @@
+<div class="jfic-footer jfic-footer-color">
 <hr>
 
 <!-- Footer -->
-<footer>
+<footer class="container">
 
     <div class="row">
-       
         <div class="col-md-4 col-sm-4 col-xs-12">
             <h4><strong>日本室内自転車競技連盟</strong></h4>
-
-            <ul class="contact-list">
+            <ul class="contact-list text-center">
                 <li><a href="{{ site.baseurl }}/query.html">お問い合わせ</a></li>
                 <li><a href="{{ site.baseurl }}/links.html">リンク</a></li>
             </ul>
@@ -16,7 +15,7 @@
             <ul class="social-media-list">
 
                 {% if site.facebook_page %}
-                <li>
+                <li class="text-center">
                     <a href="https://facebook.com/{{ site.facebook_page}}">
                         <span class="icon  icon--facebook">
                             <img src="/img/sns/FB-f-Logo__blue_100.png" height="16" width="16">
@@ -28,7 +27,7 @@
                 {% endif %}
 
                 {% if site.github_username %}
-                <li>
+                <li class="text-center">
                     <a href="https://github.com/{{ site.github_username }}">
                         <span class="icon  icon--github">
                             <svg viewBox="0 0 16 16">
@@ -42,7 +41,7 @@
                 {% endif %}
 
                 {% if site.twitter_username %}
-                <li>
+                <li class="text-center">
                     <a href="https://twitter.com/{{ site.twitter_username }}">
                         <span class="icon  icon--twitter">
                             <svg viewBox="0 0 16 16">
@@ -125,3 +124,4 @@
     </div>
     <!-- /.row -->
 </footer>
+</div>

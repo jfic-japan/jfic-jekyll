@@ -1,8 +1,14 @@
 /* for footer */
+
+.jfic-footer-color {
+    background-color: $jfic-footer-color;
+}
+
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    padding-left:0;
 }
 .logo-list {
     list-style: none;
