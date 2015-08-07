@@ -2,65 +2,65 @@
 layout: default
 ---
 
-
-<!-- Portfolio Item Heading -->
-<div class="row">
-    <div class="col-lg-12">
-        <h1 class="page-header">Topics</h1>
+<div class="container">
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Topics</h1>
+        </div>
     </div>
-</div>
-<!-- /.row -->
+    <!-- /.row -->
 
-<!-- Portfolio Item Row -->
-<div class="row">
+    <!-- Portfolio Item Row -->
+    <div class="row">
 
-    <div class="col-md-12">
-        <img class="img-responsive" src="http://placehold.it/1170x400" alt="">
+        <div class="col-md-12">
+            <img class="img-responsive" src="http://placehold.it/1170x400" alt="">
+        </div>
+
     </div>
+    <!-- /.row -->
 
-</div>
-<!-- /.row -->
+    <hr>
 
-<hr>
+    <!-- Related Projects Row -->
+    <div class="row">
 
-<!-- Related Projects Row -->
-<div class="row">
+        <!-- TODO:アーカイブを有効にした場合、ここを調整
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">  
+        -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <ul class="list-group">
 
-    <!-- TODO:アーカイブを有効にした場合、ここを調整
-    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">  
-    -->
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <ul class="list-group">
+                {% for post in site.posts %}
+                {% if post.tags contains 'topics' %}            
 
-            {% for post in site.posts %}
-            {% if post.tags contains 'topics' %}            
+                <li class="list-group-item">
+                    <a href="{{ post.url | prepend: site.baseurl}}">
+                        <dt>{{ post.date | date: "%Y年%m月%d日" }}</dt>
+                        <dd>{{ post.title }}</dd>
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
 
-            <li class="list-group-item">
-                <a href="{{ post.url | prepend: site.baseurl}}">
-                    <dt>{{ post.date | date: "%Y年%m月%d日" }}</dt>
-                    <dd>{{ post.title }}</dd>
-                </a>
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
-
-    <!-- TODO: 年が進んでいったらどうするの？を考える
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <!-- TODO: 年が進んでいったらどうするの？を考える
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
         <h4>アーカイブ</h4>
         <ul style="list-style-type:circle">
-            <li>
-                <a href="topics.html">2015</a>
-            </li>
-            <li>
-                <a href="topics.html">2014以前</a>
-            </li>
+        <li>
+        <a href="topics.html">2015</a>
+        </li>
+        <li>
+        <a href="topics.html">2014以前</a>
+        </li>
         </ul>
-    </div>        
-    -->
+        </div>        
+        -->
 
+    </div>
+    <!-- /.row -->
 </div>
-<!-- /.row -->
-
 

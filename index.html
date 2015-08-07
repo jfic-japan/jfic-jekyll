@@ -2,96 +2,99 @@
 layout: default
 ---
 
-<!-- Portfolio Item Heading -->
-<div class="row">
-    <div class="col-lg-12">
-        <h1 class="page-header">日本室内自転車競技連盟<br>
-            <small>サイクルサッカーとサイクルフィギュアのページへようこそ！</small>
-        </h1>
+<div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">日本室内自転車競技連盟<br>
+                <small>サイクルサッカーとサイクルフィギュアのページへようこそ！</small>
+            </h1>
+        </div>
     </div>
-</div>
-<!-- /.row -->
+    <!-- /.row -->
 
-<!-- Portfolio Item Row -->
-<div class="row">
+    <!-- Portfolio Item Row -->
+    <div class="row">
 
-    <div class="col-md-8">
-        <img class="img-responsive" src="img/top/wc-tokyo-2015-01-750x500.JPG" alt="UCIサイクルサッカーワールドカップ第３戦アジアラウンド">
+        <div class="col-md-8">
+            <img class="img-responsive" src="img/top/wc-tokyo-2015-01-750x500.JPG" alt="UCIサイクルサッカーワールドカップ第３戦アジアラウンド">
 
-        <!--                                <img class="img-responsive" src="http://placehold.it/750x500" alt="">
-        -->
+            <!--                                <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+            -->
+        </div>
+
+        <div class="col-md-4">
+            <h3><strong>Next Event</strong></h3>
+            <h4>12/12(土) 全日本選手権＠ボディメーカーコロシアム</h4>
+            <p>香港で行われるサイクルサッカー・サイクルフィギュアの大会です。日本からは東京工業大学高橋（３年）・永島（３年）が出場予定です！</p>
+            <a class="btn btn-primary btn-sm" href="competition_info.html">大会情報へ</a>
+        </div>
+
     </div>
+    <!-- /.row -->
 
-    <div class="col-md-4">
-        <h3><strong>Next Event</strong></h3>
-        <h4>12/12(土) 全日本選手権＠ボディメーカーコロシアム</h4>
-        <p>香港で行われるサイクルサッカー・サイクルフィギュアの大会です。日本からは東京工業大学高橋（３年）・永島（３年）が出場予定です！</p>
-        <a class="btn btn-primary btn-sm" href="competition_info.html">大会情報へ</a>
-    </div>
+    <hr>
 
-</div>
-<!-- /.row -->
-
-<hr>
-
-<!-- Call to Action Well -->
-<div class="row">
-    <div class="col-lg-12">
-        <div class="well text-center">
+    <!-- Call to Action Well -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="well text-center">
                 室内自転車競技、サイクルサッカー・サイクルフィギュアの
                 公式ホームページです。<br>
                 室内自転車競技は、日本自転車競技連盟の支援を受けて、活動しております。
+            </div>
         </div>
+        <!-- /.col-lg-12 -->
     </div>
-    <!-- /.col-lg-12 -->
+    <!-- /.row -->
+
+    <!-- Related Projects Row -->
+    <div class="row">
+
+        <div class="col-sm-4 col-xs-12">
+            <h4>Topics</h4>
+            <div class="pre-scrollable">
+
+                <ul class="list-group">
+
+                    {% for post in site.posts %}
+                    {% if post.tags contains 'topics' %}            
+
+                    <li class="list-group-item">
+                        <a href="{{ post.url | prepend: site.baseurl}}">
+                            <dt>{{ post.date | date: "%Y年%m月%d日" }}</dt>
+                            <dd>{{ post.title }}</dd>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+
+            </div>
+            <a class="btn btn-primary btn-sm" href="topics.html">Topics一覧</a>
+        </div>
+
+        <div class="col-sm-8 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-6 col-jfic-xxs-12">
+                <a href="about_cycleball.html">
+                    <h4><strong>サイクルサッカーとは？</strong></h4>
+                    <img class="img-responsive portfolio-item" src="/img/intro/cycleball-500x300.png" alt="サイクルサッカーとは？">
+                </a>
+                <p>自転車とサッカーの融合、サイクルサッカー。自転車ならではのスピード感、テクニック、球技ならではのシュート打音、パスワーク、ボディコンタクト、あらゆる角度で楽しんでいただけるスポーツです。</p>
+
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-6 col-jfic-xxs-12">
+                <a href="about_cyclefigure.html">
+                    <h4><strong>サイクルフィギュアとは？</strong></h4>
+                    <img class="img-responsive portfolio-item" src="/img/intro/cyclefigure-500x300.png" alt="サイクルフィギュアとは？">
+                </a>
+                <p>自転車版フィギュアスケート、その名もサイクルフィギュア。自転車だからこそ生み出せるダイナミックさ、自転車を超越した美技、そこに必要とされる繊細さ、あらゆる要素を含んだ競技です。</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.row -->
 </div>
-<!-- /.row -->
-
-<!-- Related Projects Row -->
-<div class="row">
-
-    <div class="col-sm-4 col-xs-12">
-        <h4>Topics</h4>
-        <div class="pre-scrollable">
-
-            <ul class="list-group">
-
-                {% for post in site.posts %}
-                {% if post.tags contains 'topics' %}            
-
-                <li class="list-group-item">
-                    <a href="{{ post.url | prepend: site.baseurl}}">
-                        <dt>{{ post.date | date: "%Y年%m月%d日" }}</dt>
-                        <dd>{{ post.title }}</dd>
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-
-        </div>
-        <a class="btn btn-primary btn-sm" href="topics.html">Topics一覧</a>
-    </div>
-
-    <div class="col-sm-8 col-xs-12">
-        <div class="col-md-6 col-sm-12 col-xs-6 col-jfic-xxs-12">
-            <a href="about_cycleball.html">
-                <h4><strong>サイクルサッカーとは？</strong></h4>
-                <img class="img-responsive portfolio-item" src="/img/intro/cycleball-500x300.png" alt="サイクルサッカーとは？">
-            </a>
-            <p>自転車とサッカーの融合、サイクルサッカー。自転車ならではのスピード感、テクニック、球技ならではのシュート打音、パスワーク、ボディコンタクト、あらゆる角度で楽しんでいただけるスポーツです。</p>
-
-        </div>
-
-        <div class="col-md-6 col-sm-12 col-xs-6 col-jfic-xxs-12">
-            <a href="about_cyclefigure.html">
-            <h4><strong>サイクルフィギュアとは？</strong></h4>
-            <img class="img-responsive portfolio-item" src="/img/intro/cyclefigure-500x300.png" alt="サイクルフィギュアとは？">
-        </a>
-            <p>自転車版フィギュアスケート、その名もサイクルフィギュア。自転車だからこそ生み出せるダイナミックさ、自転車を超越した美技、そこに必要とされる繊細さ、あらゆる要素を含んだ競技です。</p>
-        </div>
-
-    </div>
-
-</div>
-<!-- /.row -->
