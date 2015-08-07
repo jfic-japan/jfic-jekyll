@@ -1,61 +1,61 @@
 ---
 layout: default
 ---
+<div class="container">
 
-
-<!-- Portfolio Item Heading -->
-<div class="row">
-    <div class="col-lg-12">
-        <h1 class="page-header">大会情報</h1>
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">大会情報</h1>
+        </div>
     </div>
-</div>
-<!-- /.row -->
+    <!-- /.row -->
 
-<!-- Portfolio Item Row -->
-<div class="row">
+    <!-- Portfolio Item Row -->
+    <div class="row">
 
-    <div class="col-md-12">
-        <img class="img-responsive" src="http://placehold.it/1170x400" alt="">
-    </div>
-
-</div>
-<!-- /.row -->
-
-<hr>
-
-
-<!-- Related Projects Row -->
-<div class="row">
-    <div class="col-sm-12 col-xs-12">
-
-
-        <h2>2015年度大会情報</h2>
-
-        <hr>
-
-        <ul class="list-unstyled">
-
-            {% for post in site.posts reversed %}
-            {% if post.tags contains 'competition_info' %}
-            <li>
-
-                <h3>
-                    <a href="{{ post.url | prepend: site.baseurl }}">
-                        {{ post.title }}
-                    </a>
-                    <br>
-                    <small>{{ post.term }}@{{ post.site }}</small>
-
-                </h3>                        
-                <hr>
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-
+        <div class="col-md-12">
+            <img class="img-responsive" src="http://placehold.it/1170x400" alt="">
+        </div>
 
     </div>
-</div>
-<!-- /.row -->
+    <!-- /.row -->
 
+    <hr>
+
+
+    <!-- Related Projects Row -->
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+
+
+            <h2>2015年度大会情報</h2>
+
+            <hr>
+
+            <ul class="list-unstyled">
+
+                {% for post in site.posts reversed %}
+                {% if post.tags contains 'competition_info' %}
+                <li>
+
+                    <h3>
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {{ post.title }}
+                        </a>
+                        <br>
+                        <small>{{ post.term }}@{{ post.site }}</small>
+
+                    </h3>                        
+                    <hr>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
+
+
+        </div>
+    </div>
+    <!-- /.row -->
+</div>

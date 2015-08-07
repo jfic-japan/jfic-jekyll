@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-md
 ---
 
 # 選手登録について
