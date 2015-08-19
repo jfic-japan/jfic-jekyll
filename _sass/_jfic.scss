@@ -1,3 +1,25 @@
+/*for title*/
+.jfic-HP-title, .jfic-HP-nav {
+    font-family: 'Meiryo UI','HiraMinProN-W6','Comic Sans MS';
+}
+.jfic-HP-title {
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.jfic-HP-subtitle {
+    font-family: 'Meiryo UI','HiraMinProN-W6','Comic Sans MS';
+}
+@media (max-width: 480px) {
+    .jfic-HP-title {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 360px) {
+    .jfic-HP-title {
+        font-size: 0.7em;
+    }
+}
+
 /* for footer */
 
 .jfic-footer-color {
