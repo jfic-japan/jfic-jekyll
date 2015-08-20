@@ -98,3 +98,20 @@
 .jfic-media-body {
     /*overflow: hidden;*/ /*画像の下への文章回り込みを禁止*/
 }
+
+.jfic-map {
+   
+    position: relative;
+    padding-bottom: 65%;
+    height: 0;
+    overflow: hidden;   
+
+}
+
+.jfic-map__item--google {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100% !important;
+    height: 100% !important;
+}
