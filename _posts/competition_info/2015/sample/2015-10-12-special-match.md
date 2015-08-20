@@ -1,8 +1,8 @@
----
+!!---
 layout: competition_post
-title:  "2015香港オープン"
-term: "2015年8月2日"
-site: "香港"
+title:  "2015スペシャルマッチ"
+term: "2015年10月12日"
+site: "東京工業大学"
 tags: competition_info
 categories: competition_info 2015
 
@@ -10,13 +10,13 @@ categories: competition_info 2015
 ---
 
 ## 大会概要
-香港の大会です。
+スペシャルマッチです。
 
 ## 日時
-８月２日
+１０月１２日
 
 ## 場所
-香港
+東京工業大学
 
 ## 詳細
 かくかくしかじか

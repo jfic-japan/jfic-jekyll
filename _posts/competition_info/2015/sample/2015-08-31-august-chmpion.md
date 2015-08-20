@@ -1,8 +1,8 @@
----
+!!---
 layout: competition_post
-title:  "2015香港オープン"
-term: "2015年8月2日"
-site: "香港"
+title:  "８月の決戦！"
+term: "2015年8月31日"
+site: "ハワイ"
 tags: competition_info
 categories: competition_info 2015
 
@@ -10,18 +10,18 @@ categories: competition_info 2015
 ---
 
 ## 大会概要
-香港の大会です。
+ハワイの大会がやれたらいいなです。
 
 ## 日時
-８月２日
+８月３１日
 
 ## 場所
-香港
+ハワイ
 
 ## 詳細
 かくかくしかじか
 
 ## 地図
-<img class="img-responsive center-block" src="http://placehold.it/500x300" alt="test">
+<img src="http://placehold.it/500x300" alt="test">
 
 [jficのサイト]:      http://www.jfic-japan.com

@@ -1,4 +1,4 @@
----
+!!---
 layout: competition_post
 title:  "HOGEチャンピンズカップ"
 term: "2015年9月22日-23日"

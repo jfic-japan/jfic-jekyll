@@ -1,8 +1,8 @@
----
+!!---
 layout: competition_post
-title:  "８月の決戦！"
-term: "2015年8月31日"
-site: "ハワイ"
+title:  "2015香港オープン"
+term: "2015年8月2日"
+site: "香港"
 tags: competition_info
 categories: competition_info 2015
 
@@ -10,13 +10,13 @@ categories: competition_info 2015
 ---
 
 ## 大会概要
-ハワイの大会がやれたらいいなです。
+香港の大会です。
 
 ## 日時
-８月３１日
+８月２日
 
 ## 場所
-ハワイ
+香港
 
 ## 詳細
 かくかくしかじか
