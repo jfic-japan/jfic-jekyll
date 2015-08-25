@@ -1,6 +1,6 @@
 ---
 layout: competition_post
-title:  "2015香港オープン"
+title:  "香港オープン"
 term: "2015年8月2日"
 site: "香港"
 tags: competition_info
