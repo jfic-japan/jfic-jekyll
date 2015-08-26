@@ -23,6 +23,7 @@
 
 -   大会情報、topicsの追加
     -   \_post下に記事を挿入すること
+        -  大会情報とtopicsを分けて記入すること 
     -   各記事ファイルにはyaml front matterが必要です
 
 [jekyll]:http://jekyllrb.com/
