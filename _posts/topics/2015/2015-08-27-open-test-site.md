@@ -1,7 +1,7 @@
 ---
 layout: topic_post
 title:  "テストサイトを開設しました"
-date: 2015-08-20
+date: 2015-08-27
 tags: topics
 categories: topics 2015
 
