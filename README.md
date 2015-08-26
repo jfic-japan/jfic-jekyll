@@ -1,26 +1,32 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Portfolio Item](http://startbootstrap.com/template-overviews/portfolio-item/)
+# JFIC Web
 
-[Portfolio Item](http://startbootstrap.com/template-overviews/portfolio-item/) is an individual portfolio item template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+## 説明
 
-## Getting Started
+日本室内自転車競技連盟HP作成用のリポジトリです。
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+## 開発について
 
-## Bugs and Issues
+[jekyll] + [Bootstrap]で開発しています。
+また、[Start Bootstrap]から入手可能な
+[Portfolio Item]をトップページのテンプレートとして活用しています。
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-portfolio-item/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/portfolio-item/).
 
-## Creator
+## 記事の投稿基本的な手順について
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+1.  リポジトリのpull
+2.  トピックブランチの作成
+3.  記事を作成
+4.  トピックブランチのcommit
+5.  pull request
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## 記事の作成方法
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+-   大会情報、topicsの追加
+    -   \_post下に記事を挿入すること
+    -   各記事ファイルにはyaml front matterが必要です
 
-## Copyright and License
+[jekyll]:http://jekyllrb.com/
+[Portfolio Item]:http://startbootstrap.com/template-overviews/portfolio-item/
+[Bootstrap]:http://getbootstrap.com/
+[Start Bootstrap]:http://startbootstrap.com/
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-portfolio-item/blob/gh-pages/LICENSE) license.
