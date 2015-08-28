@@ -26,6 +26,10 @@
         -  大会情報とtopicsを分けて記入すること 
     -   各記事ファイルにはyaml front matterが必要です
 
+## その他
+
+記事更新者求む
+
 [jekyll]:http://jekyllrb.com/
 [Portfolio Item]:http://startbootstrap.com/template-overviews/portfolio-item/
 [Bootstrap]:http://getbootstrap.com/
