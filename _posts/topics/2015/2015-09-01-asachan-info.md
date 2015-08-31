@@ -12,5 +12,5 @@ categories: topics 2015
 TBS山本匠晃アナウンサーに取材に来ていただきました！
 乞うご期待！
 
-「あさチャン（TBS AM 5:30-8:00）」HP
-[http://www.tbs.co.jp/asachan/]
+「あさチャン（TBS AM 5:30-8:00）」HP  
+http://www.tbs.co.jp/asachan/
