@@ -9,6 +9,15 @@ $grey-color-dark:  darken($grey-color, 25%);
 $jfic-footer-color: rgba(0,0,0,0.15);
 
 
+@-webkit-keyframes anim {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes anim　{
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 .full {
     background: url('../img/1920x1080/1920x1080.003.png') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -16,6 +25,14 @@ $jfic-footer-color: rgba(0,0,0,0.15);
     background-size: cover;
     -o-background-size: cover;
 }
+
+//.jfic-post-image  {
+img {
+  -ms-animation: anim 1.5s;
+  -webkit-animation: anim 1.5s;
+  animation: anim 1.5s;
+}
+
 
 
 .col-jfic-xxs-1, .col-jfic-xxs-2, .col-jfic-xxs-3, .col-jfic-xxs-4, .col-jfic-xxs-5, .col-jfic-xxs-6, .col-jfic-xxs-7, .col-jfic-xxs-8, .col-jfic-xxs-9, .col-jfic-xxs-10, .col-jfic-xxs-11, .col-jfic-xxs-12 {
