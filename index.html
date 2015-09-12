@@ -10,7 +10,7 @@ layout: default
             <h1 class="page-header">
                 <strong class="jfic-HP-title">日本室内自転車競技連盟</strong>
                 <br>
-                <small class="jfic-HP-subtitle""><small>室内自転車競技、サイクルサッカー・サイクルフィギュアの公式HPのテストサイトです。</small></small>
+                <small class="jfic-HP-subtitle"><small>室内自転車競技、サイクルサッカー・サイクルフィギュアの公式HPのテストサイトです。</small></small>
             </h1>
         </div>
     </div>
@@ -26,7 +26,9 @@ layout: default
 
         <div class="col-md-4">
             <h3><strong>Next Event</strong></h3>
-            <h4>9/21（月・祝） ジャパンカップ（ドイツU-19交流大会）@梅田東生涯学習ルーム体育館</h4>
+            <h4><strong>ジャパンカップ（ドイツU-19交流大会）</strong></h4>
+            <h5>9/20（日）サイクルフィギュアデモンストレーション@関西大学千里山キャンパス</h5>
+            <h5>9/21（月・祝）サイクルサッカー本戦@梅田東コミュニティ会館</h5>
             <p>サイクルサッカー・サイクルフィギュアのドイツとの交流大会、「ジャパンカップ」が今年も開催！本場ドイツの勢いある若手プレーヤーは必見！</p>
             <a class="btn btn-primary btn-sm" href="competition_info.html">大会情報へ</a>
         </div>
@@ -47,7 +49,7 @@ layout: default
                 <ul class="list-group">
 
                     {% for post in site.posts %}
-                    {% if post.tags contains 'topics' %}            
+                    {% if post.tags contains 'topics' %}
 
                     <li class="list-group-item">
                         <a href="{{ post.url | prepend: site.baseurl}}">
