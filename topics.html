@@ -15,7 +15,7 @@ layout: default
 <!-- Portfolio Item Row -->
 <div class="jfic-top-img">
 
-    <img class="img-responsive portfolio-item center-block" src="/img/top/cyclefigure-cycleball-1140x460.png" alt="topics">
+    <img class="img-responsive portfolio-item center-block" src="/img/top/cyclefigure-cycleball-1140x460.jpg" alt="topics">
 
 </div>
 <!-- /.row -->
@@ -26,13 +26,13 @@ layout: default
     <div class="row">
 
         <!-- TODO:アーカイブを有効にした場合、ここを調整
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">  
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
         -->
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <ul class="list-group">
 
                 {% for post in site.posts %}
-                {% if post.tags contains 'topics' %}            
+                {% if post.tags contains 'topics' %}
 
                 <li class="list-group-item">
                     <a href="{{ post.url | prepend: site.baseurl}}">
@@ -56,10 +56,9 @@ layout: default
         <a href="topics.html">2014以前</a>
         </li>
         </ul>
-        </div>        
+        </div>
         -->
 
     </div>
     <!-- /.row -->
 </div>
-
