@@ -2,7 +2,9 @@
 
 ## 説明
 
-日本室内自転車競技連盟HP作成用のリポジトリです。
+日本室内自転車競技連盟HP作成用のリポジトリです。  
+http://jfic-japan.github.io
+
 
 ## 開発について
 
@@ -34,4 +36,3 @@
 [Portfolio Item]:http://startbootstrap.com/template-overviews/portfolio-item/
 [Bootstrap]:http://getbootstrap.com/
 [Start Bootstrap]:http://startbootstrap.com/
-
