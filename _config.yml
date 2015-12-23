@@ -19,3 +19,5 @@ permalink: /:categories/:title.html
 fb-app: disabled
 og: disabled
 tw-card: disabled
+
+future: true
