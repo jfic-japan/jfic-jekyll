@@ -12,6 +12,4 @@ categories: topics 2015
 なお、１９日、２０日も関西大学にてジャパンカップ予選を開催いたします。
 
 
-<a class="btn btn-primary btn-sm" href="{% post_url  /competition_info/2015/2015-09-21-JapanCup %}">ジャパンカップ情報</a>
-
-
+<a class="btn btn-primary btn-sm" href="{% post_url  2015-09-21-JapanCup %}">ジャパンカップ情報</a>
