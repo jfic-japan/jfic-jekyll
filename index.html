@@ -10,7 +10,7 @@ layout: default
             <h1 class="page-header">
                 <strong class="jfic-HP-title">日本室内自転車競技連盟</strong>
                 <br>
-                <small class="jfic-HP-subtitle"><small>室内自転車競技、サイクルサッカー・サイクルフィギュアの公式HPのテストサイトです。</small></small>
+                <small class="jfic-HP-subtitle"><small>室内自転車競技、サイクルサッカー・サイクルフィギュアの公式HPです。</small></small>
             </h1>
         </div>
     </div>
@@ -21,16 +21,10 @@ layout: default
 
         <div class="col-md-8">
             <img class="img-responsive" src="img/top/wc-tokyo-2015-01-750x500.JPG" alt="UCIサイクルサッカーワールドカップ第３戦アジアラウンド">
-
         </div>
 
         <div class="col-md-4">
-            <h3><strong>Next Event</strong></h3>
-            <h4><strong>ジャパンカップ（ドイツU-19交流大会）</strong></h4>
-            <h5>9/20（日）サイクルフィギュアデモンストレーション@梅田東コミュニティ会館</h5>
-            <h5>9/21（月・祝）サイクルサッカー本戦@梅田東コミュニティ会館</h5>
-            <p>サイクルサッカー・サイクルフィギュアのドイツとの交流大会、「ジャパンカップ」が今年も開催！本場ドイツの勢いある若手プレーヤーは必見！</p>
-            <a class="btn btn-primary btn-sm" href="competition_info.html">大会情報へ</a>
+            {% include note.html %}
         </div>
 
     </div>
@@ -57,8 +51,10 @@ layout: default
                             <dd>{{ post.title }}</dd>
                         </a>
                     </li>
+
                     {% endif %}
                     {% endfor %}
+
                 </ul>
 
             </div>
