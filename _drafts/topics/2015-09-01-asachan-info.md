@@ -2,7 +2,7 @@
 layout: topic_post
 title:  "9月2日（水）の「あさチャン（TBS AM 5:30-8:00）」に、サイクルフィギュア近藤菜月選手が出演します！"
 date: 2015-09-01
-tags: topics
+tags: topics 2015
 categories: topics 2015
 
 ---

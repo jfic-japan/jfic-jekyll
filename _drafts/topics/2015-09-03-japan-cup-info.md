@@ -2,7 +2,7 @@
 layout: topic_post
 title:  "2015年度ジャパンカップの全日程を掲載しました。"
 date: 2015-09-03
-tags: topics
+tags: topics 2015
 categories: topics 2015
 
 ---

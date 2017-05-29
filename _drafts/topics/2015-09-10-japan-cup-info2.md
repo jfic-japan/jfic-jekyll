@@ -2,7 +2,7 @@
 layout: topic_post
 title:  "2015年度ジャパンカップの大会要項を掲載しました。"
 date: 2015-09-10
-tags: topics
+tags: topics 2015
 categories: topics 2015
 
 ---
