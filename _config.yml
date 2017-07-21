@@ -16,8 +16,8 @@ encoding: utf-8
 ##permalink: /:categories/:year/:title.html
 permalink: /:categories/:title.html
 
-fb-app: disabled
-og: disabled
-tw-card: disabled
+fb-app: enabled
+og: enabled
+tw-card: enabled
 
 future: true

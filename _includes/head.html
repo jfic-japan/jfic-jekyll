@@ -19,8 +19,8 @@
     {% if site.og == 'enabled' %}
     <meta property="og:title" content="JFIC-日本室内自転車競技連盟" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.jfic-japan.com" />
-    <meta property="og:image" content="http://www.jfic-japan.com/img/og/opengraph_img_20150422.001.png" />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:image" content="{{ site.baseurl }}/img/og/opengraph_img_20150422.001.png" />
     <meta property="og:description" content="室内で行う自転車競技、サイクルサッカー・サイクルフィギュアの公式ホームページです！" />
     <meta property="og:site_name" content="Japan Federation of Indoor Cycling" />
     {% endif %}
@@ -29,7 +29,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="JFIC-日本室内自転車競技連盟">
     <meta name="twitter:description" content="室内で行う自転車競技、サイクルサッカー・サイクルフィギュアの公式ホームページです！">
-    <meta name="twitter:image" content="http://www.jfic-japan.com/img/og/twitter-card_img_20150422.001.png">
+    <meta name="twitter:image" content="{{ site.baseurl }}/img/og/twitter-card_img_20150422.001.png">
     {% endif %}
 
     <link rel="shortcut icon" href="/logo.ico" type="image/x-ico; charset=binary"><title>日本室内自転競技連盟</title>
