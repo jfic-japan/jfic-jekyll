@@ -10,4 +10,4 @@ categories: topics 2017
 ２０１７年度チャレンジカップ（チャンピオンズカップ予選）の大会情報を掲載しました。
 詳細は大会情報から参照ください。
 
-<a class="btn btn-primary btn-sm" href="{{ site.baseurl }}{% post_url 2017-06-04-challenge-cup %}">２０１７チャレンジカップ</a>
+<a class="btn btn-primary btn-sm" href="{{ site.baseurl }}{% post_url /competition_info/2017/2017-06-04-challenge-cup %}">２０１７チャレンジカップ</a>
