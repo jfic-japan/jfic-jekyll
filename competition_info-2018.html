@@ -21,11 +21,11 @@ layout: default
     <!-- Related Projects Row -->
     <div class="row">
         <div class="col-sm-8 col-xs-12">
-            <h2 id="contents">2016年度大会情報</h2>
+            <h2 id="contents">2018年度大会情報</h2>
             <hr>
             <ul class="list-unstyled">
                 {% for post in site.posts reversed %}
-                {% if post.tags contains 'competition_info' and post.tags contains '2016'%}
+                {% if post.tags contains 'competition_info' and post.tags contains '2018'%}
                 <li>
                     <h3>
                         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -43,7 +43,7 @@ layout: default
         <div class="col-sm-4 col-xs-12">
             <h3>年度</h3>
             <ul class="list-unstyled">
-                <li><a href="./competition_info-2018.html#contents">2018年度</a></li>                            
+                <li><a href="./competition_info-2018.html#contents">2018年度</a></li>
                 <li><a href="./competition_info-2017.html#contents">2017年度</a></li>
                 <li><a href="./competition_info-2016.html#contents">2016年度</a></li>
                 <li><a href="./competition_info-2015.html#contents">2015年度</a></li>
