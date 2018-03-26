@@ -28,19 +28,14 @@ JFIC主催・主管事業とは、今年度国内で開催される大会のう�
 
 # 加盟料
 
-未定
+社会人・大学院生 10,000 円、学生 5,000 円
 
 # 連盟加盟申請書
 
-準備中
-<!--
 [Excel][excel] [PDF][pdf]
--->
 
-# その他
-
-## 参考
-[2017年度連盟加盟申請書][pdf]
 
 [query]:{{ site.baseurl }}/query.html
-[pdf]:{{ site.baseurl }}/doc/2017/jfic_player2017.pdf
+[excel]:{{ site.baseurl }}/doc/2018/jfic_player2018.xlsx
+[pdf]:{{ site.baseurl }}/doc/2018/jfic_player2018.pdf
+[2017pdf]:{{ site.baseurl }}/doc/2017/jfic_player2017.pdf

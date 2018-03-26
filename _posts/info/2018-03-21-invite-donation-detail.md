@@ -35,12 +35,8 @@ categories: info 2018
 
 # 賛助会員申込書
 
-準備中
-<!--
 [Excel][excel] [PDF][pdf]
--->
 
-## その他
 
 ## ご参考
 [連盟加盟制度・賛助会員制度新設のお知らせ(2016.5.3)][2016info]
@@ -50,7 +46,7 @@ categories: info 2018
 
 
 [query]:{{ site.baseurl }}/query.html
-[excel]:{{ site.baseurl }}/doc/2017/jfic_supporter2017.xlsx
-[pdf]:{{ site.baseurl }}/doc/2017/jfic_supporter2017.pdf
+[excel]:{{ site.baseurl }}/doc/2018/jfic_supporter2018.xlsx
+[pdf]:{{ site.baseurl }}/doc/2018/jfic_supporter2018.pdf
 [2016info]:{{ site.baseurl }}/doc/2016/registration_supporter-notification.pdf
 [2016report]:{{ site.baseurl }}/doc/2016/jfic_report2016.pdf
