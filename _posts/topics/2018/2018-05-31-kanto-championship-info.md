@@ -1,7 +1,7 @@
 ---
 layout: topic_post
 title:  "2018 年度関東社会人リーグの情報を掲載しました。"
-date: 2018-06-30
+date: 2018-06-01
 tags: topics 2018
 categories: topics 2018
 
