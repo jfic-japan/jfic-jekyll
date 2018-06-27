@@ -6,7 +6,7 @@ description: > # >があることで、そこから下の行が有効です
     日本室内自転車競技連盟です。
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://www.jfic-japan.com" # the base hostname & protocol for your site
-url: "http://www.jfic-japan.com"
+url: "http://jfic-japan.com"
 
 ## twitter_username: jfic
 github_username:  jfic-japan
