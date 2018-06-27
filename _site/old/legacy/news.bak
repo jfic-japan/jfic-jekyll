@@ -1,0 +1,761 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=Shift_JIS">
+<meta name="generator" content="JustSystems Homepage Builder Version 16.0.7.0 for Windows">
+<meta http-equiv="Content-Style-Type" content="text/css">
+		<title>日本室内自転競技連盟</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+<!--
+CSInit = new Array;
+function CSScriptInit() {
+if(typeof(skipPage) != "undefined") { if(skipPage) return; }
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+
+function CSClickReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return true; // dont follow link
+	else return false; // dont follow link
+}
+
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}
+			if(i != 0)
+				self.status = CSIm[n][3];
+			else
+				self.status = " ";
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(action) {
+	im = action[1];
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=2;i<5;i++) {
+			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }
+			else CSIm[im][i-2] = 0;
+		}
+		CSIm[im][3] = action[5];
+	}
+}
+CSStopExecution = false;
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		if (actArray == null) return false;
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+
+
+// --></script>
+		</csscriptdict>
+		<csscriptdict>
+			<script><!--
+CSInit = new Array;
+function CSScriptInit() {
+if(typeof(skipPage) != "undefined") { if(skipPage) return; }
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+
+function CSClickReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return true; // dont follow link
+	else return false; // dont follow link
+}
+
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}
+			if(i != 0)
+				self.status = CSIm[n][3];
+			else
+				self.status = " ";
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(action) {
+	im = action[1];
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=2;i<5;i++) {
+			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }
+			else CSIm[im][i-2] = 0;
+		}
+		CSIm[im][3] = action[5];
+	}
+}
+CSStopExecution = false;
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		if (actArray == null) return false;
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+
+
+// --></script>
+		</csscriptdict>
+		<csactiondict>
+			<script><!--
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button',/*URL*/'home1.jpg',/*URL*/'home2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button2',/*URL*/'calendar1.jpg',/*URL*/'calender2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button3',/*URL*/'kisoku1.jpg',/*URL*/'kisoku2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button4',/*URL*/'doping1.jpg',/*URL*/'doping2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button5',/*URL*/'renmei1.jpg',/*URL*/'renmei2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button6',/*URL*/'club1.jpg',/*URL*/'club2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button7',/*URL*/'link1.jpg',/*URL*/'link2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button8',/*URL*/'contact1.jpg',/*URL*/'contact2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button9',/*URL*/'gallery1.jpg',/*URL*/'gallery2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button10',/*URL*/'report1.jpg',/*URL*/'report2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button11',/*URL*/'taikai1.jpg',/*URL*/'taikai2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button12',/*URL*/'news2.jpg',/*URL*/'news1.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button13',/*URL*/'sponsor1.jpg',/*URL*/'sponsor2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button16',/*URL*/'english1.jpg',/*URL*/'english2.jpg',/*URL*/'','');
+
+// --></script>
+		</csactiondict>
+	</head>
+<body onload="CSScriptInit();" topmargin="0" marginheight="0" bgcolor="#bdbdbd">
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+      <td height="20" width="822"><csobj w="54" h="20" t="Button" ht="home2.jpg"><a href="index[1].html" onmouseover="return CSIShow(/*CMP*/'button',1)" onmouseout="return CSIShow(/*CMP*/'button',0)" onclick="return CSButtonReturn()"><img src="home1.jpg" width="54" height="20" name="button" border="0"></a></csobj><csobj w="77" h="20" t="Button" ht="calender2.jpg"><a href="calender.html" onmouseover="return CSIShow(/*CMP*/'button2',1)" onmouseout="return CSIShow(/*CMP*/'button2',0)" onclick="return CSButtonReturn()"><img src="calendar1.jpg" width="77" height="20" name="button2" border="0"></a></csobj><csobj w="65" h="20" t="Button" ht="kisoku2.jpg"><a href="rule.html" onmouseover="return CSIShow(/*CMP*/'button3',1)" onmouseout="return CSIShow(/*CMP*/'button3',0)" onclick="return CSButtonReturn()"><img src="kisoku1.jpg" width="65" height="20" name="button3" border="0"></a></csobj><csobj w="105" h="20" t="Button" ht="doping2.jpg"><a href="doping.html" onmouseover="return CSIShow(/*CMP*/'button4',1)" onmouseout="return CSIShow(/*CMP*/'button4',0)" onclick="return CSButtonReturn()"><img src="doping1.jpg" width="105" height="20" name="button4" border="0"></a></csobj><csobj w="65" h="20" t="Button" ht="renmei2.jpg"><a href="renmei.html" onmouseover="return CSIShow(/*CMP*/'button5',1)" onmouseout="return CSIShow(/*CMP*/'button5',0)" onclick="return CSButtonReturn()"><img src="renmei1.jpg" width="65" height="20" name="button5" border="0"></a></csobj><csobj w="77" h="20" t="Button" ht="club2.jpg"><a href="club.html" onmouseover="return CSIShow(/*CMP*/'button6',1)" onmouseout="return CSIShow(/*CMP*/'button6',0)" onclick="return CSButtonReturn()"><img src="club1.jpg" width="77" height="20" name="button6" border="0"></a></csobj><csobj w="50" h="20" t="Button" ht="link2.jpg"><a href="link.html" onmouseover="return CSIShow(/*CMP*/'button7',1)" onmouseout="return CSIShow(/*CMP*/'button7',0)" onclick="return CSButtonReturn()"><img src="link1.jpg" width="50" height="20" name="button7" border="0"></a></csobj><csobj w="65" h="20" t="Button" ht="contact2.jpg"><a href="mailto:YASUHIKO_SATOU@sonylife.co.jp" target="_blank" onmouseover="return CSIShow(/*CMP*/'button8',1)" onmouseout="return CSIShow(/*CMP*/'button8',0)" onclick="return CSButtonReturn()"><img src="contact1.jpg" width="65" height="20" name="button8" border="0"></a><img src="botan.jpg" width="236" height="17" border="0"></csobj></td>
+    </tr>
+				<tr>
+      <td bgcolor="white" valign="top" height="3188" width="822">
+      <table cellpadding="0" cellspacing="0" width="790" border="0" height="3190">
+							<tr>
+								<td>
+          <div align="center">
+            <table border="0" cellpadding="0" cellspacing="10" width="800">
+											<tr>
+                <td colspan="2" bgcolor="#0000ef" width="807" height="13" align="center"><b><font size="+3" color="white">NEWS　～ ニュース</font><font size="+3" color="white"> ～</font></b></td>
+              </tr><tr>
+              
+            </table><a name="news"></a>
+            <table style="font-size : x-small;padding-top : 0px;padding-left : 0px;padding-right : 0px;padding-bottom : 0px;margin-top : 0px;margin-left : 0px;margin-right : 0px;margin-bottom : 0px;" width="799" height="3130">
+              <TBODY>
+                <TR>
+                  <TD valign="bottom" align="left"><img src="images/qrcode2.gif" width="82" height="82" border="0" alt="http://www2u.biglobe.ne.jp/~jcsf/news/news.html">
+                  <H5>update</H5>
+                  </TD>
+                  <td height="57" valign="top" width="719" align="left">
+                  <TABLE bgcolor="#80ff80" style="font-size : 80%;border-width : 1px;border-style : ridge;border-color : fuchsia;" width="100%">
+                    <TBODY>
+                      <TR>
+                        <TD valign="middle" align="center" style="font-weight : bold;color : olive;" colspan="7">加盟校/登録団体の練習日程&nbsp;</TD>
+                      </TR>
+                      <TR>
+                        <TD valign="middle" align="center" style="font-weight : bold;color : olive;" bgcolor="#ffffff">&nbsp;<a href="traininginfo.html#tit" target="_parent">東京工業<BR>
+                        大学</a></TD>
+                        <TD valign="middle" align="center" style="font-weight : bold;color : olive;" bgcolor="#ffffff">&nbsp;<a href="traininginfo.html#cgu" target="_parent">中央学院<BR>
+                        大学</a></TD>
+                        <TD valign="middle" align="center" style="font-weight : bold;color : olive;" bgcolor="#ffffff"><a href="traininginfo.html#ou" target="_parent">大阪<BR>
+                        大学</a></TD>
+                        <TD valign="middle" align="center" style="font-weight : bold;color : olive;" bgcolor="#ffffff">&nbsp;<a href="traininginfo.html#oue" target="_parent">大阪経済<BR>
+                        大学</a></TD>
+                        <TD valign="middle" align="center" style="font-weight : bold;color : olive;" bgcolor="#ffffff">&nbsp;<a href="traininginfo.html#mgu" target="_parent">桃山学院<BR>
+                        大学</a></TD>
+                        <TD valign="middle" align="center" style="font-weight : bold;color : olive;" bgcolor="#ffffff"><a href="traininginfo.html#ku" target="_parent">関西<BR>
+                        大学</a></TD>
+                        <TD valign="middle" align="center" style="font-weight : bold;color : olive;" bgcolor="#ffffff">&nbsp;<a href="traininginfo.html#jue" target="_parent">日本経済<BR>
+                        大学</a></TD>
+                      </TR>
+                    </TBODY>
+                  </TABLE>
+<TABLE><TBODY><TR> </TR></TBODY></TABLE>
+<TABLE border="0" align="right"  style="background-color : #0000000;border-width : 0px;border-style : outset;border-color :white;cursor : pointer;">
+                    <TBODY>
+                      <TR>
+                        <td valign="left" height="29" width="199">&nbsp;　　　　　　　　</td>
+                      </TR>
+                    </TBODY>
+                  </TABLE>
+                  <TABLE border="0" align="right" onclick="_HpbJumpURL('../2012event/JapanCup2012/info_japancup2012.html');" style="background-color : #cccc00;border-width : 1px;border-style : outset;border-color : blue;cursor : pointer;">
+                    <TBODY>
+                      <TR>
+                        <TD valign="left"><img src="images/GER2.gif" width="40" height="27" border="1" align="left"></TD>
+                        <TD valign="bottom" align="center"><B><FONT size="-2" style="font-size : 67%;">日独交流トレーニング<BR>
+                        ＆ジャパンカップ2012</FONT></B></TD>
+                        <TD><img src="images/JPN2.gif" width="40" height="27" border="1"></TD>
+                      </TR>
+                    </TBODY>
+                  </TABLE>
+                  <BR>
+                  <FONT color="#808000">←スマホへ登録</FONT><FONT color="#808000" size="-1" style="font-size : 83%;">（アドレス取得後ブックマークで登録）</FONT></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120821<img src="images/new1.gif" width="30" height="9" border="0" align="top"></TD>
+                  <td align="left" valign="top">【 関西学連 便り 】<BR>
+                  先日開かれた関西学連会議に於いて、今後の大会日程が次のように決まりました。<BR>
+                  <UL type="square">
+                    <LI>９月３０日（日曜日）…関西学生秋季リーグ１ｓｔ（場所・関西大学）
+                    <LI>１０月１４日（日曜日）…関西学生秋季リーグfinal（場所・大阪大学）
+                    <LI>１０月２０日、２１日（土・日曜日）…全日本学生室内自転車競技選手権大会（場所・桃山学院大学）
+                    <LI>１１月１７日（土曜日）…新人戦（場所・桃山学院大学）
+                    <LI>１１月１８日（日曜日）…全日本学生リーグ（場所・桃山学院大学）
+                  </UL>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120815<img src="images/new1.gif" width="30" height="9" border="0" align="top"></TD>
+                  <td align="left" valign="top">2012年UCIサイクルサッカーワールドカップアジアステージ／マレーシア・ムアル<BR>
+                  　→　<a href="pdf/2012/2012 World Cup MuarTechnical Guidance.pdf">競技スケジュール</a></td>
+                </TR>
+                <TR>
+                  <TD valign="bottom" align="left">120719</TD>
+                  <td align="left" valign="top">6月30日に行われた関東社会人春リーグの結果　→<a href="../results/2012/Results_KantoCycle-ball_SpringLeague.pdf">PDF.file</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120716</TD>
+                  <td align="left" valign="top">ドイツJr来日スケジュール(暫定)<BR>
+                  　　9月13日 仁川(ICN)→関西(KIX) 1520 - 1700 <BR>
+                  　　9月20日 関西(KIX)→仁川(ICN)　 0930 - 1120</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120714</TD>
+                  <td align="left" valign="top">第9回バルカーカップ室内自転車競技選手権大会の最終結果（2012.07.14）<BR>
+                  <FONT size="-2" style="font-size : 67%;">●</FONT>サイクルサッカー優勝　<BR>
+                  　　　VfH東京　木下直也・松田 鋼 組<BR>
+                  <FONT size="-2" style="font-size : 67%;">●</FONT>サイクルフィギュア男子シングル優勝<BR>
+                  　　　滋賀プルーレイクエンジェル　芦田史朗<BR>
+                  <FONT size="-2" style="font-size : 67%;">●</FONT>サイクルフィギュア女子シングル優勝<BR>
+                  　　　SFCアンジー京都　佐藤凪沙<BR>
+                  　　　→　<a href="pdf/2012/EndResults_2012ValquaCupFinal.pdf">結果詳細</a>　→<a href="http://gallery.nikon-image.com/115449501/albums/3025131/"><img src="images/new1.gif" width="30" height="9" border="0">写真ｂｙGanghu</a>　→ <a href="http://gallery.nikon-image.com/115449501/albums/3025244/"><img src="images/new1.gif" width="30" height="9" border="0">写真byKatagata</a><BR>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120625</TD>
+                  <td align="left" valign="top">バルカーカップ３次予選（最終予選）の<a href="pdf/2012/Results_3.PreliminaryRound(Osaka)_for2012ValquaCup.pdf">結果</a><BR>
+                  ・７月１４日の本戦出場チーム<BR>
+                  　ＶｆＨ東京１、蔵前２、ＶｆＨ東京２、蔵前１、ピンキーズ大阪１、ＳＦＣアンジー滋賀、Team Star Bicycle Nara、 Big Horn、関西大学、ＲＳＶ大阪<BR>
+                  以上１０チームに決まりました。なお、補欠チームとして大阪大学（和田・矢花）。</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120619</TD>
+                  <td align="left" valign="top">6月16－17日に行われた第43回関西学生サイクルサッカー選手権大会の<a href="pdf/2012/Results_of_43.KansaiStudentsIncolle.pdf">結果pdf</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120616</TD>
+                  <td align="left" valign="top">バルカーカップ３次予選（最終予選）の案内　→<a href="pdf/2012/3.qualifying_matches_for_9.ValquaCup.pdf">プログラム</a><BR>
+                  ６月２４日　第９回バルカーカップチャンピオン大会出場１０チーム中残り２チームが決定します。</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120610</TD>
+                  <td align="left" valign="top">第６回チャレンジカップU-28決勝大会<BR>
+                  　　2012年6月10日　関西大学　千里山東体育館　 →　<a href="pdf/2012/Results_2012 Challenge Cup U-28 Final(J).pdf">結果成績</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120605</TD>
+                  <td align="left" valign="top">５月３日に行われた２０１２年度関東学生春季リーグ戦の結果です。→<a href="pdf/2012/2012KantoStudentsCycleballLeagueSpringTournament_J.pdf">Results</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120602</TD>
+                  <td align="left" valign="top">結果速報<BR>
+                  <a href="pdf/2012/Results_2. PreliminaryRound(Osaka)_for2012ValquaCup.pdf">バルカーカップ２次予選（大阪ラウンド）</a> ６月２日（土）開催　会場：大阪大学豊中キャンバス<BR>
+                  今大会予選突破の<FONT color="#0000ff">ピンキーズ大阪1・SFCアンジー滋賀・STARBICYCLE・BIGHORN</FONT> の４チームが、既に出場権を得ている<FONT color="#0000ff">VfH 1・2、蔵前 1・2</FONT>の４チームと６月２４日最終予選で決まる２チームを合わせた１０チームで世界選手権日本代表の座を掛けバルカー杯に挑むこととなった。<BR>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120531</TD>
+                  <td align="left" valign="top" bgcolor="#fff2ec"><B><U><BLINK><FONT color="Black">6月の大会予定</FONT></BLINK></U></B><BR>
+                  　<B>6/2</B>　　バルカーカップ２次予選　大阪大学 豊中キャンバス　<a href="pdf/2012/2.qualifying_matches_for_9.ValquaCup.pdf">プログラム</a><BR>
+                  　<B>6/10</B>　チャレンジカップ本戦　関西大学 千里山キャンバス<BR>
+                  　<B>6/16-17</B>　関西学生選手権　桃山学院大学<BR>
+                  　<B>6/24</B>　バルカーカップ3次予選　桃山学院大学<BR>
+                  　　　　　　　　（<FONT color="#ff0000">注意</FONT>：カレンダー記載の大阪経済大を変更）<BR>
+                  　<B>6/30</B>　関東社会人春季リーグ　東京工業大学 大岡山キャンパス<BR>
+                  　いずれも9：30選手集合　10：00試合開始　時間厳守</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120529</TD>
+                  <td align="left" valign="top">バルカーカップ２次予選（大阪ラウンド） ６月２日（土）開催　会場：大阪大学豊中キャンバス→<a href="http://www.osaka-u.ac.jp/migr/img/jp/images/accessmap02.gif">Map</a><BR>
+                  　　9：30選手集合　10：00試合開始<BR>
+                  　　<a href="pdf/2012/2.qualifying_matches_for_9.ValquaCup.pdf">プログラム</a>　事務局：宮川　miyakohei[a]aol.com</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120528</TD>
+                  <td align="left" valign="top">結果速報／<a href="pdf/2012/2012 Challenge Cup U-28 Osaka qualifying round 2(J).pdf">2012年度　第6回　全日本チャレンジカップ　関西 二次予選</a><BR>
+                  <BR>
+                  決勝大会進出は、<FONT color="#cc00cc">大阪大学1・SFCアンジー・桃山学院大学1・RSV大阪2・関西大学・RSV大阪1・サッポロ・東工大２・東工大1・東工大3</FONT>、以上１０チームに決まりました。<BR>
+                  <B>第６回チャレンジカップU-28決勝大会</B>は６月１０日<a href="http://www.kansai-u.ac.jp/img/global/guide/access/img01.gif">関西大学千里山キャンバス</a>にて行われます。</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120521</TD>
+                  <td align="left" valign="top">2012年度関西学生サイクルサッカー春季リーグ戦 <a href="pdf/2012/2012KansaiStudentsCycleballLeagueSpringTournament(3.leg)J.pdf">総合成績最終結果</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120514</TD>
+                  <td align="left" valign="top">５月１３日（日）第９回バルカーカップ　予選1（於：東京工業大学）で　VfH東京1・蔵前2・VfH東京2・蔵前1が予選通過を決める<BR>
+                  同時開催された第６回全日本チャレンジカップ関東地区最終予選では、東工大1と東工大3が予選通過<BR>
+                  →<a href="pdf/2012/Results_1. PreliminaryRound_for2012ValquaCup_and_2. KantoPreliminaryRound_for6.ChallengeCup.pdf">結果詳細</a>　</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120430</TD>
+                  <td align="left" valign="top">6月30日（土）／2012年度関東社会人サイクルサッカー春季リーグ(於：東京工業大学)</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120430</TD>
+                  <td align="left" valign="top">5月20日(日)／2012年度関西学生サイクルサッカー春季リーグ最終戦(於：桃山学院大学体育館)<BR>
+                  5月26日(日)／第6回 全日本チャレンジカップ 関西地区最終予選（於：大阪経済大学）</td>
+                </TR>
+                <TR>
+                  <TD valign="bottom" align="left">120420</TD>
+                  <td align="left" valign="top">2012年度<a href="pdf/2012/Information_2012KantoStudentSpringLeague.pdf">関東学生春期リーグ</a>のお知らせ</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120416</TD>
+                  <td align="left" valign="top">結果速報／<a href="pdf/2012/2012 Challenge Cup U-28 Tokyo qualifying round 1(J).pdf">2012年度　第6回　全日本チャレンジカップ　関東一次予選</a><BR>
+                  予選通過／<FONT size="-2">RSV大阪(村上・合田) 　札幌(池上・金井) 　東工大2(西牧・石田)</FONT></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120408</TD>
+                  <td align="left" valign="middle">結果速報／<a href="pdf/2012/2012 Challenge Cup U-28 Osaka qualifying round 1(J).pdf">2012年度　第6回　全日本チャレンジカップ　関西一次予選</a><BR>
+                  予選通過／<FONT size="-2">大阪大1(内田・大瀧)　SFCアンジー(田中・鳥取)　桃山大1(峯・前田)</FONT></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120323<BR>
+                  [<FONT color="#ff0000">重要</FONT>]</TD>
+                  <td align="left" valign="top">JFIC審判委員会よりサイクルサッカールール（2010.10.01版）の一部変更箇所をお知らせします。<BR>
+                  <a href="../Rules/CB/ChangingPoints_of_CYCLE-BALL_Regulations_120325.pdf">Changing Points of CYCLE-BALL Regulations_120325</a><BR>
+                  2012年度の試合から適用されます。</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120322</TD>
+                  <td align="left" valign="top"><a href="pdf/2012/2012calender.pdf">日本室内自転車競技連盟 2012年度事業計画</a> <FONT size="-2" style="font-size : 67%;">(一部暫定計画を含む)</FONT></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120320</TD>
+                  <td align="left" valign="top"><a href="pdf/2012/9thValquaCup_outline.pdf">第９回バルカーカップ大会要項</a>　 <BR>
+                  <FONT size="-1">今年の大会には事前の予選大会が実施されます。</FONT></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120320</TD>
+                  <td align="left" valign="top"><a href="pdf/2012/ChallengeCup2012_outline.pdf">第６回チャレンジカップ大会要項</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120305</TD>
+                  <td align="left" valign="top" bgcolor="#ffffb9">インターナショナルトレーニングキャンプ参加者募集の<a href="2012/2012-03-05_InternationalTrainingCamp.pdf">お知らせ</a>.pdf</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120114</TD>
+                  <td align="left" valign="top"><B>第11回アジア室内自転車競技選手権大会</B><FONT size="-1" style="font-size : 67%;">並びに</FONT><B>2012年香港オープン</B><BR>
+                  2012年1月14日－15日　柴灣スポーツセンター／香港　 オフィシャルウェブサイトは→<a href="http://aicc2012.hk-icycling.net/index.html">こちら</a><BR>
+                  <BR>
+                  【アジア大会/結果】　 詳細は<a href="pdf/2012/11AICC.pdf">こちら</a><BR>
+                  サイクルサッカー：<B>　優勝</B>/村上裕亮・松田鋼<BR>
+                  サイクルフィギュア 女子シングル：　<B>第3位入賞</B>/堀井和美<BR>
+                  <BR>
+                  【香港オープン/結果】　詳細は<a href="pdf/2012/HK-Open_2012.pdf">こちら</a><BR>
+                  サイクルサッカー：　<B>優勝</B>/村上裕亮・松田鋼<BR>
+                  サイクルフィギュア　女子シングル　<B>第3位入賞</B>/堀井和美<BR>
+                  ----------------<BR>
+                  【日本代表チーム】<BR>
+                  サイクルサッカー審判：畑 仁<BR>
+                  サイクルサッカー選手：松田 鋼/村上裕亮　サイクルフギュア選手：堀井和美/芝山耕輔<BR>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">120110</TD>
+                  <td align="left" valign="top"><img src="images/tv2.gif" width="57" height="46" border="0" align="left">VfH東京（木下・松田チーム）<BR>
+                  →【<B>はなまるマーケット</B>】TBS-TV、<SPAN lang="EN-US">1/18</SPAN>（水）朝<span lang=EN-US>8:30</span>～放送予定。<BR>
+                  <BR>
+                  「はなまるミステリーサークル」<I>！！</I><BR>
+                  今回紹介するのは、こちらの大学で練習を行っているというスポーツ集団！<BR>
+                  練習場所に行ってみると、サッカー選手のようなユニフォームを着た男女３０名のメンバーが・・・・。<BR>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">111229&nbsp;</TD>
+                  <td align="left" valign="top"><SPAN style='font-size:10.0pt;font-family:"ＭＳ Ｐゴシック";
+mso-ascii-font-family:Helvetica;mso-hansi-font-family:Helvetica;mso-bidi-font-family:
+Helvetica;mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><img src="images/tv2.gif" width="57" height="46" border="0" align="left">「全日本室内自転車競技選手権」</SPAN><span lang=EN-US
+style='font-size:10.0pt;font-family:"Helvetica","sans-serif";mso-fareast-font-family:
+"ＭＳ Ｐゴシック";mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><br>
+                  BS-TBS </span><span style='font-size:10.0pt;font-family:"ＭＳ Ｐゴシック";mso-ascii-font-family:
+Helvetica;mso-hansi-font-family:Helvetica;mso-bidi-font-family:Helvetica;
+mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;
+mso-bidi-language:AR-SA'>「銀輪の風」</span><span lang=EN-US style='font-size:10.0pt;
+font-family:"Helvetica","sans-serif";mso-fareast-font-family:"ＭＳ Ｐゴシック";
+mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;
+mso-bidi-language:AR-SA'>2012</span><span style='font-size:10.0pt;font-family:
+"ＭＳ Ｐゴシック";mso-ascii-font-family:Helvetica;mso-hansi-font-family:Helvetica;
+mso-bidi-font-family:Helvetica;mso-font-kerning:0pt;mso-ansi-language:EN-US;
+mso-fareast-language:JA;mso-bidi-language:AR-SA'>年</span><span lang=EN-US
+style='font-size:10.0pt;font-family:"Helvetica","sans-serif";mso-fareast-font-family:
+"ＭＳ Ｐゴシック";mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'>1</span><span style='font-size:10.0pt;font-family:
+"ＭＳ Ｐゴシック";mso-ascii-font-family:Helvetica;mso-hansi-font-family:Helvetica;
+mso-bidi-font-family:Helvetica;mso-font-kerning:0pt;mso-ansi-language:EN-US;
+mso-fareast-language:JA;mso-bidi-language:AR-SA'>月</span><span lang=EN-US
+style='font-size:10.0pt;font-family:"Helvetica","sans-serif";mso-fareast-font-family:
+"ＭＳ Ｐゴシック";mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'>9</span><span style='font-size:10.0pt;font-family:
+"ＭＳ Ｐゴシック";mso-ascii-font-family:Helvetica;mso-hansi-font-family:Helvetica;
+mso-bidi-font-family:Helvetica;mso-font-kerning:0pt;mso-ansi-language:EN-US;
+mso-fareast-language:JA;mso-bidi-language:AR-SA'>日（月）</span><span lang=EN-US
+style='font-size:10.0pt;font-family:"Helvetica","sans-serif";mso-fareast-font-family:
+"ＭＳ Ｐゴシック";mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'>23:30</span><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-ascii-font-family:Helvetica;mso-hansi-font-family:
+Helvetica;mso-bidi-font-family:Helvetica;mso-font-kerning:0pt;mso-ansi-language:
+EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>～</span><span
+lang=EN-US style='font-size:10.0pt;font-family:"Helvetica","sans-serif";
+mso-fareast-font-family:"ＭＳ Ｐゴシック";mso-font-kerning:0pt;mso-ansi-language:EN-US;
+mso-fareast-language:JA;mso-bidi-language:AR-SA'>24:00<br>
+                  </span><span style='font-size:10.0pt;font-family:"ＭＳ Ｐゴシック";mso-ascii-font-family:
+Helvetica;mso-hansi-font-family:Helvetica;mso-bidi-font-family:Helvetica;
+mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;
+mso-bidi-language:AR-SA'>番組後半の「</span><span lang=EN-US style='font-size:10.0pt;
+font-family:"Helvetica","sans-serif";mso-fareast-font-family:"ＭＳ Ｐゴシック";
+mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;
+mso-bidi-language:AR-SA'>TOPICS</span><span style='font-size:10.0pt;font-family:
+"ＭＳ Ｐゴシック";mso-ascii-font-family:Helvetica;mso-hansi-font-family:Helvetica;
+mso-bidi-font-family:Helvetica;mso-font-kerning:0pt;mso-ansi-language:EN-US;
+mso-fareast-language:JA;mso-bidi-language:AR-SA'>」コーナーで放送です。</span></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">111219</TD>
+                  <td align="left" valign="top"><B>第42回全日本選手権大会</B><BR>
+                  12月17日（土）・18日（日）、立命館大学にわこ・くさつキャンパス　BKCジム<BR>
+                  →<a style="text-decoration : none;" href="2011.11/42_AlljapanChampionships_outline20111121.pdf">大会要項</a>　　　 <a href="2011.11/42JapanChamp_Program.pdf">大会プログラムとキャンパス案内</a> <a href="../results/All-Japan_2011_results.pdf">結果</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">111129</TD>
+                  <td align="left" valign="top">全日本選手権大会<FONT color="#ff0000">トーピング検査</FONT>実施について<BR>
+                  今大会もドーピング検査が実施されます。参加選手の方に於いては下記説明文を熟読の上、大会に臨んでください。<BR>
+                  （１）<a href="../Anti-doping/UD201107.pdf">ドーピング禁止物資に関する緊急情報</a><BR>
+                  （２）<a href="../Anti-doping/AD2011.5.3.pdf">自転車競技選手が知っておきたいアンチ・ドーピングのい知識</a><BR>
+                  （３）<a href="http://jcf.or.jp/?page_id=6295">JCFアンチドーピング・ホームページ利用者の皆様へ </a><BR>
+                  （４）<a href="http://playtruejapan.org/testing.php">日本アンチドーピング機構_検査手順の説明</a><BR>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">111122</TD>
+                  <td align="left" valign="top"><img src="images/tv2.gif" width="57" height="46" border="0" align="left">BS-TBS 11/28（月）23:30～24:00放送<BR>
+                  世界の技と情熱が日本の鹿児島に集った世界選手権の３日間を振り返ります。</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">111119</TD>
+                  <td align="left" valign="top">１１月２０日発売「<a href="http://www.yaesu-net.co.jp/cart/cart13.html">サイクルスポーツ誌</a>（八重洲出版）」<SPAN lang="EN-US">12 </SPAN>月号のスポーツニュー<span style='font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:"ＭＳ ゴシック";
+mso-ascii-font-family:Arial;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:
+minor-fareast;mso-hansi-font-family:Arial;mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>ス</span>１９８ページ<BR>
+                  世界選手権鹿児島大会の記事が掲載されています。</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">111118</TD>
+                  <td align="left" valign="top">
+                  <P class="MsoPlainText" align="left"><img src="images/tv2.gif" width="57" height="46" border="0" align="left">TBSサンディーモーニング（8：00～9：54）放映予定・・・11月<span lang=EN-US>20</span>日<span
+lang=EN-US>(</span>日<span lang=EN-US>)</span>に放送される予定です。<BR>
+                  （都合により変更も有ります。）</P>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="bottom" align="left">111107</TD>
+                  <td align="left" valign="top">第75回　UCI 世界室内自転車競技選手権大会の<a href="../2011WM/Results_WCC2011.pdf">結果</a></td>
+                </TR>
+                <TR>
+                  <TD valign="bottom" align="left">111029</TD>
+                  <td align="left" valign="top">世界選の模様がインターネットTVで見られます。--&gt; <a href="http://www.ustream.tv/channel/%E4%B8%96%E7%95%8C%E5%AE%A4%E5%86%85%E8%87%AA%E8%BB%A2%E8%BB%8A%E7%AB%B6%E6%8A%80%E9%81%B8%E6%89%8B%E6%A8%A9%E9%B9%BF%E5%85%90%E5%B3%B6%E5%A4%A7%E4%BC%9A"><img src="images/U-Stream.jpg" width="79" height="16" border="0" alt="Ustream"></a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">111023</TD>
+                  <td align="left" valign="top">世界選鹿児島大会の<a href="http://wcic2011.com/about/cat3034/1114_1.html">プログラム</a>です。<BR>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">111019</TD>
+                  <td align="left" valign="top">
+                  <P class="MsoPlainText">シクロチャンネルに日本選手紹介の動画をアップ<span lang="EN-US"><BR>
+                  URL:<a href="https://www.cycloch.net/main.html#/movie/view/5591">https://www.cycloch.net/main.html#/movie/view/5591</a></span><BR>
+                  この映像にナレーションをつけた「銀輪の風」での放送日は１０月３１日（月）です。</P>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="bottom" align="left">111006</TD>
+                  <td align="left" valign="top">10月1－2日／<a href="2011.9/outline_44intercollegiatechamp.pdf">全日本学生選手権大会（インカレ）</a>試合結果　⇒<a style="text-decoration : none;" href="../results/44JpanIintercollegiate.pdf">こちら</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110928</TD>
+                  <td align="left">&nbsp;ドイツJr.チームの鹿児島訪問ビデオ、インターネットシクロチャンネルで放映<BR>
+                  クリップ名「11月鹿児島で開催・世界室内自転車選手権2011」<BR>
+                  <a href="http://www.cycloch.net/main.html#/movie/view/5584">https://www.cycloch.net/main.html#/movie/view/5584</a><BR>
+                  なお、同じ映像にナレーションをつけたものが<U><FONT color="#cc0000">10月10日(BS-TBS月曜日23：30～24：00) 銀輪でも放送</FONT></U>されます。</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110923</TD>
+                  <td align="left" valign="top">ドイツジュニアチームが2011年世界選手権大会の開催される鹿児島市を訪問。同市内の玉龍高校で競技のエキシビションを披露。<BR>
+                  <a href="pdf/2012/20110923_Yomiuri.pdf.pdf">今朝の読売新聞朝刊</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110923</TD>
+                  <td align="left" valign="top">第8回ジャパンカップ結果<BR>
+                  優勝：RSV Reichenbach　2位：RV Bolanden　3位：VfH Tokyo　・・・<a href="../results/EndResult_of_8th_Japan_Cup_2011.pdf">詳細</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110915</TD>
+                  <td align="left" valign="top">UCI室内自転車競技世界選手権大会（11月4-6日、鹿児島市、鹿児島アリーナ）に出場の日本選手団メンバーが公開されました。 → <a style="text-decoration : none;" href="2011.9/japanteam_for_WM2011.jpg">こちら</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110910</TD>
+                  <td><B>第8回サイクルサッカージャパンカップ</B>開催<BR>
+                  9月19日　於：関西大学　千里山東体育館　9：00am～<BR>
+                  備考：<a href="2011.9/8.japancup.jpg">出場選手<FONT size="-2" style="font-size : 75%;">及び</FONT>試合順</a><BR>
+                  <TABLE>
+                    <TBODY>
+                      <TR>
+                        <TD valign="top"><FONT size="-2" style="font-size : 67%;">9/17</FONT></TD>
+                        <TD valign="top"><FONT size="-2" style="font-size : 67%;">土</FONT></TD>
+                        <TD><FONT size="-2" style="font-size : 67%;">トレーニング<BR>
+                        （桃大/和泉市、関大/吹田市）</FONT></TD>
+                        <TD><FONT size="-2" style="font-size : 67%;">10:00～サッカー（桃山学院大学）、<BR>
+                        09:00～フィギュア（関西大学１面）</FONT></TD>
+                        <TD><FONT size="-2" style="font-size : 67%;">17:00退出</FONT></TD>
+                      </TR>
+                      <TR>
+                        <TD valign="top"><FONT size="-2" style="font-size : 67%;">9/18</FONT></TD>
+                        <TD valign="top"><FONT size="-2" style="font-size : 67%;">日</FONT></TD>
+                        <TD><FONT size="-2" style="font-size : 67%;">トレーニング <BR>
+                        （関西大学/吹田市）</FONT></TD>
+                        <TD><FONT size="-2" style="font-size : 67%;">09:00～ サッカー・フィギュア、（２面使用）　</FONT></TD>
+                        <TD><FONT size="-2" style="font-size : 67%;">17:00退出</FONT></TD>
+                      </TR>
+                      <TR>
+                        <TD valign="top"><FONT size="-2" style="font-size : 67%;">9/19</FONT></TD>
+                        <TD valign="top"><FONT size="-2" style="font-size : 67%;">月</FONT></TD>
+                        <TD><FONT size="-2" style="font-size : 67%;">ジャパンカップ<BR>
+                        （関西大学/吹田市）</FONT></TD>
+                        <TD><FONT size="-2" style="font-size : 67%;">09:00 ( 9:30)～ ジャパンカップ（１面使用）　</FONT></TD>
+                        <TD><FONT size="-2" style="font-size : 67%;">17:00退出</FONT></TD>
+                      </TR>
+                    </TBODY>
+                  </TABLE>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110822</TD>
+                  <td valign="top">
+                  <P class="MsoPlainText"><SPAN lang="EN-US">八重洲出版 「</SPAN><B><SPAN lang="EN-US">サイクルスポーツ 9</SPAN>月号</B> （200頁目）」 に、<BR>
+                  先日の<B>第8回バルカーカップ</B> と <B><span lang="EN-US">2011ワールドカップ</span>第3戦</B> の記事が出ています。</P>
+                  </td>
+                </TR>
+                <TR>
+                  <td TD valign="top" align="left">110803</td>
+                  <td valign="top">「WM2011鹿児島大会日本代表選手団の推薦」<BR>
+                  平成23年2月～6月に実施された「代表選考強化試合」、平成23年7月23日（土）に開催された「世界選手権派遣選考会」の結果から、当連盟2011世界室内自転車競技選手権大会代表選手選考委員会にて下記の通り代表選手団が決定され、室内自転車競技小委員会よりJCFへ推薦された。<BR>
+                  <a href="../2011WM/2011JapanNtionalTeam.html">推薦されているメンバー</a><BR>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110726</TD>
+                  <td valign="top"><B>2011年UCIサイクルサッカーワールドカップ第３戦</B>の<B><a href="../results/EndResults_of_2.UCI_Cycle-ball_World_Cup_leg._in_Tokyo.pdf">結果</a></B></td>
+                </TR>
+                <TR>
+                  <TD valign="bottom" align="left">110725</TD>
+                  <td valign="top"><B>第８回バルカーカップ選手権大会</B>-　<B><a href="2011.7/2011ValquaCup.html">結果</a></B></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110707</TD>
+                  <td valign="top">2011年関東学生サイクルサッカー選手権大会 　７月１８日（月祝）　於：東京工業大学体育館）</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110626</TD>
+                  <td><a href="2011.6/Program_2011_VC.pdf">第８回バルカーカップ (プログラム原稿)</a><BR>
+                  </td>
+                </TR>
+                <TR>
+                  <TD valign="bottom" align="left">110625</TD>
+                  <td><B>2011年サイクルサッカーワールドカップ東京大会<a href="2011.6/Program_2011_WC_in_TOKYO.Leg..pdf"> プログラム</a></B></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110615</TD>
+                  <td>インターナナショナルトレーニングキャンプ<BR>
+                  ８月１－７日　フランクフルト　スポーツ学校<BR>
+                  <S>参加者受付中</S> 　<FONT color="#0000ff">今年の</FONT><FONT color="#ff0000">開催は<B>中止</B>となりました</FONT><FONT color="#0000ff">（2011.06.17 記）</FONT><BR>
+                  詳細・質問は<a href="mailto:o&#107;&#97;&#100;&o&#64;&#109;&#118;&#100;&#46;&#98;&#105;&#103;&#108;&#111;&#98;&#101;&#46;&#110;&#101;&#46;&#106;&#112;">JFIC 岡戸</a>まで</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110615</TD>
+                  <td>&nbsp;関西学生サイクルサッカー選手権<BR>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;６月２５－２６日 桃山学院大学体育館</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110603</TD>
+                  <td align="left" valign="top"><B>2011年サイクルサッカーワールドカップ東京大会</B>はUCI室内自転車競技委員会にて決議されました。<BR>
+                  開催日は当初の予定通り、7月24日、会場はBumB東京スポーツ文化館。</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110517</TD>
+                  <td>関東学生サイクルサッカー春季リーグ戦<BR>
+                  5月29日　10：00ａｍ～　東京工業大学 大岡山キャンパス体育館</td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110515</TD>
+                  <td align="left" valign="top">&nbsp;<a href="2011.1/20110117_JFIC_Statement.pdf">第2回　2011WM強化合宿・選考試合の結果</a></td>
+                </TR>
+                <TR>
+                  <TD valign="top" align="left">110511</TD>
+                  <td valign="top">至急のお知らせ：<BR>
+                  ヘスラー氏の鹿児島での世界選打合せ来鹿に伴い次の通りサイクルサッカー強化合宿及び第二回選考試合を行います。<BR>
+                  5月14日～15日　桃山学院大学体育館　　　　詳細は<a href="about_2TrainingCamp-J.html">こちら</a>　</td>
+                </TR>
+                <TR>
+                  <TD align="left" valign="top">110502</TD>
+                  <td height="25">&nbsp;TV 放送のお知らせ<BR>
+                  <img src="images/tv.gif" width="30" height="40" border="0" align="left" hspace="5">テレビ朝日　5月17日（火）　19：00～　の「<B>トリハダ（秘）スクープ映像１００科ジテン</B>」のカミワザコーナーでサイクルサッカーのシュート映像が流される予定です。</td>
+                </TR>
+                <TR>
+                  <TD align="left" valign="top">110426<IMG src="../material/btn/new1.gif" width="30" height="9" border="0"></TD>
+                  <td>関東社会人リーグ<BR>
+                  6月5日（日）東工大体育館にて開催　担当：<a style="text-decoration : none;" href="mailto:&#121;f&#117;&#106;&#105;&#116;&#97;_&#51;&#49;&#54;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#46;&#106;&#112;">藤田</a></td>
+                </TR>
+                <TR>
+                  <TD align="left" valign="top">110425</TD>
+                  <td>2011年サイクルサッカーチャレンジカップ<a href="../results/Results_2011_Challenge_Cup_U28.pdf">結果 </a></td>
+                </TR>
+                <TR>
+                  <TD align="left" valign="top">110324</TD>
+                  <td>７月２４日（日）のワールドカップ東京大会について<BR>
+                  海外チームの参加が危ぶまれ、ワールドカップにつきましてはペンディングになっています。</td>
+                </TR>
+                <TR>
+                  <TD align="left" valign="top">110324</TD>
+                  <td>平成23年度JFIC理事会日程<BR>
+                  　　　　　　　日時：平成２３年５月２２日（日） 14:00～17:00<BR>
+                  　　　　　　　場所：京都キャンパスプラザ</td>
+                </TR>
+                <TR>
+                  <TD align="left" valign="top">110122</TD>
+                  <td><a href="2011.1/20110117_JFIC_Statement.pdf">第1回　2011WM強化合宿・選考試合の結果</a></td>
+                </TR>
+                <TR>
+                  <TD align="left" valign="top">110122</TD>
+                  <td>サイクルスポーツ２月号（八重洲出版）に、昨年全日本で取材を受けた京滋CFCブルレークエンジェル（サイクルフィギュアのクラブ）の記事が載っています。また、サイクルサッカー中３少年、カムイ君（東京）の紹介記事も一緒に載っています。</td>
+                </TR>
+                <TR>
+                  <TD align="left" valign="top">110120</TD>
+                  <td>2011年世界室内自転車競技選手権鹿児島大会強化施策及び代表選手選考について→<a href="2011.1/20110117_JFIC_Statement.pdf" title="2011年強化施策及び世界選手権鹿児島大会代表選手選考について">JFICステートメント</a></td>
+                </TR>
+                <TR>
+                  <TD align="left" valign="top">110119</TD>
+                  <td>昨年度のサイクルサッカーワールドカップファイナルの<a href="http://www.ceskatelevize.cz/porady/10162346973-kolova/31029737114-finale-svetoveho-poharu-v-kolove-2010/ " target="_blank">TVビデオ　</a></td>
+                </TR>
+              </TBODY>
+            </table>
+          </div>
+          </table>
+      </td>
+    </table>
+</div>
+</body>
+</HTML>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<flashcontents>
+  <setting>
+    <size manual="1" width="0" height="0"></size>
+    <view loop="1" scale="0" backcolor="0xFFFFFF"></view>
+  </setting>
+  <object type="0">
+    <common>
+      <image>
+        <image_effects>
+          <image_effect transition="1" property="-1" transtime="1000" viewtime="3000"></image_effect>
+        </image_effects>
+      </image>
+    </common>
+    <images>
+      <image path="25+43.mpg.SWF"></image>
+    </images>
+  </object>
+</flashcontents>

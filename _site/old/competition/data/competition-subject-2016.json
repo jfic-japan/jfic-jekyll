@@ -1,0 +1,117 @@
+{
+    "competition":
+    [
+      {
+            "year":"2016",
+            "date":"2016年5月14日(土)",
+            "title":"関東春季学生リーグ",
+            "class":"domestic",
+            "place":"東京工業大学",
+            "link":"kanto_student_championship_spring_20160514"
+        },
+        {
+            "year":"2016",
+            "date":"2016年5月15日(日)",
+            "title":"関東春季社会人リーグ",
+            "class":"domestic",
+            "place":"東京工業大学",
+            "link":"kanto_championship_spring_20160515"
+        },
+        {
+            "year":"2016",
+            "date":"2016年6月12日(日)",
+            "title":"香港チームとの交流試合",
+            "class":"domestic",
+            "place":"関西大学",
+            "link":"2016kansai_withHK"
+        },
+        {
+            "year":"2016",
+            "date":"2016年7月9日(土)",
+            "title":"２０１６チャンピオンズカップ（世界選手権派遣選手決定戦）",
+            "class":"domestic",
+            "place":"大阪（桃山学院大学）",
+            "link":"2016champions-cup"
+        },
+        {
+            "year":"2016",
+            "date":"2016年7月10日(日)",
+            "title":"2016 UCI サイクルサッカーワールドカップ　第3戦",
+            "class":"international",
+            "place":"大阪（桃山学院大学）",
+            "link":"2016world-cup-asia"
+        },
+		{
+            "year":"2016",
+            "date":"2016年8月6日(土)",
+            "title":"第１４回アジア室内自転車競技選手権大会",
+            "class":"international",
+            "place":"香港（Hong Kong Velodrome）",
+            "link":"2016asian-championship"
+        },
+        {
+            "year":"2016",
+            "date":"2016年8月7日(日)",
+            "title":"Hong Kong Open 2016",
+            "class":"international",
+            "place":"香港（Hong Kong Velodrome）",
+            "link":"HK_open_2016"
+        },
+        {
+            "year":"2016",
+            "date":"2016年9月17日(土) - 9月18日(日)",
+            "title":"ジャパンカップ２０１６",
+            "class":"international",
+            "place":"大阪（梅田東コミュニティ会館）",
+            "link":"2016japancup"
+        },
+        {
+            "year":"2016",
+            "date":"2016年10月22日(土)",
+            "title":"２０１６年度新人戦",
+            "class":"domestic",
+            "place":"桃山学院大学",
+            "link":"2016_rookie_cup"
+        },
+        {
+            "year":"2016",
+            "date":"2016年10月23日(日)",
+            "title":"２０１６年度全日本学生リーグ",
+            "class":"domestic",
+            "place":"桃山学院大学",
+            "link":"2016_japan-student-league"
+        },
+        {
+            "year":"2016",
+            "date":"2016年11月12日(土)",
+            "title":"UCI Cycle-Ball World Cup Final",
+            "class":"international",
+            "place":"スイス・ヴィンタートゥール",
+            "link":"2016_CBWCF"
+        },
+        {
+            "year":"2016",
+            "date":"2016年11月26日(土),27日(日)",
+            "title":"２０１６年度全日本学生選手権",
+            "class":"domestic",
+            "place":"東京工業大学",
+            "link":"2016_interCollege"
+        },
+        {
+            "year":"2016",
+            "date":"2016年12月2日(金) - 12月4日(日)",
+            "title":"UCI Indoor Cycling World Championships 2016",
+            "class":"international",
+            "place":"ドイツ・シュツットガルト（PORSCHE-arena）",
+            "link":"2016_WCH"
+        },
+        {
+            "year":"2016",
+            "date":"2016年12月17日(土) - 12月18日(日)",
+            "title":"第４７回全日本選手権大会",
+            "class":"domestic",
+            "place":"関西大学",
+            "link":"2016japan-championship"
+        }
+    ]
+}

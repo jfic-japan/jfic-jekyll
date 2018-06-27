@@ -1,0 +1,30 @@
+{"release": [
+
+{
+"day": "2013.07.30",
+"label": "company",
+"category": "企業情報",
+"content": "テキストテキストテキスト",
+"url": "http://www.yahoo.co.jp/",
+"target": "_blank"
+},
+
+{
+"day": "2013.07.30",
+"label": "products",
+"category": "商品情報",
+"content": "テキストテキストテキスト",
+"url": "http://www.google.co.jp/",
+"target": "_blank"
+},
+
+{
+"day": "2013.07.30",
+"label": "company",
+"category": "企業情報",
+"content": "テキストテキストテキスト",
+"url": "http://www.yahoo.co.jp/",
+"target": "_self"
+}
+
+]}

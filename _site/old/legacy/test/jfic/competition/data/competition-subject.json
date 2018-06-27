@@ -1,0 +1,45 @@
+{
+    "competition":
+    [
+        {
+            "year":"2015",
+            "date":"2015年7月4日(土)",
+            "title":"２０１５年度世界選手権派遣選手決定戦",
+            "class":"domestic",
+            "place":"Bumb東京",
+            "link":"2015championship-for-wm"
+        },
+        {
+            "year":"2015",
+            "date":"2015年7月5日(日)",
+            "title":"ＵＣＩサイクルサッカーワールドカップ第３戦（アジア大会）",
+            "class":"international",
+            "place":"Bumb東京",
+            "link":"2015uci-wc-3rd"
+        },
+        {
+            "year":"2015",
+            "date":"2015年8月23日(日)",
+            "title":"第１３回アジア室内自転車競技選手権大会",
+            "class":"international",
+            "place":"マカオ（会場未定）",
+            "link":"2015asian-championship"
+        },
+        {
+            "year":"2015",
+            "date":"2015年9月21日(月) - 9月22日(火)",
+            "title":"ジャパンカップ（ドイツＵ−１９交流大会）",
+            "class":"international",
+            "place":"大阪（会場未定）",
+            "link":"2015japancup"
+        },
+        {
+            "year":"2015",
+            "date":"2015年12月12日(土) - 12月13日(日)",
+            "title":"第４６回全日本選手権大会",
+            "class":"domestic",
+            "place":"福岡・那珂川町民体育館",
+            "link":"2015japan-championship"
+        }
+    ]
+}

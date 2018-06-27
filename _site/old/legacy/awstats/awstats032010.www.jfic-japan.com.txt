@@ -1,0 +1,350 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2010-03 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2533                
+POS_VISITOR 8958                
+POS_DAY 10136               
+POS_DOMAIN 3229                
+POS_LOGIN 3460                
+POS_ROBOT 3615                
+POS_WORMS 3919                
+POS_EMAILSENDER 4050                
+POS_EMAILRECEIVER 4193                
+POS_SESSION 10568               
+POS_SIDER 10756               
+POS_FILETYPES 4328                
+POS_OS 4475                
+POS_BROWSER 4600                
+POS_SCREENSIZE 4779                
+POS_UNKNOWNREFERER 4853                
+POS_UNKNOWNREFERERBROWSER 5133                
+POS_ORIGIN 5318                
+POS_SEREFERRALS 5456                
+POS_PAGEREFS 5621                
+POS_SEARCHWORDS 5860                
+POS_KEYWORDS 6636                
+POS_MISC 2195                
+POS_ERRORS 7319                
+POS_CLUSTER 3316                
+POS_SIDER_404 7435                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100401070716 16354 3354189 30738236656
+FirstTime 0
+LastTime 20100330122821
+LastUpdate 20100402064339 1 0 0 0 0
+TotalVisits 29                  
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 27                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 269 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 3 5 28832
+1 0 0 0 2 4 24656
+2 0 0 0 9 11 31630
+3 1 1 21464 2 2 42928
+4 2 2 35349 8 8 4090
+5 0 0 0 4 4 6384
+6 4 54 723554 18 19 60648
+7 1 2 24109 14 27 47590
+8 14 14 320810 9 21 215375
+9 1 67 536883 9 15 106482
+10 0 0 0 11 15 214211
+11 1 1 21464 8 10 49312
+12 4 111 967163 11 13 62080
+13 2 49 558347 7 8 9576
+14 4 57 801731 7 8 35340
+15 15 292 5146695 31 37 3896869
+16 22 72 4034453 15 15 1916597
+17 20 766 2074077 26 27 76608
+18 0 0 0 12 14 38014
+19 3 53 590945 2 3 6384
+20 2 39 399542 14 17 232970
+21 0 0 0 3 6 10713
+22 0 0 0 5 5 6384
+23 3 80 1118350 5 5 9576
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 99 1660 17374936
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 114 722504 20100331200335 0
+slurp 18 228805 20100326111701 0
+msnbot 3 21464 20100326134624 0
+surveybot 3 64392 20100323122410 0
+netcraft 1 21464 20100312030807 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 41 44965 0 0
+html 95 1912806 0 0
+jpg 1415 9108550 0 0
+Unknown 4 6149236 0 0
+gif 105 159379 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 2
+macintosh 100
+winlong 104
+winxp 1417
+win2003 20
+win2000 2
+Unknown 3
+linux 12
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+msie8.0 334
+msie6.0 259
+firefox1.0 1
+mozilla 2
+netscape7.02 52
+msie7.0 950
+msie5.0 48
+curl 1
+firefox3.5.3 10
+Unknown 1
+safari 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20100310081643
+Mozilla/5.0_(compatible;_Search17Bot/1.1;_http://www.search17.com/bot.php) 20100330045310
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20100310081643
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 32 32
+From1 0 0
+From2 10 10
+From3 2 2
+From4 55 1616
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 3 3
+yahoo 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://ka101w.kaw101.mail.live.com/mail/InboxLight.aspx 1 1
+http://www.bing.com/search 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 6
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 3
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 2
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 2
+%c6%fc%cb%dc%bc%bc%c6%e2%bc%ab%c5%be%bc%d6%b6%a5%b5%bb%cf%a2%cc%c1 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e5%a4%a7%e4%bc%9a%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6%e7%9c%8c%e3%80%80%ef%bc%92%ef%bc%90%ef%bc%91%ef%bc%90%e5%b9%b4 1
+%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8%e3%82%ab%e3%83%83%e3%83%97%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 6
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 3
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 2
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 2
+%c6%fc%cb%dc%bc%bc%c6%e2%bc%ab%c5%be%bc%d6%b6%a5%b5%bb%cf%a2%cc%c1 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e5%a4%a7%e4%bc%9a%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6%e7%9c%8c%e3%80%80%ef%bc%92%ef%bc%90%ef%bc%91%ef%bc%90%e5%b9%b4 1
+%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8%e3%82%ab%e3%83%83%e3%83%97%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 16 4728
+206 8 5635780
+404 136 434112
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 21
+/robots.txt 60 -
+/WM/2009/WM2009_Program.html 1 http://www.jfic-japan.com/report.html
+/img/bg_shadow.jpg 1 http://www.jfic-japan.com/index.html
+/apple-touch-icon.png 1 -
+/chair/img/chair_onepoint_img.jpg 1 http://www.jfic-japan.com/index.html
+/Desktop%20Folder/W-cup/oita/2009wc_Oita.html 1 http://www.jfic-japan.com/gamesinfo.html
+/kaigai 1 http://www.jfic-japan.com/link.html
+/mobile/ 1 -
+/get_orders_list.php 1 -
+/Desktop%20Folder/Asian_champ/1-10_Asian_championships.mht 1 http://www.jfic-japan.com/gamesinfo.html
+/Desktop%20Folder/national/valquacup/end%20results%20of%206th%20Valqua%20Cup.pdf 1 http://www.jfic-japan.com/gamesinfo.html
+/Desktop%20Folder/WM/2011/373news_20090806.pdf 1 http://www.jfic-japan.com/gamesinfo.html
+/hojo/img/hojo_onepoint_img.jpg 1 http://www.jfic-japan.com/index.html
+/Desktop%20Folder/result/wc/2008/2008wc_f.html 1 http://www.jfic-japan.com/gamesinfo.html
+/(Empty%20Reference!) 57 http://www.jfic-japan.com/index.html
+/m/ 1 -
+/stek/img/stek_onepoint_img.jpg 1 http://www.jfic-japan.com/index.html
+/Desktop%20Folder/EA_Games/2009_East_Asian_Games.htm 1 http://www.jfic-japan.com/gamesinfo.html
+/img/top_co_img.jpg 1 http://www.jfic-japan.com/index.html
+/mobi/ 1 -
+/iphone/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 27
+121.82.207.28 20 766 2074077 20100303172910
+38.100.41.67 19 20 3450543 20100307163222
+69.58.178.29 11 11 246553 20100310081648
+221.187.46.147 11 193 971920 20100308151721
+210.190.114.195 5 58 3765643 20100317160616
+221.170.1.178 3 100 1214962 20100309154938
+218.44.45.234 3 110 945699 20100330122821
+216.104.15.130 2 2 42928 20100316201915
+122.197.226.37 2 51 673530 20100319061530
+96.31.166.254 2 2 35349 20100330045310
+71.132.209.92 1 1 25915 20100319062019
+210.196.251.46 1 38 378078 20100329204414
+150.70.84.25 1 1 21464 20100314030232
+210.134.110.231 1 48 536883 20100309134333
+59.190.140.254 1 48 536883 20100316162251
+210.143.141.201 1 67 536883 20100324092343
+125.192.104.225 2 52 565030 20100310195808
+59.156.204.72 1 1 25915 20100310195859
+150.70.84.45 2 2 42928 20100321111555
+75.125.226.154 2 2 52793 20100308083555
+216.104.15.134 1 1 21464 20100312134325
+74.52.245.146 1 1 21464 20100312152903
+67.202.38.74 1 1 21464 20100317082926
+124.86.158.17 2 53 701139 20100324235449
+184.73.19.185 1 2 24109 20100305064611
+124.144.46.238 1 27 417211 20100310231739
+207.46.12.15 1 2 24109 20100330075415
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20100303 20 766 2074077 1
+20100305 1 2 24109 1
+20100307 19 20 3450543 1
+20100308 13 195 1024713 2
+20100309 4 148 1751845 2
+20100310 15 91 1254709 4
+20100312 2 2 42928 2
+20100314 1 1 21464 1
+20100315 1 1 21464 1
+20100316 3 50 579811 3
+20100317 6 59 3787107 2
+20100319 3 52 699445 2
+20100321 1 1 21464 1
+20100324 3 120 1238022 2
+20100329 1 38 378078 1
+20100330 6 114 1005157 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 3
+30s-2mn 1
+0s-30s 23
+2mn-5mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/ 34 665384 23 17
+/calendar.html 9 233235 4 4
+/rule.html 5 93070 1 0
+/about.html 5 156645 1 1
+/asian.html 5 52335 0 0
+/east.html 5 53796 0 0
+/gamesinfo.html 4 101829 0 0
+/news.html 4 66940 0 3
+/link.html 4 93880 0 1
+/soccer.html 3 68985 0 1
+/sponsor.html 3 36958 0 0
+/club.html 3 59286 0 0
+/gallery.html 2 41472 0 0
+/doping.html 3 48687 0 0
+/img/rule/08_1_IndoorCB(JCF_EDITION_2007) 2 2234658 0 1
+/report.html 3 68763 0 0
+/figur.html 3 71541 0 1
+/img/rule/08_1_IndoorAC(JCF_EDITION_2007) 2 3914578 0 0
+END_SIDER

@@ -1,0 +1,350 @@
+@charset "Shift_JIS";
+
+/* 要素リセット */
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 75%;
+    font-family: 'メイリオ' ,Meiryo, 'ヒラギノ角ゴ Pro W3' , 'Hiragino Kaku Gothic Pro' , 'ＭＳ Ｐゴシック' , 'Osaka' ,sans-serif;
+    color: #000000; /* 標準文字色 */
+    min-width: 900px;
+}
+/* Safari用ハック 文字サイズ調整 */
+/*\*/
+html:\66irst-child body
+{
+    font-size: 70%;
+}
+/* end */
+
+img
+{
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+/*--------------------------------------------------------
+  レイアウト設定
+--------------------------------------------------------*/
+#hpb-container
+{
+    background-image : url(fbg_9Ba.png);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+#hpb-header
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    height: 73px;
+}
+
+#hpb-inner
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    clear: both;
+}
+
+.hpb-layoutset-02 #hpb-wrapper
+{
+    width: 650px;
+    padding-top: 80px;
+    float: left;
+}
+
+.hpb-layoutset-01 #hpb-title
+{
+    height: 260px;
+    margin-top: 0px;
+    margin-bottom: 61px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+}
+
+.hpb-layoutset-02 #hpb-title
+{
+}
+
+#hpb-main
+{
+    width: 650px;
+    float: left;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.hpb-layoutset-01 #hpb-main
+{
+    padding-top: 5px;
+}
+
+#hpb-aside
+{
+    width: 220px;
+    float: right;
+    margin-top: -7px;
+    padding-bottom: 50px;
+}
+
+.hpb-layoutset-02 #hpb-aside
+{
+    margin-top: 63px;
+}
+
+#hpb-footer
+{
+    width: 900px;
+    height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    clear: both;
+}
+
+.hpb-layoutset-01 #hpb-nav
+{
+    width: 900px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 259px;
+    left: 0px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #CCCCCC;
+}
+
+.hpb-layoutset-02 #hpb-nav
+{
+    width: 900px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #CCCCCC;
+}
+
+
+/*--------------------------------------------------------
+  デザイン設定
+--------------------------------------------------------*/
+/* 背景設定 */
+.hpb-layoutset-01
+{
+    background-image : url(bg_9Ba_01_01.png);
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+}
+
+.hpb-layoutset-02
+{
+    background-image : url(bg_9Ba_02_01.png);
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+}
+
+
+/* コンテンツ配置領域 */
+
+/* ナビゲーション */
+#hpb-nav ul
+{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+#hpb-nav ul:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#hpb-nav li
+{
+    float: left;
+    display: block;
+    font-size: 13px;
+    line-height: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #CCCCCC;
+    text-align: center;
+}
+
+* html #hpb-nav li
+{
+    /* ie6用ハック */
+    width: 127px;
+}
+
+#hpb-nav li a
+{
+    display: block;
+    height: 50px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+* html #hpb-nav li a
+{
+    /* ie6用ハック */
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+#hpb-nav li span.en
+{
+    color: #E4544E;
+    display: block;
+    line-height: 12px;
+    padding-top: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#hpb-nav li span.ja
+{
+    color: #888888;
+    display: block;
+    line-height: 12px;
+    font-size: 12px;
+    padding-top: 13px;
+    font-weight: bold;
+}
+
+#hpb-nav a:link
+{
+}
+#hpb-nav a:visited
+{
+}
+#hpb-nav a:hover
+{
+    background-image : url(menuBg_9Ba_01_on.png);
+    background-position: right top;
+    background-repeat: repeat-x;
+}
+#hpb-nav a:active
+{
+    background-image : url(menuBg_9Ba_01_on.png);
+    background-position: right top;
+    background-repeat: repeat-x;
+}
+
+#hpb-nav a:hover span.en
+{
+    color: #FFFFFF;
+    background-image : url(menuBg_9Ba_01_on.png);
+    background-position: right top;
+    background-repeat: repeat-x;
+}
+#hpb-nav a:active span.en
+{
+    color: #FFFFFF;
+    background-image : url(menuBg_9Ba_01_on.png);
+    background-position: right top;
+    background-repeat: repeat-x;
+}
+
+#hpb-nav a:hover span.ja
+{
+    color: #FFFFFF;
+    background-image : url(menuBg_9Ba_01_on.png);
+    background-position: right top;
+    background-repeat: repeat-x;
+}
+#hpb-nav a:active span.ja
+{
+    color: #FFFFFF;
+    background-image : url(menuBg_9Ba_01_on.png);
+    background-position: right top;
+    background-repeat: repeat-x;
+}
+
+* html #hpb-nav li a:hover
+{
+    /* ie6用ハック */
+    background-image : url(menuBg_9Ba_01_on.png);
+    background-repeat: no-repeat;
+}
+* html #hpb-nav li a:active
+{
+    /* ie6用ハック */
+    background-image : url(menuBg_9Ba_01_on.png);
+    background-repeat: no-repeat;
+}
+
+#hpb-nav h3.hpb-c-index
+{
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: none;
+}
+
+/*--------------------------------------------------------
+  共通パーツデザイン設定
+--------------------------------------------------------*/
+#hpb-inner #associationinfo
+{
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color: #F3F3F3;
+}
+
+#hpb-inner #associationinfo h3
+{
+    text-align: left;
+    font-weight: bold;
+    margin-top: 3px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 5px;
+    background-color: #F3F3F3;
+    color: #E4544E;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#hpb-inner #associationinfo p
+{
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
