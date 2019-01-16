@@ -4,15 +4,13 @@ phases:
   install:
     commands:
       - gem install bundler jekyll
-      - gem install minima      
   pre_build:
     commands:
       - jekyll --version
-      - bundler --version                  
   build:
     commands:
       - cd jfic-web
-      - bundle exec jekyll b
+      - jekyll b
   post_build:
     commands:
       - cd _site
