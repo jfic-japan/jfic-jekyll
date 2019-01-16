@@ -1,12 +1,12 @@
 # Site settings
 title: 日本室内自転車競技連盟
-email: info_jfic@yahoo.com
+email: jfic.japan@gmail.com
 description: > # >があることで、そこから下の行が有効です
     サイクルサッカー・サイクルフィギュアの公式サイト、
     日本室内自転車競技連盟です。
-baseurl: "/jfic-jekyll" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://www.jfic-japan.com" # the base hostname & protocol for your site
-url: "https://jfic-japan.github.io"
+url: "http://jfic-japan.com"
 
 ## twitter_username: jfic
 github_username:  jfic-japan

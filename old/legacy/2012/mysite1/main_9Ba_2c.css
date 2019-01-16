@@ -1,0 +1,789 @@
+@charset "Shift_JIS";
+
+/*--------------------------------------------------------
+  共通レイアウトパーツ設定
+--------------------------------------------------------*/
+/* ヘッダー内パーツ */
+#hpb-headerMain {
+    width: 330px;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    float: right;
+}
+
+#hpb-headerMain h1 {
+    width: 330px;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    float: right;
+    text-align: left;
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#hpb-headerLogo {
+    width: 400px;
+    margin-left: 10px;
+    float: left;
+}
+
+#hpb-headerLogo a {
+    display: block;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    height: 34px;
+    background-image : url(logo_9Ba.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+#hpb-headerExtra2 {
+}
+
+/* フッター内パーツ */
+#hpb-footerMain {
+    width: 300px;
+    float: right;
+    padding-top: 60px;
+}
+
+#hpb-footerMain p {
+    /* コピーライト文字設定 */
+    color: #8A8A8A;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+#hpb-footerLogo {
+}
+
+#hpb-footerExtra1 {
+    padding-top: 9px;
+}
+
+#hpb-footerExtra1 ul {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+#hpb-footerExtra1 li {
+    /* フッターナビ設定 */
+    display: inline;
+    padding-left: 23px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+#hpb-footerExtra1 a:link {
+    color: #666666;
+    text-decoration: none;
+}
+#hpb-footerExtra1 a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+#hpb-footerExtra1 a:hover {
+    color: #E4544E;
+    text-decoration: none;
+}
+#hpb-footerExtra1 a:active {
+    color: #E4544E;
+    text-decoration: none;
+}
+
+#hpb-footerExtra2 {
+}
+
+/* サイドブロック内パーツ */
+#banner {
+    margin-top: 15px;
+    padding-top: 0px;
+}
+
+#banner ul {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#banner li {
+    padding-bottom: 10px;
+}
+
+#banner li a {
+    display: block;
+    width: 220px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+#banner a#banner-schedule {
+    /* スケジュールバナー */
+    background-image : url(top_banner_9Ba_01.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+#banner a#banner-admission {
+    /* 入会ご案内バナー */
+    background-image : url(top_banner_9Ba_02.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+#banner a#banner-blog {
+    /* 代表ブログバナー */
+    background-image : url(top_banner_9Ba_03.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+/*--------------------------------------------------------
+  ナビゲーションデザイン設定
+--------------------------------------------------------*/
+
+#hpb-nav li a {
+    /* ナビゲーション文字設定 */
+    font-weight: bold;
+}
+
+#hpb-nav li a:link {
+    color: #666666;
+    text-decoration: none;
+}
+/* ナビゲーション文字色設定 */
+#hpb-nav li a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+#hpb-nav li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#hpb-nav li a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+/*--------------------------------------------------------
+  基本パーツデザイン設定
+--------------------------------------------------------*/
+
+/* リンク文字色 */
+a:link {
+    color: #E4544E;
+    text-decoration: underline;
+}
+a:visited {
+    color: #E4544E;
+    text-decoration: underline;
+}
+a:hover {
+    color: #ED918B;
+    text-decoration: none;
+}
+a:active {
+    color: #ED918B;
+    text-decoration: none;
+}
+
+#hpb-skip {
+    /* ヘッダースキップの非表示 */
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+    line-height: 1.4;
+    text-align: left;
+}
+
+p.large {
+    color: #881813;
+    font-weight: bold;
+}
+p.indent {
+    padding-left: 25px;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    clear: both;
+    border-top-width: 1px;
+    border-top-style: none;
+    border-right-width: 1px;
+    border-right-style: none;
+    border-left-width: 1px;
+    border-left-style: none;
+    color: #FFFFFF;
+    border-bottom-width: 1px;
+    border-bottom-style: none;
+}
+
+.hpb-layoutset-02 h2 {
+    width: 650px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    height: 50px;
+    line-height: 57px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.hpb-layoutset-02 h2 span.ja {
+    font-size: 1.15em;
+    color: #FFFFFF;
+    padding-right: 10px;
+    line-height: 50px;
+    padding-left: 18px;
+}
+
+.hpb-layoutset-02 h2 span.en {
+    font-size: 0.8em;
+    color: #801611;
+}
+
+h2 span.en {
+    font-size: 0.9em;
+    color: #801611;
+    text-transform: uppercase;
+}
+
+.hpb-layoutset-01 #hpb-wrapper h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: 40px;
+    overflow: hidden;
+    background-image : url(top_indexBg_9Ba.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    line-height: 42px;
+    padding-left: 10px;
+    text-align: left;
+    color: #881813;
+    font-size: 1em;
+}
+
+.hpb-layoutset-02 #hpb-wrapper h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    padding-top: 3px;
+    padding-left: 1px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #881813;
+    font-size: 1.3em;
+}
+
+.hpb-layoutset-02 h3 span.ja {
+    font-size: 1.2em;
+    color: #881813;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.hpb-layoutset-02 h3 span.en {
+    display: none;
+}
+
+h3 span.ja {
+    font-size: 1em;
+    color: #000000;
+    padding-right: 10px;
+    padding-left: 18px;
+}
+
+h3 span.en {
+    display: none;
+}
+
+h3.hpb-c-index {
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: none;
+}
+
+h4 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.2;
+    color: #E95952;
+    background-image : url(pointS_9Ba.png);
+    background-position: 0px 4px;
+    background-repeat: no-repeat;
+}
+
+h5 {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.2;
+    color: #E95952;
+}
+
+table {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: 0;
+    border-collapse: collapse;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #cccccc;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #cccccc;
+}
+
+table th {
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: left;
+    background-color: #F7BCB9;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+table td {
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: left;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+/* フォームパーツ設定 */
+input.button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+input.l {
+    width: 400px;
+}
+input.m {
+    width: 250px;
+}
+input.s {
+    width: 50px;
+}
+
+
+/* メインコンテンツ内基本パーツ */
+
+#hpb-main ul {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#hpb-main ul li {
+    text-align: left;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #DDDDDD;
+    color: #000000;
+}
+
+#hpb-main dl {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    zoom: 100%;
+}
+
+#hpb-main dl span.exp {
+    color: #333333;
+}
+
+#hpb-main dt {
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: left;
+    line-height: 1.4;
+    font-weight: normal;
+    width: 9em !important;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 2px;
+    padding-left: 15px;
+}
+
+#hpb-main dd {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 2px;
+    text-align: left;
+    line-height: 1.4;
+    padding-left: 11em;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #E4544E;
+}
+
+* html #hpb-main dd {
+    /* ie6用ハック */
+    height: 1%;
+}
+
+#hpb-main dl:after {
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+#hpb-main img.left {
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#hpb-main img.right {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    float: right;
+}
+
+#pagetop {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+#pagetop a {
+    /* ページの先頭へのリンク設定 */
+    display: block;
+    margin-left: auto;
+    width: 126px;
+    height: 21px;
+    overflow: hidden;
+    background-image : url(returnTop_9Ba.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-align: left;
+    text-indent: -9999px;
+}
+
+
+
+/* トップページ デザイン定義 */
+.hpb-layoutset-01 #hpb-title h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    height: 260px;
+    background-image : url(top_mainimg_9Ba_01.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.hpb-layoutset-02 #hpb-title h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+    height: 50px;
+    background-image : url(title_9Ba_02.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.hpb-layoutset-01 #hpb-wrapper h3 span.ja {
+    font-size: 1.5em;
+    color: #881813;
+    padding-right: 10px;
+    padding-left: 45px;
+}
+
+.hpb-layoutset-01 #hpb-wrapper h3 span.en {
+    display: none;
+}
+
+#toppage-info dl {
+    margin-top: -10px;
+}
+
+#toppage-info dt {
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: left;
+    line-height: 1.4;
+    font-weight: bold;
+    width: 9em !important;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+* html #toppage-info dd {
+    /* ie6用ハック */
+    padding-left: 15px;
+    height: 108px;
+}
+
+*:first-child + html #toppage-info dd {
+    /* for IE7 */
+    padding-left: 15px;
+    height: 108px;
+}
+
+#toppage-info dd {
+    padding-left: 132px;
+    min-height: 105px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #DDDDDD;
+}
+
+#toppage-info span.find {
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#toppage-info dl:after {
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+
+
+
+#toppage-news dl:after {
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+#toppage-news dt {
+    color: #DF5C56;
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: left;
+    line-height: 18px;
+    min-height: 18px;
+    font-weight: bold;
+    width: 170px !important;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    background-image : url(pointS_9Ba.png);
+    background-position: 5px 14px;
+    background-repeat: no-repeat;
+}
+
+#toppage-news dd {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    line-height: 18px;
+    min-height: 18px;
+    padding-left: 186px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #DDDDDD;
+}
+
+*:first-child + html #toppage-news dd {
+    /* for IE7 */
+    padding-left: 10px;
+    min-height: 20px;
+}
+
+* html #toppage-news dd {
+    /* for IE6 */
+    padding-left: 0px;
+    height: 20px;
+}
+
+
+#toppage-info h4 {
+    display: inline;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.4;
+    color: #881813;
+    background-image : url(pointS_9Ba.png);
+    background-position: 0px 6px;
+    background-repeat: no-repeat;
+}
+
+.info-photo {
+    float: left;
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+
+.info-comment {
+    margin-top: 5px;
+}
+
+#toppage-info hr {
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #DDDDDD;
+    clear: both;
+}
+

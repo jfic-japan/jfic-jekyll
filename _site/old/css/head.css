@@ -1,0 +1,21 @@
+.menuLineDouble {
+    margin:0 0 10px 0;
+    padding:2px 8px;
+    border-width:5px 0;
+    border-color: #F9E281;
+    border-style:solid;
+    background:#F4C504;
+    color:#644602;
+    line-height:140%;
+    font-weight:bold;
+    text-align:center;
+}
+
+.menuLineDouble > dt {
+    text-align: left;
+    font-weight: normal;
+}
+
+.menuLineDouble > dd {
+    text-align: left;
+}

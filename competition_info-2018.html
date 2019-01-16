@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">大会情報</h1>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+
+
+<div class="jfic-top-img">
+    <img class="img-responsive portfolio-item center-block" src="{{ site.baseurl }}/img/top/trophy-1140x460.jpg" alt="trophy">
+</div>
+
+<div class="container">
+    <!-- Related Projects Row -->
+    <div class="row">
+        <div class="col-sm-8 col-xs-12">
+            <h2 id="contents">2018年度大会情報</h2>
+            <hr>
+            <ul class="list-unstyled">
+                {% for post in site.posts reversed %}
+                {% if post.tags contains 'competition_info' and post.tags contains '2018'%}
+                <li>
+                    <h3>
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {{ post.title }}
+                        </a>
+                        <br>
+                        <small>{{ post.term }}@{{ post.site }}</small>
+                    </h3>
+                    <hr>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <h3>年度</h3>
+            <ul class="list-unstyled">
+                <li><a href="./competition_info-2018.html#contents">2018年度</a></li>
+                <li><a href="./competition_info-2017.html#contents">2017年度</a></li>
+                <li><a href="./competition_info-2016.html#contents">2016年度</a></li>
+                <li><a href="./competition_info-2015.html#contents">2015年度</a></li>
+                <li><a href="{{ site.baseurl }}/old/">2014年度以前（旧サイト）</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>

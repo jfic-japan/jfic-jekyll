@@ -1,0 +1,1357 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2011-09 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2554                
+POS_VISITOR 28818               
+POS_DAY 54873               
+POS_DOMAIN 3497                
+POS_LOGIN 3732                
+POS_ROBOT 3887                
+POS_WORMS 4403                
+POS_EMAILSENDER 4534                
+POS_EMAILRECEIVER 4677                
+POS_SESSION 55790               
+POS_SIDER 56003               
+POS_FILETYPES 4812                
+POS_OS 4991                
+POS_BROWSER 5166                
+POS_SCREENSIZE 5743                
+POS_UNKNOWNREFERER 5817                
+POS_UNKNOWNREFERERBROWSER 8783                
+POS_ORIGIN 9564                
+POS_SEREFERRALS 9711                
+POS_PAGEREFS 9902                
+POS_SEARCHWORDS 13194               
+POS_KEYWORDS 19692               
+POS_MISC 2216                
+POS_ERRORS 25842               
+POS_CLUSTER 3588                
+POS_SIDER_404 25957               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20111001001230 381016 96469669 48456571537
+FirstTime 20110901004756
+LastTime 20110930235024
+LastUpdate 20111001125049 1520 0 1519 0 0
+TotalVisits 1173                
+TotalUnique 563                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 672                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 533 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 94 1134 14032384 26 45 4558633
+1 66 689 6880826 32 42 6420064
+2 89 1197 7837680 44 64 19330913
+3 73 531 8124857 35 49 8346425
+4 38 157 2697986 45 65 6920618
+5 45 326 4352537 36 46 8792927
+6 73 875 12561125 41 56 5110822
+7 91 763 9999351 61 82 10357237
+8 94 1542 23979724 45 59 10422659
+9 65 1134 8605257 37 56 4112184
+10 122 2263 17596855 45 67 4245231
+11 121 1618 20133610 58 73 10030249
+12 135 2536 24292805 39 64 6482946
+13 148 2514 21095006 38 52 29115366
+14 113 2187 15003858 43 59 8048273
+15 123 1879 20713783 37 50 10084034
+16 131 1804 14707646 42 60 4399912
+17 167 2673 34169529 89 103 10919946
+18 107 1847 18693768 37 48 6733185
+19 123 1632 22850170 46 55 6753195
+20 113 1950 22932140 37 64 4555630
+21 187 3417 34329852 34 90 4410024
+22 116 2114 20610927 34 52 2704822
+23 145 2611 27093157 59 71 16274706
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2579 39393 413294833
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+yandex 292 15918382 20110930041631 0
+slurp 239 83296021 20110930234404 0
+googlebot 134 72427376 20110930143749 0
+robot 59 9150871 20110930111632 0
+baiduspider 26 5503818 20110929171523 0
+crawl 9 203924 20110930162138 0
+arks 5 145640 20110914214959 0
+surveybot 2 42956 20110923075405 0
+python 1 21478 20110903222944 0
+speedy 1 21478 20110912130713 0
+netcraft 1 21478 20110927062400 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 835 1444091 0 0
+html 2515 49930080 0 0
+pdf 29 19608405 0 0
+jpg 35257 283781087 0 0
+Unknown 35 55065755 0 0
+gif 722 3465415 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 13
+winxp 16896
+winlong 8656
+win2000 51
+winnt 8208
+win98 8
+linux 1422
+win16 6
+macosx 2987
+winme 8
+win95 18
+wince 4
+win2003 48
+Unknown 1081
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 39
+msie6.0 3610
+firefox5.0 52
+firefox4.0.1 51
+up\. 1
+msie4.01 5
+curl 2
+firefox3.5.3 8
+msie3.02 4
+links 7
+firefox3.6.15 63
+netscape4.76 5
+msie8.0 14812
+firefox6.0.2 1645
+firefox6.0.1 311
+netscape0.91 1
+msie7.0 4446
+msie2.0 8
+msie5.0 7
+firefox3.6.20 53
+msie9.0 6151
+Unknown 166
+docomo 46
+firefox2.0.0.20 1
+opera 433
+libwww 1
+firefox3.6.21 164
+firefox3.6.2 1
+msie5.5 28
+firefox3.6.23 52
+netscape4.79 4
+netscape0.6 2
+firefox1.0 1
+mozilla 325
+firefox5.0.1 5
+netscape4.0 184
+firefox6.0 1
+firefox3.6.22 101
+safari 6578
+firefox3.6.13 58
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 40
+Mozilla/5.0_(compatible;_NerdByNature.Bot;_http://www.nerdbynature.net/bot) 20110909075701
+Mozilla/5.0_(compatible;_PEAR_HTTP_Request_class;_http://www.rcdtokyo.com/pc2m/) 20110914041354
+Nutraspace/Nutch-1.2_(www.nutraspace.com) 20110911124125
+Nozilla/5.0_(compatible;_NSLE_6.0;_Windows) 20110920004221
+libwww-perl/5.834 20110908001703
+findlinks/2.0.2_(_http://wortschatz.uni-leipzig.de/findlinks/) 20110924033256
+Mozilla/5.0_(compatible;_IPTCBOT; 20110919192353
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20110929133033
+findlinks/2.0.1_(_http://wortschatz.uni-leipzig.de/findlinks/) 20110919112223
+Aghaven/Nutch-1.2_(www.aghaven.com) 20110902190046
+Openstat/0.1 20110921105925
+Covario-IDS/1.0_(Covario;_http://www.covario.com/ids;_support_at_covario_dot_com) 20110929222131
+Mozilla/4.0_(jig_browser_web;_1.0.4;_840SH) 20110909114856
+SoftBank/1.0/940N/NJ001/SN353161030443926_Browser/NetFront/3.4_Profile/MIDP-2.0_Configuration/CLDC-1.1 20110924174335
+Mozilla/5.0_Opera/9.5_(KDDI-SN3S;_BREW;_Opera_Mobi;_U;_ja)_Presto/2.4.15_Version/10.00 20110925231327
+MLBot_(www.metadatalabs.com/mlbot) 20110919204948
+Mozilla/5.0_(compatible;_Ezooms/1.0;_ezooms.bot@gmail.com) 20110928040712
+DoCoMo/2.0_SH902i_(compatible;_Y!J-SRD/1.0;_http://help.yahoo.co.jp/help/jp/search/indexing/indexing-27.html) 20110915020745
+Mozilla/5.0_(compatible;_MJ12bot/v1.4.0;_http://www.majestic12.co.uk/bot.php?_) 20110930180421
+DoCoMo/2.0_P900i(c100;TB;W24H11)_(compatible;_ichiro/mobile_goo;__http://help.goo.ne.jp/help/article/1142/) 20110923190144
+pflab_(co2h2onacl@gmail.com) 20110930034300
+Mozilla/4.0_(jig_browser_web;_1.0.4;_816SH) 20110927113321
+SBIder/Nutch-1.0-dev_(http://www.sitesell.com/sbider.html) 20110919115830
+Mozilla/0.91_Beta_(Windows) 20110915003756
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20110903065702
+- 20110930002115
+Mozilla/5.0_(compatible;_discobot/1.1;__http://discoveryengine.com/discobot.html) 20110930232927
+Mozilla/0.6_Beta_(Windows) 20110906044417
+Mozilla/4.0_(jig_browser_web;_1.0.4;_941P) 20110923185344
+findlinks/2.1.3_(_http://wortschatz.uni-leipzig.de/findlinks/) 20110921035908
+KDDI-TS3U_UP.Browser/6.2_7.2.7.1.K.5.207_(GUI)_MMP/2.0 20110929191846
+findlinks/2.0.4_(_http://wortschatz.uni-leipzig.de/findlinks/) 20110928061646
+curl/7.15.5 20110915224815
+Mozilla/5.0_(compatible;_HatoPoppo/1.0b;_http://potaru.com/HatoPoppo.html)/Nutch-1.2 20110917063823
+Mozilla/4.0_(jig_browser_web;_1.0.4;_SH38) 20110930002117
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20110929212843
+Mozilla/4.0_(jig_browser_web;_1.0.4;_840SC) 20110921024727
+Mozilla/5.0_(F01A;FOMA;like_Gecko) 20110919024722
+Mozilla/4.0_(compatible;) 20110925085238
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110908021111
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+SoftBank/1.0/940N/NJ001/SN353161030443926_Browser/NetFront/3.4_Profile/MIDP-2.0_Configuration/CLDC-1.1 20110924174335
+MLBot_(www.metadatalabs.com/mlbot) 20110919204948
+pflab_(co2h2onacl@gmail.com) 20110930034300
+SBIder/Nutch-1.0-dev_(http://www.sitesell.com/sbider.html) 20110919115830
+Nutraspace/Nutch-1.2_(www.nutraspace.com) 20110911124125
+Nozilla/5.0_(compatible;_NSLE_6.0;_Windows) 20110920004221
+- 20110930002115
+Aghaven/Nutch-1.2_(www.aghaven.com) 20110902190046
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110908021111
+Openstat/0.1 20110921105925
+Covario-IDS/1.0_(Covario;_http://www.covario.com/ids;_support_at_covario_dot_com) 20110929222131
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 757 815
+From1 0 0
+From2 70 72
+From3 950 1071
+From4 802 37435
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 32 34
+search 2 2
+yandex 3 3
+yahoo 33 33
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 85
+http://www2u.biglobe.ne.jp/~jcsf/ 504 504
+http://www.goocycle.jp/event/ 29 29
+http://www.nhl-live.ru 27 27
+http://servicedon.ru 27 27
+http://atworld.ru 18 18
+http://www.profi71.ru 18 18
+http://www.new-cycling.co.jp 18 18
+http://fido20.ru/ktulhu 15 15
+http://gcup.ru 13 13
+http://www.sane4ka.ru 12 12
+http://what.in.ua 6 6
+http://www.sane4ka.ru/vosstanie-planetyi-obezyan-premera-v-londone 2 2
+http://www.filmsactor.com 3 3
+http://delayreferat.ru/news.php 6 6
+http://ourkrasnodar.ru 3 3
+http://www2u.biglobe.ne.jp/~jcsf/index.html 2 2
+http://www.goocycle.jp/event/2011/201112.html 4 4
+http://pincode.mobi 9 9
+http://asfera.info/forum/profile.php 3 3
+http://www.sitedossier.com/site/www.jfic-japan.com 1 1
+http://translate.googleusercontent.com/translate_c 0 40
+http://millionsecrets.ru 3 3
+http://invest-forex.biz 3 3
+http://wcic2011.com/cycle_soccer/mobile/cycle_coccer.html 1 1
+http://psydom.ru 3 3
+http://www.dverburg.ru 9 9
+http://webcache.googleusercontent.com/search 0 1
+http://www.otvetnemail.ru 3 3
+http://e.wcic2011.com/cycle_ball/iphone/cycle_ball.html 0 2
+http://e.wcic2011.com/cycle_ball/ 3 80
+http://\xfd\xe2\xe0\xea\xf3\xe0\xf2\xee\xf0812.\xf0\xf4/evakuator_kupchino.php 3 3
+http://www.movies22.ru 3 3
+http://chel-portal.ru 3 3
+http://www.hic-interior.com/index.html 2 2
+http://kidname.ru 3 3
+http://myrecept.netau.net 3 3
+http://ouecycleracingteam.blogspot.com/2010/08/blog-post_18.html 1 1
+http://goldfilm.in 3 3
+http://ranive.ru 9 9
+http://ouecycleracingteam.blogspot.com 2 2
+http://wcic2011.com/cycle_figure/ 7 7
+http://moykirov.ru 3 3
+http://senauka.ru 6 6
+http://www.sane4ka.ru/kak-doletet-do-avstralii-vsego-za-21t-rubley 3 3
+http://www2u.biglobe.ne.jp/~jcsf/Calendar.html 3 3
+http://bobrdobr.ru/people/OFSW10/ 3 3
+http://www.filedeluxe.com 6 6
+http://www.goocycle.jp/event/2011/201110.html 11 11
+http://labelleza.ru 6 6
+http://e.wcic2011.com/cycle_ball/cycle_ball.html 0 1
+http://fmk.typepad.jp/glory/2011/01/post-bfe9.html 1 1
+http://delayreferat.ru/index.php 3 3
+http://werbung-public-relations.18x24.com 1 1
+http://moysamara.ru 5 5
+http://immobilien.pauline-bistro.li 1 1
+http://www2u.biglobe.ne.jp/~jcsf/index_e.html 2 2
+http://www.sane4ka.ru/vyvodim-iz-zapoya-na-materiale-zakazchika 3 3
+http://www.hic-interior.com 2 2
+http://www.artfeo.com 3 3
+http://www.new-cycling.co.jp/index.html 2 2
+http://bizexperts.ru 3 3
+http://viainfo.iboard.ws 9 9
+http://e.wcic2011.com/artistic_cycling/ 6 6
+http://spisivaem.boltun.su 3 3
+http://www.bing.com/search 2 2
+http://www.dom-iphone.ru/ipad 3 3
+http://uastroyka.ru 3 3
+http://mtex.com.ua 6 6
+http://moregirls.org 5 5
+http://www.novaget.ru 3 3
+http://kaleidoskop-stv.ru 3 3
+http://www.altynsarin.ru/kriminfo/ 3 3
+http://sotstore.com 12 12
+http://kak-udalit-sebya-iz-odnoklassnikov.kak.tel 3 3
+http://www.hic-interior.com/corporate.html 1 1
+http://segol.ru 3 3
+http://privorot-magic-ds.ru/runa-ur-perevernuta.html 3 3
+http://www.tribuna.ru/forum/user/199/ 3 3
+http://znakomstva.zaposti.net 6 6
+http://www.2lan.ru/services/vires_cure 3 3
+http://moyufa.ru 3 3
+http://marvula.mybb.ru 3 3
+http://wcic2011.com/cycle_soccer/ 7 7
+http://www.altynsarin.ru 3 3
+http://symbian-blog.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 56
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e5%a5%b3%e5%ad%90 3
+%e6%9d%b1%e5%b7%a5%e5%a4%a7%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 3
+%e7%ac%ac43%e5%9b%9e%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a 3
+jfic-japan.com 3
+%e5%a4%a7%e9%98%aa%e5%a4%a7%e5%ad%a6+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 2
+jfic 2
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 2
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a 2
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a%e3%80%80 2
+%ef%bd%bb%ef%bd%b2%ef%bd%b8%ef%be%99%ef%bd%bb%ef%bd%af%ef%bd%b6%ef%bd%b0%e6%97%a5%e6%9c%ac%e4%bb%a3%e8%a1%a8%e3%80%80%e6%89%8b%e5%b3%b6 2
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%ae%e5%b0%be 1
+%e7%a6%8f%e5%b2%a1%e7%b5%8c%e6%b8%88%e5%a4%a7%e5%ad%a6%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e6%9d%b1%e4%ba%ac%e5%b7%a5%e6%a5%ad%e5%a4%a7%e5%ad%a6%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e3%83%81%e3%82%a7%e3%82%b3+%e8%87%aa%e8%bb%a2%e8%bb%8a%e5%a4%a7%e4%bc%9a+%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%8a%e3%83%bc 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e9%80%a3%e7%9b%9f 1
+%e7%ac%ac42%e5%9b%9e%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3%e3%82%ab%e3%83%83%e3%83%97 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e9%96%a2%e8%a5%bf%e3%82%a4%e3%83%b3%e3%82%ab%e3%83%ac 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f%e4%ba%8b%e5%8b%99%e4%ba%8b%e5%8b%99%e5%b1%80 1
+%e9%98%aa%e5%a4%a7+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e6%9d%91%e4%b8%8a%e8%a3%95%e4%ba%ae 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e3%83%89%e3%82%a4%e3%83%84%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e5%ae%a4%e5%86%85+%e8%87%aa%e8%bb%a2%e8%bb%8a+%e9%9f%b3%e6%a5%bd 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e5%b1%8b%e5%86%85%e3%80%80%e7%ab%b6%e6%8a%80 1
+%e9%96%a2%e6%9d%b1%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e8%97%a4%e7%94%b0%e6%b4%8b%e4%bb%8b 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e5%a5%b3%e5%ad%90 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e6%9d%be%e7%94%b0 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e4%bd%90%e8%97%a4%e5%ba%b7%e5%bd%a6 1
+%e9%96%a2%e8%a5%bf%e5%ad%a6%e7%94%9f%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a 1
+%e9%96%80%e5%8f%a3%e9%9b%84%e4%b8%80 1
+%e4%b8%96%e7%95%8c%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e5%9b%bd%e9%9a%9b%e5%a4%a7%e4%bc%9a 1
+9.18+%e8%87%aa%e8%bb%a2%e8%bb%8a+%e6%9d%b1%e4%ba%ac 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e5%a4%a7%e4%bc%9a%e3%80%80%e9%96%a2%e8%a5%bf%e5%a4%a7%e5%ad%a6 1
+%e6%99%82%e5%80%89%e5%ae%97%e5%a4%a7%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+uci%e3%80%80%e3%83%89%e3%83%bc%e3%83%94%e3%83%b3%e3%82%b0 1
+%e6%9d%be%e7%94%b0%e9%8b%bc%e3%80%80%e3%83%9c%e3%83%bc%e3%83%ab 1
+%e7%ac%ac%ef%bc%98%e5%9b%9e%e3%83%90%e3%83%ab%e3%82%ab%e3%83%bc%e3%82%ab%e3%83%83%e3%83%97 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e3%80%80%e5%a4%a7%e4%bc%9a%e8%a8%98%e9%8c%b2 1
+%e6%a1%83%e5%b1%b1%e3%82%ab%e3%83%83%e3%83%972011.10%e6%9c%88 1
+%e5%a4%9a%e7%94%b0%e5%92%8c%e9%9b%84%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e6%96%b0%e4%ba%ba%e6%88%a6 1
+%e9%96%a2%e6%9d%b1%e5%ad%a6%e7%94%9f%e6%98%a5%e5%ad%a3%ef%bd%bb%ef%bd%b2%ef%bd%b8%ef%be%99%ef%bd%bb%ef%bd%af%ef%bd%b6%ef%bd%b0%ef%be%98%ef%bd%b0%ef%bd%b8%ef%be%9e%e6%88%a6 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e4%b8%96%e7%95%8c%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e3%80%80%e3%83%89%e3%82%a4%e3%83%84%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%83%81%e3%83%bc%e3%83%a0 1
+low-normal+%e6%a4%9c%e6%9f%bb%e5%80%a4 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2+%e7%a6%8f%e5%b2%a1 1
+utf8 1
+%e3%83%81%e3%82%a7%e3%82%b3+%e9%b9%bf%e5%85%90%e5%b3%b6%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%8a%e3%83%bc%e3%80%80%e4%b8%96%e7%95%8c%e8%87%aa%e8%bb%a2%e8%bb%8a%e5%a4%a7%e4%bc%9a 1
+%e5%a4%a7%e9%98%aa%e5%a4%a7%e5%ad%a6%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%81%ae%e9%81%b8%e6%89%8b%e3%81%ab%e3%81%aa%e3%82%8b%e3%81%ab%e3%81%af 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e7%ac%ac8%e5%9b%9e%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3%e3%82%ab%e3%83%83%e3%83%97%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e3%83%89%e3%82%a4%e3%83%84%e3%83%81%e3%83%bc%e3%83%a0%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6%e5%b8%82 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f+%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3%e3%82%ab%e3%83%83%e3%83%97%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 66
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 7
+%e5%a5%b3%e5%ad%90 3
+%e6%9d%b1%e5%b7%a5%e5%a4%a7%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 3
+%e7%ac%ac43%e5%9b%9e%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a 3
+jfic-japan.com 3
+jfic 2
+%e5%a4%a7%e9%98%aa%e5%a4%a7%e5%ad%a6 2
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 2
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a 2
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a%e3%80%80 2
+%e7%a6%8f%e5%b2%a1%e7%b5%8c%e6%b8%88%e5%a4%a7%e5%ad%a6%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e9%80%a3%e7%9b%9f 1
+%e7%ac%ac42%e5%9b%9e%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e9%96%a2%e8%a5%bf%e3%82%a4%e3%83%b3%e3%82%ab%e3%83%ac 1
+%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%8a%e3%83%bc 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e3%83%89%e3%82%a4%e3%83%84%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2 1
+%e9%98%aa%e5%a4%a7 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e5%b1%8b%e5%86%85%e3%80%80%e7%ab%b6%e6%8a%80 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2 1
+%e9%96%a2%e6%9d%b1%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e5%a5%b3%e5%ad%90 1
+%e6%a4%9c%e6%9f%bb%e5%80%a4 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e9%96%a2%e8%a5%bf%e5%ad%a6%e7%94%9f%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a 1
+%e4%b8%96%e7%95%8c%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e5%9b%bd%e9%9a%9b%e5%a4%a7%e4%bc%9a 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e5%a4%a7%e4%bc%9a%e3%80%80%e9%96%a2%e8%a5%bf%e5%a4%a7%e5%ad%a6 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e3%80%80%e5%a4%a7%e4%bc%9a%e8%a8%98%e9%8c%b2 1
+%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3%e3%82%ab%e3%83%83%e3%83%97%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e6%96%b0%e4%ba%ba%e6%88%a6 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e3%80%80%e3%83%89%e3%82%a4%e3%83%84%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%83%81%e3%83%bc%e3%83%a0 1
+utf8 1
+%e4%b8%96%e7%95%8c%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e7%ac%ac8%e5%9b%9e%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3%e3%82%ab%e3%83%83%e3%83%97%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%ae%e5%b0%be 1
+%e6%9d%b1%e4%ba%ac%e5%b7%a5%e6%a5%ad%e5%a4%a7%e5%ad%a6%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3%e3%82%ab%e3%83%83%e3%83%97 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f%e4%ba%8b%e5%8b%99%e4%ba%8b%e5%8b%99%e5%b1%80 1
+%e7%a6%8f%e5%b2%a1 1
+%e6%9d%b1%e4%ba%ac 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e5%a4%a7%e4%bc%9a 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ad%a6%e7%94%9f%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e5%ae%a4%e5%86%85 1
+9.18 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e8%97%a4%e7%94%b0%e6%b4%8b%e4%bb%8b 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e6%9d%be%e7%94%b0 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e4%bd%90%e8%97%a4%e5%ba%b7%e5%bd%a6 1
+%e9%96%80%e5%8f%a3%e9%9b%84%e4%b8%80 1
+%e6%99%82%e5%80%89%e5%ae%97%e5%a4%a7%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+uci%e3%80%80%e3%83%89%e3%83%bc%e3%83%94%e3%83%b3%e3%82%b0 1
+%e6%9d%be%e7%94%b0%e9%8b%bc%e3%80%80%e3%83%9c%e3%83%bc%e3%83%ab 1
+%e7%ac%ac%ef%bc%98%e5%9b%9e%e3%83%90%e3%83%ab%e3%82%ab%e3%83%bc%e3%82%ab%e3%83%83%e3%83%97 1
+%e6%a1%83%e5%b1%b1%e3%82%ab%e3%83%83%e3%83%972011.10%e6%9c%88 1
+%e5%a4%9a%e7%94%b0%e5%92%8c%e9%9b%84%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e3%83%81%e3%82%a7%e3%82%b3 2
+%e9%96%a2%e6%9d%b1%e5%ad%a6%e7%94%9f%e6%98%a5%e5%ad%a3%ef%bd%bb%ef%bd%b2%ef%bd%b8%ef%be%99%ef%bd%bb%ef%bd%af%ef%bd%b6%ef%bd%b0%ef%be%98%ef%bd%b0%ef%bd%b8%ef%be%9e%e6%88%a6 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a 2
+%e5%a4%a7%e9%98%aa%e5%a4%a7%e5%ad%a6%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e6%9d%91%e4%b8%8a%e8%a3%95%e4%ba%ae 1
+%ef%bd%bb%ef%bd%b2%ef%bd%b8%ef%be%99%ef%bd%bb%ef%bd%af%ef%bd%b6%ef%bd%b0%e6%97%a5%e6%9c%ac%e4%bb%a3%e8%a1%a8%e3%80%80%e6%89%8b%e5%b3%b6 2
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%81%ae%e9%81%b8%e6%89%8b%e3%81%ab%e3%81%aa%e3%82%8b%e3%81%ab%e3%81%af 1
+%e9%b9%bf%e5%85%90%e5%b3%b6%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%8a%e3%83%bc%e3%80%80%e4%b8%96%e7%95%8c%e8%87%aa%e8%bb%a2%e8%bb%8a%e5%a4%a7%e4%bc%9a 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e9%9f%b3%e6%a5%bd 1
+low-normal 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e3%83%89%e3%82%a4%e3%83%84%e3%83%81%e3%83%bc%e3%83%a0%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6%e5%b8%82 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 63 18703
+206 111 22357876
+404 529 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 78
+/Desktop%20Folder/national/Japan_Championships/EndResults_of_40th_Japan_championships.pdf 1 -
+/apple-touch-icon-57x57.png 7 -
+/robots.txt 373 -
+/img/botan/18.jpg 1 -
+/img/botan/07.jpg 1 -
+/img/rule/14_Anti-Doping.pdf 2 -
+/img/botan/20.jpg 1 -
+/img/botan/06.jpg 1 -
+/img/botan/17.jpg 1 -
+/img/sponsor/img04.jpg 1 -
+/img/botan/10.jpg 1 -
+/http:/design_reform.rentalurl.net 1 -
+/img/banner/2009WM_TitleLogo.jpg 1 -
+/Desktop%20Folder/WM/2009/2009WM_JapanTeam.pdf 2 -
+/img/space.gif 1 -
+/gamesinfo.html 6 -
+/img/botan/11.jpg 1 -
+/img/botan/02.jpg 1 -
+/img/header.jpg 1 -
+/img/botan/30.jpg 1 -
+/img/rule/coaching_programm_IICC.pdf 1 -
+/img/botan/01.jpg 1 -
+/east.html 4 -
+/img/botan/03.jpg 1 -
+/mailto:YASUHIKO_SATOU@sonylife.co.jp 1 -
+/img/sponsor/img02.jpg 1 -
+/_vti_bin/owssvr.dll 2 -
+/apple-touch-icon-57x57-precomposed.png 7 -
+/Desktop%20Folder/EA_Games/2009EastAsianGames-Hong_Kong.pdf 1 -
+/img/botan/09.jpg 1 -
+/img/rule/English_2008-01E-00-11.pdf 1 -
+/Desktop%20Folder/national/valquacup/6th%20Valqua%20Cup.pdf 1 -
+/Desktop%20Folder/national/valquacup/end%20results%20of%206th%20Valqua%20Cup.pdf 1 -
+/img/kage_migi.jpg 1 -
+/Desktop%20Folder/result/wc/2008/2008wc_f.html 2 -
+/img/gamesinfo/PG_JapanChampionships_2010.pdf 1 -
+/http:/bike_kaitori.rentalurl.net 1 -
+/img/sponsor/title.jpg 1 -
+/img/botan/05.jpg 1 -
+/http:/matchmaking_service.rentalurl.net 1 -
+/img/botan/24.jpg 1 -
+/Desktop%20Folder/Jcup/2009/Booklet_of_Japan_Cup_2009.pdf 1 -
+/apple-touch-icon.png 7 -
+/img/botan/27.jpg 1 -
+/img/botan/13.jpg 1 -
+/img/botan/12.jpg 1 -
+/http:/free_game.jpnz.jp 1 -
+/MSOffice/cltreq.asp 2 -
+/Desktop%20Folder/WM/2008/2008WM_report.pdf 2 -
+/about.html 19 -
+/img/rule/08_1_IndoorAC%28JCF_EDITION_2007%29 1 -
+/http:/aviation_service.jpnz.jp 1 -
+/Desktop%20Folder/result/Kanto_shakaijin/2009KantoShakaiinSpringLeague.pdf 1 -
+/apple-touch-icon-precomposed.png 7 -
+/img/sponsor/img03.jpg 1 -
+/favicon.gif 1 -
+/img/botan/25.jpg 1 -
+/img/botan/19.jpg 1 -
+/img/botan/16.jpg 1 -
+/img/gura_hidari.jpg 1 -
+/kaigai 12 -
+/Desktop%20Folder/W-cup/oita/2009wc_Oita.html 2 -
+/http:/k_koukuuken_yoyaku.rentalurl.net 1 -
+/img/botan/26.jpg 1 -
+/Desktop%20Folder/Asian_champ/1-10_Asian_championships.mht 1 -
+/img/botan/14.jpg 1 -
+/asian.html 4 -
+/x-sjis 1 -
+/http:/nagano_geka.rentalurl.net 1 -
+/Desktop%20Folder/WM/2011/373news_20090806.pdf 1 -
+/img/gamesinfo/41JC-OL.pdf 2 -
+/img/botan/08.jpg 1 -
+/img/sponsor/img01.jpg 1 -
+/img/botan/15.jpg 1 -
+/img/botan/04.jpg 1 -
+/Desktop%20Folder/EA_Games/2009_East_Asian_Games.htm 2 -
+/url(data:image/png 7 -
+/img/kage_hidari.jpg 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 672
+92.249.127.111 176 176 5126528 20110930134036
+65.52.110.199 89 89 4037941 20110929133033
+193.106.136.36 83 83 2417624 20110920002656
+119.240.135.217 60 2363 7609419 20110928222932
+150.70.75.163 47 47 3154724 20110930162114
+220.156.77.117 44 1820 17184908 20110930080634
+202.248.38.10 38 835 1731989 20110930093334
+113.20.202.73 31 931 7727025 20110929235006
+216.104.15.130 31 31 2167863 20110929201751
+193.106.136.33 30 30 873840 20110927083825
+72.14.202.86 1 2 24174 20110929191003
+180.0.116.206 1 35 143683 20110911181538
+182.249.69.61 1 35 140004 20110930224924
+121.3.233.134 3 53 526854 20110929203812
+208.107.186.74 1 1 21478 20110919180524
+1.115.22.137 1 13 176839 20110902102554
+175.137.84.8 0 1 22053 
+66.219.58.41 19 19 409752 20110919204948
+122.214.7.233 13 90 1916055 20110925090517
+125.194.73.35 2 60 1290284 20110916184010
+27.54.106.184 4 54 542061 20110922191831
+124.146.119.75 1 50 478147 20110915111613
+49.240.55.250 2 2 42956 20110928183551
+202.219.226.19 10 404 1944759 20110921182035
+119.228.35.163 1 1 1117329 20110914024135
+211.7.186.178 1 35 359754 20110910214129
+93.197.106.44 18 18 402682 20110909075701
+203.131.252.116 28 28 612707 20110923190144
+62.231.141.195 2 2 42956 20110917113024
+50.16.173.88 1 1 21478 20110929222131
+114.160.47.53 3 60 606324 20110913190510
+79.211.145.1 0 1 22053 
+210.159.173.88 16 480 3503429 20110915172425
+77.1.30.67 0 1 22053 
+118.18.17.2 1 35 140004 20110902233643
+61.197.52.189 1 1 1957289 20110925211714
+121.115.123.33 3 60 1303713 20110921002009
+220.147.160.104 3 102 519204 20110924105601
+114.190.79.252 7 51 475770 20110923235820
+182.249.118.21 3 48 1034429 20110922011951
+121.84.121.138 1 50 0 20110903152609
+202.126.19.173 1 50 478147 20110929120553
+221.87.140.9 2 50 515203 20110922210051
+219.166.93.26 3 56 158000 20110914131203
+49.133.43.185 2 2 42956 20110917230805
+123.220.223.12 3 58 537785 20110915213811
+95.24.231.1 1 1 21478 20110926101954
+126.111.189.70 2 36 158000 20110920173036
+218.40.4.162 8 112 1157056 20110928155150
+121.83.64.130 6 67 1526079 20110912215924
+1.66.97.32 3 150 1434441 20110920135149
+60.238.179.99 2 57 643199 20110906164104
+174.125.94.231 1 1 21478 20110911090223
+158.217.200.12 1 35 140004 20110929145128
+115.165.68.143 5 69 928392 20110927163847
+88.67.166.18 0 1 22053 
+81.221.103.179 0 1 22053 
+217.92.54.179 0 1 22053 
+113.156.131.182 1 35 136292 20110904221523
+111.86.140.45 1 75 894530 20110920204516
+188.104.148.69 0 1 22053 
+157.55.112.239 1 2 27082 20110905171320
+211.121.233.99 8 303 2437352 20110929175021
+221.83.99.212 7 93 670001 20110922175741
+124.83.159.135 2 49 424481 20110909114849
+24.115.194.65 1 50 478147 20110917103222
+115.165.65.110 1 50 478147 20110909183921
+207.210.234.227 1 1 21478 20110902190046
+49.98.11.187 1 1 21478 20110906212149
+64.233.182.84 0 8 37311 
+218.119.142.7 9 218 568779 20110901143016
+217.238.92.7 1 1 21478 20110916111016
+122.213.144.39 0 10 38565 
+74.125.76.87 1 1 24534 20110920022031
+121.105.197.4 11 89 1987167 20110904174602
+74.125.152.84 1 10 44680 20110908152539
+216.104.15.138 24 24 2732331 20110929235334
+122.249.237.211 4 68 913185 20110914170554
+210.237.44.1 9 65 245990 20110929084928
+182.249.100.146 2 36 158000 20110910112516
+183.181.64.127 1 1 0 20110902113610
+126.25.77.166 9 122 1553636 20110925191427
+139.18.2.17 1 1 21478 20110921035908
+124.83.159.209 1 21 108601 20110923185337
+61.205.68.46 3 53 512933 20110906121513
+218.41.234.109 3 53 513632 20110915130118
+208.107.60.134 4 4 85912 20110915103052
+210.146.0.10 6 64 1374261 20110907180126
+61.202.225.65 4 78 220795 20110903141540
+222.14.132.227 4 61 1338610 20110930234158
+219.98.190.91 1 35 140004 20110902122852
+126.18.41.30 4 54 548332 20110913130705
+121.84.27.142 1 50 0 20110911092505
+124.83.159.141 2 49 424481 20110927113311
+202.253.96.241 1 14 79802 20110924174329
+59.190.133.218 6 237 1481942 20110922140504
+61.89.202.228 6 68 1440509 20110918040349
+221.170.24.30 2 50 29128 20110908230350
+219.160.212.156 2 36 158000 20110906094608
+118.109.38.18 6 204 1481058 20110913173539
+218.227.238.54 1 35 128414 20110911215125
+210.143.35.12 4 88 663401 20110921112209
+219.115.48.125 2 55 478147 20110924082814
+208.115.113.88 2 2 53662 20110928040712
+126.16.41.6 1 35 140004 20110928214042
+89.178.220.29 0 1 2477 
+126.29.10.215 15 545 1780177 20110929192301
+106.154.69.251 1 50 478147 20110901185207
+219.162.121.238 6 131 1461904 20110908194433
+77.1.0.238 0 1 22053 
+210.212.230.2 0 1 22053 
+60.32.9.84 0 23 185225 
+66.219.58.38 19 19 421581 20110910022907
+59.156.93.146 18 131 19579 20110930152431
+38.101.148.126 7 7 150346 20110930232927
+210.255.63.70 3 39 189250 20110920150800
+113.151.214.48 14 124 960055 20110928011752
+125.204.93.245 2 40 226338 20110919125737
+121.103.49.56 12 250 2664178 20110925011808
+133.1.90.160 1 35 140004 20110909095215
+114.178.236.78 1 35 128872 20110904230850
+210.175.212.222 2 36 144079 20110906115455
+49.133.9.18 1 50 478147 20110930122339
+125.54.162.47 6 62 666641 20110913063916
+121.102.57.86 5 182 1315526 20110910173822
+92.27.44.78 0 2 44106 
+180.147.88.236 2 52 495636 20110930130658
+121.220.7.237 0 1 22053 
+222.3.228.59 2 43 936949 20110925195935
+77.20.40.89 1 1 21478 20110913102847
+124.83.159.237 1 2 23955 20110915020745
+204.236.219.103 1 1 21478 20110928194933
+180.246.227.110 1 3 1161435 20110910124535
+202.148.255.205 1 50 478147 20110924211456
+61.193.168.193 10 63 1794770 20110928164156
+126.209.2.146 1 50 478147 20110923103838
+49.98.12.187 1 50 478147 20110920212726
+219.115.51.112 2 84 830727 20110901203633
+210.174.198.35 4 33 345439 20110912173642
+49.134.135.150 2 36 168208 20110909001515
+59.166.94.68 1 1 650646 20110903223250
+72.14.202.85 0 4 61224 
+126.144.214.243 1 35 140004 20110914094556
+220.99.32.94 3 66 1314828 20110910075301
+150.70.64.194 10 10 212140 20110930034940
+217.115.140.62 5 5 122915 20110908191044
+209.85.226.82 0 1 22053 
+114.178.235.21 1 49 475670 20110911211956
+133.215.123.4 1 35 128872 20110928161217
+122.133.182.80 1 35 140004 20110923161816
+194.9.121.93 0 1 22053 
+74.125.152.87 0 8 73484 
+77.1.14.158 0 1 22053 
+210.143.141.201 16 326 1023862 20110926104250
+124.146.114.251 1 1 1117329 20110919115531
+117.104.43.164 2 52 497726 20110908195646
+114.188.58.68 1 1 21478 20110916214719
+121.84.29.68 1 50 0 20110928195906
+118.8.157.244 1 50 478147 20110903222138
+1.66.100.96 1 29 236323 20110912112300
+74.125.152.83 1 18 77954 20110920111359
+221.71.97.232 3 76 321469 20110904172528
+114.144.153.214 2 100 956294 20110913003249
+85.180.27.182 0 1 22053 
+203.136.23.105 1 50 478147 20110909112407
+123.108.237.244 0 5 9977 
+87.180.72.221 0 1 22053 
+210.229.137.84 1 21 133779 20110918124527
+221.249.114.109 1 50 478147 20110927112922
+220.1.120.163 9 257 1373865 20110930210355
+184.154.48.82 6 6 117724 20110929074217
+74.125.76.86 0 1 22053 
+121.84.0.207 2 52 508858 20110903121010
+120.75.177.129 1 1 1957289 20110903124305
+180.10.98.4 1 35 140004 20110910233650
+133.97.13.61 6 81 1804807 20110924140033
+202.179.226.201 6 203 1961295 20110926020141
+202.95.41.183 2 39 166707 20110910174425
+1.114.151.3 6 68 1453731 20110926214133
+69.71.222.186 1 1 21478 20110901064651
+61.89.106.14 3 76 344569 20110915160304
+218.213.132.195 12 12 272002 20110925061100
+1.66.103.166 1 50 478147 20110914210559
+202.122.28.15 2 68 886595 20110911100409
+217.7.77.114 0 1 22053 
+220.145.211.199 18 279 2059315 20110909175140
+124.25.10.215 9 72 1587412 20110908004034
+64.233.182.83 2 12 710260 20110923231503
+66.176.11.70 1 1 21478 20110923151103
+121.113.249.69 2 40 237470 20110911103130
+216.104.15.134 29 29 668658 20110930234647
+183.181.62.22 3 56 618763 20110917145148
+173.242.125.191 2 2 42956 20110921133244
+64.39.108.5 1 1 21478 20110904193844
+180.10.34.253 1 35 143683 20110913232153
+119.150.122.62 6 232 1371554 20110927141254
+221.170.50.221 2 52 508858 20110930014217
+178.196.56.150 1 2 1139382 20110906202246
+1.66.98.218 1 35 140004 20110914095010
+210.249.70.142 1 50 478147 20110926135718
+124.83.159.197 1 14 178856 20110930002115
+208.71.235.4 0 1 22053 
+62.2.240.66 0 1 22053 
+64.233.182.87 0 7 46662 
+112.139.56.1 1 35 143683 20110911001449
+60.45.168.10 1 51 480624 20110913232243
+122.20.253.29 1 1 1957289 20110924150008
+91.198.212.16 1 1 21478 20110922223056
+61.46.229.236 3 55 529434 20110920214003
+220.111.121.174 1 50 478147 20110930062542
+58.157.43.250 1 50 478147 20110930235024
+125.14.5.47 6 69 1508602 20110919031832
+122.100.185.117 0 1 22053 
+74.125.152.86 0 8 163093 
+111.108.225.20 7 104 1577598 20110927121658
+112.136.9.123 1 50 478147 20110926121524
+124.146.65.27 1 35 128872 20110917132525
+203.109.154.62 5 5 9786445 20110907104414
+210.171.15.34 4 50 1129546 20110915145906
+14.128.115.216 2 38 160580 20110909024814
+82.165.37.69 2 2 42956 20110919192353
+49.133.66.113 2 2 42956 20110913194408
+182.249.111.59 1 50 478147 20110915154046
+126.244.172.221 1 1 438456 20110928054329
+174.136.26.114 2 2 50606 20110911124125
+77.57.206.140 1 1 1957289 20110920170822
+124.212.129.98 2 100 956294 20110930152259
+110.133.184.130 3 53 519204 20110918125337
+118.22.170.161 3 53 495105 20110908003255
+123.221.8.37 1 50 0 20110904081452
+205.173.168.1 0 2 44106 
+124.146.113.163 8 80 1788805 20110923100053
+193.190.147.2 0 1 22053 
+94.23.42.135 3 3 64434 20110926163008
+114.166.161.124 2 38 155472 20110919152241
+126.224.254.123 2 36 158000 20110918132048
+126.203.114.49 1 35 140004 20110905032308
+125.197.210.100 2 85 508858 20110921055335
+91.64.188.232 1 1 21478 20110904111835
+219.44.253.254 5 57 658940 20110929231010
+114.188.179.72 4 39 197330 20110903221642
+80.144.3.62 0 1 22053 
+123.108.237.245 1 8 42643 20110918035805
+95.24.149.120 0 1 2477 
+49.133.32.252 2 2 42956 20110914100005
+219.115.88.209 1 50 478147 20110903091714
+126.243.81.86 1 18 591715 20110930223238
+114.172.205.161 1 35 128872 20110906175715
+122.214.204.35 21 905 6887320 20110930180732
+124.146.238.212 2 52 508858 20110929141850
+119.27.62.254 2 2 42956 20110916110018
+139.18.2.209 1 1 21478 20110919112223
+125.197.140.212 1 50 478147 20110923063236
+95.25.140.57 1 1 21478 20110908124007
+93.219.117.163 1 1 21478 20110903050940
+114.169.106.185 1 35 140004 20110923214658
+61.124.235.75 9 108 1573117 20110926140500
+118.4.251.222 3 93 1305803 20110926191540
+95.24.90.55 0 1 2477 
+114.48.144.239 3 58 818395 20110926202501
+202.253.96.243 0 15 68998 
+115.87.8.79 0 1 22053 
+119.25.22.6 9 70 1458272 20110924133024
+61.127.99.5 3 106 577196 20110919212129
+220.57.30.85 1 50 478147 20110911173926
+210.153.87.129 0 12 33387 
+180.0.80.190 27 27 579906 20110902060529
+116.80.108.252 4 56 641797 20110926005335
+84.167.253.223 1 1 1957289 20110904230255
+211.10.250.10 14 256 1604319 20110920185121
+91.221.59.5 0 1 22053 
+95.117.192.15 0 1 22053 
+49.132.252.4 1 50 478147 20110916083252
+74.52.245.146 1 1 21478 20110907053128
+49.133.65.38 2 2 42956 20110914233722
+124.37.143.51 3 43 257588 20110922022521
+202.212.26.48 1 1 1117329 20110920154738
+64.233.182.86 0 9 172180 
+110.133.183.2 9 67 1447319 20110903182731
+183.74.4.50 1 50 478147 20110917103356
+119.26.96.54 1 50 478147 20110903233655
+1.147.58.222 0 1 22053 
+61.45.114.41 10 217 1692653 20110906213131
+87.173.10.222 1 1 21478 20110908074126
+1.72.1.149 1 50 478147 20110908091846
+180.27.24.197 1 35 143683 20110914061203
+125.192.99.63 20 530 695869 20110909025237
+221.170.42.141 1 2 0 20110916002636
+138.101.114.43 3 37 188018 20110912235633
+74.125.152.85 1 11 174013 20110919133800
+210.153.87.34 1 13 130081 20110919024716
+80.202.153.139 1 1 21478 20110926005117
+126.30.8.30 1 50 478147 20110917223540
+219.198.234.190 3 108 26117 20110929212120
+193.247.250.15 0 1 22053 
+79.254.155.113 0 1 22053 
+59.156.85.2 3 102 982411 20110921160614
+184.91.50.114 0 1 22053 
+85.70.160.121 0 1 22053 
+188.167.97.233 0 1 22053 
+85.1.149.244 0 1 22053 
+67.207.136.128 2 2 42956 20110926162306
+49.98.7.238 1 50 478147 20110929104523
+126.228.28.15 2 70 280008 20110930000742
+202.222.153.175 2 56 577196 20110920155639
+202.7.99.15 1 50 478147 20110922122526
+194.209.7.34 1 2 1979342 20110928161131
+221.170.29.22 1 2 0 20110904141853
+202.229.136.120 1 50 478147 20110924215740
+118.156.156.82 13 166 2037433 20110930165509
+118.7.38.253 1 12 0 20110921220224
+195.65.248.66 0 1 22053 
+119.231.176.78 9 62 1425974 20110904103557
+150.70.75.33 9 9 197470 20110929142100
+222.147.87.198 7 46 288412 20110924152023
+91.116.170.8 0 1 22053 
+205.209.190.116 3 3 66709 20110917031930
+210.250.151.3 2 62 759294 20110905120831
+119.107.224.166 1 35 128872 20110904004213
+1.66.99.95 2 100 956294 20110922080406
+219.166.146.21 1 35 140004 20110930134950
+219.115.48.124 1 50 478147 20110917223700
+126.247.220.162 2 56 169132 20110923213121
+220.51.162.111 5 105 2120807 20110916045125
+180.16.47.175 1 50 478147 20110924114536
+101.142.6.51 3 71 298004 20110927230313
+80.254.148.115 0 1 22053 
+49.133.57.143 2 2 35076 20110920004222
+64.233.182.85 0 11 109669 
+123.225.163.1 1 50 478147 20110910051056
+38.100.21.18 18 19 405159 20110909120556
+126.228.11.14 2 40 241149 20110930002138
+221.63.134.1 1 50 478147 20110908212937
+66.219.58.42 8 8 168327 20110912083150
+91.66.250.167 1 1 21478 20110919122942
+220.41.144.12 1 50 478147 20110916102459
+210.143.35.19 1 50 478147 20110916132205
+219.116.192.175 1 35 128872 20110921174043
+49.133.37.175 2 2 42956 20110914195644
+59.135.222.234 5 89 1103224 20110925235508
+219.117.176.120 1 50 478147 20110916123638
+118.18.183.244 14 82 1049345 20110929130035
+72.14.202.80 1 5 43586 20110922213251
+111.216.180.252 7 91 542061 20110901013149
+123.108.237.246 0 11 54097 
+92.106.208.27 0 1 22053 
+210.165.117.197 1 50 478147 20110910222420
+83.64.49.242 0 1 22053 
+213.47.69.106 0 1 22053 
+210.136.248.80 1 35 140004 20110922215700
+211.15.44.241 4 112 577196 20110908133350
+1.113.106.67 3 73 1027274 20110917134552
+82.128.206.87 1 1 21478 20110930180421
+202.253.246.3 1 36 128872 20110921190306
+124.83.159.215 2 59 713346 20110921024644
+126.189.233.125 2 52 508858 20110906220447
+220.254.238.226 1 35 128872 20110924104701
+122.133.109.99 4 54 546242 20110922195838
+211.19.34.130 1 35 359754 20110912114151
+202.248.222.28 27 479 4279879 20110927083326
+202.224.163.78 1 50 478147 20110917013614
+133.127.68.71 6 37 420225 20110921212728
+218.216.182.193 5 66 1422657 20110902203924
+207.46.204.218 1 1 650646 20110929051818
+122.134.253.112 3 53 519204 20110925220653
+218.221.43.17 1 7 51293 20110904234150
+49.133.58.34 2 2 43928 20110919171144
+193.169.234.40 1 1 21478 20110921105925
+113.43.16.85 1 35 140004 20110904212908
+219.115.88.84 1 50 478147 20110919182250
+122.102.188.137 2 36 158000 20110905071003
+222.159.117.253 1 50 0 20110909100044
+207.46.13.95 4 4 0 20110901143333
+111.107.210.225 1 35 140004 20110929011537
+174.124.253.159 1 1 21478 20110924155207
+218.222.199.18 7 67 1394650 20110906192606
+95.117.222.186 0 1 22053 
+118.141.232.80 1 1 1957289 20110918085710
+133.127.68.253 3 30 1508036 20110921212508
+119.230.123.207 1 50 478147 20110905190427
+218.213.138.9 1 1 25864 20110907164305
+193.106.136.51 6 6 174768 20110921052912
+203.135.194.97 1 50 478147 20110922154832
+180.18.115.169 1 50 478147 20110917190457
+219.18.130.56 4 4 116512 20110918195635
+125.196.125.132 1 54 495758 20110921203333
+221.170.40.168 1 2 0 20110914224625
+202.211.115.27 1 2 0 20110907085027
+77.20.40.173 2 2 42956 20110924033256
+218.116.214.12 1 51 480624 20110915201102
+124.209.127.74 1 50 478147 20110919130706
+150.70.97.38 2 2 50606 20110922071751
+60.40.240.146 2 84 504264 20110927161500
+220.110.237.220 2 52 508858 20110913233948
+110.74.121.23 9 74 1574299 20110924111710
+211.17.77.157 2 68 133815 20110906105228
+95.23.149.72 1 1 1957289 20110904195553
+210.238.226.126 3 48 1034415 20110921190907
+173.242.125.206 2 2 42956 20110914100837
+74.125.152.80 0 5 24013 
+72.14.202.87 0 5 116251 
+83.240.1.142 0 1 22053 
+125.15.202.205 4 157 643199 20110901201054
+178.25.65.179 0 1 22053 
+219.165.176.228 1 2 24441 20110908132719
+118.7.33.43 1 31 0 20110919165513
+219.25.250.5 1 35 140004 20110930003156
+113.146.86.190 4 75 1061238 20110926233747
+193.106.136.58 15 15 436920 20110930164438
+115.65.62.53 2 100 659662 20110928103522
+218.213.130.192 15 15 331526 20110921005914
+49.133.67.175 2 2 58256 20110918213649
+210.249.13.22 1 50 478147 20110910122256
+69.58.178.59 11 11 252218 20110908021112
+114.148.70.157 2 66 866061 20110913093006
+220.104.40.46 1 50 478147 20110920211505
+123.108.237.225 0 9 17144 
+210.159.173.37 4 136 1008528 20110927085647
+114.48.83.222 3 53 526854 20110902121048
+94.217.184.232 0 1 22053 
+193.106.136.45 27 27 786456 20110904153058
+64.233.182.80 0 6 24404 
+175.135.42.43 1 35 143683 20110918225840
+123.108.237.227 0 3 7387 
+157.73.28.44 1 50 478147 20110914174830
+219.94.162.14 1 1 29128 20110914041354
+64.233.182.82 0 4 56086 
+202.208.163.162 27 807 11067674 20110929123040
+91.198.212.14 1 1 21478 20110929130410
+182.249.118.15 4 54 542061 20110924120218
+212.118.224.149 0 1 22053 
+91.60.226.65 0 1 22053 
+121.119.155.1 4 47 978756 20110912222940
+203.211.50.243 1 1 1957289 20110917083448
+184.73.131.87 1 1 21478 20110914155314
+119.230.75.173 6 194 1816605 20110913151935
+118.7.39.36 1 2 0 20110923215415
+79.250.117.178 0 1 22053 
+218.213.132.189 26 26 564184 20110930034300
+210.197.98.14 1 39 208342 20110907093945
+126.162.221.26 1 35 140004 20110913023521
+110.54.13.197 1 50 478147 20110907163423
+202.208.44.161 3 55 540566 20110922232357
+222.228.175.25 1 50 478147 20110911211317
+210.165.191.68 2 19 17996 20110907131757
+131.112.125.102 1 50 478147 20110929114718
+195.65.209.234 0 1 22053 
+95.117.198.16 0 1 22053 
+133.127.68.70 1 42 780788 20110921212646
+125.206.236.65 4 53 583265 20110929230524
+114.153.11.236 2 52 497726 20110921200505
+221.170.20.96 1 50 478147 20110928024210
+121.2.120.108 19 266 1691603 20110923233434
+74.125.152.82 1 12 91459 20110923193636
+133.45.225.226 2 52 508858 20110930120659
+202.34.246.165 0 3 0 
+61.12.167.201 2 59 1287807 20110919014009
+202.222.32.58 4 43 336676 20110914212506
+61.192.98.205 2 36 158000 20110930014549
+133.127.68.252 1 29 2254066 20110921212423
+158.217.131.253 1 35 140004 20110926144429
+77.20.40.169 1 1 21478 20110916035605
+216.104.15.142 23 23 1976741 20110929235340
+110.163.221.121 5 55 572866 20110926192336
+174.252.200.76 0 1 22053 
+220.146.121.62 1 50 478147 20110914232827
+119.26.118.230 7 61 640413 20110917231430
+38.108.67.31 2 2 3074618 20110919115830
+113.197.199.13 1 50 478147 20110927143831
+121.84.0.152 1 50 478147 20110918085257
+72.14.202.82 0 2 5366 
+49.133.38.59 2 2 42956 20110915133039
+221.113.227.140 1 50 478147 20110928002930
+220.63.238.144 3 90 497726 20110901211423
+210.230.187.147 2 66 866061 20110920122318
+125.205.157.248 1 35 0 20110913085104
+180.12.162.221 3 57 598674 20110907125313
+84.158.157.99 0 1 22053 
+49.132.11.67 2 52 494937 20110911040050
+210.235.81.184 2 99 866061 20110905200354
+208.115.111.73 8 8 194694 20110917025111
+114.166.187.190 1 50 478147 20110927024924
+122.225.222.98 1 1 21478 20110911104719
+92.198.15.102 0 1 22053 
+188.138.121.24 1 1 21478 20110903041737
+114.176.142.231 5 47 2962319 20110910175749
+202.253.96.242 0 7 28799 
+75.57.117.73 0 1 22053 
+209.85.224.86 0 1 22053 
+126.162.98.185 2 54 501705 20110918225840
+124.214.251.137 1 50 478147 20110926182522
+211.125.138.169 0 3 0 
+78.42.133.230 0 1 22053 
+202.208.167.227 5 56 569830 20110914151826
+1.115.112.33 1 50 478147 20110914132551
+133.10.177.22 1 35 140004 20110919123101
+219.23.234.19 8 385 3372735 20110929210423
+221.170.27.217 1 1 21478 20110915022123
+119.231.133.48 4 61 776138 20110903132634
+119.228.48.222 4 45 981284 20110915101458
+121.1.202.26 10 500 4759992 20110929161417
+210.233.47.64 6 64 1380532 20110926173304
+91.47.95.130 0 40 79353 
+210.143.35.21 1 50 478147 20110929132004
+122.135.203.202 12 78 1674678 20110918215245
+60.56.193.166 1 35 140004 20110902145202
+112.68.173.153 1 50 478147 20110927203837
+194.169.216.228 1 2 1139382 20110909152015
+124.103.205.181 1 50 478147 20110925220531
+218.226.5.253 1 50 478147 20110905161536
+118.16.192.208 8 70 1487633 20110925201336
+122.213.144.37 1 28 365635 20110909142747
+121.110.98.213 1 36 134966 20110921094617
+24.115.192.11 2 100 956294 20110908124231
+221.189.179.90 2 52 497726 20110924171934
+72.14.202.84 0 4 149414 
+182.249.50.98 4 74 624322 20110917235436
+110.4.239.175 1 50 478147 20110925225057
+88.190.241.180 1 1 25864 20110915132237
+65.19.12.111 0 1 22053 
+130.83.167.153 1 1 21478 20110928061646
+220.156.103.65 1 35 128872 20110920144904
+121.84.148.192 5 187 2076817 20110929222826
+198.6.73.7 0 1 22053 
+123.108.237.226 1 13 84445 20110903154336
+217.254.19.79 1 35 126083 20110922035522
+180.144.73.148 6 113 1349314 20110922213324
+173.236.21.106 3 3 64434 20110913094415
+219.106.224.41 3 74 1674138 20110909180341
+69.64.46.38 1 1 21478 20110906064128
+221.170.51.114 1 1 0 20110912210902
+182.166.31.77 7 70 1537730 20110909221059
+211.1.214.181 1 50 478147 20110904235945
+125.103.229.221 1 51 480624 20110911140312
+182.249.102.211 1 35 140004 20110919103031
+110.165.182.15 1 50 478147 20110923201054
+180.12.168.214 1 50 478147 20110904141820
+180.18.249.231 10 160 1795727 20110917174802
+182.249.85.250 3 53 526854 20110902094300
+210.153.87.130 0 13 135859 
+124.215.201.5 1 50 478147 20110916110018
+125.197.109.23 1 35 140004 20110909210512
+219.22.178.9 9 229 1888009 20110918071218
+126.28.76.199 2 36 158000 20110926151755
+113.33.116.170 1 1 21478 20110917063823
+115.65.62.207 2 100 98208 20110929181523
+219.166.252.251 2 52 0 20110921123512
+220.219.185.206 1 50 478147 20110924072526
+180.131.109.117 0 3 22053 
+122.26.76.44 1 35 140004 20110913194930
+182.167.9.203 1 35 140004 20110915230429
+110.133.179.106 1 34 133815 20110905073537
+195.245.237.7 0 1 22053 
+111.107.136.110 1 50 478147 20110919214112
+219.102.205.158 8 269 2294707 20110910201757
+178.192.204.60 0 1 22053 
+49.133.36.166 2 2 42956 20110916122455
+202.248.41.114 1 35 121524 20110927081249
+114.51.69.128 1 50 478147 20110922203454
+202.226.144.75 1 50 478147 20110911110659
+124.212.241.32 14 98 2238374 20110905211630
+111.171.192.131 1 2 23955 20110929183329
+121.113.164.97 3 94 1427811 20110923081456
+61.23.30.80 1 50 478147 20110907222207
+118.159.131.37 1 1 1117329 20110929191846
+182.249.112.222 1 35 140004 20110911194618
+121.83.83.34 6 98 101819 20110929152947
+210.165.190.147 1 1 21478 20110921172545
+27.230.248.100 2 39 166674 20110925215138
+49.98.8.187 2 51 499625 20110924161738
+119.228.167.88 2 52 495636 20110922172117
+81.83.0.196 0 1 22053 
+180.11.146.44 11 77 1727108 20110921150548
+118.105.206.215 1 1 650646 20110902101700
+193.247.250.59 0 1 22053 
+218.119.142.11 2 85 314849 20110929214059
+113.41.14.121 1 50 478147 20110930193908
+180.175.16.206 6 84 3129442 20110930120817
+203.165.172.249 1 35 128872 20110917213059
+85.4.146.53 0 1 22053 
+221.187.46.89 3 101 977772 20110916152300
+202.175.121.106 0 1 22053 
+178.158.140.162 1 1 21478 20110929173945
+85.180.25.163 0 1 22053 
+86.62.104.225 0 1 22053 
+72.14.202.83 0 3 40531 
+46.0.69.173 1 1 21964 20110918224756
+88.159.78.86 4 4 85912 20110928171412
+1.169.181.231 3 72 966004 20110911232032
+72.14.202.81 0 7 41229 
+180.0.116.204 1 1 1957289 20110906064839
+79.160.67.219 0 1 22053 
+111.89.234.230 7 238 2087378 20110920202749
+67.21.207.20 1 1 21478 20110915224815
+61.12.235.12 1 50 478147 20110913214911
+203.174.79.131 5 59 645798 20110927174200
+111.86.140.41 5 151 1373055 20110925231316
+110.133.188.172 2 68 267630 20110909210555
+210.143.66.126 1 35 133065 20110910165344
+220.145.31.119 2 100 0 20110908162123
+220.219.90.248 1 50 0 20110925233445
+143.238.135.181 0 1 22053 
+217.235.150.211 0 1 22053 
+49.132.17.194 3 52 521103 20110925110826
+118.8.90.203 1 50 478147 20110903235540
+180.10.108.56 1 50 478147 20110926163642
+61.23.34.173 13 180 1620879 20110929101509
+119.240.119.68 1 51 500200 20110901004756
+218.220.60.65 2 100 478147 20110914230029
+124.83.159.13 0 1 147473 
+183.74.1.152 2 36 144079 20110910233805
+122.213.144.38 1 16 107238 20110909142739
+220.211.188.17 2 2 42956 20110902075500
+59.129.144.241 1 35 128872 20110921231812
+210.153.87.33 0 12 178820 
+202.248.41.56 2 36 144079 20110912130251
+122.249.236.234 3 64 1385273 20110909131200
+221.170.33.230 1 1 0 20110920011222
+82.113.99.39 0 1 22053 
+163.209.228.65 3 71 963527 20110922152534
+220.96.131.151 3 72 524764 20110917234133
+183.176.90.245 1 59 504686 20110913021918
+207.46.12.18 1 2 35284 20110924085315
+122.22.1.6 18 352 1170730 20110928164514
+180.36.88.26 3 53 512933 20110903100918
+114.145.214.61 6 176 1020853 20110902143702
+202.253.96.244 1 6 39603 20110924005551
+150.70.172.105 7 7 150346 20110930180951
+182.166.17.73 4 185 1574445 20110916225823
+202.208.185.14 14 165 4799109 20110920175822
+211.11.155.20 0 6 159143 
+206.183.1.74 5 5 105449 20110903065702
+58.188.236.240 8 122 2012455 20110926175150
+114.146.73.169 6 57 612765 20110912192005
+62.231.141.193 1 1 21478 20110912092557
+74.125.152.81 0 7 23472 
+219.103.114.48 2 36 116541 20110901083111
+111.89.34.31 1 50 478147 20110905103334
+218.42.144.111 3 107 643199 20110925154029
+222.0.158.16 1 51 480624 20110930234518
+223.133.224.78 2 56 169132 20110930114100
+121.84.150.242 1 50 478147 20110916170156
+210.231.102.206 1 50 478147 20110927134032
+95.220.242.202 1 1 21478 20110917034216
+114.48.151.109 1 50 478147 20110913031945
+114.51.131.51 1 50 478147 20110910005217
+61.197.200.133 1 50 478147 20110920161245
+118.7.26.134 3 103 46012 20110911225039
+123.108.237.228 0 10 31028 
+113.151.35.24 2 38 171712 20110901145148
+123.108.237.243 2 13 72682 20110918035805
+221.47.234.176 5 65 1452351 20110923205023
+101.142.145.45 3 38 168202 20110909181045
+122.215.197.132 2 109 158000 20110914173731
+77.186.46.223 0 1 22053 
+118.157.102.22 1 50 478147 20110921190804
+188.138.90.118 1 1 21478 20110913132546
+184.82.131.106 1 1 21478 20110905132528
+72.94.249.37 1 1 21478 20110920131419
+217.66.160.4 0 1 22053 
+221.170.45.198 1 50 478147 20110923231853
+218.119.142.10 3 104 989585 20110922214933
+182.164.49.27 7 69 1449757 20110913003756
+220.111.132.91 4 121 497726 20110922161309
+123.227.246.32 2 50 530014 20110925233444
+210.174.198.37 0 27 281461 
+64.233.182.81 1 6 79550 20110929191010
+204.9.180.249 1 1 21478 20110908001703
+126.28.166.7 1 50 478147 20110913211430
+126.229.114.11 2 70 280008 20110914033213
+114.176.134.135 13 270 2533549 20110926202107
+219.114.70.234 1 50 478147 20110908202327
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20110901 82 1415 9531430 39
+20110902 90 739 10802409 30
+20110903 104 1103 16778012 50
+20110904 68 698 10979577 28
+20110905 51 890 8362202 34
+20110906 77 1163 15998182 31
+20110907 81 852 19397084 45
+20110908 77 902 9918997 34
+20110909 156 2401 18484554 43
+20110910 105 2116 16140894 38
+20110911 54 1042 9884540 36
+20110912 80 789 10917324 33
+20110913 83 1403 14174390 45
+20110914 80 1564 9924829 37
+20110915 59 910 8609670 32
+20110916 88 1384 13228011 46
+20110917 70 1102 12969014 35
+20110918 77 935 12932712 32
+20110919 90 1010 14248321 46
+20110920 85 1763 19123406 51
+20110921 119 1728 21567545 60
+20110922 84 1720 14873558 40
+20110923 109 1767 14749637 39
+20110924 78 1041 13354828 34
+20110925 99 1457 18508588 31
+20110926 115 1825 17130116 48
+20110927 60 1375 9722693 32
+20110928 64 898 11191380 34
+20110929 96 1712 14632237 52
+20110930 98 1689 15158693 38
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 55
+15mn-30mn 23
+30s-2mn 104
+2mn-5mn 63
+0s-30s 898
+30mn-1h 21
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/ 899 15292336 674 547
+/calendar.html 577 15787376 220 240
+/tournament.html 196 3131304 71 49
+/news.html 117 1535907 14 39
+/report.html 106 2016360 23 39
+/gallery.html 93 1530850 9 22
+/soccer.html 73 1623930 10 29
+/link.html 64 1324836 17 36
+/renmei.html 63 1673157 18 22
+/figur.html 61 1448384 9 19
+/images/rule/08_1_IndoorCB(JCF_EDITION_2007) 3 3351987 2 2
+/images/rule/08_1_IndoorCB%28JCF_EDITION_2007%29 13 14525277 11 11
+/images/tournament/41AllJapan.pdf 8 3507648 5 6
+/sponsor.html 57 872814 5 17
+/comingsoon.html 37 524898 7 15
+/club.html 55 1027152 14 11
+/calendar2009.html 14 243414 8 7
+/images/rule/figurkisoku20080101.pdf 2 3949882 1 1
+/images/rule/14_Anti-Doping.pdf 10 6506460 8 10
+/rule.html 50 966416 17 12
+/doping.html 41 648906 10 14
+/images/rule/08_1_IndoorAC%28JCF_EDITION_2007%29 19 37188491 15 16
+/calendar2010.html 12 282040 5 6
+/images/rule/soccerkisoku20101001.pdf 9 5644415 0 3
+END_SIDER

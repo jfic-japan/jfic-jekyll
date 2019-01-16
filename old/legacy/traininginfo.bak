@@ -1,0 +1,551 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+<meta name="generator" content="JustSystems Homepage Builder Version 16.0.7.0 for Windows">
+<meta http-equiv="Content-Style-Type" content="text/css">
+		<title>日本室内自転競技連盟</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="table.css" id="HPB_TABLE_CSS_ID_">
+<script type="text/javascript">
+			<script><!--
+CSInit = new Array;
+function CSScriptInit() {
+if(typeof(skipPage) != "undefined") { if(skipPage) return; }
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+
+function CSClickReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return true; // dont follow link
+	else return false; // dont follow link
+}
+
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}
+			if(i != 0)
+				self.status = CSIm[n][3];
+			else
+				self.status = " ";
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(action) {
+	im = action[1];
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=2;i<5;i++) {
+			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }
+			else CSIm[im][i-2] = 0;
+		}
+		CSIm[im][3] = action[5];
+	}
+}
+CSStopExecution = false;
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		if (actArray == null) return false;
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+
+
+// --></script>
+		</csscriptdict>
+		<csscriptdict>
+			<script><!--
+CSInit = new Array;
+function CSScriptInit() {
+if(typeof(skipPage) != "undefined") { if(skipPage) return; }
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+
+function CSClickReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return true; // dont follow link
+	else return false; // dont follow link
+}
+
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}
+			if(i != 0)
+				self.status = CSIm[n][3];
+			else
+				self.status = " ";
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(action) {
+	im = action[1];
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=2;i<5;i++) {
+			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }
+			else CSIm[im][i-2] = 0;
+		}
+		CSIm[im][3] = action[5];
+	}
+}
+CSStopExecution = false;
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		if (actArray == null) return false;
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+
+
+// --></script>
+		</csscriptdict>
+		<csactiondict>
+			<script><!--
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button',/*URL*/'home1.jpg',/*URL*/'home2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button2',/*URL*/'calender2.jpg',/*URL*/'calendar1.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button3',/*URL*/'kisoku1.jpg',/*URL*/'kisoku2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button4',/*URL*/'doping1.jpg',/*URL*/'doping2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button5',/*URL*/'renmei1.jpg',/*URL*/'renmei2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button6',/*URL*/'club1.jpg',/*URL*/'club2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button7',/*URL*/'link1.jpg',/*URL*/'link2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button8',/*URL*/'contact1.jpg',/*URL*/'contact2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button9',/*URL*/'gallery1.jpg',/*URL*/'gallery2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button10',/*URL*/'report1.jpg',/*URL*/'report2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button11',/*URL*/'taikai1.jpg',/*URL*/'taikai2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button12',/*URL*/'news1.jpg',/*URL*/'news2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button13',/*URL*/'sponsor1.jpg',/*URL*/'sponsor2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button16',/*URL*/'english1.jpg',/*URL*/'english2.jpg',/*URL*/'','');
+
+// --></script>
+<SCRIPT type="text/javascript" language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  (C) 2010 株式会社ジャストシステム
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT>
+<SCRIPT type="text/javascript" language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('button', 'home1.jpg', 'home2.jpg');
+HpbImgPreload('button3', 'kisoku1.jpg', 'kisoku2.jpg');
+HpbImgPreload('button4', 'doping1.jpg', 'doping2.jpg');
+HpbImgPreload('button5', 'renmei1.jpg', 'renmei2.jpg');
+HpbImgPreload('button6', 'club1.jpg', 'club2.jpg');
+HpbImgPreload('button7', 'link1.jpg', 'link2.jpg');
+HpbImgPreload('button8', 'contact1.jpg', 'contact2.jpg');
+HpbImgPreload('button9', 'gallery1.jpg', 'gallery2.jpg');
+HpbImgPreload('button10', 'report1.jpg', 'report2.jpg');
+HpbImgPreload('button11', 'taikai1.jpg', 'taikai2.jpg');
+HpbImgPreload('button12', 'news1.jpg', 'news2.jpg');
+HpbImgPreload('button13', 'sponsor1.jpg', 'sponsor2.jpg');
+HpbImgPreload('button16', 'english1.jpg', 'english2.jpg');
+HpbImgPreload('HPB_ROLLOVER1', 'calendar1.jpg', 'calender2.jpg');
+//-->
+</SCRIPT>
+		</csactiondict>
+	</head>
+<body onload="CSScriptInit();" topmargin="0" marginheight="0" bgcolor="#bdbdbd">
+<DIV align="center">
+  <TABLE border="0" cellpadding="0" cellspacing="0" width="800">
+				<tr>
+					<td colspan="2"><A href="http://www.jfic-japan.com/index.html"><IMG src="heder2.jpg" width="940" height="50" border="0"></A></td>
+				</tr>
+				<tr>
+					<td colspan="2"><csobj w="54" h="20" t="Button" ht="home2.jpg"><a href="http://www.jfic-japan.com/index.html" onmouseover="HpbImgSwap('button', 'home2.jpg');" onmouseout="HpbImgSwap('button', 'home1.jpg');" onclick="return CSButtonReturn()" id="button" name="button"><img src="home1.jpg" width="54" height="20" name="button" border="0"></a></csobj><csobj w="77" h="20" t="Button" ht="calendar1.jpg"><a href="http://www.jfic-japan.com/calendar.html" onmouseover="HpbImgSwap('button2', 'calender2.jpg');" onmouseout="HpbImgSwap('button2', 'calender1.jpg');" onclick="return CSButtonReturn()" id="button2" name="button2"><img src="calendar1.jpg" width="77" height="20" name="button2" border="0"></a></csobj><csobj w="65" h="20" t="Button" ht="kisoku2.jpg"><a href="http://www.jfic-japan.com/rule.html" onmouseover="HpbImgSwap('button3', 'kisoku2.jpg');" onmouseout="HpbImgSwap('button3', 'kisoku1.jpg');" onclick="return CSButtonReturn()" id="button3" name="button3"><img src="kisoku1.jpg" width="65" height="20" name="button3" border="0"></a></csobj><csobj w="105" h="20" t="Button" ht="doping2.jpg"><a href="http://www.jfic-japan.com/doping.html" onmouseover="HpbImgSwap('button4', 'doping2.jpg');" onmouseout="HpbImgSwap('button4', 'doping1.jpg');" onclick="return CSButtonReturn()" id="button4" name="button4"><img src="doping1.jpg" width="105" height="20" name="button4" border="0"></a></csobj><csobj w="65" h="20" t="Button" ht="renmei2.jpg"><a href="http://www.jfic-japan.com/renmei.html" onmouseover="HpbImgSwap('button5', 'renmei2.jpg');" onmouseout="HpbImgSwap('button5', 'renmei1.jpg');" onclick="return CSButtonReturn()" id="button5" name="button5"><img src="renmei1.jpg" width="65" height="20" name="button5" border="0"></a></csobj><csobj w="77" h="20" t="Button" ht="club2.jpg"><a href="http://www.jfic-japan.com/club.html" onmouseover="HpbImgSwap('button6', 'club2.jpg');" onmouseout="HpbImgSwap('button6', 'club1.jpg');" onclick="return CSButtonReturn()" id="button6" name="button6"><img src="club1.jpg" width="77" height="20" name="button6" border="0"></a></csobj><csobj w="50" h="20" t="Button" ht="link2.jpg"><a href="http://www.jfic-japan.com/link.html" onmouseover="HpbImgSwap('button7', 'link2.jpg');" onmouseout="HpbImgSwap('button7', 'link1.jpg');" onclick="return CSButtonReturn()" id="button7" name="button7"><img src="link1.jpg" width="50" height="20" name="button7" border="0"></a></csobj><csobj w="65" h="20" t="Button" ht="contact2.jpg"><a href="mailto:YASUHIKO_SATOU@sonylife.co.jp" target="_blank" onmouseover="HpbImgSwap('button8', 'contact2.jpg');" onmouseout="HpbImgSwap('button8', 'contact1.jpg');" onclick="return CSButtonReturn()" id="button8" name="button8"><img src="contact1.jpg" width="65" height="20" name="button8" border="0"></a></csobj><IMG src="botan.jpg" width="382" height="20" border="0"></td>
+				</tr>
+				<tr>
+					<td width="140" valign="top" bgcolor="#efefef">
+						<div align="center">
+							<IMG src="menu.jpg" width="140" height="16" border="0"><csobj w="140" h="34" t="Button" ht="gallery2.jpg"><a href="http://www.jfic-japan.com/gallery.html" onmouseover="HpbImgSwap('button9', 'gallery2.jpg');" onmouseout="HpbImgSwap('button9', 'gallery1.jpg');" onclick="return CSButtonReturn()" id="button9" name="button9"><img src="gallery1.jpg" width="140" height="34" name="button9" border="0"></a></csobj><br>
+							<csobj w="140" h="34" t="Button" ht="report2.jpg"><a href="http://www.jfic-japan.com/report.html" onmouseover="HpbImgSwap('button10', 'report2.jpg');" onmouseout="HpbImgSwap('button10', 'report1.jpg');" onclick="return CSButtonReturn()" id="button10" name="button10"><img src="report1.jpg" width="140" height="34" name="button10" border="0"></a></csobj><br>
+							<csobj w="140" h="34" t="Button" ht="taikai2.jpg"><a href="http://www.jfic-japan.com/tournament.html" onmouseover="HpbImgSwap('button11', 'taikai2.jpg');" onmouseout="HpbImgSwap('button11', 'taikai1.jpg');" onclick="return CSButtonReturn()" id="button11" name="button11"><img src="taikai1.jpg" width="140" height="34" name="button11" border="0"></a></csobj><br>
+							<csobj w="140" h="34" t="Button" ht="news2.jpg"><a href="http://www.jfic-japan.com/news.html" onmouseover="HpbImgSwap('button12', 'news2.jpg');" onmouseout="HpbImgSwap('button12', 'news1.jpg');" onclick="return CSButtonReturn()" id="button12" name="button12"><img src="news1.jpg" width="140" height="34" name="button12" border="0"></a></csobj><br>
+							<csobj w="140" h="34" t="Button" ht="sponsor2.jpg"><a href="http://www.jfic-japan.com/sponsor.html" onmouseover="HpbImgSwap('button13', 'sponsor2.jpg');" onmouseout="HpbImgSwap('button13', 'sponsor1.jpg');" onclick="return CSButtonReturn()" id="button13" name="button13"><img src="sponsor1.jpg" width="140" height="34" name="button13" border="0"></a></csobj><csobj w="140" h="34" t="Button" ht="english2.jpg"><a href="http://www2u.biglobe.ne.jp/~jcsf/index_e.html" target="_blank" onmouseover="HpbImgSwap('button16', 'english2.jpg');" onmouseout="HpbImgSwap('button16', 'english1.jpg');" onclick="return CSButtonReturn()" id="button16" name="button16"><img src="english1.jpg" width="140" height="34" name="button16" border="0"></a></csobj><br>
+							<br>
+      <a href="http://www.jfic-japan.com/figur.html"><img src="figurbanner.jpg" width="133" height="151" border="0"></a><br>
+							<br>
+      <a href="http://www.jfic-japan.com/soccer.html"><img src="soccerbanner.jpg" width="133" height="151" border="0"></a></div>
+					</td>
+					<td bgcolor="white" valign="top">
+      <TABLE cellpadding="0" cellspacing="0" width="800" border="0">
+							<tr>
+								<td>
+									<div align="center">
+										</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+          <DIV align="center">
+            <TABLE border="0" cellpadding="0" cellspacing="10" width="800">
+											<tr>
+												<td bgcolor="#0000ef" colspan="2">
+													<div align="center"><b><font size="+3" color="white">加盟校の練習日　～平成24年～</font></b></div>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+                <DIV align="center">
+                  <TABLE border="1" cellspacing="0" cellpadding="2" id="HPB_TABLE_3_C_120712202724" style="font-size : small;" width="100%" class="hpb-cnt-tb3">
+                    <COL span="7" width="14%">
+                    <TBODY>
+                      <TR>
+                        <TD class="hpb-cnt-tb-cell3"><U><B>&nbsp;<A name="tit" id="tit"></A>東京工業大学</B></U></TD>
+                        <TD class="hpb-cnt-tb-cell4"><U><B>&nbsp;<A name="ou" id="ou"></A>大阪大学</B></U></TD>
+                        <TD class="hpb-cnt-tb-cell3"><U><B><A name="mgu" id="mgu"></A>桃山学院大学</B></U>&nbsp;</TD>
+                        <TD class="hpb-cnt-tb-cell4"><U><B>&nbsp;<A name="cgu" id="cgu"></A>中央学院大学</B></U></TD>
+                        <TD class="hpb-cnt-tb-cell3"><U><B>&nbsp;<A name="oue" id="oue"></A>大阪経済大学</B></U></TD>
+                        <TD class="hpb-cnt-tb-cell4"><U><B>&nbsp;<A name="ku" id="ku"></A>関西大学</B></U></TD>
+                        <TD class="hpb-cnt-tb-cell3"><U><B>&nbsp;<A name="jue" id="jue"></A>日本経済大学</B></U></TD>
+                      </TR>
+    <TR>
+                        <TD valign="top" class="hpb-cnt-tb-cell3">&nbsp;大岡山キャンパス<BR>
+                        &nbsp;&nbsp;<BR>
+                        〒152-8550<BR>
+                        &nbsp;&nbsp;東京都目黒区&nbsp;大岡山2-12-1<BR>
+                        <BR>&nbsp;&nbsp;東急大井町線・目黒線<BR>
+&nbsp;&nbsp;大岡山駅下車徒歩1分<BR>
+      &nbsp;&nbsp;<A href="http://www.titech.ac.jp/about/campus/img/img_access.jpg" target="_blank">MAP</A></TD>
+                        <TD align="left" valign="top" class="hpb-cnt-tb-cell4">&nbsp;豊中キャンパス第一体育館<BR>
+                        <BR>
+                        &nbsp;〒560-0043<BR>
+                        &nbsp;&nbsp;豊中市待兼山町1<BR>
+                        <BR>
+                        &nbsp;&nbsp;阪急電車宝塚線<BR>
+                        &nbsp;&nbsp;石橋駅より徒歩約20分<BR>
+&nbsp;&nbsp;<A href="http://www.osaka-u.ac.jp/migr/img/jp/images/accessmap02.gif" target="_blank">MAP</A></TD>
+                        <TD align="left" valign="top" class="hpb-cnt-tb-cell3">&nbsp;総合体育館<BR>
+                        サブアリーナ 1F<BR>
+                        &nbsp;〒594-1198 <BR>
+                        &nbsp;大阪府和泉市まなび野1-1<BR>
+                        <BR>
+                        &nbsp;泉北高速鉄道<BR>
+                        &nbsp;和泉中央駅より徒歩15分<BR>
+                        &nbsp;<A href="http://www.andrew.ac.jp/access/img/access_map02.gif" target="_blank">MAP</A></TD>
+                        <TD valign="top" class="hpb-cnt-tb-cell4">&nbsp;総合体育館　１F　<BR>
+                        &nbsp;サイクルサッカー常設コート<BR>
+                        &nbsp;〒270-1196<BR>
+                        &nbsp;千葉県我孫子市久寺家451<SPAN></SPAN><BR>MAP
+                        <BR>
+                        &nbsp;JR常磐線・成田線<BR>
+                        &nbsp;東京メトロ千代田線<BR>
+                        &nbsp;我孫子駅から徒歩20分<BR>
+                        &nbsp;<A href="http://www.cgu.ac.jp/access/images/idx_map01_3.gif" target="_blank">MAP</A></TD>
+                        <TD valign="top" align="left" class="hpb-cnt-tb-cell3">&nbsp;摂津キャンパス体育館<BR>
+                        &nbsp;<BR>
+                        〒566-0046 <B><BR>
+                        </B>&nbsp;大阪府摂津市別府3-15-25<BR>
+                        <BR>
+                        阪急京都線<BR>
+                        「上新庄」駅より徒歩15分<BR>
+                        &nbsp;<A href="http://www.osaka-ue.ac.jp/profile/img/access_map.gif" target="_blank">MAP</A></TD>
+                        <TD valign="top" align="left" class="hpb-cnt-tb-cell4">&nbsp;千里山キャンパス東体育館<BR>
+                        &nbsp;〒564-8680 <BR>
+                        &nbsp;大阪府吹田市山手町3-3-35<BR>
+                        <BR>
+                         &nbsp;阪急電鉄千里線<BR>
+                        &nbsp;「関大前」駅下車徒歩約10分<BR>
+                        &nbsp;<A href="http://www.kansai-u.ac.jp/img/global/guide/access/img01.gif" target="_blank">MAP</A></TD>
+                        <TD valign="top" class="hpb-cnt-tb-cell3">&nbsp;福岡キャンパス<BR>
+                        &nbsp;サイクルサッカー専用室内競技場<BR>
+                        &nbsp;〒818-0197 　<BR>
+                        &nbsp;福岡県太宰府市五条3-11-25<BR>
+                        <BR>
+                        &nbsp;JR鹿児島本線二日市駅下車　徒歩約25分<BR>
+                        &nbsp;&nbsp;西鉄天神大牟田線二日市駅下車 徒歩約13分<BR>
+                        <A href="http://www.jue.ac.jp/images/material/50/open-map2008(1).jpg" target="_blank">MAP</A></TD>
+                      </TR>
+    <TR>
+                        <TD valign="top" class="hpb-cnt-tb-cell3"><U>八月の練習日<BR>
+                        <BR>
+                        </U>1日 水 通常<BR>
+4日 土 通常<BR>
+5日 日 9～16<BR>
+6日 月 19～21 半面<BR>
+8日 水 通常<BR>
+                        16日 木 9～12<BR>
+                        23日 木 9～12<BR>
+24日 金 9～17<BR>
+25日 土 通常<BR>
+26日 日 9～16<BR>
+27日 月 通常<BR>
+29日 水 通常<BR>
+30日 木 9～12<BR>
+31日 金 9～12<BR>
+9月1日 土 通常<BR>
+2日 日 9～16<BR>
+<BR>
+＊通常は17：00～21：00です。<BR>
+＊7月14日(土)はバルカーカップ本戦です。</TD>
+                        <TD valign="top" class="hpb-cnt-tb-cell4">&nbsp; <U>八月の練習日</U><BR>
+                        <BR>7日(火)15～19<BR>
+11日(土)14～17<BR>
+12日(日)9～14<BR>
+                        14日(火)1130～17<BR>
+                        　　自主練習<BR>
+                        16日(木)1130～17<BR>
+                        　　自主練習<BR>
+                        17日(金)14～17<BR>
+                        　　自主練習<BR>
+                        18日(土)14～17<BR>
+                        　　自主練習<BR>
+19日(日)9～14<BR>
+21日(火)1130～17<BR>
+23日(木)1130～17<BR>
+26日(日)9～14<BR>
+28日(火)1130～17<BR>
+30日(木)1130～17<BR>
+31日(金)14～17<BR>
+<BR>
+                        <BR>
+                        <BR>
+                        <BR>
+                        <U>九月の練習日（仮）</U><BR>
+                        <BR>2日(日)9～14<BR>
+4日(火)1130～17<BR>
+6日(木)1130～17<BR>
+8日(土)14～17<BR>
+9日(日)9～14<BR>
+13日～15日桃山合宿<BR>
+16日(日)9～14<BR>
+18日～20日阪大合宿<BR>
+22日(土)14～17<BR>
+23日(日)9～14<BR>
+25日(火)1130～17<BR>
+27日(木)1130～17<BR>
+29日(土)14～17<BR>
+30日(日)9～14<BR>
+<BR>
+                        </TD>
+                        <TD valign="top" class="hpb-cnt-tb-cell3">&nbsp;<U>八月の練習日</U><BR>
+                        <BR>
+                        <BR>
+                        <BR>
+                        <BR>
+                        <BR>
+                        <BR>
+                        </TD>
+                        <TD valign="top" class="hpb-cnt-tb-cell4"><U>八月の練習日<BR>
+                        </U><BR>
+                        </TD>
+                        <TD align="left" valign="top" class="hpb-cnt-tb-cell3">&nbsp;&nbsp;<U>八月の練習日</U><BR>
+                        <BR>
+                        </TD>
+                        <TD valign="top" class="hpb-cnt-tb-cell4">&nbsp;<U>八月の練習日</U><BR>
+<BR>
+                        </TD>
+                        <TD valign="top" class="hpb-cnt-tb-cell3"><U>五月の練習日</U><BR>
+                        <BR>
+                        </TD>
+                      </TR>
+    <TR>
+                        <TD align="left" valign="top" class="hpb-cnt-tb-cell3">&nbsp;<img src="image3.jpg" width="100" height="63" border="0" align="middle"></TD>
+                        <TD align="left" valign="top" class="hpb-cnt-tb-cell4">&nbsp;<img src="handai.jpg" width="100" height="120" border="0" align="middle"><BR>
+                        <P class="MsoPlainText" align="center"><A href="http://osakarinkyu.web.fc2.com/">
+                        大阪大学自転車部<BR>
+                        サイクルサッカー班HP</A></P>
+                        <P class="MsoPlainText" align="center">*<A href="http://www.aridate.net/system/calender.php?param=4494:4880:2012:4:move" target="_blank">カレンダー</A>*</P>
+                        <HR>
+                        </TD>
+                        <TD align="left" valign="top" class="hpb-cnt-tb-cell3">&nbsp;<img src="myg.jpg" width="100" height="78" border="0"></TD>
+                        <TD align="left" valign="top" class="hpb-cnt-tb-cell4">&nbsp;<img src="image1.jpg" width="100" height="68" border="0"></TD>
+                        <TD align="left" valign="top" class="hpb-cnt-tb-cell3">&nbsp;<img src="image4.txt" width="100" height="80" border="0" align="middle"></TD>
+                        <TD align="left" valign="top" class="hpb-cnt-tb-cell4">&nbsp;<img src="ku-training.jpg" width="100" height="74" border="0"><BR>
+                        <BR>
+                        </TD>
+                        <TD valign="top" class="hpb-cnt-tb-cell3">&nbsp;<img src="image2.jpg" width="100" height="68" border="0"></TD>
+                      </TR>
+    <TR>
+                        <TD class="hpb-cnt-tb-cell3">
+                        <HR>
+                        お問合せ先:<A href="mailto:n&#105;&#115;&#104;&#105;&#109;&#97;&#107;&#105;&#99;&#121;&#99;&#108;&#101;&#98;&#97;&#108;&#108;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;?Subject=※件名をご記入ください。&amp;body=※ご用件のほかに、必ず氏名と電話番号をご記入ください。">西牧</A></TD>
+                        <TD class="hpb-cnt-tb-cell4">
+                        <HR>
+                        お問合せ先：<A href="mailto:&#119;&#97;&#100;&#97;&#107;&#97;&#122;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">和田</A></TD>
+                        <TD class="hpb-cnt-tb-cell3">&nbsp;お問合せ先：小林</TD>
+                        <TD class="hpb-cnt-tb-cell4">
+                        <HR>
+                        &nbsp;お問合せ：中野</TD>
+                        <TD class="hpb-cnt-tb-cell3">
+                        <HR>
+                        &nbsp;お問合せ先：田中</TD>
+                        <TD class="hpb-cnt-tb-cell4">
+                        <HR>
+                        &nbsp;&nbsp;お問合せ先:水野</TD>
+                        <TD class="hpb-cnt-tb-cell3">
+                        <HR>
+                        &nbsp;お問合せ先:</TD>
+                      </TR>
+  </TBODY>
+</TABLE>
+                  <HR>
+<P align="center">[　<A href="javascript:history.back();">戻る</A>　]</P>
+                 
+</DIV>
+                </TABLE>
+          </DIV>
+          </TABLE>
+      </TABLE>
+</DIV>
+</body>
+</html>

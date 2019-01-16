@@ -1,0 +1,281 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2009-10 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2543                
+POS_VISITOR 6492                
+POS_DAY 7225                
+POS_DOMAIN 3204                
+POS_LOGIN 3434                
+POS_ROBOT 3589                
+POS_WORMS 3827                
+POS_EMAILSENDER 3958                
+POS_EMAILRECEIVER 4101                
+POS_SESSION 7554                
+POS_SIDER 7722                
+POS_FILETYPES 4236                
+POS_OS 4359                
+POS_BROWSER 4464                
+POS_SCREENSIZE 4619                
+POS_UNKNOWNREFERER 4693                
+POS_UNKNOWNREFERERBROWSER 4992                
+POS_ORIGIN 5091                
+POS_SEREFERRALS 5227                
+POS_PAGEREFS 5371                
+POS_SEARCHWORDS 5519                
+POS_KEYWORDS 5671                
+POS_MISC 2206                
+POS_ERRORS 5730                
+POS_CLUSTER 3290                
+POS_SIDER_404 5832                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20091101170719 1457 336126 23036778553
+FirstTime 20091002104317
+LastTime 20091031161415
+LastUpdate 20091102084020 1 0 0 0 0
+TotalVisits 23                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 22 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 158 1981927 17 17 48460
+1 1 124 517502 2 2 3482
+2 0 0 0 0 0 0
+3 0 0 0 2 3 27031
+4 0 0 0 0 0 0
+5 0 0 0 5 5 28168
+6 0 0 0 2 2 24386
+7 0 0 0 0 0 0
+8 0 0 0 4 4 27578
+9 0 0 0 3 21 205263
+10 3 51 524166 8 8 55746
+11 3 58 667707 7 21 86737
+12 7 241 1293026 14 27 307193
+13 0 0 0 0 16 263246
+14 0 0 0 4 4 63859
+15 3 3 60667 3 3 45580
+16 3 53 667707 16 16 51072
+17 0 0 0 1 1 21194
+18 8 146 1601222 10 29 125374
+19 0 0 0 2 9 116534
+20 3 53 667707 13 15 64499
+21 5 105 667707 40 43 224526
+22 3 53 667707 43 45 178550
+23 3 53 21194 6 6 31360
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 50 1098 9338239
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+googlebot 93 1250322 20091031192800 0
+slurp 10 137744 20091031030857 0
+surveybot 2 42388 20091027222403 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+css 22 39675 0 0
+html 50 798250 0 0
+jpg 925 8336962 0 0
+gif 101 163352 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 104
+winxp 390
+macintosh 121
+winlong 426
+win98 52
+Unknown 5
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie8.0 264
+msie6.0 284
+mozilla 3
+msie7.0 268
+msie4.5 72
+firefox3.5.4 52
+msie5.0 49
+Unknown 2
+safari 104
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+- 20091006004115
+Mozilla/5.0_(compatible;_ParchBot/1.0;__http://www.parchmenthill.com/search.htm) 20091008184648
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20091006155414
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+- 20091006004115
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 25 25
+From1 0 0
+From2 0 0
+From3 0 0
+From4 25 1073
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 15 4400
+404 177 564984
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 7
+/hojo/img/hojo_onepoint_img.jpg 3 http://www.jfic-japan.com/
+/robots.txt 26 -
+/img/bg_shadow.jpg 3 http://www.jfic-japan.com/
+/(Empty%20Reference!) 136 http://www.jfic-japan.com
+/chair/img/chair_onepoint_img.jpg 3 http://www.jfic-japan.com/
+/stek/img/stek_onepoint_img.jpg 3 http://www.jfic-japan.com/
+/img/top_co_img.jpg 3 http://www.jfic-japan.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 16
+221.170.1.178 8 173 1831722 20091020185223
+203.136.63.94 8 158 1335414 20091030001315
+118.243.81.41 5 189 646513 20091030121332
+121.94.41.26 4 104 646513 20091006231634
+113.147.28.219 3 53 667707 20091030220008
+210.237.159.239 3 53 667707 20091031161415
+202.248.149.12 3 58 667707 20091030111239
+210.249.70.142 3 26 401483 20091002181655
+220.99.20.197 3 53 667707 20091030202800
+206.183.1.74 2 2 39473 20091006155414
+198.186.192.44 2 2 42388 20091006004115
+210.143.141.201 1 49 517502 20091029102947
+76.73.37.234 1 1 21194 20091008184648
+125.29.11.216 1 124 517502 20091009013304
+72.94.249.38 1 1 21194 20091007155151
+202.249.10.116 2 52 646513 20091030125629
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20091002 4 75 918985 3
+20091003 2 52 646513 1
+20091004 1 1 21194 1
+20091005 3 53 667707 1
+20091006 7 107 707180 4
+20091007 1 1 21194 1
+20091008 1 1 21194 1
+20091009 1 124 517502 1
+20091020 2 19 0 1
+20091029 6 154 1185209 2
+20091030 19 458 3963854 6
+20091031 3 53 667707 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+0s-30s 17
+30s-2mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 31 572410 22 15
+/comingsoon.html 18 219348 1 7
+/home.html 1 6492 0 1
+END_SIDER

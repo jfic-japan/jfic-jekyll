@@ -1,0 +1,145 @@
+ダウンロード開始：2012/08/21 22:54:12
+
+● http://www.jfic-japan.com から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com へ
+
+topimg.jpg
+taikai2.jpg
+taikai1.jpg
+style.css
+sponsor2.jpg
+sponsor1.jpg
+sponsor.jpg
+report2.jpg
+report1.jpg
+renmei2.jpg
+renmei1.jpg
+partner.jpg
+news2.jpg
+news1.jpg
+menu.jpg
+link2.jpg
+link1.jpg
+kisoku2.jpg
+kisoku1.jpg
+home2.jpg
+home1.jpg
+heder2.jpg
+gallery2.jpg
+gallery1.jpg
+english1.jpg
+doping2.jpg
+doping1.jpg
+contact1.jpg
+club2.jpg
+club1.jpg
+calender2.jpg
+calendar1.jpg
+botan.jpg
+2011calbanner2.jpg
+tournament.html
+sponsor.html
+soccer.html
+rule.html
+report.html
+renmei.html
+news.html
+link.html
+index[1].html （"index.html" から変更）
+gallery.html
+figur.html
+doping.html
+comingsoon.html
+club.html
+calender2012.html
+calender2011.html
+calendar2010.html
+calendar2009.html
+calendar.html
+index.html （"[default]" から変更）
+
+● http://www.jfic-japan.com/images/rule から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\images\rule へ
+
+soccerkisoku20101001.pdf
+get_adobe_reader.gif
+figurkisoku20080101.pdf
+coaching_programm_IICC.pdf
+14_Anti-Doping.pdf
+
+● http://www.jfic-japan.com/images/calender/2012 から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\images\calender\2012 へ
+
+2012worldcup_4leg.pdf
+
+● http://www.jfic-japan.com/sponsor から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\sponsor へ
+
+valqualogo.jpg
+starbicycle.jpg
+hicl.jpg
+hattorilogo.gif
+cherubimlogo.jpg
+
+● http://www.jfic-japan.com/images/what から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\images\what へ
+
+soccer3.JPG
+soccer2.jpg
+soccer1.jpg
+img12.jpg
+img11.jpg
+img10.jpg
+img09.jpg
+img08.jpg
+img07.jpg
+img06.jpg
+img05.jpg
+img04.jpg
+img03.jpg
+img01.jpg
+figur4.jpg
+figur3.jpg
+figur2.jpg
+figur1.jpg
+
+● http://www.jfic-japan.com/banner から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\banner へ
+
+soccerbanner.jpg
+goodsbanner.jpg
+figurbanner.jpg
+
+● http://www.jfic-japan.com/images/sponsor から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\images\sponsor へ
+
+img04.jpg
+img03.jpg
+img02.jpg
+img01.jpg
+hiclbanner.jpg
+
+● http://www.jfic-japan.com/images/gallery から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\images\gallery へ
+
+img07.jpg
+img06.jpg
+img05.jpg
+img04.jpg
+img03.jpg
+img02.jpg
+img01.jpg
+
+● http://www.jfic-japan.com/images/top から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\images\top へ
+
+wcic_l.jpg
+newst.jpg
+kage3.jpg
+kage2.jpg
+
+● http://www.jfic-japan.com/images/club から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\images\club へ
+
+yes.gif
+no.gif
+
+● http://www.jfic-japan.com/images/report から C:\Users\starferry\Desktop\JFIC_Data\www.jfic-japan.com\images\report へ
+
+tv.gif
+
+ダウンロード完了：2012/08/21 22:54:31
+
+ダウンロード予定数：105
+ダウンロード総数：105
+エラーはありませんでした。

@@ -1,0 +1,1388 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2013-01 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2553                
+POS_VISITOR 37560               
+POS_DAY 60891               
+POS_DOMAIN 3546                
+POS_LOGIN 3781                
+POS_ROBOT 3936                
+POS_WORMS 4575                
+POS_EMAILSENDER 4706                
+POS_EMAILRECEIVER 4849                
+POS_SESSION 61847               
+POS_SIDER 62061               
+POS_FILETYPES 4984                
+POS_OS 5244                
+POS_BROWSER 5383                
+POS_SCREENSIZE 5776                
+POS_UNKNOWNREFERER 5850                
+POS_UNKNOWNREFERERBROWSER 7952                
+POS_ORIGIN 8427                
+POS_SEREFERRALS 8578                
+POS_PAGEREFS 8760                
+POS_SEARCHWORDS 9979                
+POS_KEYWORDS 15408               
+POS_MISC 2215                
+POS_ERRORS 20098               
+POS_CLUSTER 3637                
+POS_SIDER_404 20231               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130201000228 558747 131066369 37028023507
+FirstTime 20130101001419
+LastTime 20130131234209
+LastUpdate 20130201092315 818 0 817 0 0
+TotalVisits 1465                
+TotalUnique 546                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 579                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 226 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 247 2047 47524493 111 141 10824168
+1 105 958 18015880 102 132 15395613
+2 84 489 30479784 97 106 29812843
+3 19 94 4100399 96 122 13816483
+4 46 310 7738304 90 102 8683251
+5 84 222 6485961 101 111 8165701
+6 58 580 10840108 97 113 17560317
+7 74 501 8960823 96 102 14922787
+8 80 935 20345731 112 132 6214740
+9 121 1346 25617108 75 89 15802227
+10 119 1347 37352600 85 109 12270838
+11 151 2008 40660066 103 123 20992561
+12 146 1530 46418415 112 125 15767121
+13 135 1663 37618247 94 102 9280191
+14 109 1185 21409753 90 129 15295272
+15 122 1208 39312817 91 108 24888385
+16 158 1310 28619806 88 167 14340756
+17 170 1337 35913311 108 130 19953148
+18 218 1587 53236900 105 122 12945963
+19 193 1388 47888854 130 159 21473093
+20 166 1440 42928974 104 136 34822053
+21 128 1564 30164116 109 138 11201292
+22 201 2090 52111633 124 334 12478312
+23 315 2916 49817068 171 222 14473877
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3249 30055 743561151
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+googlebot 593 109812586 20130131233227 0
+robot 576 172128473 20130131232054 0
+crawl 193 24102314 20130130220925 0
+slurp 112 1151408 20130128234900 0
+baiduspider 109 2476227 20130131233509 0
+phantom 60 707724 20130121162727 0
+msnbot 58 1889146 20130129134757 0
+yandex 53 7243168 20130131235712 0
+spider 33 20171817 20130129075507 0
+python 3 62178 20130119145124 0
+ia_archiver 1 20726 20130118144816 0
+surveybot 3 54590 20130131050815 0
+turnitinbot 2 38053 20130114234920 0
+netcraft 2 55356 20130108011214 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 644 1207065 0 0
+png 284 692924 0 0
+ico 47 146790 0 0
+pdf 637 300083764 0 0
+txt 24 18203810 0 0
+swf 17 52441648 0 0
+html 2570 61995074 0 0
+jpg 21864 282068174 0 0
+Unknown 18 20488824 0 0
+gif 3950 6233078 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winxp 4761
+winlong 8139
+win2000 3
+winnt 9503
+linux 1733
+macosx 4040
+winme 2
+win2003 69
+Unknown 1805
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 26
+msie6.0 993
+firefox5.0 1
+msie5.01 15
+firefox17.0 505
+opera 379
+firefox3.6.2 1
+firefox4.0 1
+firefox18.0 1234
+lynx 5
+links 5
+firefox3.6.15 65
+firefox2.0.0.11 1
+msie8.0 5324
+mozilla 1209
+firefox14.0.1 10
+firefox3.0.6 1
+msie7.0 500
+firefox16.0 367
+msie10.0 476
+netscape4.0 3
+firefox6.0 6
+msie10.6 1
+msie9.0 7403
+Unknown 59
+docomo 35
+safari 11456
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 28
+Wing/2_(GM_1.3.5) 20130127233442
+panscient.com 20130128205757
+DoCoMo/2.0_P900i(c100;TB;W24H11)_(compatible;_ichiro/mobile_goo;__http://search.goo.ne.jp/option/use/sub4/sub4-1/) 20130124230349
+Opera/9.80_(Android;_Opera_Mini/7.5.31657/28.3492;_U;_ja)_Presto/2.8.119_Version/11.10 20130122141111
+findlinks/2.0.2_(_http://wortschatz.uni-leipzig.de/findlinks/) 20130106070851
+- 20130126153150
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20130131222409
+findlinks/2.6_(_http://wortschatz.uni-leipzig.de/findlinks/) 20130124130651
+AndroidDownloadManager 20130129201531
+Mozilla/4.0_(JustSystems_Homepage_Builder) 20130101122638
+URL2File/1.981208 20130116194113
+Mozilla/3.0_(compatible;_Indy_Library) 20130109000935
+Mozilla/5.0_(compatible;_MJ12bot/v1.4.3;_http://www.majestic12.co.uk/bot.php?_) 20130131020237
+facebookplatform/1.0_(_http://developers.facebook.com) 20130107103210
+Mozilla/5.0_(Android;_Mobile;_rv:18.0)_Gecko/18.0_Firefox/18.0 20130128062305
+Opera/9.80_(Android;_Opera_Mini/7.5.31657/28.3590;_U;_ja)_Presto/2.8.119_Version/11.10 20130129203743
+Opera/9.80_(Android;_Opera_Mini/7.5.31657/28.3445;_U;_ja)_Presto/2.8.119_Version/11.10 20130115205103
+Mozilla/4.0_(jig_browser_web;_1.0.4;_L01C) 20130113201956
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20130126145737
+Mozilla/5.0_(compatible;_Ezooms/1.0;_ezooms.bot@gmail.com) 20130130184204
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20130121110148
+Google-Site-Verification/1.0 20130131092048
+Java/1.7.0 20130130185022
+Lynx/2.8.6rel.4_libwww-FM/2.14_SSL-MM/1.4.1_OpenSSL/0.9.8g 20130106121608
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130107023554
+Mozilla/4.0_(compatible;) 20130131151129
+Mozilla/5.0_(compatible;_SearchmetricsBot;_http://www.searchmetrics.com/en/searchmetrics-bot/) 20130103165116
+Mozilla/5.0_(compatible;_Robo/1.0b;_http://potaru.com/robo.html)/Nutch-1.2 20130131144519
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+Wing/2_(GM_1.3.5) 20130127233442
+facebookplatform/1.0_(_http://developers.facebook.com) 20130107103210
+panscient.com 20130128205757
+- 20130126153150
+Google-Site-Verification/1.0 20130131092048
+AndroidDownloadManager 20130129201531
+Java/1.7.0 20130130185022
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130107023554
+URL2File/1.981208 20130116194113
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1831 2317
+From1 1 1
+From2 151 155
+From3 201 243
+From4 1065 27339
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 72 74
+search 18 18
+yahoo 61 63
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 21
+http://www2u.biglobe.ne.jp/~jcsf/ 169 169
+http://cycling.titech.ac/~cycleball/schedule_jp.html 8 8
+http://www.finddotcom.com 3 3
+http://osakarinkyu.web.fc2.com/link.html 2 2
+http://tv.2chdays.net/read/livenhk/1351480626.html 2 2
+http://www2u.biglobe.ne.jp/~jcsf/index.html 2 2
+http://www.facebook.com 2 2
+http://fmk.typepad.jp/glory/2011/01/post-bfe9.html 2 2
+http://s.luna.tv/search.aspx 2 2
+http://redirect.teacup.com/to/e5054bbda3c537a0/http/www.jfic-japan.com/tournament.html 1 1
+http://id.japaneseclass.jp/trends/about/%E5%AE%A4%E5%86%85%E8%87%AA%E8%BB%A2%E8%BB%8A%E7%AB%B6%E6%8A%80 0 3
+http://www.vebidoo.de/frederique+bauer 0 1
+http://evuln.com/tools/malware-scanner/jfic-japan.com/ 1 1
+http://www.vebidoo.de/manuela+dieterle 0 1
+http://www.eatree.com 1 1
+http://kakaku.com/tv/search/keyword=%E8%8A%9D%E5%B1%B1%E8%80%95%E8%BC%94/ 1 1
+http://www2u.biglobe.ne.jp/~jcsf/Discipline.html 1 1
+http://webcache.googleusercontent.com/search 1 38
+http://www.cheapuggbootsinuk2013.co.uk 1 1
+http://www2u.biglobe.ne.jp/jcsf/ 1 1
+http://www2.inbox.com/search/results.aspx 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 70
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 16
+chext 9
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 6
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 6
+%e6%a4%9c%e7%b4%a2 5
+%e5%ae%a4%e5%86%85+%e8%87%aa%e8%bb%a2%e8%bb%8a 5
+jfic 4
+%e5%ae%a4%e5%86%85%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 3
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%82%a2 3
+www.jfic-japan.com 2
+%e5%a4%a7%e6%bb%9d%e5%92%8c%e5%ad%9d 1
+%e3%82%a2%e3%83%bc%e3%83%86%e3%82%a3%e3%82%b9%e3%83%86%e3%82%a3%e3%83%83%e3%82%af%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab 1
+nifty_top_tp 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e3%82%b3%e3%83%bc%e3%83%88 1
+%e5%ae%ae%e6%9c%ac%e6%ad%a6%e5%bd%a6+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e7%ac%ac43%e5%9b%9e%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a+%e7%b5%90%e6%9e%9c 1
+%e4%bd%90%e8%97%a4%e5%87%aa%e6%b2%99 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e4%ba%ac%e9%83%bd 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e5%a4%a7%e4%bc%9a%e3%81%a0%e3%81%8b%e3%82%89 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a+%e5%ae%a4%e5%86%85 1
+%e8%87%aa%e8%bb%a2%e7%ab%b6%e6%8a%80 2
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e3%83%af%e3%83%bc%e3%83%ab%e3%83%89%e3%82%ab%e3%83%83%e3%83%97 1
+%ef%bd%bb%ef%bd%b2%ef%bd%b8%ef%be%99%ef%bd%bb%ef%bd%af%ef%bd%b6%ef%bd%b0%e6%9d%91%e4%b8%8a%e8%a3%95%e4%ba%ae 2
+jcf+%e5%9b%a3%e4%bd%93%e7%99%bb%e9%8c%b2 1
+%e6%97%a5%e6%9c%ac%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f%ef%bc%88jcf%ef%bc%89%e3%81%ae%e7%ab%b6%e6%8a%80%e8%80%85%e7%99%bb%e9%8c%b2%ef%bc%88%e6%96%b0%e8%a6%8f%e3%83%bb%e5%86%8d%e7%99%bb%e9%8c%b2 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e7%ac%ac%ef%bc%94%ef%bc%93%e5%9b%9e%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e5%a5%b3%e5%ad%90%e3%82%b7%e3%83%b3%e3%82%b0%e3%83%ab 1
+%e8%ac%9d%e6%96%87%e8%ac%99 1
+%e5%ae%a4%e5%86%85%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab 1
+%e9%87%8e%e6%9c%ac%e8%aa%a0%e4%b8%80%e9%83%8e 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e5%ae%a4%e5%86%85 1
+%e5%ae%a4%e5%86%85%e3%81%a7%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a+%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e5%ae%a4%e5%86%85%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80 1
+%e5%ae%ae%e5%b7%9d%e5%bb%a3%e5%b9%b3 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e3%83%94%e3%83%b3%e3%82%ad%e3%83%bc%e3%82%ba%e5%a4%a7%e9%98%aa 1
+uci%e8%a6%8f%e5%ae%9a 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85 1
+%e3%83%90%e3%83%ab%e3%82%ab%e3%83%bc%e3%82%ab%e3%83%83%e3%83%97 1
+hong+kong+open+ball 1
+%e9%99%b3%e5%ad%90%e9%a7%bf%e5%96%ae%e8%bb%8a 1
+%e9%96%80%e5%8f%a3%e3%82%86%e3%81%86%e3%81%84%e3%81%a1 1
+%e6%97%a5%e6%9c%ac%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e5%8d%94%e4%bc%9a 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e7%ab%b6%e6%8a%80%e4%ba%ba%e5%8f%a3 1
+%e4%bd%90%e8%97%a4%e5%ba%b7%e5%bd%a6+%e4%ba%ac%e9%83%bd 1
+%e3%83%89%e3%83%bc%e3%83%94%e3%83%b3%e3%82%b0%e3%83%86%e3%82%b9%e3%83%88%e3%80%80%e9%80%9a%e5%91%8a%e6%9b%b8+%e8%8b%b1%e6%96%87 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80 1
+%e6%97%a5%e6%9c%ac%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f%e3%80%80%e4%bb%8a%e5%b9%b4%e5%ba%a6%e6%97%a5%e7%a8%8b 1
+%e6%bb%8b%e8%b3%80%e3%83%96%e3%83%ab%e3%83%bc%e3%83%ac%e3%82%a4%e3%82%af%e3%82%a8%e3%83%b3%e3%82%b8%e3%82%a7%e3%83%ab 1
+%e6%a3%ae+%e8%8c%82%e5%8f%b2 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2+%e8%b2%a0%e6%8b%85 1
+%e6%a3%ae%e3%80%80%e8%8c%82%e5%8f%b2 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e3%83%ab%e3%83%bc%e3%83%ab 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a+%e5%ae%ae%e6%9c%ac%e6%ad%a6%e5%bd%a6 1
+%e7%9f%a2%e8%8a%b1%e3%80%80%e6%ad%a9 1
+ensure+the+identity+%e4%bf%9d%e8%a8%bc 1
+%e8%8a%9d%e5%b1%b1+%e8%80%95%e8%bc%94+%e3%83%89%e3%82%a4%e3%83%84 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e4%bc%9a 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e9%96%a2%e6%9d%b1%e5%a4%a7%e5%ad%a6%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e5%a4%9a%e7%94%b0%e5%92%8c%e9%9b%84%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e5%ae%a4%e5%86%85%e3%82%b7%e3%83%a5%e3%83%bc%e3%83%88%e7%b7%b4%e7%bf%92+fk 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a+%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2+43 2
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e6%97%a5%e6%9c%ac%e4%bb%a3%e8%a1%a8 1
+vfh+%e6%9d%b1%e4%ba%ac 1
+%e4%ba%ac%e9%83%bd%e7%94%a3%e6%a5%ad%e5%a4%a7%e5%ad%a6%e8%87%aa%e8%bb%a2 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e5%a6%99%e4%b8%ad 1
+jfic-japan.com 1
+%e7%b8%84%e7%94%b0%e5%91%a8%e4%ba%ba 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 86
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 23
+%e8%87%aa%e8%bb%a2%e8%bb%8a 10
+chext 9
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 6
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 6
+%e5%ae%a4%e5%86%85 6
+%e6%a4%9c%e7%b4%a2 5
+jfic 4
+%e5%ae%a4%e5%86%85%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 3
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%82%a2 3
+vfh 1
+%e5%a4%a7%e6%bb%9d%e5%92%8c%e5%ad%9d 1
+jcf 1
+%e3%82%a2%e3%83%bc%e3%83%86%e3%82%a3%e3%82%b9%e3%83%86%e3%82%a3%e3%83%83%e3%82%af%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab 1
+ball 1
+nifty_top_tp 1
+www.jfic-japan.com 2
+%e8%8c%82%e5%8f%b2 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e3%82%b3%e3%83%bc%e3%83%88 1
+%e3%83%89%e3%82%a4%e3%83%84 1
+%e4%bd%90%e8%97%a4%e5%87%aa%e6%b2%99 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e4%ba%ac%e9%83%bd 1
+open 1
+%e5%ae%ae%e6%9c%ac%e6%ad%a6%e5%bd%a6 2
+fk 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2 1
+%e5%a4%a7%e4%bc%9a%e3%81%a0%e3%81%8b%e3%82%89 1
+%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e8%87%aa%e8%bb%a2%e7%ab%b6%e6%8a%80 2
+hong 1
+%ef%bd%bb%ef%bd%b2%ef%bd%b8%ef%be%99%ef%bd%bb%ef%bd%af%ef%bd%b6%ef%bd%b0%e6%9d%91%e4%b8%8a%e8%a3%95%e4%ba%ae 2
+%e6%97%a5%e6%9c%ac%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f%ef%bc%88jcf%ef%bc%89%e3%81%ae%e7%ab%b6%e6%8a%80%e8%80%85%e7%99%bb%e9%8c%b2%ef%bc%88%e6%96%b0%e8%a6%8f%e3%83%bb%e5%86%8d%e7%99%bb%e9%8c%b2 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e7%ac%ac%ef%bc%94%ef%bc%93%e5%9b%9e%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a%e3%80%80%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e5%a5%b3%e5%ad%90%e3%82%b7%e3%83%b3%e3%82%b0%e3%83%ab 1
+%e8%ac%9d%e6%96%87%e8%ac%99 1
+%e5%ae%a4%e5%86%85%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab 1
+%e9%87%8e%e6%9c%ac%e8%aa%a0%e4%b8%80%e9%83%8e 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e5%ae%a4%e5%86%85 1
+%e3%83%ab%e3%83%bc%e3%83%ab 1
+%e5%ae%a4%e5%86%85%e3%81%a7%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e5%ae%ae%e5%b7%9d%e5%bb%a3%e5%b9%b3 1
+%e5%ae%a4%e5%86%85%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80 1
+%e7%ab%b6%e6%8a%80%e4%ba%ba%e5%8f%a3 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 1
+%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2 2
+identity 1
+%e3%83%94%e3%83%b3%e3%82%ad%e3%83%bc%e3%82%ba%e5%a4%a7%e9%98%aa 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85 1
+uci%e8%a6%8f%e5%ae%9a 1
+%e8%8a%9d%e5%b1%b1 1
+the 1
+%e3%83%90%e3%83%ab%e3%82%ab%e3%83%bc%e3%82%ab%e3%83%83%e3%83%97 1
+ensure 1
+%e9%99%b3%e5%ad%90%e9%a7%bf%e5%96%ae%e8%bb%8a 1
+%e9%96%80%e5%8f%a3%e3%82%86%e3%81%86%e3%81%84%e3%81%a1 1
+%e6%97%a5%e6%9c%ac%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e5%8d%94%e4%bc%9a 1
+kong 1
+%e6%9d%b1%e4%ba%ac 1
+%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e5%ae%a4%e5%86%85%e3%82%b7%e3%83%a5%e3%83%bc%e3%83%88%e7%b7%b4%e7%bf%92 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80 1
+%e6%97%a5%e6%9c%ac%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f%e3%80%80%e4%bb%8a%e5%b9%b4%e5%ba%a6%e6%97%a5%e7%a8%8b 1
+%e6%bb%8b%e8%b3%80%e3%83%96%e3%83%ab%e3%83%bc%e3%83%ac%e3%82%a4%e3%82%af%e3%82%a8%e3%83%b3%e3%82%b8%e3%82%a7%e3%83%ab 1
+%e4%ba%ac%e9%83%bd 1
+%e3%83%89%e3%83%bc%e3%83%94%e3%83%b3%e3%82%b0%e3%83%86%e3%82%b9%e3%83%88%e3%80%80%e9%80%9a%e5%91%8a%e6%9b%b8 1
+%e5%9b%a3%e4%bd%93%e7%99%bb%e9%8c%b2 1
+%e8%b2%a0%e6%8b%85 1
+%e6%a3%ae%e3%80%80%e8%8c%82%e5%8f%b2 1
+%e3%83%af%e3%83%bc%e3%83%ab%e3%83%89%e3%82%ab%e3%83%83%e3%83%97 1
+%e4%bd%90%e8%97%a4%e5%ba%b7%e5%bd%a6 1
+%e4%bf%9d%e8%a8%bc 1
+%e6%a3%ae 1
+%e7%9f%a2%e8%8a%b1%e3%80%80%e6%ad%a9 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e4%bc%9a 1
+%e8%80%95%e8%bc%94 1
+%e5%a4%9a%e7%94%b0%e5%92%8c%e9%9b%84%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e7%ac%ac43%e5%9b%9e%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a 1
+%e8%8b%b1%e6%96%87 1
+%e6%97%a5%e6%9c%ac%e4%bb%a3%e8%a1%a8 1
+%e9%96%a2%e6%9d%b1%e5%a4%a7%e5%ad%a6%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e4%ba%ac%e9%83%bd%e7%94%a3%e6%a5%ad%e5%a4%a7%e5%ad%a6%e8%87%aa%e8%bb%a2 1
+43 2
+%e7%b5%90%e6%9e%9c 1
+%e7%b8%84%e7%94%b0%e5%91%a8%e4%ba%ba 1
+jfic-japan.com 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e5%a6%99%e4%b8%ad 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 143 43396
+416 1 398
+206 161 38130421
+404 1151 3293011
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 188
+/results/2012/Results_KantoCycle-ball_SpringLeague.pdf 1 -
+/Desktop%20Folder/national/Japan_Championships/EndResults_of_40th_Japan_championships.pdf 1 -
+/Desktop%20Folder/Jcup/2009/tentative_schedule.pdf 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_08_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/43AllJapan_EndResults.pdf/ 1 -
+/pdf/2012/UPDATE_30.10.12_2012_UCI_Indoor_Cycling+WCH_ProgrammeOverview.pdf 2 http://www.jfic-japan.com/tournament.html
+/results/All-Japan_2011_results.pdf 1 -
+/img/rule/14_Anti-Doping.pdf 1 -
+/images/webgallery/calendar1.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_10_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_03_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/tournament/41AllJapan.pdf/ 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_33_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2013/SHashimoto_20130101.pdf 1 http://www.jfic-japan.com/news_contents.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_39_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_45_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/miyakohei@aol.com 3 -
+/gamesinfo.html 3 -
+/about_2TrainingCamp-J.html 2 -
+/images/webgallery/home1.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/2012+Challenge+Cup+U-28+Osaka+qualifying+round+1(J).pdf 2 http://www.jfic-japan.com/news.html
+/images/webgallery/news1.jpg 5 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/img/rule/coaching_programm_IICC.pdf 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_21_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/east.html 2 -
+/2011WM/2011JapanNtionalTeam.html 2 -
+/images/webgallery/sponsor2.jpg 4 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_60_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/2012+Challenge+Cup+U-28+Tokyo+qualifying+round+1(J).pdf 2 http://www.jfic-japan.com/news.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_65_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/gallery2.jpg 5 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/img/gallery/img06.jpg 1 -
+/images/webgallery/renmei1.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_42_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_44_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/Results_of_43.KansaiStudentsIncolle.pdf/ 2 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_04_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_01_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_55_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_57_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2013/S.Hashimoto_2012.01.01.pdf 5 -
+/pdf/2012/2012 2 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_68_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/Results_2012 1 -
+/2011WM/Results_WCC2011.pdf 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_16_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_28_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_64_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/img/gamesinfo/PG_JapanChampionships_2010.pdf 1 -
+/pdf/2012/Results_2012+Challenge+Cup+U-28+Final(J).pdf 2 http://www.jfic-japan.com/news.html
+//administrator/components/com_jce/jce.xml 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_46_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/wp-login.php 9 http:///wp-login.php
+/images/webgallery/2012AllJapanPhoto/12-12-02_09_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/Results_2.+PreliminaryRound(Osaka)_for2012ValquaCup.pdf 2 http://www.jfic-japan.com/news.html
+/images/webgallery/link2.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/report2.jpg 5 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_52_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/Rules/CB/ChangingPoints_of_CYCLE-BALL_Regulations_120325.pdf 5 -
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_06_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/apple-touch-icon-114x114-precomposed.png 2 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_25_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/sponsor1.jpg 4 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_24_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/doping1.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_71_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_53_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/results/Results_2011_Challenge_Cup_U28.pdf 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_62_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_11_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_48_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_56_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/kaigai 3 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_47_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_03_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/asian.html 1 -
+/img/gamesinfo/41JC-OL.pdf 1 -
+/images/webgallery/report1.jpg 5 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/link.html/ 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_29_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_05_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_04_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapan.html 2 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_49_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_72_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/Desktop%20Folder/national/Kansai/09KansaiLeague-G1results.pdf 2 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_34_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/2011.11/42_AlljapanChampionships_outline20111121.pdf 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_23_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_04_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/english1.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/a_blt003.gif 26 http://www.jfic-japan.com/tournament.html
+/images/webgallery/contact1.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_73_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_02_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_11_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/robots.txt 723 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_19_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_32_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/calender2.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_12_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/kaigai/ 27 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_66_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/2012+World+Cup+MuarTechnical+Guidance.pdf 2 http://www.jfic-japan.com/news.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_54_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_10_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_08_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_43_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/Results_1.+PreliminaryRound_for2012ValquaCup_and_2.+KantoPreliminaryRound_for6.ChallengeCup.pdf 2 http://www.jfic-japan.com/news.html
+/Desktop%20Folder/WM/2009/2009WM_JapanTeam.pdf 2 -
+/WM/2009/2009WM_JapanTeam.pdf 1 -
+/images/webgallery/2012AllJapanPhoto/cover.jpg 3 http://www.jfic-japan.com/gallery.html
+/pdf/2012/UPDATE_30.10.12_2012_UCI_Indoor_Cycling%2520WCH_ProgrammeOverview.pdf 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_03_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/img/rule/08_1_IndoorCB(JCF_EDITION_2007) 1 -
+/images/webgallery/english2.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/club2.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_35_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_51_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_70_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/img/rule/08_1_IndoorAC(JCF_EDITION_2007) 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_26_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_12_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/2012+Challenge+Cup+U-28+Osaka+qualifying+round+2(J).pdf 2 http://www.jfic-japan.com/news.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_14_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/apple-touch-icon-114x114.png 2 -
+/Mozilla/3 1 -
+/Desktop%20Folder/EA_Games/2009EastAsianGames-Hong_Kong.pdf 1 -
+/images/webgallery/home2.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_18_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/2011.7/2011ValquaCup.html 2 -
+/Desktop%20Folder/national/valquacup/6th%20Valqua%20Cup.pdf 2 -
+/pdf/2012/43AllJapan_DM201211113.pdf/ 1 -
+/images/webgallery/taikai2.jpg 5 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/Desktop%20Folder/national/valquacup/end%20results%20of%206th%20Valqua%20Cup.pdf 1 -
+/Desktop%20Folder/national/Intercollegiate/42Incolle_outline.pdf 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_36_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_13_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_59_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_63_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_07_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_06_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/club1.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/traininginfo.html/ 6 -
+/Desktop%20Folder/Jcup/2009/Booklet_of_Japan_Cup_2009.pdf 1 -
+/apple-touch-icon.png 2 -
+/images/webgallery/taikai1.jpg 5 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/news2.jpg 5 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_05_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_69_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/kisoku2.jpg 4 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_75_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/contact2.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_17_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_27_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/about.html 31 -
+/calender1.jpg 11 http://www.jfic-japan.com/traininginfo.html
+/pdf/2012/UPDATE_30.10.12_2012_UCI_Indoor_Cycling0WCH_ProgrammeOverview.pdf 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_37_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/Miyakohei@aol.com 3 -
+/images/webgallery/renmei2.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/index%5B1%5D.html 4 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_22_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/apple-touch-icon-precomposed.png 5 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_67_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/WM/2009/WM2009_Program.html 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_61_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_50_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/kisoku1.jpg 4 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2012/UPDATE_30.10.12_2012_UCI_Indoor_Cycling 2 -
+/index[1].html 14 -
+/Desktop%20Folder/W-cup/oita/2009wc_Oita.html 1 -
+/images/webgallery/doping2.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/pdf/2013/S.Hashimoto_2013.01.01.pdf 6 -
+/images/webgallery/2012AllJapanPhoto/12-12-02_20_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_41_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_31_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_15_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/link1.jpg 3 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_30_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/Desktop%20Folder/EA_Games/2009_East_Asian_Games.htm 1 -
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_07_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/index.php 1 -
+/url(data:image/png 1 http://www.jfic-japan.com/club.html
+/images/webgallery/2012AllJapanPhoto/12-12-02-other_09_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_74_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/images/webgallery/2012AllJapanPhoto/12-12-02_58_thumb_1.jpg 1 http://www.jfic-japan.com/images/webgallery/2012AllJapan.html
+/report.html/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 579
+222.4.49.180 307 3575 33595223 20130131001813
+150.70.75.164 232 233 28754885 20130131152025
+150.70.172.237 105 105 16138023 20130131222209
+150.70.172.232 95 95 13396651 20130131234209
+157.55.35.41 82 82 16060594 20130124162111
+65.55.52.97 78 78 16933740 20130129202725
+157.55.33.111 61 61 19687579 20130124110849
+46.4.102.72 41 41 1583595 20130103165116
+65.55.52.117 38 38 7592625 20130120203803
+111.171.149.168 33 449 1316249 20130131213236
+221.171.46.144 2 60 709554 20130130003419
+131.253.24.157 0 1 2607 
+150.70.172.200 7 7 294265 20130131142604
+211.125.138.173 2 51 658340 20130118133030
+37.16.126.245 12 12 270300 20130108093115
+210.131.107.187 15 176 2929326 20130110012324
+131.253.24.80 1 1 238814 20130113034123
+141.0.8.218 5 111 2746722 20130115205102
+27.132.79.148 2 61 710331 20130122170009
+59.156.93.237 5 74 1701835 20130107132713
+49.98.10.39 2 60 710545 20130109184410
+202.212.55.238 6 52 994979 20130110131756
+59.190.19.119 6 48 1577484 20130101214739
+66.232.120.19 1 1 16990 20130131194219
+114.149.131.13 3 58 1422485 20130116220339
+74.125.16.213 0 2 28525 
+58.156.82.139 1 1 698363 20130131105513
+202.46.52.46 1 1 16912 20130125054446
+110.4.189.113 1 42 671634 20130122092957
+59.147.3.25 6 68 187442 20130112010449
+113.213.245.111 2 60 710545 20130117223827
+141.0.9.106 4 72 1722531 20130119200916
+114.160.47.53 7 84 2051962 20130129103653
+157.56.229.88 28 28 14166430 20130108205525
+96.232.139.45 16 16 355902 20130128205757
+219.115.52.45 0 2 54480 
+223.135.47.93 3 61 724636 20130122233302
+131.253.24.78 1 1 698363 20130129153511
+61.201.120.242 6 80 1779469 20130111121932
+210.174.53.132 2 60 487865 20130108005230
+74.125.16.88 4 14 630536 20130121110127
+119.242.199.206 4 76 1111327 20130124112520
+182.248.112.133 1 24 269452 20130107132055
+142.4.208.185 5 5 103642 20130130224934
+115.176.73.17 3 65 807314 20130130213333
+223.135.37.228 4 15 1030334 20130131232747
+121.118.239.147 25 614 5370577 20130129215036
+218.40.4.162 4 69 1798457 20130115195049
+202.46.51.72 1 1 16912 20130121174406
+202.46.55.31 1 1 16990 20130130054320
+220.12.224.16 2 60 710545 20130110220351
+59.190.57.103 6 87 1900374 20130101180437
+183.74.4.197 7 71 1351560 20130112111433
+157.55.17.87 3 5 296157 20130116041417
+74.125.16.91 0 10 42626 
+65.55.210.175 1 2 20037 20130126055155
+182.249.240.72 4 74 2017231 20130112045950
+210.174.53.67 2 60 710545 20130116010729
+65.55.213.34 1 1 675862 20130130084701
+126.11.211.56 5 69 910850 20130106121209
+218.110.245.156 4 120 1415448 20130122072132
+46.229.160.208 2 2 1062634 20130126153150
+124.24.255.28 2 41 229770 20130110122017
+206.225.83.83 2 2 55062 20130104015234
+115.37.233.207 2 60 756212 20130102004015
+65.55.218.46 1 1 25900 20130120084109
+101.96.56.101 1 40 212340 20130103072641
+59.159.1.18 1 40 212340 20130118120255
+178.200.236.243 2 43 604609 20130103043014
+74.125.176.110 1 1 224278 20130122100641
+58.188.36.88 2 2 0 20130121202850
+182.168.177.112 1 38 146583 20130119135106
+188.40.159.217 2 2 41452 20130119071034
+178.200.236.222 3 59 412903 20130107012756
+74.125.16.85 2 5 256249 20130116221207
+126.208.108.109 4 117 1329510 20130102112133
+202.46.62.12 1 1 16990 20130131154438
+202.46.58.35 1 1 20721 20130102054526
+182.164.35.254 9 70 19759973 20130114222113
+119.228.36.131 2 39 160919 20130124104735
+111.233.187.68 4 91 1878545 20130106004816
+202.229.103.225 2 61 711367 20130131105611
+59.190.133.218 2 60 710545 20130118135853
+126.214.102.54 4 67 1276172 20130122204548
+157.55.32.87 1 1 35674 20130119022214
+211.135.143.240 2 60 756212 20130102024635
+182.248.112.135 0 8 90279 
+202.242.9.39 4 62 1309853 20130117150203
+208.115.113.88 17 17 426043 20130129084116
+65.55.55.229 24 24 4757911 20130129202119
+178.200.236.248 2 43 0 20130109004818
+5.9.184.25 1 1 183983 20130116194113
+61.28.1.218 2 43 240065 20130129131451
+182.249.240.110 2 57 590466 20130118210216
+157.55.35.98 5 5 3028247 20130120165438
+65.55.52.95 6 6 1473127 20130124090441
+182.249.237.241 9 76 2195335 20130108145814
+146.52.210.34 1 1 17430 20130106070851
+65.55.210.239 1 2 38281 20130119022216
+218.185.154.211 3 47 1383883 20130124195550
+50.28.44.170 1 1 16912 20130121181905
+202.46.53.203 1 1 16912 20130124054423
+131.253.24.46 1 2 27428 20130123125157
+133.1.90.160 7 142 3409047 20130117113007
+157.55.35.35 1 1 24771 20130122001358
+182.248.112.134 0 1 19618 
+210.250.85.37 6 20 232144 20130128123821
+150.70.75.28 7 7 372038 20130124091135
+126.214.244.235 2 60 710545 20130115111026
+78.158.11.226 4 4 68581 20130126145737
+106.161.192.116 2 60 710545 20130116141833
+131.253.36.195 0 1 2607 
+210.255.191.134 4 50 819052 20130110155039
+61.193.168.193 11 110 1305420 20130125150040
+119.63.193.132 19 19 374829 20130130154614
+209.85.238.149 2 2 106 20130131092048
+121.113.126.136 2 61 759074 20130105100754
+122.18.206.70 1 1 154276 20130129011212
+219.117.176.123 15 214 2456960 20130126184808
+158.217.210.134 0 7 5819 
+180.29.37.239 2 2 83754 20130125204257
+122.133.157.34 3 61 1227570 20130105144422
+182.249.240.71 5 63 987681 20130119214810
+101.142.5.169 2 60 708105 20130131182152
+38.100.21.63 11 11 270611 20130109194210
+150.70.194.110 1 1 20726 20130119050421
+74.125.16.211 3 24 475601 20130121110127
+36.3.227.204 3 61 743178 20130118214800
+157.55.112.232 1 1 444246 20130103173954
+178.200.236.136 3 60 25558 20130119164757
+178.200.236.193 1 1 268252 20130123083910
+202.46.54.193 1 1 20688 20130103174358
+218.213.137.4 23 23 790361 20130124230349
+157.55.32.101 20 20 2507419 20130118135734
+131.253.24.42 2 4 57963 20130116091938
+71.176.66.73 2 2 36816 20130110182609
+124.110.86.195 1 1 476749 20130107204014
+61.115.77.27 6 62 687718 20130111161250
+210.143.141.201 10 170 2243749 20130113123136
+221.171.15.109 4 72 1720969 20130116235100
+114.111.69.84 0 19 367618 
+192.218.140.245 0 3 6486 
+221.184.69.72 2 49 805084 20130102174520
+157.55.34.168 4 4 67726 20130127194206
+202.46.53.86 1 1 20688 20130104054554
+175.129.203.164 23 435 11308342 20130131134314
+49.97.5.175 3 61 726688 20130127224212
+49.107.200.204 2 60 756538 20130104221931
+74.125.16.212 0 20 83593 
+202.46.55.109 1 1 20726 20130109114401
+74.125.16.84 0 3 26102 
+157.55.32.60 4 5 164064 20130119222611
+183.177.223.82 3 49 351089 20130125081755
+211.15.49.198 2 60 707724 20130123180822
+126.210.169.96 2 60 707724 20130125101538
+199.217.119.10 16 16 368855 20130112011537
+58.190.30.91 3 69 1449042 20130131201537
+49.96.58.132 1 42 671634 20130122160015
+202.46.58.171 1 1 20726 20130118054528
+114.172.93.118 2 60 707724 20130125215305
+178.200.236.149 2 58 6983 20130111021306
+202.179.226.201 3 54 992942 20130105233939
+49.96.24.44 2 44 167785 20130128062301
+150.70.64.215 1 1 408785 20130121122731
+1.78.41.23 2 60 710545 20130108095543
+112.111.172.104 1 1 24771 20130123183627
+176.34.244.157 1 1 128205 20130130170530
+118.151.185.43 1 36 147291 20130108154508
+113.32.188.98 2 44 173204 20130125110749
+118.22.118.96 1 40 212340 20130107104801
+114.190.188.196 1 1 156741 20130118124455
+178.33.142.59 1 1 20726 20130111125712
+69.58.178.58 11 11 561656 20130107023812
+49.96.23.68 4 70 648258 20130127225724
+202.46.53.204 1 1 16912 20130124174319
+176.9.111.204 1 1 20726 20130108140215
+118.12.97.68 5 131 1549397 20130103082019
+182.249.240.89 2 60 710545 20130112050556
+131.112.125.215 8 238 2127823 20130129163344
+210.250.66.0 3 66 856535 20130110100856
+85.25.246.225 1 1 16990 20130128010835
+182.249.25.37 2 2 351586 20130117155228
+173.45.104.226 1 1 20726 20130111103525
+157.55.33.79 11 11 4209283 20130130051312
+111.217.125.159 2 2 862104 20130130185022
+1.78.26.224 5 76 1874894 20130125052911
+124.96.88.243 4 120 1513076 20130103234039
+157.55.32.57 1 2 38359 20130130051758
+157.55.32.141 4 4 1602993 20130120080314
+113.20.207.22 4 120 1417278 20130127175631
+188.165.230.147 3 3 58437 20130128182200
+74.125.16.89 1 7 71355 20130110005324
+74.125.17.212 0 1 74751 
+202.46.52.34 1 1 16912 20130125174339
+202.46.53.31 1 1 20726 20130116174408
+203.129.106.65 2 31 520734 20130127175904
+210.174.35.68 3 61 731271 20130115095636
+220.111.138.100 3 96 740357 20130122111114
+157.55.35.85 11 11 6266367 20130120171921
+133.1.245.224 9 77 1854487 20130128041402
+114.175.42.6 2 60 707724 20130125230150
+202.46.55.184 1 1 20688 20130106174417
+150.70.172.108 3 3 697384 20130128181341
+123.108.239.247 1 1 268252 20130110233153
+74.125.16.208 0 9 45311 
+150.70.172.205 13 13 1003549 20130124095121
+219.98.195.4 2 2 16990 20130129095623
+202.46.62.114 1 1 16912 20130126054449
+119.63.193.194 6 6 116725 20130131054433
+202.46.58.169 1 1 20726 20130115054427
+131.253.26.230 1 1 26820 20130111142031
+188.165.248.204 1 1 20726 20130112202054
+122.214.204.35 25 705 7361250 20130131141941
+126.253.193.37 14 101 4176589 20130110222013
+58.98.210.197 2 59 706292 20130129095557
+219.121.51.235 2 66 729815 20130120140605
+124.212.158.60 4 62 1730550 20130104165403
+219.114.63.205 2 60 707724 20130120032011
+199.217.119.217 3 3 58442 20130131020237
+182.249.185.88 5 63 1264965 20130109131448
+223.135.42.19 2 2 16990 20130129223158
+211.125.138.171 1 23 104785 20130110191453
+153.177.42.209 3 65 805406 20130121004030
+202.46.57.138 1 1 20726 20130114174442
+1.78.41.18 5 47 1410906 20130129201531
+119.244.106.10 2 60 710545 20130112192947
+110.54.81.13 2 60 707724 20130123210438
+202.46.51.76 1 1 20726 20130110074300
+5.135.182.209 1 1 16912 20130125021443
+178.200.236.167 2 5 54982 20130121020518
+180.57.52.199 2 60 710545 20130116133814
+106.170.149.78 4 87 1836990 20130103160432
+157.55.32.81 2 2 900976 20130129201645
+208.115.111.72 21 21 818687 20130130184204
+59.156.102.241 3 61 727975 20130115134916
+202.46.58.140 1 1 20726 20130114074242
+65.55.210.190 1 2 35240 20130125232247
+202.46.52.120 1 1 20688 20130103054549
+211.134.35.55 6 72 1586623 20130117233225
+218.227.83.3 2 49 679723 20130104214007
+157.14.193.164 21 282 4536648 20130118121927
+119.228.34.234 2 49 707771 20130117204121
+59.147.3.98 2 24 173367 20130108235115
+153.131.192.238 6 70 2025952 20130118003528
+131.112.125.216 4 118 710545 20130113223301
+126.16.59.118 1 1 40528 20130110113811
+126.214.246.160 4 62 1182682 20130105101656
+182.249.232.241 3 60 723800 20130131000313
+173.242.124.160 1 1 16912 20130121234023
+1.78.27.45 3 58 906952 20130121082102
+74.125.16.210 0 3 74655 
+74.125.16.223 0 9 88032 
+1.78.26.176 3 71 1702280 20130123132050
+101.143.243.10 1 40 212340 20130104145634
+219.198.234.190 13 253 1883767 20130122134058
+180.51.93.210 2 60 707724 20130125121002
+223.135.38.75 2 58 16912 20130126204702
+173.31.74.145 2 2 41414 20130112044528
+61.210.85.139 1 36 133665 20130130012354
+124.97.152.61 8 106 1909075 20130124090832
+101.96.43.36 1 51 503812 20130124201914
+211.127.239.18 1 42 671634 20130127112829
+202.46.51.146 1 1 20726 20130118174312
+157.55.33.17 2 2 219047 20130124033941
+124.45.179.56 1 50 501205 20130119103946
+131.253.24.38 1 1 160150 20130122055231
+182.249.242.156 2 2 1301292 20130117011648
+218.110.245.147 2 5 20726 20130113012914
+157.56.229.23 30 31 9559649 20130129202153
+118.156.156.82 9 92 1892299 20130113132912
+118.22.181.56 3 47 382270 20130102202812
+150.70.75.33 5 5 1139773 20130123122428
+65.52.111.217 1 1 154276 20130116091715
+1.78.35.88 5 69 1298566 20130122233402
+111.89.167.86 1 1 698363 20130129232913
+199.217.117.35 16 16 367006 20130122035701
+49.97.9.82 4 62 742066 20130122094832
+59.190.125.117 10 101 3833651 20130102085405
+183.79.34.87 0 1 69608 
+97.91.82.34 3 56 1149968 20130102125121
+218.213.26.163 4 4 85158 20130114072707
+202.46.57.82 1 1 16912 20130127094522
+126.54.6.10 2 60 709554 20130128205749
+65.55.52.112 21 21 3091610 20130131131434
+60.33.48.199 2 24 133955 20130124125527
+220.51.162.111 4 63 1655022 20130130133116
+124.25.74.148 11 266 5740903 20130115134333
+223.135.40.123 6 128 2386516 20130107000147
+150.70.172.102 2 2 949598 20130124075710
+202.33.250.226 2 41 229770 20130118163617
+213.174.154.106 2 2 37638 20130123210156
+65.55.52.86 16 16 4919562 20130131092934
+178.33.142.56 1 1 20726 20130115151843
+202.143.92.132 1 1 156741 20130108113949
+101.142.12.15 3 45 189641 20130111012658
+58.188.180.56 3 39 494115 20130109070601
+126.192.5.52 1 1 268252 20130110233155
+202.46.50.92 1 1 16990 20130128054331
+115.241.85.25 0 1 74751 
+36.246.158.40 18 457 8419515 20130127224312
+80.86.88.172 1 1 20688 20130103134051
+1.78.12.61 1 40 212340 20130119150456
+202.46.62.117 1 1 20726 20130119054501
+118.155.220.95 3 39 1288574 20130117115357
+58.93.139.17 3 65 805865 20130131192343
+202.46.61.28 1 1 20726 20130117174344
+65.55.210.132 1 1 224278 20130129194549
+74.125.16.86 5 23 514949 20130121110148
+101.111.18.14 14 229 5228625 20130127095115
+157.55.33.181 2 2 635216 20130129220317
+131.253.24.75 2 3 244315 20130126162345
+106.163.33.66 3 64 1038088 20130111213056
+210.138.204.79 2 36 153904 20130116002520
+202.253.246.3 2 42 236647 20130122212835
+121.106.53.227 15 113 2687190 20130125060841
+113.20.200.121 2 60 756212 20130102185624
+133.127.68.71 1 21 76591 20130125220808
+121.82.153.108 2 58 474389 20130128174155
+111.216.103.231 2 60 707724 20130123004524
+121.84.0.43 3 61 1178827 20130122123653
+202.46.50.86 1 1 16912 20130120054347
+178.33.142.51 2 2 41376 20130106121608
+157.55.32.166 2 2 160150 20130123195813
+121.87.127.37 4 64 759065 20130128160905
+61.44.173.28 4 60 659157 20130128101427
+182.248.112.130 1 12 73598 20130114131032
+126.205.148.124 1 40 212340 20130113141608
+157.56.229.188 3 3 513713 20130121222828
+59.147.22.210 2 60 756467 20130106132247
+133.127.68.253 1 32 141998 20130125220805
+202.46.61.35 1 1 16990 20130130154556
+176.34.19.192 2 2 1255840 20130101084115
+211.127.237.64 2 60 709554 20130129134643
+182.21.23.88 2 60 710545 20130115082957
+1.72.6.202 2 27 513806 20130121130721
+121.1.197.204 4 119 1413860 20130126234302
+157.55.33.112 1 1 35674 20130122194526
+178.200.236.203 2 58 366954 20130108075501
+126.47.8.110 1 35 130325 20130125105113
+112.70.8.181 2 61 710331 20130124001505
+210.141.246.35 4 75 285062 20130115163024
+115.163.111.192 4 83 1567597 20130114184142
+110.132.59.16 1 59 736106 20130117001916
+202.46.55.116 1 1 20721 20130101054438
+182.249.240.16 6 75 1808588 20130101042329
+220.97.98.226 2 38 135054 20130130142100
+74.125.16.214 2 4 812940 20130116222142
+54.234.72.18 1 1 20688 20130105074432
+58.88.212.70 2 36 551167 20130115144953
+210.238.226.126 6 48 1129181 20130115134534
+202.46.55.20 1 1 20726 20130116054506
+202.46.59.156 1 1 20721 20130101174436
+93.130.145.210 11 102 3347979 20130104190853
+158.217.250.23 8 148 2257102 20130131111441
+202.46.53.173 1 1 16990 20130131054418
+113.213.211.216 2 4 42202 20130129142901
+157.55.32.144 6 7 3460245 20130131222409
+111.217.214.27 3 61 725714 20130114071939
+74.125.16.81 0 23 116616 
+74.125.16.95 2 5 72477 20130115182419
+221.190.216.192 2 60 707724 20130125092851
+59.147.22.118 2 59 706292 20130128174556
+202.46.50.139 1 1 16990 20130129054405
+210.174.53.176 2 2 41452 20130114170630
+211.125.138.170 2 42 1343266 20130118133030
+184.173.221.28 1 1 20726 20130117072636
+202.174.58.161 0 1 62809 
+211.132.45.33 2 60 756467 20130106104132
+141.255.184.209 1 1 16912 20130120193504
+157.55.32.58 4 5 1148212 20130128203421
+157.55.33.84 3 3 740124 20130128234050
+157.55.33.86 7 7 425816 20130102090019
+65.52.111.251 2 4 57343 20130101074231
+106.182.33.57 2 60 756467 20130105163652
+157.55.33.18 10 24 1512884 20130105141250
+219.215.158.126 6 98 1673049 20130120181127
+126.208.110.168 4 71 1750128 20130106105216
+59.86.139.9 1 36 131714 20130126015200
+122.197.237.153 3 58 1424372 20130123211304
+96.227.124.38 2 2 41447 20130114160452
+65.55.211.196 2 2 443652 20130126233228
+133.67.6.240 6 136 11869618 20130122155239
+126.208.105.170 2 49 679723 20130101155551
+65.55.211.206 1 1 142791 20130128114753
+202.214.30.73 2 41 229552 20130130144657
+210.174.35.136 2 60 710545 20130114122934
+126.27.177.119 3 68 973043 20130131151711
+110.67.37.151 1 1 650646 20130120233953
+202.46.53.172 1 1 20688 20130105054651
+182.248.112.138 0 29 100812 
+210.237.38.78 11 175 7384829 20130125091225
+106.170.187.90 3 72 1704466 20130130024149
+59.143.65.227 1 1 154276 20130130193709
+133.127.68.70 3 40 117295 20130125220849
+125.206.236.65 4 46 207316 20130123122202
+65.55.210.241 1 1 156741 20130120072447
+122.212.131.146 3 65 808227 20130115155415
+202.46.53.94 2 2 41414 20130119174334
+49.108.136.123 2 59 0 20130114112252
+94.23.195.83 1 1 20726 20130111175923
+101.142.41.162 10 130 1503994 20130115143238
+133.127.68.252 3 30 147392 20130125220808
+210.198.27.26 3 3 65904 20130130175548
+158.217.131.253 0 1 2607 
+202.46.53.97 1 1 20726 20130108174508
+202.46.53.80 1 1 20721 20130102174441
+153.134.85.79 2 60 710545 20130115163023
+125.30.213.139 1 36 147291 20130121163824
+77.5.100.212 3 61 743178 20130114224728
+69.171.237.11 0 1 16250 
+74.125.16.209 0 6 51785 
+178.200.236.202 2 57 6983 20130117080200
+182.249.240.80 2 60 707724 20130126113401
+202.46.57.142 1 1 16990 20130129154436
+157.55.32.104 30 30 10492436 20130124153841
+202.46.52.149 1 1 20688 20130106054510
+118.10.169.85 5 112 1877355 20130111180550
+122.213.243.66 5 78 9221241 20130117155013
+220.156.0.170 29 808 11462921 20130129144655
+94.23.43.110 2 2 49542 20130113232942
+49.98.10.106 5 63 763870 20130116111244
+178.200.236.224 2 59 460155 20130105184254
+77.6.144.71 2 16 397377 20130124030719
+199.127.227.147 1 1 16912 20130125003355
+74.125.16.94 3 4 206753 20130119073745
+113.32.196.82 2 60 707724 20130125193308
+141.0.10.39 2 60 709554 20130129203741
+157.55.33.24 11 15 3661289 20130123194728
+106.170.40.203 2 38 550576 20130120230141
+1.36.89.153 1 1 224278 20130118203027
+219.108.203.235 6 81 1758963 20130114195937
+74.125.16.80 1 16 450749 20130115182420
+1.73.69.66 4 61 87021 20130120080751
+211.125.138.169 1 33 196803 20130110191753
+218.213.130.26 8 8 154617 20130124022958
+221.171.45.32 4 62 1574037 20130105234615
+221.171.20.59 2 60 710545 20130112221841
+180.50.186.204 2 61 759074 20130107210210
+180.31.140.119 1 40 212340 20130113145446
+222.159.24.14 5 83 1272621 20130105164957
+202.32.7.195 25 220 15312532 20130113134626
+157.55.32.56 13 13 1093075 20130120184322
+221.250.25.154 2 60 710545 20130119205823
+202.46.51.75 1 1 20726 20130112074218
+93.130.192.131 2 60 710545 20130113001811
+157.55.35.82 8 8 3176059 20130129031320
+182.248.112.137 1 8 66856 20130107131926
+211.125.138.168 0 10 37267 
+123.223.11.56 11 279 4345893 20130127232400
+27.95.171.134 2 60 707724 20130121060029
+65.55.210.159 1 1 156741 20130131092937
+157.55.34.179 2 2 137342 20130130144549
+130.83.167.153 4 4 81420 20130124130651
+150.70.97.42 24 24 1507710 20130131153042
+14.199.241.182 1 1 224278 20130128190009
+60.56.184.178 12 82 1388227 20130112192923
+219.127.83.66 1 36 147291 20130125021523
+178.63.114.172 1 1 205182 20130110195717
+1.78.34.176 2 60 707724 20130124075907
+49.108.135.74 2 59 35440 20130127073203
+49.108.129.69 2 65 729759 20130111065447
+219.78.89.241 1 1 224278 20130108171243
+202.46.55.100 1 1 20726 20130108054527
+65.55.210.133 1 1 238814 20130124053644
+180.5.0.183 3 87 1309949 20130106090354
+131.253.26.251 0 1 2607 
+202.46.60.171 1 1 20726 20130117054446
+121.83.166.97 17 131 11208217 20130131150924
+74.125.16.90 1 26 998250 20130115182438
+119.63.193.195 4 4 71540 20130131154455
+202.46.60.142 1 1 20688 20130107174439
+74.125.16.93 2 12 421862 20130116221251
+113.33.116.170 1 1 16990 20130131144519
+182.249.240.104 2 42 555322 20130125231943
+72.51.37.147 15 15 332542 20130131093620
+65.52.111.79 1 1 202613 20130102012117
+210.141.223.119 2 60 709554 20130129093324
+157.55.33.21 29 29 18415570 20130119055041
+184.22.211.146 4 4 1992282 20130131202002
+157.55.32.84 29 30 9006619 20130112035945
+182.248.112.131 2 20 539791 20130107132055
+27.133.31.132 2 60 756467 20130105135400
+126.253.98.139 1 48 662293 20130101223649
+1.78.38.36 4 62 1528115 20130117061339
+202.248.41.114 8 143 2355079 20130121123153
+107.20.110.152 1 1 20726 20130116063737
+221.171.29.2 5 63 1128065 20130121011558
+157.55.33.44 3 4 2929999 20130125185620
+178.32.77.82 1 1 20726 20130118042709
+150.82.107.133 0 1 19618 
+210.174.34.7 1 17 170713 20130115185838
+150.70.172.106 1 1 650646 20130108151820
+180.27.20.243 8 92 1750469 20130116085554
+202.215.135.145 3 58 1422485 20130117145621
+65.55.213.54 1 1 154276 20130117042807
+113.20.213.118 28 691 9421269 20130130223819
+157.55.32.77 2 2 2280108 20130126082906
+219.98.195.254 2 2 16912 20130122144958
+119.63.193.131 12 12 229644 20130128154634
+59.136.67.132 5 135 3168874 20130111204507
+69.64.34.140 15 15 653760 20130101001628
+126.228.47.192 1 2 238463 20130103234521
+202.46.60.99 1 1 16912 20130123014751
+202.215.231.229 2 41 229770 20130113171347
+74.125.16.83 3 10 365746 20130116221504
+182.249.238.236 1 40 212340 20130107232627
+150.70.194.231 7 7 197744 20130114235600
+124.212.225.161 0 1 871 
+116.230.241.96 2 43 239343 20130113003903
+113.159.130.125 1 40 212340 20130106144830
+157.55.33.125 4 5 7559624 20130131182608
+122.214.7.190 2 60 710545 20130117095237
+133.1.90.161 10 214 5131309 20130130091340
+5.9.35.43 1 1 20726 20130109000935
+58.188.214.216 2 59 616632 20130120213325
+182.249.240.93 4 71 1704206 20130109002119
+202.46.61.27 1 1 16912 20130127154642
+124.83.190.16 2 4 60570 20130113201956
+202.46.56.154 1 1 16912 20130121054425
+114.190.140.37 1 37 138965 20130112114956
+182.248.112.132 1 29 465081 20130107131850
+141.0.10.43 4 62 742210 20130122141111
+182.249.194.169 2 29 137982 20130101234842
+202.46.50.87 1 1 16990 20130128154614
+211.134.21.171 12 187 2239882 20130126191437
+210.146.35.2 1 1 650646 20130124173031
+74.125.16.82 1 4 36231 20130110005447
+210.235.80.243 5 61 817607 20130129125259
+173.45.73.18 7 7 137494 20130131080626
+211.125.138.167 0 18 87155 
+203.180.29.165 1 1 650646 20130125104926
+202.46.54.46 1 1 20688 20130104174436
+222.150.66.198 1 40 212340 20130117162610
+74.125.16.222 0 8 111067 
+180.2.200.157 2 60 710545 20130111114534
+61.203.47.46 3 65 805406 20130120065910
+43.244.183.78 2 60 710545 20130113233552
+118.18.24.113 3 61 1116509 20130124020310
+74.125.16.92 0 3 32023 
+65.55.212.71 1 1 17056 20130119104212
+114.191.53.162 2 59 706292 20130127200436
+180.198.181.30 2 37 164347 20130120212112
+59.190.140.254 3 88 540681 20130108193437
+118.12.5.93 1 36 147291 20130111182349
+182.249.189.198 2 2 633490 20130101164327
+126.209.142.135 6 64 1014332 20130124010440
+124.85.14.84 7 82 1612716 20130103000319
+54.243.1.44 1 1 20688 20130103152514
+119.63.193.196 11 11 208958 20130130054335
+60.56.214.180 8 120 2663181 20130121174544
+126.214.150.165 1 1 28345 20130103181626
+74.125.16.87 2 63 1309761 20130119071658
+202.46.61.109 2 2 41414 20130113074252
+210.190.114.195 2 60 709554 20130130174110
+113.159.93.40 1 50 501205 20130109223735
+182.249.113.112 2 60 707724 20130122120040
+157.56.229.87 4 4 80247 20130130051448
+133.1.55.81 9 118 3572010 20130107193905
+210.138.104.6 1 1 471103 20130125193324
+118.16.197.129 2 60 710545 20130119094739
+65.55.210.193 1 1 238814 20130127171231
+74.125.16.215 0 10 128548 
+220.12.114.131 4 82 1504352 20130128130709
+113.20.201.44 4 120 1421090 20130113182245
+220.181.127.18 1 1 16912 20130123151550
+157.55.32.61 1 1 32711 20130131192537
+157.55.112.211 1 2 28687 20130105024413
+211.125.138.166 0 9 31888 
+124.24.241.214 5 54 1245052 20130106210300
+202.46.53.138 1 1 20726 20130111074402
+220.111.132.91 13 141 4223543 20130107162910
+202.83.186.17 1 40 212340 20130123130523
+114.168.19.61 2 38 2383450 20130125011801
+176.9.36.67 1 1 20726 20130115031645
+74.125.176.23 1 1 224278 20130109140156
+182.249.232.53 1 1 15115 20130109094243
+69.86.95.187 8 203 1921234 20130112172816
+202.46.51.196 1 1 16912 20130123174317
+36.246.157.30 8 134 2938634 20130106195750
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20130101 184 719 46143630 49
+20130102 110 1228 37864779 44
+20130103 113 752 13086672 45
+20130104 91 627 21854545 44
+20130105 148 1198 29411619 51
+20130106 130 1108 36755077 53
+20130107 105 1063 20155922 39
+20130108 148 1091 32270749 67
+20130109 66 705 17593489 30
+20130110 159 1144 42054289 66
+20130111 88 1106 18035406 40
+20130112 124 1101 18706099 43
+20130113 93 970 24094614 44
+20130114 92 1039 32981587 44
+20130115 123 1591 34242173 65
+20130116 86 929 14617372 41
+20130117 100 1061 44534855 52
+20130118 72 928 11430700 46
+20130119 112 1002 12306235 51
+20130120 121 1016 28262786 48
+20130121 88 875 14993575 43
+20130122 80 1250 28334286 41
+20130123 60 633 12605349 39
+20130124 92 914 21883437 51
+20130125 125 1244 31969956 58
+20130126 97 613 11689524 47
+20130127 87 864 10509453 43
+20130128 90 741 13121961 45
+20130129 95 762 24637091 51
+20130130 64 733 19519542 40
+20130131 106 1048 17894379 45
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 12
+5mn-15mn 60
+15mn-30mn 31
+2mn-5mn 43
+30s-2mn 94
+0s-30s 1181
+30mn-1h 44
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 91
+/ 863 14636041 731 379
+/news_contents.html 486 13378505 33 245
+/tournament.html 144 11224334 54 52
+/gallery.html 109 2183771 20 32
+/soccer.html 106 2582320 52 50
+/traininginfo.html 101 2512083 25 48
+/calendar.html 98 1499604 60 43
+/news.html 97 1330744 29 20
+/report.html 87 2640344 26 34
+/renmei.html 65 1958370 33 34
+/images/rule/coaching_programm_IICC.pdf 7 15711395 1 3
+/pdf/2012/2012JapanCupProgram_3b2_915results.pdf 6 5610864 1 1
+/pdf/2012/EndResults_2012ValquaCupFinal.pdf 16 2943728 13 7
+/pdf/2013/SHashimoto_20130101.pdf 53 18803858 11 24
+/pdf/2012/WM_Programm_2012_10_22_V6_Final_2.pdf 8 483080 4 7
+/rule.html 52 1131465 21 14
+/pdf/2012/HK-Open_2012.pdf 14 3139892 13 10
+/pdf/2012/2012KansaiStudentsCycleballLeagueSpringTournament(3.leg)J.pdf 6 1118484 2 5
+/pdf/2012/2012%20Challenge%20Cup%20U-28%20Tokyo%20qualifying%20round%201(J).pdf 7 766906 1 1
+/pdf/2012/Results_2012%20Challenge%20Cup%20U-28%20Final(J).pdf 7 1099952 1 6
+/calender2012.html 13 423225 5 6
+/calendar2010.html 9 226744 5 2
+/figur.html 56 1356706 19 17
+/cycle-ball_training.pdf 10 26686280 2 5
+/images/rule/soccerkisoku20101001.pdf 10 11288830 4 3
+/pdf/2012/30_2012worldcup_AC.pdf 2 270010 2 1
+/images/rule/08_1_IndoorCB(JCF_EDITION_2007) 5 5586645 0 0
+/images/rule/08_1_IndoorCB%28JCF_EDITION_2007%29 5 5586645 0 0
+/images/calender/2012/2012worldcup_4leg.pdf 7 860265 1 2
+/pdf/2012/2012%20Challenge%20Cup%20U-28%20Osaka%20qualifying%20round%201(J).pdf 6 691986 1 1
+/link.html 52 1189556 14 28
+/pdf/2012/2012JapanCupProgram_3b.pdf#search=%27Yosuke+Fujita%27 1 934429 0 1
+/pdf/2012/2012_UCI_WorldCup_Finale_Overall_Result(J).pdf 23 2820510 5 7
+/pdf/2012/Results_of_43.KansaiStudentsIncolle.pdf 14 9777082 11 11
+/pdf/2012/07_youkou.pdf 28 6686792 15 18
+/images/rule/figurkisoku20080101.pdf 6 11849646 0 4
+/pdf/2013/S.Hashimoto_2012.01.01.pdf 12 5531999 2 5
+/pdf/2012/11AICC.pdf 7 7959007 1 5
+/images/rule/14_Anti-Doping.pdf 20 13012920 12 13
+/pdf/2012/2012%20Challenge%20Cup%20U-28%20Osaka%20qualifying%20round%202(J).pdf 7 283696 2 3
+/2012/2012-03-05_InternationalTrainingCamp.pdf 5 3062405 0 0
+/pdf/2012/29_2012wordcup_CS.pdf 2 486806 1 2
+/pdf/2012/Hpkeijiyou.pdf 11 5244239 5 9
+/pdf/2012/43thAllJapanChanpionship2012_10_23.pdf 19 2713029 15 13
+/pdf/2012/29_52012CS.pdf 10 3059390 6 4
+/calendar2009.html 10 244665 3 5
+/pdf/2012/2012WM_Reports(by_Mr.Miyagawa).pdf 23 13930098 4 11
+/pdf/2012/12kansaisyuukileag.pdf 17 1014084 4 5
+/pdf/2012/12-13_kyougi.pdf 9 1441350 6 6
+/2001WM.pdf 8 24423912 2 4
+/pdf/2012/2012calender.pdf 4 562228 2 3
+/google5b822d010b2346e8.html 3 159 2 3
+/pdf/2012/2012%20World%20Cup%20MuarTechnical%20Guidance.pdf 8 1620904 4 6
+/pdf/2012/EndResults_2012ValquaCupFinal.pdf#search='%E3%83%94%E3%83%B3%E3%82%AD%E3%83%BC%E3%82%BA%E5%A4%A7%E9%98%AA' 1 183983 0 0
+/pdf/2012/9thValquaCup_outline.pdf 10 2682520 4 9
+/images/rule/08_1_IndoorAC%28JCF_EDITION_2007%29 4 7829156 2 3
+/pdf/2012/Results_3.PreliminaryRound(Osaka)_for2012ValquaCup.pdf 5 681185 2 4
+/pdf/2012/2.qualifying_matches_for_9.ValquaCup.pdf 5 700005 3 1
+/pdf/2012/09_team.pdf 25 3918525 17 15
+/pdf/2012/2012JapanCupProgram_3b2_917results.pdf 12 11213148 5 5
+/calender.html 4 153700 2 3
+/pdf/2012/2012JapanCupProgram_3b2_916results.pdf 12 11001900 9 6
+/pdf/2012/43AllJapan_DM201211113.pdf 14 5365738 8 8
+/images/tournament/41AllJapan.pdf 9 3946104 2 6
+/sponsor.html 55 901148 8 22
+/pdf/2012/UPDATE_30.10.12_2012_UCI_Indoor_Cycling%20WCH_ProgrammeOverview.pdf 11 7434482 8 7
+/comingsoon.html 34 548766 15 11
+/images/tournament/41JC-OL.pdf 8 2601944 3 7
+/image4.txt 24 18203810 3 16
+/pdf/2012/3.qualifying_matches_for_9.ValquaCup.pdf 6 754854 1 6
+/pdf/2012/2012KantoSyakaijinCycleballLeagueSpringTournament.pdf 4 451616 4 3
+/club.html 39 843414 10 10
+/pdf/2012/Hpkeiji.pdf 11 4886706 7 4
+/pdf/2012/2012KantoStudentsCycleballLeagueSpringTournament_J.pdf 7 794822 1 2
+/pdf/2013/S.Hashimoto_2013.01.01.pdf 8 2231981 0 1
+/pdf/2012/Results_1.%20PreliminaryRound_for2012ValquaCup_and_2.%20KantoPreliminaryRound_for6.ChallengeCup.pdf 10 1542760 7 7
+/pdf/2012/20110923_Yomiuri.pdf.pdf 5 1743205 0 0
+/pdf/2012/43AllJapan_EndResults.pdf 32 15075296 8 17
+/doping.html 35 603516 8 8
+/pdf/2012/2012_UCI_WorldCup_Finale_Overall_Result%28J%29.pdf 1 128205 1 1
+/pdf/2012/EndResults_2012ValquaCupFinal.pdf#search='%E8%87%AA%E8%BB%A2%E8%BB%8A+%E5%AE%AE%E6%9C%AC%E6%AD%A6%E5%BD%A6' 2 367966 0 1
+/pdf/2012/Information_2012KantoStudentSpringLeague.pdf 8 335016 5 8
+/pdf/2012/30_52012AC.pdf 8 2015592 3 3
+/pdf/2012/2012JapanCupProgram_3b.pdf 12 11213148 6 10
+/pdf/2012/ChallengeCup2012_outline.pdf 6 982446 2 4
+/images/webgallery/2012AllJapan.html 3 101079 0 0
+/calender2011.html 11 292770 7 9
+/images/gallery/2012WM_nagisa_shibayama.html 38 32045 13 24
+/results/2012WorldCup_Muar_End_Results_described_by_Kimmerle.pdf 7 1436274 2 1
+/pdf/2013/S.Hashimoto_20130101.pdf 2 817444 0 0
+/pdf/2012/Results_2.%20PreliminaryRound(Osaka)_for2012ValquaCup.pdf 7 1173221 3 5
+END_SIDER

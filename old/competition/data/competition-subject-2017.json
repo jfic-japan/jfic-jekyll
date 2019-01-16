@@ -1,0 +1,85 @@
+{
+    "competition":
+    [
+        {
+            "year":"2017",
+            "date":"2017年6月3日(土)",
+            "title":"2017年度春季関東学生リーグ",
+            "class":"domestic",
+            "place":"東京工業大学大岡山キャンパス",
+            "link":"2017-kanto-student-championship-spring"
+        },
+        {
+            "year":"2017",
+            "date":"2017年6月4日(日)",
+            "title":"2017チャレンジカップ（チャンピオンズカップ予選）",
+            "class":"domestic",
+            "place":"東京工業大学大岡山キャンパス",
+            "link":"2017-challenge-cup"
+        },
+        {
+            "year":"2017",
+            "date":"2017年7月9日(日)",
+            "title":"2017チャンピオンズカップ（世界選手権派遣選手決定戦）",
+            "class":"domestic",
+            "place":"桃山学院大学",
+            "link":"2017champions-cup"
+        },
+        {
+            "year":"2017",
+            "date":"2017年9月23日 - 24日",
+            "title":"ジャパンカップ2017",
+            "class":"international",
+            "place":"東京工業大学",
+            "link":"2017japancup"
+        },
+        {
+            "year":"2017",
+            "date":"2017年10月",
+            "title":"2017年度新人戦",
+            "class":"domestic",
+            "place":"会場未定",
+            "link":"2017_rookie_cup"
+        },
+        {
+            "year":"2017",
+            "date":"2017年10月",
+            "title":"2017年度全日本学生リーグ",
+            "class":"domestic",
+            "place":"会場未定",
+            "link":"2017_japan-student-league"
+        },
+        {
+            "year":"2017",
+            "date":"2017年11月",
+            "title":"2017年度全日本学生選手権",
+            "class":"domestic",
+            "place":"会場未定",
+            "link":"2017_interCollege"
+        },
+        {
+            "year":"2017",
+            "date":"2017年11月24日(金) - 11月26日(日)",
+            "title":"UCI Indoor Cycling World Championships 2017",
+            "class":"international",
+            "place":"オーストリア",
+            "link":"2017_WCH"
+        },
+        {
+            "year":"2017",
+            "date":"2017年12月2日（土）",
+            "title":"UCI Cycle-Ball World Cup Final",
+            "class":"international",
+            "place":"ドイツ",
+            "link":"2017_CBWCF"
+        },
+        {
+            "year":"2017",
+            "date":"2017年12月16日(土) - 12月17日(日)",
+            "title":"第４８回全日本選手権大会",
+            "class":"domestic",
+            "place":"会場未定",
+            "link":"2017japan-championship"
+        }
+    ]
+}

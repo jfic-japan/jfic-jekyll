@@ -1,0 +1,707 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*****************************************
+BASE
+個人のBASEについて記述する
+やたらと加えない
+******************************************/
+
+/*****************************************
+LAYOUT
+全体的なレイアウトについて記述する
+******************************************/
+
+.l-margin__top {
+    margin: 1em 0 0 0;
+}
+
+.l-margin__bottom {
+    margin: 0 0 1em 0;
+}
+
+.l-header {
+    padding: 0.2em 0 0.2em 0;
+}
+.l-header__item {
+}
+.l-header__item > a > img {
+    vertical-align: middle;
+    margin-left: 1em;
+    max-width:  380px;
+    width: 50%;
+}
+
+
+.l-breadcrumb {
+}
+@media screen and (max-width: 640px) {
+    .l-breadcrumb {
+        visibility: collapse;
+        margin-bottom: -1em;
+    }
+}
+
+.l-topimg {
+}
+.l-topimg > img {
+    width: 100%;
+}
+
+.l-sns-button {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+.l-sns-button--left {
+    text-align: left;
+    margin-left: 2em;
+}
+.l-sns-button__item{
+    display:inline-block;
+    vertical-align:top;
+    line-height: 1;
+}
+
+
+.l-menu {
+}
+
+.l-contents {
+}
+.l-contents:before,
+.l-contents:after {
+    display: table; /*for clearfix*/
+    content: " "; /*for clearfix*/
+}
+.l-contents:after {
+    clear: both; /*for clearfix*/
+}
+.l-contents__top {
+    width: 96%;
+    margin: 0 auto;   
+}
+.l-contents__main {
+    float: left;
+    width: 55%;
+    margin-left: 3%;
+}
+.l-contents__aside {
+    float: right;
+    width: 35%;
+    margin-right: 3%;
+}
+
+
+.l-footer {
+    padding: 0.5em 0 0.5em 0;
+}
+.l-footer__item {
+    vertical-align: middle;
+}
+
+.l-width {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .l-contents__main,
+    .l-contents__aside {
+        float: none;
+        width: 96%;
+        margin: 0 auto;
+    }
+}
+
+
+
+/******************************************
+MODULE
+.module__element--modifier{}が基本
+再利用が可能な記述はここ
+--modifierは極力用いず、stateとthemeを利用する
+*******************************************/
+
+.title {
+    color: white;
+}
+
+.max-width {
+    max-width: 960px;
+    margin: 0 auto 0 auto;   
+}
+
+
+.box {
+}
+.box__main {
+}
+.box__aside {
+}
+
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+.breadcrumb__item {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb__item + .breadcrumb__item:before {
+    content: " » ";
+}
+.breadcrumb__item > a {
+    color: #333333;
+}
+
+
+.nav {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+}
+.nav__item {
+    display: table-cell;
+}
+.nav__item > a {
+    display: block;
+    background: #007AB7;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    padding: 0.5em 0 0.5em 0;
+}
+.nav__item > a:active {
+    background: #72b9e2;
+}
+
+@media screen and (max-width: 768px) {
+    .nav__item{
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 640px) {
+    .nav__item{
+        font-size: 0.75em;
+    }
+}
+
+
+
+.heading {
+    border-left: 8px solid #007AB7;
+    border-bottom: 1px solid #007AB7;
+    border-top: 1px transparent;
+    font-family: serif;   
+    margin: 1em 0 1em 0;
+}
+.heading > * { /* "> *"の代わりに、heading__content とクラスにしたほうがいいかもしれない   */
+    margin: 0;
+    padding: 0.2em 0em 0.2em 0.3em;
+}
+.heading__large {
+    font-size: 1.5em;
+}
+.heading__small {
+    font-size: 0.5em;
+}
+.heading > *:first-letter { /* "> *"の代わりに、heading__content とクラスにしたほうがいいかもしれない   */
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 0.75em;
+    }
+}
+@media screen and (max-width: 640px) {
+    .heading {
+        font-size: 0.7em;
+    }
+}
+
+.heading2 {
+    border-bottom: 2px solid #007AB7;
+    font-family: serif;
+    margin: 0.5em 0 0.5em 0;
+}
+.heading2 > * { /* "> *"の代わりに、heading__content とクラスにしたほうがいいかもしれない   */
+    margin: 0;
+    padding: 0 0 0.1em 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .heading2 {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 640px) {
+    .heading2 {
+        font-size: 1em;
+    }
+}
+
+
+
+.info-list {
+    border-top: 2px solid #FFFFFF;
+    list-style-type: none;
+    padding: 0;
+
+
+}
+.info-list__item {
+    padding : 0;
+    margin: 0;
+    border-bottom: 1px solid #a8a8a8;
+}
+.info-list__item > a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 0 0.5em 0;
+}
+.info-list__item > a:active {
+    background: #838383;
+}
+.info-list__item__date {
+    color: #777;
+    font-size: 0.8em;
+    margin: 0 0.5em 0.2em 0.5em;
+}
+.info-list__item__title {
+    margin: 0 1em 0 1em;
+    color: #2f2ff0;
+    font-weight: bold;
+    font-size: 1em;
+}
+.info-list__item__place:before {
+    content: "試合会場："
+}
+.info-list__item__place {
+    margin: 0 1em 0 2em;
+    color: #000000;
+    font-size: 0.8em;
+}
+   
+.goto-more-detail {
+    text-align: right;
+    font-size: small;
+}
+
+
+.media {
+}
+.media:before,
+.media:after {
+    display: table; /*for clearfix*/
+    content: " "; /*for clearfix*/
+}
+.media:after {
+    clear: both; /*for clearfix*/
+}
+.media__img {
+    float: left;
+    margin-right: 1em;
+    max-width: 50%;
+}
+.media__img > img {
+    display: block;
+    width: 100%;
+}
+.media__img--rev {
+    float: right;
+    margin-left: 1em;
+}
+.media__body {
+    /*overflow: hidden;*/ /*画像の下への文章回り込みを禁止*/
+}
+
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+.logo__item {
+    margin: 3% 0 3% 5%;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+.logo__item > a {
+    display: block;
+}
+.logo__item > a > img {
+    max-width: 100%;
+}
+
+
+.sns {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.sns__item {
+    margin: 0 auto;
+    display: inline-block;
+}
+.sns__item > a {
+    display: block;
+    outline: 2px solid #b0b0b0;
+    text-decoration: none;
+    color: #000000;
+ }
+.sns__item > a:hover{
+    outline: 3px solid #000000;
+    background: #ebebeb;
+}
+.sns__item > a > img {
+    width: 15%;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.copyright {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: small;
+    color: #737373;
+    font-family: serif;   
+}
+.query {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    text-align: center;
+}
+
+/*****************************************
+STATE
+コンポーネントの状態によって、
+見た目が変化するものについて記述する
+.is-***{}で記載する
+*****************************************/
+
+
+/*****************************************
+THEME
+スキン的な全体的なテーマについて記述する
+.theme-***{}で記載する
+*****************************************/
+.theme-base {
+    background: #FFFFFF;
+}
+
+.theme-header-footer {
+    background: #d9d9d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

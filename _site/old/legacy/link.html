@@ -1,0 +1,882 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+	
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+<meta name="generator" content="JustSystems Homepage Builder Version 15.0.12.0 for Windows">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="shortcut icon" href="logo.ico" type="image/x-ico; charset=binary"><title>日本室内自転競技連盟</title>
+		
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+			<script><!--
+CSInit = new Array;
+function CSScriptInit() {
+if(typeof(skipPage) != "undefined") { if(skipPage) return; }
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+
+function CSClickReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return true; // dont follow link
+	else return false; // dont follow link
+}
+
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}
+			if(i != 0)
+				self.status = CSIm[n][3];
+			else
+				self.status = " ";
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(action) {
+	im = action[1];
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=2;i<5;i++) {
+			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }
+			else CSIm[im][i-2] = 0;
+		}
+		CSIm[im][3] = action[5];
+	}
+}
+CSStopExecution = false;
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		if (actArray == null) return false;
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+
+
+// --></script>
+		
+		<csscriptdict></csscriptdict>
+			<script><!--
+CSInit = new Array;
+function CSScriptInit() {
+if(typeof(skipPage) != "undefined") { if(skipPage) return; }
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+
+function CSClickReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return true; // dont follow link
+	else return false; // dont follow link
+}
+
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}
+			if(i != 0)
+				self.status = CSIm[n][3];
+			else
+				self.status = " ";
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(action) {
+	im = action[1];
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=2;i<5;i++) {
+			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }
+			else CSIm[im][i-2] = 0;
+		}
+		CSIm[im][3] = action[5];
+	}
+}
+CSStopExecution = false;
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		if (actArray == null) return false;
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+
+
+// --></script>
+		
+		<csactiondict></csactiondict>
+			<script><!--
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button',/*URL*/'home1.jpg',/*URL*/'home2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button2',/*URL*/'calendar1.jpg',/*URL*/'calender2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button3',/*URL*/'kisoku1.jpg',/*URL*/'kisoku2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button4',/*URL*/'doping1.jpg',/*URL*/'doping2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button5',/*URL*/'renmei1.jpg',/*URL*/'renmei2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button6',/*URL*/'club1.jpg',/*URL*/'club2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button7',/*URL*/'link2.jpg',/*URL*/'link2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button8',/*URL*/'contact1.jpg',/*URL*/'contact2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button9',/*URL*/'gallery1.jpg',/*URL*/'gallery2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button10',/*URL*/'report1.jpg',/*URL*/'report2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button11',/*URL*/'taikai1.jpg',/*URL*/'taikai2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button12',/*URL*/'news1.jpg',/*URL*/'news2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button13',/*URL*/'sponsor1.jpg',/*URL*/'sponsor2.jpg',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button16',/*URL*/'english1.jpg',/*URL*/'english2.jpg',/*URL*/'','');
+
+// --></script></head><body onLoad="CSScriptInit();" topmargin="0" style="background-image: url(top/back.gif); background-attachment: fixed;" bgcolor="#bdbdbd" marginheight="0">
+		<div align="center">
+			<table border="0" cellpadding="0" cellspacing="0" width="800">
+				<tbody><tr>
+					<td colspan="2"><a href="index.html" target="_parent"><img src="heder2.jpg" border="0" height="50" width="940"></a></td>
+				</tr>
+				<tr>
+					<td colspan="2"><csobj w="54" h="20" t="Button" ht="home2.jpg"><a href="index.html" onMouseOver="return CSIShow(/*CMP*/'button',1)" onMouseOut="return CSIShow(/*CMP*/'button',0)" onClick="return CSButtonReturn()" target="_parent"><img src="home1.jpg" name="button" border="0" height="20" width="54"></a></csobj><csobj w="77" h="20" t="Button" ht="calender2.jpg"><a href="calendar.html" onMouseOver="return CSIShow(/*CMP*/'button2',1)" onMouseOut="return CSIShow(/*CMP*/'button2',0)" onClick="return CSButtonReturn()"><img src="calendar1.jpg" name="button2" border="0" height="20" width="77"></a></csobj><csobj w="65" h="20" t="Button" ht="kisoku2.jpg"><a href="rule.html" onMouseOver="return CSIShow(/*CMP*/'button3',1)" onMouseOut="return CSIShow(/*CMP*/'button3',0)" onClick="return CSButtonReturn()"><img src="kisoku1.jpg" name="button3" border="0" height="20" width="65"></a></csobj><csobj w="105" h="20" t="Button" ht="doping2.jpg"><a href="doping.html" onMouseOver="return CSIShow(/*CMP*/'button4',1)" onMouseOut="return CSIShow(/*CMP*/'button4',0)" onClick="return CSButtonReturn()"><img src="doping1.jpg" name="button4" border="0" height="20" width="105"></a></csobj><csobj w="65" h="20" t="Button" ht="renmei2.jpg"><a href="renmei.html" onMouseOver="return CSIShow(/*CMP*/'button5',1)" onMouseOut="return CSIShow(/*CMP*/'button5',0)" onClick="return CSButtonReturn()"><img src="renmei1.jpg" name="button5" border="0" height="20" width="65"></a></csobj><csobj w="77" h="20" t="Button" ht="club2.jpg"><a href="club.html" onMouseOver="return CSIShow(/*CMP*/'button6',1)" onMouseOut="return CSIShow(/*CMP*/'button6',0)" onClick="return CSButtonReturn()"><img src="club1.jpg" name="button6" border="0" height="20" width="77"></a></csobj><csobj w="50" h="20" t="Button" ht="link2.jpg"><a href="link.html" onMouseOver="return CSIShow(/*CMP*/'button7',1)" onMouseOut="return CSIShow(/*CMP*/'button7',0)" onClick="return CSButtonReturn()"><img src="link2.jpg" name="button7" border="0" height="20" width="50"></a></csobj><csobj w="65" h="20" t="Button" ht="contact2.jpg"><a href="mailto:YASUHIKO_SATOU@sonylife.co.jp" target="_blank" onMouseOver="return CSIShow(/*CMP*/'button8',1)" onMouseOut="return CSIShow(/*CMP*/'button8',0)" onClick="return CSButtonReturn()"><img src="contact1.jpg" name="button8" border="0" height="20" width="65"></a></csobj><img src="botan.jpg" border="0" height="20" width="382"></td>
+				</tr>
+				<tr>
+					<td bgcolor="#efefef" valign="top" width="140">
+						<div align="center">
+							<img src="menu.jpg" border="0" height="16" width="140"><csobj w="140" h="34" t="Button" ht="gallery2.jpg"><a href="gallery.html" onMouseOver="return CSIShow(/*CMP*/'button9',1)" onMouseOut="return CSIShow(/*CMP*/'button9',0)" onClick="return CSButtonReturn()"><img src="gallery1.jpg" name="button9" border="0" height="34" width="140"></a></csobj><br>
+							<csobj w="140" h="34" t="Button" ht="report2.jpg"><a href="report.html" onMouseOver="return CSIShow(/*CMP*/'button10',1)" onMouseOut="return CSIShow(/*CMP*/'button10',0)" onClick="return CSButtonReturn()"><img src="report1.jpg" name="button10" border="0" height="34" width="140"></a></csobj><br>
+							<csobj w="140" h="34" t="Button" ht="taikai2.jpg"><a href="calendar.html" onMouseOver="return CSIShow(/*CMP*/'button11',1)" onMouseOut="return CSIShow(/*CMP*/'button11',0)" onClick="return CSButtonReturn()"><img src="taikai1.jpg" name="button11" border="0" height="34" width="140"></a></csobj><br>
+							<csobj w="140" h="34" t="Button" ht="news2.jpg"><a href="news.html" onMouseOver="return CSIShow(/*CMP*/'button12',1)" onMouseOut="return CSIShow(/*CMP*/'button12',0)" onClick="return CSButtonReturn()"><img src="news1.jpg" name="button12" border="0" height="34" width="140"></a></csobj><br>
+							<csobj w="140" h="34" t="Button" ht="sponsor2.jpg"><a href="sponsor.html" onMouseOver="return CSIShow(/*CMP*/'button13',1)" onMouseOut="return CSIShow(/*CMP*/'button13',0)" onClick="return CSButtonReturn()"><img src="sponsor1.jpg" name="button13" border="0" height="34" width="140"></a></csobj><csobj w="140" h="34" t="Button" ht="english2.jpg"><a href="http://www2u.biglobe.ne.jp/%7Ejcsf/index_e.html" target="_blank" onMouseOver="return CSIShow(/*CMP*/'button16',1)" onMouseOut="return CSIShow(/*CMP*/'button16',0)" onClick="return CSButtonReturn()"><img src="english1.jpg" name="button16" border="0" height="34" width="140"></a></csobj><br>
+							<br>
+							<a href="figur.html"><img src="banner/figurbanner.jpg" border="0" height="151" width="133"></a><br>
+							<br>
+							<a href="soccer.html"><img src="banner/soccerbanner.jpg" border="0" height="151" width="133"></a></div>
+					</td>
+					<td bgcolor="white" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" width="800">
+							<tbody><tr>
+								<td>
+									<div align="center">
+										</div>
+								<br>
+</td>
+							</tr>
+							<tr>
+								<td>
+									<div align="center">
+										<table border="0" cellpadding="0" cellspacing="10" width="800">
+											<tbody><tr>
+												<td colspan="2" bgcolor="#0000ef">
+													<div align="center">
+														<b><font color="white" size="+3">LINK　～ リンク</font></b><b><font color="white" size="+3"> ～</font></b></div>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<div align="center">
+														</div>
+												<br>
+</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<div align="center">
+														<table border="0" cellpadding="0" cellspacing="0" width="750">
+															<tbody><tr>
+                      <td colspan="2"><br>
+																	<br>
+                      関連WEBサイト　（<a href="#kokunai">国内</a>／<a href="http://www.jfic-japan.com/kaigai/">海外</a>／<a href="#fb">FaceBook</a>）　｜　<a href="#kyogi">自転車競技団体</a>　｜　<a href="#dantai">自転車関係団体</a>　｜　<a href="#doga">動画・TV・冊子</a>　｜　<a href="#kigyo">支援企業</a><br>
+																	<br>
+																	<br>
+                      </td>
+                    </tr>
+															<tr>
+																<td><a name="kokunai"></a><b>●関連WEBサイト（国内）</b></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.andrew.ac.jp/club/bicycle//" target="_blank">桃山学院大学自転車部</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://osakarinkyu.web.fc2.com//" target="_blank">大阪大学自転車部　サイクルサッカー班</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://kucycleball.web.fc2.com//" target="_blank">関西大学&#63728;体育会自転車部&#63728;サイクルサッカー班</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://ouebicycle.web.fc2.com//" target="_blank">大阪経済大学　体育会　自転車部</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+																<td><a name="kaigai"></a><b>●関連WEBサイト（海外）</b></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.uci.ch/templates/UCI/UCI5/layout.asp?MenuId=MTI2MDY" target="_blank">UCI　世界自転車競技連盟/室内自転車競技</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://members.chello.at/alfred.pischl//" target="_blank">ARBO LIESING-ERLAA &gt;Radball.at</a>　（オーストリア）</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.hk-icycling.net//" target="_blank">hk-icycling.net &gt;香港室内單車</a>　（香港）</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td><a href="http://www.cycleballer.com/home.0.html" target="_blank">cycleballer.com</a>　（ドイツ）</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td><a href="http://www.trickcycler.com/" target="_blank">trickcycler.com</a>　（ドイツ）</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;<a name="fb" id="fb"></a><b>●FaceBook （国内外）</b></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;<a href="https://www.facebook.com/shigabluelakeangel?fref=ts" target="_blank">滋賀ブルーレイクエンジェル</a></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;<a href="https://www.facebook.com/indoorcycling.jp?fref=ts" target="_blank">サイクルサッカー・サイクルフィギュア（室内自転車競技) </a></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;<a href="https://www.facebook.com/pages/%E5%A4%A7%E9%98%AA%E5%A4%A7%E5%AD%A6%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%B0%E9%83%A8%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E7%8F%AD/296197460490382" target="_blank">大阪大学サイクリング部サイクルサッカー班</a></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;<a href="https://www.facebook.com/pages/%E9%96%A2%E8%A5%BF%E5%A4%A7%E5%AD%A6%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC-Cyclesoccer-of-Kansai-University/178256532250803?fref=ts" target="_blank">関西大学サイクルサッカー　”Cyclesoccer of Kansai University”</a></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;<a href="https://www.facebook.com/hallenradsport" target="_blank">www.hallenradsport.de</a> （ドイツ）</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td><a href="https://www.facebook.com/pages/Persatuan-Basikal-Dalam-Gelanggang-Malaysia/219827364754965" target="_blank">&nbsp;Persatuan Basikal Dalam Gelanggang Malaysia</a>　（マレーシア）</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td><a href="https://www.facebook.com/gentlemanbike" target="_blank">Gentleman Bike Festival</a>　（カナダ）</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+																<td><a name="kyogi"></a><b>●自転車競技団体</b></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.uci.ch/templates/UCI/UCI5/layout.asp?MenuID=MTYxNw" target="_blank">UCI 　世界自転車競技連盟</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://jcf.or.jp/" target="_blank">JCF　日本自転車競技連盟</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.sunfield.ne.jp/%7Ejbcf//" target="_blank">全日本実業団自転車競技連盟</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.remus.dti.ne.jp/%7Ejicf//" target="_blank">日本学生自転車競技連盟</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.japan-mtb.org" target="_blank">日本マウンテンバイク協会</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.jbmxf.org" target="_blank">全日本ＢＭＸ競技連盟（ＪＢＭＸＦ）</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.jcadweb.com//" target="_blank">日本障害者自転車協会</a></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+																<td><a name="dantai"></a><b>●自転車関係団体</b></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.keirin-autorace.or.jp//" target="_blank">財団法人JKA (旧日本自転車振興会)</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.cycle-info.bpaj.or.jp/japanese//" target="_blank">自転車文化センター</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+																<td><a name="doga"></a><b>●動画・TV・冊子</b></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="https://www.cycloch.net" target="_blank">『自転車専門インターネット放送局　シクロチャンネル』</a></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td><a href="http://www.cyclesports.jp/" target="_blank">『月刊 サイクルスポーツ　～八重洲出版』</a></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td><a href="http://www.new-cycling.co.jp/" target="_blank">『New Cycling ～NC企画』</a></td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>
+                      <hr>
+                      </td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr><tr>
+																<td><a name="kigyo"></a><b>●ご支援して頂いている企業</b></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.valqua.co.jp//" target="_blank">バルカーグループ</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.hattori-cycle.co.jp//" target="_blank">服部産業株式会社</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.cherubim.jp/" target="_blank">CHERUBIM: オーダーメイド自転車のケルビム</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><a href="http://www.hic-interior.com" target="_blank">株式会社HICL</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td>
+																	<hr>
+																</td>
+                      <td>&nbsp;</td>
+                    </tr>
+															<tr>
+																<td><br>
+</td>
+                      <td>&nbsp;</td>
+                    </tr>
+														</tbody></table>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<div align="center">
+														</div>
+												<br>
+</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+												<br>
+</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<div align="center">
+														</div>
+												<br>
+</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+												<br>
+</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<div align="center">
+														
+													</div>
+												<br>
+</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+												<br>
+</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<div align="center">
+														</div>
+												<br>
+</td>
+											</tr>
+											<tr>
+												<td><br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+													<br>
+												</td>
+												<td><br>
+</td>
+											</tr>
+											<tr>
+												<td><br>
+</td>
+												<td><br>
+</td>
+											</tr>
+											<tr>
+												<td><br>
+</td>
+												<td><br>
+</td>
+											</tr>
+										</tbody></table>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div align="center">
+										</div>
+								<br>
+</td>
+							</tr>
+							<tr>
+								<td>
+									<div align="center">
+										</div>
+								<br>
+</td>
+							</tr>
+							<tr>
+								<td><br>
+</td>
+							</tr>
+							<tr>
+								<td>
+									
+								<br>
+</td>
+							</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td bgcolor="white"><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+				<tr>
+					<td width="140"><br>
+</td>
+					<td><br>
+</td>
+				</tr>
+			</tbody></table>
+			
+		</div>
+	</body></html>

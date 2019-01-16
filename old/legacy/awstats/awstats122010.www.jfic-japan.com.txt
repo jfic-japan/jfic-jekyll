@@ -1,0 +1,794 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2010-12 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2549                
+POS_VISITOR 19176               
+POS_DAY 30254               
+POS_DOMAIN 3448                
+POS_LOGIN 3682                
+POS_ROBOT 3837                
+POS_WORMS 4392                
+POS_EMAILSENDER 4523                
+POS_EMAILRECEIVER 4666                
+POS_SESSION 31136               
+POS_SIDER 31346               
+POS_FILETYPES 4801                
+POS_OS 4976                
+POS_BROWSER 5129                
+POS_SCREENSIZE 5519                
+POS_UNKNOWNREFERER 5593                
+POS_UNKNOWNREFERERBROWSER 6955                
+POS_ORIGIN 7422                
+POS_SEREFERRALS 7568                
+POS_PAGEREFS 7748                
+POS_SEARCHWORDS 8412                
+POS_KEYWORDS 12372               
+POS_MISC 2211                
+POS_ERRORS 16176               
+POS_CLUSTER 3538                
+POS_SIDER_404 16296               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110101000929 54566 13643944 66167098115
+FirstTime 20101201012150
+LastTime 20101231223025
+LastUpdate 20110101101658 85 0 84 0 0
+TotalVisits 474                 
+TotalUnique 239                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 299                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 252 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 29 296 7290391 87 102 1770550
+1 26 260 5758396 55 56 12985672
+2 18 160 4344619 28 33 2194953
+3 3 36 873758 36 43 473380
+4 21 153 2760745 42 47 2543671
+5 19 156 2643295 30 38 1364983
+6 11 111 26052 34 38 228808
+7 38 349 6882364 49 94 798549
+8 36 350 6340588 58 63 1701838
+9 14 272 8745580 46 52 2361191
+10 47 430 6168010 90 101 20263689
+11 32 504 5940412 54 66 13190660
+12 19 288 3496940 56 70 2395397
+13 53 865 9517079 104 167 1695957
+14 38 468 7146207 94 116 5835298
+15 36 372 3317655 50 60 1597662
+16 75 880 11509378 157 163 22641985
+17 58 685 9834610 90 98 15040117
+18 47 658 4931527 62 73 2674740
+19 27 380 4257717 42 47 411201
+20 27 740 14249977 57 66 3012201
+21 81 1563 19698697 118 127 1464353
+22 55 414 8677443 63 74 3061360
+23 112 1449 20423778 124 129 1535982
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 922 11839 174835218
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+slurp 353 29683847 20101231202809 0
+robot 200 42955539 20101231004102 0
+googlebot 94 6264678 20101230091853 0
+msnbot 38 929186 20101229201418 0
+crawl 21 445064 20101228064126 0
+baiduspider 18 28750116 20101229163644 0
+spider 12 382842 20101212154930 0
+surveybot 3 62808 20101224122650 0
+ia_archiver 2 51766 20101206191714 0
+larbin 2 51766 20101204121532 0
+python 1 20936 20101202121337 0
+netcraft 2 41872 20101230035545 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 268 447005 0 0
+html 890 15265893 0 0
+pdf 11 3471575 0 0
+jpg 9678 118925933 0 0
+Unknown 21 35223349 0 0
+gif 971 1501463 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 1455
+winxp 6567
+macintosh 27
+win2000 1
+winnt 2013
+linux 568
+macosx 634
+win2003 31
+Unknown 502
+freebsd 41
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 25
+msie6.0 2850
+firefox3.8 14
+firefox3.5.1 1
+firefox3.0.4 1
+opera 77
+firefox3.0.1 1
+firefox3.6.6 2
+firefox3.0.14 1
+curl 3
+firefox3.5.3 9
+msie8.0 4979
+firefox2.0.0.18 2
+mozilla 282
+firefox1.0 2
+netscape5.0 1
+msie7.0 1402
+netscape4.0 30
+firefox3.6.12 266
+firefox3.6.3 2
+msie5.0 27
+firefox4.7 1
+Unknown 34
+docomo 1
+safari 1526
+firefox3.6.13 325
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 16
+Mozilla/4.0_(jig_browser_web;_1.0.4;_940SH) 20101212204452
+SoftBank/1.0/940SH/SHJ002/SN355603032089452_Browser/NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1 20101212204452
+Mozilla/5.0_(en-us)_AppleWebKit/525.13_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Version/3.1_Safari/525.13 20101231220813
+Mozilla/5.0_(compatible;_MJ12bot/v1.3.3;_http://www.majestic12.co.uk/bot.php?_) 20101231025727
+MLBot_(www.metadatalabs.com/mlbot) 20101208084021
+Mozilla/5.0_(en-us)_AppleWebKit/525.13_(KHTML,_like_Gecko;_Google_Web_Preview)_Version/3.1_Safari/525.13 20101225033457
+DoCoMo/2.0_P906i(c100;TB;W24H15) 20101201113828
+Mozilla/4.0_(jig_browser_web;_1.0.4;_P906i) 20101201113827
+- 20101227115209
+Mozilla/5.0_(compatible;_heritrix/1.12.1__http://www.ics.kagoshima-u.ac.jp/~vhilab/da200712.html) 20101227202538
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20101231223025
+Mozilla/4.0_(compatible;) 20101226164712
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20101211173143
+Mozilla/5.0_(PLAYSTATION_3;_1.00) 20101221200806
+Mozilla/5.0_(compatible;_Search17Bot/1.1;_http://www.search17.com/bot.php) 20101231215244
+------------------------------------------------------------------------------- 20101202022231
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+SoftBank/1.0/940SH/SHJ002/SN355603032089452_Browser/NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1 20101212204452
+- 20101227115209
+MLBot_(www.metadatalabs.com/mlbot) 20101208084021
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20101211173143
+------------------------------------------------------------------------------- 20101202022231
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 389 458
+From1 0 0
+From2 58 62
+From3 138 721
+From4 337 10598
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 26 27
+search 5 5
+yahoo 27 30
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+http://www2u.biglobe.ne.jp/~jcsf/ 65 65
+http://wiredvision.jp/news/201012/2010120219.html 61 61
+http://news.goo.ne.jp/article/wiredvision/nation/2010news1-28512.html 6 6
+http://www2u.biglobe.ne.jp/~jcsf/index.html 3 3
+http://www.expansionmodules.net 1 1
+http://www.hic-interior.com 1 1
+http://www.hic-interior.com/lineup.html 1 1
+http://wcic2011.com/cycle_figure/ 0 486
+http://webcache.googleusercontent.com/search 0 34
+http://wcic2011.com/cycle_figure/cycle_figure.html 0 10
+http://wcic2011.com/cycle_soccer/ 0 53
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 39
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 7
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 5
+jfic-japan.com 4
+ocn_default 3
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+%e3%83%af%e3%83%bc%e3%83%ab%e3%83%89%e3%82%ab%e3%83%83%e3%83%97 2
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e5%90%8d 2
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 2
+utf-8 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e9%96%a2%e6%9d%b1%e3%80%80%e5%a4%a7%e5%ad%a6 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e3%83%89%e3%82%a4%e3%83%84%e5%a4%a7%e4%bc%9a%ef%bc%92%ef%bc%90%ef%bc%91%ef%bc%90 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e9%96%a2%e6%9d%b1%e5%ad%a6%e7%94%9f 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+%e4%b8%96%e7%95%8c%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e5%a4%a7%e4%bc%9a%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6 1
+%e4%ba%ac%e6%bb%8b%e3%83%96%e3%83%ab%e3%83%bc%e3%83%ac%e3%83%bc%e3%82%af%e3%82%a8%e3%83%b3%e3%82%b8%e3%82%a7%e3%83%ab 1
+%e5%a4%a7%e9%98%aa%e3%80%80%e5%ae%a4%e5%86%85%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e9%87%8e%e6%9c%ac%e8%aa%a0%e4%b8%80%e9%83%8e%e7%ab%b6%e8%bc%aa 1
+%e4%b8%96%e7%95%8c%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e5%a4%a7%e4%bc%9a%e9%b9%bf%e5%85%90%e5%b3%b6 1
+%e6%97%a5%e6%9c%ac%e5%a4%a7%e5%ad%a6+%e5%ad%a6%e7%94%9f%e9%80%a3%e7%9b%9f+%e9%9b%bb%e8%a9%b1%e7%95%aa%e5%8f%b7 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e6%a4%9c%e7%b4%a2 1
+%e4%b8%96%e7%95%8c%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%8a 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e6%9d%be%e7%94%b0 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc+g%ef%bc%91 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e7%ab%b6%e6%8a%80%e4%ba%ba%e5%8f%a3%e3%80%80%e6%97%a5%e6%9c%ac 1
+%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e7%94%a8%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e7%94%a8%e3%81%ae%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e9%b9%bf%e5%85%90%e5%b3%b6%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%8a+uci%e4%b8%96%e7%95%8c%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e9%96%80%e5%8f%a3%e3%80%80%e9%9b%84%e4%b8%80 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f%e4%bc%9a%e9%95%b7 1
+%e9%b9%bf%e5%85%90%e5%b3%b6+%e5%8d%97%e3%81%95%e3%81%a4%e3%81%be%e3%80%80%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%802010%e5%b9%b4 1
+%e6%89%8b%e5%b3%b6%e6%95%8f%e5%85%89 1
+%e9%87%91%e5%89%9b%e6%9d%b1%e4%ba%ac%e3%83%81%e3%83%bc%e3%83%a0 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e5%85%a8%e6%97%a5%e6%9c%ac%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a%e3%80%80%e7%b5%90%e6%9e%9c 1
+%e6%bb%8b%e8%b3%80%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e3%80%802010.12.11 1
+%e6%97%a5%e6%9c%ac%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e7%90%86%e4%ba%8b%e3%80%80%e5%a6%99%e4%b8%ad 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 44
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 7
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 5
+jfic-japan.com 4
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc 3
+ocn_default 3
+%e3%83%af%e3%83%bc%e3%83%ab%e3%83%89%e3%82%ab%e3%83%83%e3%83%97 2
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e5%90%8d 2
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 2
+utf-8 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e9%96%a2%e6%9d%b1%e3%80%80%e5%a4%a7%e5%ad%a6 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e3%83%89%e3%82%a4%e3%83%84%e5%a4%a7%e4%bc%9a%ef%bc%92%ef%bc%90%ef%bc%91%ef%bc%90 1
+%e9%9b%bb%e8%a9%b1%e7%95%aa%e5%8f%b7 1
+%e5%8d%97%e3%81%95%e3%81%a4%e3%81%be%e3%80%80%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e5%ad%a6%e7%94%9f%e9%80%a3%e7%9b%9f 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e9%96%a2%e6%9d%b1%e5%ad%a6%e7%94%9f 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f 1
+uci%e4%b8%96%e7%95%8c%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e4%b8%96%e7%95%8c%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e5%a4%a7%e4%bc%9a%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6 1
+%e4%ba%ac%e6%bb%8b%e3%83%96%e3%83%ab%e3%83%bc%e3%83%ac%e3%83%bc%e3%82%af%e3%82%a8%e3%83%b3%e3%82%b8%e3%82%a7%e3%83%ab 1
+%e5%a4%a7%e9%98%aa%e3%80%80%e5%ae%a4%e5%86%85%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e9%87%8e%e6%9c%ac%e8%aa%a0%e4%b8%80%e9%83%8e%e7%ab%b6%e8%bc%aa 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e4%b8%96%e7%95%8c%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e5%a4%a7%e4%bc%9a%e9%b9%bf%e5%85%90%e5%b3%b6 1
+g%ef%bc%91 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e9%81%b8%e6%89%8b%e6%a8%a9 1
+%e6%a4%9c%e7%b4%a2 1
+%e4%b8%96%e7%95%8c%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a%e3%80%80%e9%b9%bf%e5%85%90%e5%b3%b6%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%8a 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e6%9d%be%e7%94%b0 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e7%ab%b6%e6%8a%80%e4%ba%ba%e5%8f%a3%e3%80%80%e6%97%a5%e6%9c%ac 1
+%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e7%94%a8%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2%e7%94%a8%e3%81%ae%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2 1
+%e9%96%80%e5%8f%a3%e3%80%80%e9%9b%84%e4%b8%80 1
+%e6%97%a5%e6%9c%ac%e5%a4%a7%e5%ad%a6 1
+%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a 1
+%e9%b9%bf%e5%85%90%e5%b3%b6 1
+%e6%97%a5%e6%9c%ac%e5%ae%a4%e5%86%85%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e9%80%a3%e7%9b%9f%e4%bc%9a%e9%95%b7 1
+%e5%85%a8%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%802010%e5%b9%b4 1
+%e6%89%8b%e5%b3%b6%e6%95%8f%e5%85%89 1
+%e9%87%91%e5%89%9b%e6%9d%b1%e4%ba%ac%e3%83%81%e3%83%bc%e3%83%a0 1
+%e9%b9%bf%e5%85%90%e5%b3%b6%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%8a 1
+%e6%bb%8b%e8%b3%80%e3%80%80%e8%87%aa%e8%bb%a2%e8%bb%8a%e7%ab%b6%e6%8a%80%e3%80%802010.12.11 1
+%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%b5%e3%83%83%e3%82%ab%e3%83%bc%e3%80%80%e5%85%a8%e6%97%a5%e6%9c%ac%e9%81%b8%e6%89%8b%e6%a8%a9%e5%a4%a7%e4%bc%9a%e3%80%80%e7%b5%90%e6%9e%9c 1
+%e6%97%a5%e6%9c%ac%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%80%80%e7%90%86%e4%ba%8b%e3%80%80%e5%a6%99%e4%b8%ad 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 42 12564
+206 11 8003405
+404 1124 3587808
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 47
+/Desktop%20Folder/national/Japan_Championships/EndResults_of_40th_Japan_championships.pdf 6 -
+/Desktop%20Folder/Jcup/2009/tentative_schedule.pdf 6 -
+/(EmptyReference!) 30 http://www.jfic-japan.com/report.html
+/robots.txt 290 -
+/Desktop%20Folder/Jcup/2009/Booklet_of_Japan_Cup_2009.pdf 4 -
+/http:/k_koukuuken_kokunai.rentalurl.net 2 -
+/http:/free_game.jpnz.jp 2 -
+/about.html&amp 2 -
+/MSOffice/cltreq.asp 2 -
+/Desktop%20Folder/WM/2008/2008WM_report.pdf 4 -
+/hojo/img/hojo_onepoint_img.jpg 4 http://www.jfic-japan.com/style.css
+/http:/design_reform.rentalurl.net 2 -
+/Desktop%20Folder/WM/2009/2009WM_JapanTeam.pdf 5 -
+/WM/2009/2009WM_JapanTeam.pdf 13 -
+/http:/handbill_design.rentalurl.net 2 -
+/Desktop%20Folder/national/Japan_Championships/programme_AllJapan2009.pdf 5 -
+/img/top_co_img.jpg 4 http://www.jfic-japan.com/style.css
+/http:/green_floor.rentalurl.net 2 -
+/http:/aviation_service.jpnz.jp 2 -
+/Desktop%20Folder/result/Kanto_shakaijin/2009KantoShakaiinSpringLeague.pdf 5 http://www.jfic-japan.com/gamesinfo.html
+/_vti_bin/owssvr.dll 2 -
+/WM/2009/WM2009_Program.html 12 -
+/img/bg_shadow.jpg 4 http://www.jfic-japan.com/style.css
+/chair/img/chair_onepoint_img.jpg 4 http://www.jfic-japan.com/style.css
+/http:/f_engineer.jpnz.jp 2 -
+/Desktop%20Folder/EA_Games/2009EastAsianGames-Hong_Kong.pdf 9 http://www.jfic-japan.com/gamesinfo.html
+/fckeditor/editor/images/anchor.gif 1 
+/Desktop%20Folder/W-cup/oita/2009wc_Oita.html 9 -
+/kaigai 8 -
+/http:/k_koukuuken_yoyaku.rentalurl.net 2 -
+/Desktop%20Folder/Asian_champ/1-10_Asian_championships.mht 6 -
+/Desktop%20Folder/national/valquacup/6th%20Valqua%20Cup.pdf 5 -
+/http:/nagano_geka.rentalurl.net 2 -
+/Desktop%20Folder/national/valquacup/end%20results%20of%206th%20Valqua%20Cup.pdf 14 http://www.jfic-japan.com/gamesinfo.html
+/Desktop%20Folder/WM/2011/373news_20090806.pdf 4 -
+/http:/kaigo_youhin.rentalurl.net 2 -
+/Desktop%20Folder/national/Intercollegiate/42Incolle_outline.pdf 5 http://www.jfic-japan.com/gamesinfo.html
+/Desktop%20Folder/result/wc/2008/2008wc_f.html 7 -
+/http:/bike_kaitori.rentalurl.net 2 -
+/http:/shopping_agency.jpnz.jp 2 -
+/Desktop%20Folder/national/Kansai/09KansaiLeague-G2results.pdf 4 -
+/(Empty%20Reference!) 605 http://www.jfic-japan.com/comingsoon.html
+/Desktop%20Folder/EA_Games/2009_East_Asian_Games.htm 6 http://www.jfic-japan.com/gamesinfo.html
+/stek/img/stek_onepoint_img.jpg 4 http://www.jfic-japan.com/style.css
+/Desktop%20Folder/national/Kansai/09KansaiLeague-G1results.pdf 3 -
+/url(data:image/png 6 http://www.jfic-japan.com/calendar.html
+/http:/matchmaking_service.rentalurl.net 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 299
+150.70.75.162 67 67 8281893 20101230151101
+220.100.127.130 33 661 7352680 20101228212053
+210.143.141.201 30 307 1330961 20101215165010
+60.238.174.56 28 351 3241216 20101220185933
+121.82.133.198 25 491 6228078 20101225233529
+122.17.139.25 25 292 24441 20101223063958
+220.51.24.30 21 1045 11221085 20101207212151
+119.243.54.125 18 361 4835424 20101222231504
+122.17.138.219 18 252 63202 20101221213709
+38.127.197.102 18 19 3433012 20101213070300
+72.14.202.86 0 1 2232 
+72.14.202.80 0 1 84623 
+211.124.255.85 8 119 1561511 20101221170248
+207.46.204.233 2 2 0 20101230164014
+207.46.13.50 1 1 0 20101227002651
+60.38.36.51 0 11 291419 
+114.145.81.237 2 49 655705 20101212230552
+207.46.195.234 2 2 0 20101229000626
+210.254.96.227 2 52 742401 20101202160545
+92.78.237.100 0 11 291419 
+207.46.13.136 3 3 0 20101226125125
+207.46.13.131 2 2 34406 20101226072026
+122.213.177.82 1 34 355063 20101216091152
+207.46.199.46 2 2 0 20101217013236
+163.209.2.221 6 81 1085325 20101227202325
+211.18.239.7 0 2 0 
+219.198.232.7 1 45 516689 20101213112157
+207.46.12.27 1 2 23581 20101219083824
+131.112.125.103 3 52 678870 20101202172239
+114.169.150.43 1 34 355063 20101215132856
+114.176.64.181 0 1 22053 
+202.248.222.28 0 11 291419 
+116.65.47.169 1 1 1957289 20101221200806
+202.95.42.9 0 10 269366 
+207.46.195.241 2 2 0 20101220162927
+125.3.6.124 2 90 1033378 20101228094513
+218.229.0.243 2 50 654160 20101211221730
+203.181.15.25 1 1 22852 20101208194220
+202.229.177.137 0 1 55 
+180.16.56.127 3 69 742132 20101202114022
+89.14.100.123 0 11 291419 
+111.109.164.68 1 35 352789 20101229124330
+119.241.183.36 1 45 516689 20101203004720
+110.54.121.143 0 11 291419 
+202.34.15.62 1 45 516689 20101215150844
+220.47.238.91 2 90 516689 20101217212156
+58.70.23.13 11 156 2144310 20101221164352
+219.166.93.26 0 22 291419 
+110.163.225.55 2 77 967905 20101206164056
+122.152.146.173 1 1 19883 20101210112232
+202.147.2.22 1 1 25120 20101228175743
+202.211.115.27 2 4 0 20101222085428
+124.101.51.95 1 35 352789 20101203144034
+221.186.128.210 3 50 677968 20101204165337
+218.222.68.102 1 34 355063 20101203053639
+207.46.204.169 1 2 21554 20101210175720
+84.186.111.54 1 1 20936 20101226043320
+184.72.13.39 1 1 20936 20101217230220
+158.217.200.12 1 11 216128 20101216143832
+207.46.204.189 1 1 0 20101202062930
+207.46.199.52 1 1 0 20101211215520
+221.113.35.207 1 1 26052 20101210222357
+207.46.199.40 1 1 0 20101212070115
+72.14.202.87 0 4 78998 
+74.125.152.80 4 11 241525 20101211115401
+93.206.29.23 0 11 291419 
+113.145.14.88 9 118 2293629 20101215041540
+122.135.82.70 2 51 720348 20101210004443
+207.46.13.92 4 4 0 20101222142618
+114.145.109.79 8 91 1414231 20101210223612
+65.52.110.66 1 1 0 20101224005519
+91.182.161.119 0 11 291419 
+110.163.218.48 1 45 516689 20101202230632
+91.121.75.29 2 2 41872 20101214000605
+58.188.91.102 0 1 22053 
+115.177.217.61 5 98 1338128 20101208175411
+95.208.86.246 0 11 0 
+174.129.46.156 3 3 72348 20101218231832
+74.125.152.84 0 6 56168 
+216.104.15.138 14 14 6141962 20101223210027
+124.86.66.104 0 11 291419 
+124.45.149.210 1 1 17761 20101204165145
+123.225.123.3 10 148 2725984 20101205233658
+207.46.204.180 1 1 0 20101228230721
+207.46.13.45 1 1 0 20101227104653
+211.132.59.38 1 35 352789 20101206155802
+207.46.12.217 1 2 18021 20101204150511
+174.129.117.216 14 14 293104 20101222054422
+150.70.75.34 6 6 158896 20101213101257
+118.111.21.73 1 41 691932 20101214212813
+207.46.13.53 1 1 0 20101211163220
+207.46.204.184 1 1 0 20101224011345
+119.231.172.2 11 149 1855200 20101212235339
+207.46.199.45 1 1 0 20101230191949
+121.102.146.243 2 50 654160 20101207081732
+184.154.7.186 2 2 41872 20101231025727
+202.208.163.162 9 154 2121185 20101214115708
+207.46.199.54 2 2 0 20101223105721
+59.190.133.218 4 106 0 20101214132509
+207.46.204.238 2 2 0 20101212180306
+119.230.75.173 10 138 1222171 20101230231859
+222.151.182.19 6 102 1633365 20101204165142
+64.120.174.165 1 1 20936 20101203182746
+115.163.184.154 0 1 22053 
+202.228.139.164 0 20 538732 
+121.83.96.147 1 65 734927 20101215215514
+207.46.195.107 1 1 0 20101213051904
+202.242.9.39 2 42 355063 20101226164712
+207.46.195.240 1 1 0 20101201170034
+66.45.246.226 1 1 20936 20101204212329
+202.126.30.10 5 65 2020113 20101221094307
+203.198.248.91 0 11 291419 
+59.156.184.24 1 1 33090 20101202160629
+207.46.204.187 1 1 0 20101210163243
+220.19.24.153 0 1 22053 
+114.169.144.245 0 11 291419 
+121.118.238.28 1 34 354131 20101206010022
+61.210.253.213 12 186 2378312 20101224144124
+207.46.199.48 1 1 0 20101224101556
+207.241.228.164 1 1 20936 20101212141940
+68.168.105.58 2 2 51412 20101207113302
+125.29.66.45 2 50 680092 20101213220850
+74.125.152.82 0 5 115330 
+61.192.124.42 7 189 2683658 20101201190103
+77.176.136.9 1 29 269979 20101203075817
+207.46.195.105 1 1 0 20101227055754
+125.197.251.164 1 2 23581 20101205215653
+207.46.199.38 1 1 0 20101202083701
+59.190.139.161 3 50 677968 20101220190204
+216.104.15.142 9 9 196911 20101230021507
+208.91.113.20 1 1 20936 20101216144008
+219.103.216.20 1 1 20936 20101219235013
+195.198.209.86 1 1 20936 20101204053600
+202.208.175.2 1 56 808108 20101203112543
+220.106.13.192 0 11 291419 
+122.135.49.115 1 45 516689 20101231214224
+72.14.202.82 2 5 56204 20101207214306
+114.48.169.215 0 1 22053 
+202.32.5.90 7 81 2448054 20101221162050
+120.75.1.44 1 1 19883 20101204215338
+125.198.1.30 1 45 516689 20101201234504
+65.52.110.51 1 1 0 20101209191443
+72.14.202.85 0 2 34079 
+220.215.124.150 1 1 26052 20101210111955
+210.138.90.147 4 41 420063 20101205214826
+59.157.127.113 4 55 0 20101209000225
+207.46.195.226 1 1 0 20101211045046
+114.174.59.222 1 1 1957289 20101223205741
+211.5.233.162 1 35 352789 20101221101112
+207.46.13.87 1 1 0 20101211181616
+207.46.204.197 1 1 0 20101215051842
+1.114.161.251 1 45 516689 20101207051252
+65.52.110.64 2 2 0 20101216180835
+207.46.13.54 1 1 0 20101220115425
+207.46.13.49 1 1 0 20101229070354
+74.125.152.87 1 4 31775 20101207184833
+110.163.219.193 4 167 2001283 20101204194412
+218.221.137.22 0 10 269366 
+207.46.13.51 1 1 0 20101229104326
+207.46.13.40 1 1 0 20101206150344
+219.103.219.250 1 1 20936 20101215163614
+118.6.159.59 0 1 22053 
+125.54.255.204 1 34 356939 20101210163039
+207.46.13.93 2 2 0 20101216134104
+184.82.38.2 1 1 1957289 20101210004213
+110.162.181.80 0 11 291419 
+74.125.152.83 0 5 153851 
+219.121.17.224 4 61 1514215 20101212003229
+207.46.13.142 1 1 0 20101201230402
+65.52.110.65 1 1 0 20101229150957
+203.135.194.50 0 11 291419 
+207.46.204.242 2 2 0 20101218033040
+211.15.222.56 2 41 522349 20101222120144
+121.115.186.145 1 1 19883 20101221163756
+72.14.202.84 1 2 20932 20101207184849
+207.46.199.55 1 1 0 20101202150233
+210.237.159.74 3 53 745058 20101206105818
+69.58.178.58 11 11 239370 20101211173214
+216.104.15.134 5 5 124452 20101215041645
+221.113.126.171 0 1 22053 
+207.46.204.178 2 2 0 20101221225851
+221.21.134.189 4 52 1308761 20101207230835
+121.83.62.142 1 32 587320 20101206224622
+124.83.159.197 1 12 361033 20101201113819
+207.46.13.47 2 2 0 20101208170732
+150.70.66.181 17 17 2336043 20101223063657
+113.20.202.73 2 36 585969 20101203185527
+210.147.5.195 3 39 411733 20101210233738
+202.34.13.62 1 5 137471 20101215150912
+114.180.110.243 1 36 382276 20101226170343
+74.125.152.86 2 8 110436 20101221003032
+65.52.109.59 1 1 0 20101213115008
+180.12.71.227 0 1 22053 
+207.46.199.51 1 1 0 20101213010203
+207.46.195.106 1 1 0 20101219135920
+65.52.108.60 1 1 0 20101213202617
+219.166.252.251 2 47 0 20101220085036
+119.244.17.178 0 11 291419 
+125.55.119.182 6 98 1648458 20101212070814
+207.46.195.231 1 1 0 20101207042544
+110.163.9.47 1 45 516689 20101228192048
+207.46.204.164 1 2 21554 20101208034119
+110.163.6.244 1 13 220296 20101215152334
+111.89.163.130 0 32 582838 
+59.138.33.155 1 34 356939 20101226230949
+207.46.13.42 2 2 0 20101231145517
+124.146.118.57 0 11 291419 
+218.226.0.87 3 52 719101 20101230151657
+71.41.201.36 5 5 110663 20101208084021
+207.46.13.132 1 1 0 20101207230632
+110.2.122.154 2 47 599381 20101212003527
+207.46.204.231 1 1 0 20101220172425
+210.165.123.58 0 11 291419 
+210.199.6.15 3 40 420063 20101212144924
+210.146.47.43 6 237 1886814 20101213132610
+118.10.237.227 0 1 22053 
+125.206.34.244 1 34 356939 20101203173223
+210.166.139.9 0 3 0 
+207.46.12.159 1 2 23581 20101223130414
+78.42.51.208 0 11 291419 
+122.214.204.35 17 176 3053371 20101213144837
+122.17.127.108 16 249 274132 20101222150159
+157.55.16.231 1 1 0 20101231004325
+110.163.218.20 3 51 698694 20101207162441
+173.240.49.34 1 1 20936 20101231215244
+138.190.32.7 0 10 269366 
+114.22.25.68 1 35 349252 20101201012150
+207.46.13.137 1 1 0 20101231223025
+207.46.199.42 2 2 0 20101223084121
+220.150.208.82 3 53 759357 20101214082900
+72.14.202.83 0 6 235105 
+59.156.116.156 1 1 33090 20101204215409
+207.46.195.225 2 2 0 20101213093106
+207.46.204.229 3 3 34406 20101229004526
+72.14.202.81 0 4 8644 
+112.136.110.122 7 123 2452012 20101219021248
+114.172.21.202 0 10 269366 
+150.70.64.197 15 15 6170257 20101217080144
+60.41.41.46 1 1 1957289 20101202022231
+74.52.245.146 1 1 20936 20101230220810
+207.46.204.232 2 2 0 20101224004620
+110.163.7.183 7 58 846937 20101204172252
+121.114.234.182 1 1 20936 20101216103139
+207.46.204.182 1 1 20936 20101230154619
+91.57.231.193 0 11 291419 
+79.238.94.107 0 11 291419 
+207.46.199.43 1 1 0 20101203110628
+207.46.204.179 2 2 0 20101227041524
+74.125.152.85 0 6 72697 
+122.128.0.5 0 1 22053 
+110.163.218.22 1 33 478890 20101208081910
+207.46.195.236 2 2 0 20101226223755
+121.118.238.151 6 67 1642577 20101204215410
+59.156.107.250 18 330 2751972 20101228163247
+59.156.82.189 10 226 2285392 20101215161938
+207.46.12.207 1 2 33121 20101203122549
+207.46.13.91 2 2 0 20101222011423
+180.1.103.212 2 35 380183 20101214233706
+202.253.96.244 0 1 55 
+88.159.67.221 1 1 20936 20101229054700
+124.146.82.117 0 17 454816 
+122.213.144.139 0 22 582838 
+119.171.132.79 2 50 654160 20101222092840
+216.104.15.130 11 11 675318 20101221163551
+207.46.199.47 1 1 0 20101201210727
+124.83.159.138 1 20 380788 20101212204447
+210.128.61.12 2 57 783243 20101217075935
+222.147.87.198 6 178 580925 20101228181047
+124.44.39.61 1 1 26052 20101221163919
+119.230.39.95 0 1 22053 
+58.98.107.47 1 1 34406 20101222231805
+149.225.76.224 0 1 22053 
+62.231.141.193 2 2 41872 20101220012424
+74.125.152.81 0 4 205300 
+210.235.53.38 2 35 381115 20101205120317
+60.237.172.153 1 31 422566 20101203194216
+124.155.107.66 2 53 779829 20101204214041
+207.46.195.229 2 2 0 20101229163825
+84.151.48.37 0 11 291419 
+157.55.16.230 1 1 0 20101229070327
+110.163.224.28 3 52 693169 20101201173916
+93.208.13.97 0 1 22053 
+220.51.162.111 1 45 516689 20101201230524
+125.2.119.89 5 63 1540252 20101228010550
+60.42.139.114 4 40 608325 20101212221207
+110.4.166.23 1 17 0 20101214064019
+207.46.13.135 2 2 0 20101223024122
+183.181.137.5 1 1 20936 20101213221149
+202.249.10.116 5 67 1704142 20101220132818
+65.52.108.14 1 1 0 20101220105154
+207.46.13.144 1 1 0 20101220144157
+150.61.31.78 3 51 686531 20101201125037
+84.170.121.123 0 11 291419 
+207.46.195.230 1 1 0 20101203101830
+84.130.230.24 0 11 291419 
+207.46.204.243 3 3 0 20101230143450
+207.46.13.133 1 1 0 20101203080232
+74.125.74.195 2 125 2076749 20101205013125
+208.77.41.66 1 1 20936 20101223021618
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20101201 33 710 8218695 20
+20101202 20 249 5643899 15
+20101203 30 430 4040713 29
+20101204 44 577 7900622 21
+20101205 36 445 5293233 18
+20101206 18 244 5467362 14
+20101207 59 1561 25187013 26
+20101208 36 343 5743613 17
+20101209 10 61 403783 8
+20101210 55 421 7234891 27
+20101211 39 218 2544757 21
+20101212 66 575 8560509 27
+20101213 98 1129 20466088 31
+20101214 64 887 8666543 22
+20101215 31 461 4596311 18
+20101216 37 404 3876322 12
+20101217 14 212 3085376 11
+20101218 10 62 182028 7
+20101219 12 127 3479964 10
+20101220 23 235 3789534 16
+20101221 41 558 10278335 18
+20101222 20 195 2903104 13
+20101223 20 196 6505151 10
+20101224 13 122 1835494 10
+20101225 1 65 1184282 1
+20101226 14 234 3031169 9
+20101227 14 288 3736199 8
+20101228 32 559 5107831 9
+20101229 11 57 2383543 11
+20101230 15 122 1808723 9
+20101231 6 92 1680131 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 11
+30s-2mn 43
+2mn-5mn 21
+15mn-30mn 7
+0s-30s 383
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/ 270 4543112 210 151
+/calendar.html 126 2214420 75 80
+/report.html 101 1542840 47 43
+/gamesinfo.html 76 2009440 10 26
+/news.html 59 746454 10 20
+/about.html 58 1554276 31 34
+/gallery.html 53 775437 15 17
+/club.html 33 415998 11 14
+/link.html 25 365632 11 19
+/rule.html 24 337459 6 8
+/soccer.html 12 132852 7 9
+/sponsor.html 14 141008 6 8
+/comingsoon.html 1 17415 1 1
+/img/rule/14_Anti-Doping.pdf 1 650646 1 1
+/calendar2009.html 9 200960 3 5
+/asian.html 1 0 1 1
+/img/gamesinfo/41JC-OL.pdf 2 325243 0 0
+/doping.html 13 107632 7 9
+/img/gamesinfo/PG_JapanChampionships_2010.pdf 2 303406 0 0
+/img/rule/08_1_IndoorCB(JCF_EDITION_2007) 7 7821303 0 4
+/figur.html 14 160958 7 7
+/east.html 1 0 1 1
+/img/gamesinfo/41AllJapan.pdf 6 2192280 1 3
+/img/rule/08_1_IndoorAC(JCF_EDITION_2007) 14 27402046 13 13
+END_SIDER
