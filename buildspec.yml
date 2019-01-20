@@ -8,7 +8,8 @@ phases:
   pre_build:
     commands:
       - jekyll --version
-      - bundler --version      
+      - bundler --version
+      - export LC_CTYPE="utf-8"
   build:
     commands:
       - cd jfic-web
