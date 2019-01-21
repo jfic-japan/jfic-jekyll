@@ -12,8 +12,6 @@ phases:
   build:
     commands:
       - cd jfic-web
-      - export LC_CTYPE="utf-8"
-      - echo $LC_CTYPE
       - bundle exec jekyll b
   post_build:
     commands:
