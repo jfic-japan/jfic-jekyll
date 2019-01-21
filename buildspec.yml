@@ -9,10 +9,10 @@ phases:
     commands:
       - jekyll --version
       - bundler --version
-      - export LC_CTYPE="utf-8"
   build:
     commands:
       - cd jfic-web
+      - export LC_CTYPE="utf-8"      
       - bundle exec jekyll b
   post_build:
     commands:
