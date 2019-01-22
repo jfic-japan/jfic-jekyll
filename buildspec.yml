@@ -21,5 +21,6 @@ phases:
 artifacts:
   files:
     - 'jfic-web/_site/**/*'
-  name: jekyll-sample-artifacts
+  name: jfic-jekyll-artifacts
   discard-paths: no
+  base-directory: jfic-web/_site/
