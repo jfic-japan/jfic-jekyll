@@ -20,7 +20,7 @@ phases:
       - pwd
 artifacts:
   files:
-    - 'jfic-web/_site/**/*'
+    - '**/*'
   name: jfic-jekyll-artifacts
   discard-paths: no
   base-directory: jfic-web/_site/
