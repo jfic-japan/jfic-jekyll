@@ -21,18 +21,18 @@ layout: default
     <!-- Related Projects Row -->
     <div class="row">
         <div class="col-sm-8 col-xs-12">
-            <h2 id="contents">2018年度大会情報</h2>
+            <h2 id="contents">2019 年度大会情報</h2>
             <hr>
             <ul class="list-unstyled">
                 {% for post in site.posts reversed %}
-                {% if post.tags contains 'competition_info' and post.tags contains '2018'%}
+                {% if post.tags contains 'competition_info' and post.tags contains '2019'%}
                 <li>
                     <h3>
                         <a href="{{ post.url | prepend: site.baseurl }}">
                             {{ post.title }}
                         </a>
                         <br>
-                        <small>{{ post.term }}@{{ post.site }}</small>
+                        <small>{{ post.term }} {{ post.site }}</small>
                     </h3>
                     <hr>
                 </li>
