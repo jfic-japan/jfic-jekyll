@@ -21,11 +21,14 @@ layout: default
     <!-- Related Projects Row -->
     <div class="row">
         <div class="col-sm-8 col-xs-12">
-            <h2 id="contents">2019 年度大会情報</h2>
+          <h2 id="contents">2021 年度大会情報</h2>
+
+          <p>新型コロナウィルス（COVID-19）の影響により、変更が生じることがございますのでご注意ください。</p>
+          
             <hr>
             <ul class="list-unstyled">
                 {% for post in site.posts reversed %}
-                {% if post.tags contains 'competition_info' and post.tags contains '2019'%}
+                {% if post.tags contains 'competition_info' and post.tags contains '2021'%}
                 <li>
                     <h3>
                         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -41,7 +44,7 @@ layout: default
             </ul>
         </div>
         <div class="col-sm-4 col-xs-12">
-            {% include history.html %}                    
+            {% include history.html %}          
         </div>
     </div>
     <!-- /.row -->
