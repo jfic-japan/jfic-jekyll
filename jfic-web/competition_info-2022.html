@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">大会情報</h1>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+
+
+<div class="jfic-top-img">
+    <img class="img-responsive portfolio-item center-block" src="{{ site.baseurl }}/img/top/trophy-1140x460.jpg" alt="trophy">
+</div>
+
+<div class="container">
+    <!-- Related Projects Row -->
+    <div class="row">
+        <div class="col-sm-8 col-xs-12">
+          <h2 id="contents">2022 年度大会情報</h2>
+
+          <p>新型コロナウィルス（COVID-19）の影響により、変更が生じることがございますのでご注意ください。</p>
+
+            <hr>
+            <ul class="list-unstyled">
+                {% for post in site.posts reversed %}
+                {% if post.tags contains 'competition_info' and post.tags contains '2022'%}
+                <li>
+                    <h3>
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {{ post.title }}
+                        </a>
+                        <br>
+                        <small>{{ post.term }} {{ post.site }}</small>
+                    </h3>
+                    <hr>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            {% include history.html %}
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
