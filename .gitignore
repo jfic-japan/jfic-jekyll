@@ -2,3 +2,4 @@
 .DS_Store
 jfic-web/Gemfile.lock
 jfic-web/_site/
+jfic-web/.jekyll-cache
