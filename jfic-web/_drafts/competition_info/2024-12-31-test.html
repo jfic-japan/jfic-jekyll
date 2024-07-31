@@ -1,0 +1,35 @@
+---
+layout: competition_post
+title:  "test"
+term: "2024 年 12 月 31 日"
+site: "東京工業大学体育館アリーナ"
+tags: competition_info 2024
+categories: competition_info 2024
+
+---
+
+
+グループ A
+
+<ul>
+  {% for team in site.data.2024.test.teams %}
+  {% if team.group == "A" %} 
+  <li>
+    {{ team.teamName }}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+グループ B
+
+<ul>
+  {% for team in site.data.2024.test.teams %}
+  {% if team.group == "B" %} 
+  <li>
+    {{ team.teamName }}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
