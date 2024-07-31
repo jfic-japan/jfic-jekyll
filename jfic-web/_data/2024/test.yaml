@@ -1,0 +1,106 @@
+details:
+  date: "2024 年 6 月 8 日（土）"
+  site: "東京工業大学体育館アリーナ"
+  siteurl: null
+  sitemap: null
+  timeline:
+    - time: "9:00"
+      event: "開場"
+    - time: "9:30"
+      event: "試合開始"
+    - time: "19:00"
+      event: "終了"
+
+
+teams:
+  - teamName: "たちかわ CSC 1"
+    teamName-en: "Tachikawa CSC 1"
+    group: "A"        
+    members:
+    - name: "平野 賢"
+      name-en: "Ken Hirano"
+    - name: "安井 英己"
+      name-en: "Hideki Yasui"
+  - teamName: "たちかわ CSC 2"
+    teamName-en: "team name"
+    group: "B"             
+    members:
+    - name: "赤津 陸"
+      name-en: "Riku Akatsu"
+    - name: "小高"
+      name-en: "kodaka"
+  - teamName: "三本"
+    teamName-en: "Sanbon"
+    group: "B"             
+    members:
+    - name: "三部"
+      name-en: "Mibe"
+    - name: "本田"
+      name-en: "Honda"
+  - teamName: "たちかわ CSC 3"
+    teamName-en: "Tachikawa CSC 3"
+    group: "B"             
+    members:
+    - name: "大野"
+      name-en: "Ohno"
+    - name: "今村"
+      name-en: "Imamura"
+  - teamName: "東京工業大学 1"
+    teamName-en: "Tokyo Institute of Technology 1"
+    group: "A"             
+    members:
+    - name: "山本"
+      name-en: "Yamamoto"
+    - name: "福田"
+      name-en: "Fukuda"
+  - teamName: "東京工業大学 2"
+    teamName-en: "Tokyo Institute of Technology 2"
+    group: "A"             
+    members:
+    - name: "晝間"
+      name-en: "Hiruma"
+    - name: "花田"
+      name-en: "Hanada"
+  - teamName: "東京工業大学 3"
+    teamName-en: "Tokyo Institute of Technology 3"
+    group: "B"             
+    members:
+    - name: "牧野"
+      name-en: "Makino"
+    - name: "湯上"
+      name-en: "Yugami"
+  - teamName: "ウッドビッグ"
+    teamName-en: "Woodbig"
+    group: "B"             
+    members:
+    - name: "木澤"
+      name-en: "Kizawa"
+    - name: "大西"
+      name-en: "Ohnishi"
+  - teamName: "蔵前"
+    teamName-en: "Kuramae"
+    group: "A"             
+    members:
+    - name: "藤田 洋介"
+      name-en: "Yosuke Fujita"
+    - name: "時倉 宗大"
+      name-en: "Munehiro Tokikura"
+games:
+  - teams:
+    - 
+
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  - no: 1
+  
