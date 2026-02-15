@@ -171,3 +171,138 @@
     height: 100%;
     border-radius: var(--jfic-radius-md, 12px);
 }
+
+/* ==========================================================================
+   SNS Section Styles
+   ========================================================================== */
+
+.jfic-sns-section {
+    text-align: center;
+    padding: 3rem 0;
+
+    &__description {
+        font-size: 1.125rem;
+        color: #666;
+        margin-bottom: 2.5rem;
+        line-height: 1.6;
+    }
+}
+
+.jfic-section-header--center {
+    text-align: center;
+    
+    .jfic-section-header__title {
+        display: inline-block;
+    }
+}
+
+.jfic-section-header__line--center {
+    margin: 1rem auto 1.5rem;
+}
+
+.jfic-sns-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 2.5rem 2rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    height: 100%;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    &__icon {
+        margin-bottom: 1.5rem;
+        
+        svg {
+            display: inline-block;
+        }
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    &__description {
+        font-size: 0.95rem;
+        color: #666;
+        margin-bottom: 2rem;
+        line-height: 1.8;
+        min-height: 2.8rem;
+    }
+
+    // Instagram specific styles
+    &--instagram {
+        .jfic-sns-card__icon svg {
+            stroke: #E4405F;
+        }
+        
+        .jfic-sns-card__title {
+            color: #E4405F;
+        }
+    }
+
+    // Facebook specific styles
+    &--facebook {
+        .jfic-sns-card__icon svg {
+            stroke: #1877F2;
+        }
+        
+        .jfic-sns-card__title {
+            color: #1877F2;
+        }
+    }
+}
+
+/* SNS Button Styles */
+.jfic-btn--instagram {
+    background-color: #E4405F;
+    border-color: #E4405F;
+    color: #fff;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #d32f4f;
+        border-color: #d32f4f;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.jfic-btn--facebook {
+    background-color: #1877F2;
+    border-color: #1877F2;
+    color: #fff;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #1565D8;
+        border-color: #1565D8;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .jfic-sns-card {
+        padding: 2rem 1.5rem;
+        
+        &__description {
+            min-height: auto;
+        }
+    }
+    
+    .jfic-sns-section__description {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+}

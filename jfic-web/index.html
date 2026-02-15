@@ -136,23 +136,66 @@ layout: default
         </div>
     </section>
 
-    <!-- Call to Action -->
+    <!-- SNS Follow Section -->
     <section class="jfic-cta-section">
-        <div class="jfic-cta-card">
-            <div class="jfic-cta-card__icon">
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                    <path d="M24 4L6 14L24 24L42 14L24 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M6 34L24 44L42 34" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M6 24L24 34L42 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+        <div class="jfic-sns-section">
+            <div class="jfic-section-header jfic-section-header--center">
+                <h2 class="jfic-section-header__title">最新情報をチェック</h2>
+                <div class="jfic-section-header__line jfic-section-header__line--center"></div>
             </div>
-            <h3 class="jfic-cta-card__title">賛助会員募集</h3>
-            <p class="jfic-cta-card__description">
-                連盟の活動を支えてくださる会員様を募集しております
+            <p class="jfic-sns-section__description">
+                大会情報や選手の活躍を、SNSで随時発信しています
             </p>
-            <a class="jfic-btn jfic-btn--primary jfic-btn--large" href="{{ site.baseurl }}{% post_url /info/2019-10-08-invite-donation-detail %}">
-                詳細を見る
-            </a>
+            
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="jfic-sns-card jfic-sns-card--instagram">
+                        <div class="jfic-sns-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect x="6" y="6" width="36" height="36" rx="8" stroke="currentColor" stroke-width="3"/>
+                                <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="3"/>
+                                <circle cx="35" cy="13" r="2" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="jfic-sns-card__title">Instagram</h3>
+                        <p class="jfic-sns-card__description">
+                            練習風景や大会の様子を<br>写真・動画で配信
+                        </p>
+                        <a class="jfic-btn jfic-btn--instagram jfic-btn--large jfic-btn--block" 
+                           href="https://www.instagram.com/indoor_cycling_jfic/" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            フォローする
+                            <svg class="jfic-btn__icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div class="jfic-sns-card jfic-sns-card--facebook">
+                        <div class="jfic-sns-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M42 24C42 13.5066 33.4934 5 23 5C12.5066 5 4 13.5066 4 24C4 33.4021 10.6547 41.2364 19.5 42.7295V29H15V24H19.5V20C19.5 15.5817 22.5817 12.5 27 12.5H31V17.5H27C26.1716 17.5 25.5 18.1716 25.5 19V24H31V29H25.5V42.9506C35.1436 42.0998 42 34.0043 42 24Z" stroke="currentColor" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="jfic-sns-card__title">Facebook</h3>
+                        <p class="jfic-sns-card__description">
+                            イベント告知や<br>連盟からのお知らせ
+                        </p>
+                        <a class="jfic-btn jfic-btn--facebook jfic-btn--large jfic-btn--block" 
+                           href="https://www.facebook.com/indoorcycling.jp/" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            いいね！する
+                            <svg class="jfic-btn__icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
