@@ -1,6 +1,11 @@
 ---
 ---
 
+/* Import original custom grid system */
+//@import "jfic";
+@use "jfic";
+
+
 /* ==========================================================================
    JFIC Design System - Modern & Sports-Inspired
    ========================================================================== */
@@ -640,5 +645,3 @@ img {
     animation: fadeIn 0.6s ease;
 }
 
-/* Import original custom grid system */
-@import "jfic";
