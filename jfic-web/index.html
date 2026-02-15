@@ -2,129 +2,170 @@
 layout: default
 ---
 
-<div class="container">
-
-    <!-- Portfolio Item Heading -->
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">
-                <strong class="jfic-HP-title">日本室内自転車競技連盟</strong>
-                <br>
-                <small class="jfic-HP-subtitle"><small>室内自転車競技、サイクルサッカー・サイクルフィギュアの公式HPです。</small></small>
+<!-- Hero Section -->
+<div class="jfic-hero">
+    <div class="container">
+        <div class="jfic-hero__content">
+            <h1 class="jfic-hero__title">
+                日本室内自転車競技連盟
             </h1>
+            <p class="jfic-hero__subtitle">
+                Japan Federation of Indoor Cycling
+            </p>
+            <p class="jfic-hero__description">
+                室内自転車競技、サイクルサッカー・サイクルフィギュアの公式サイト
+            </p>
         </div>
     </div>
-    <!-- /.row -->
+</div>
 
-    <!-- Portfolio Item Row -->
-    <div class="row">
+<div class="container jfic-main-content">
 
-        <div class="col-md-8">
-            <img class="img-responsive" src="img/top/wc-tokyo-2015-01-750x500.JPG" alt="UCIサイクルサッカーワールドカップ第３戦アジアラウンド">
-        </div>
+    <!-- Featured Section -->
+    <section class="jfic-featured">
+        <div class="row">
+            <div class="col-lg-8 col-md-7">
+                <div class="jfic-featured__image-wrapper">
+                    <img class="jfic-featured__image" src="img/top/wc-tokyo-2015-01-750x500.JPG" alt="UCIサイクルサッカーワールドカップ第３戦アジアラウンド">
+                    <!--
+                    <div class="jfic-featured__overlay">
+                        <span class="jfic-featured__label">Featured Event</span>
+                    </div>
+                    -->
+                    
+                </div>
+            </div>
 
-        <div class="col-md-4">
-            {% include note.html %}
-        </div>
-
-    </div>
-    <!-- /.row -->
-
-    <hr>
-
-
-    <!-- Related Projects Row -->
-    <div class="row">
-
-        <div class="col-sm-4 col-xs-12">
-            <h4>Topics</h4>
-            <div class="pre-scrollable">
-
-                <ul class="list-group">
-
-                    {% for post in site.posts %}
-                    {% if post.tags contains 'topics' %}
-
-                    <li class="list-group-item">
-                        <a href="{{ post.url | prepend: site.baseurl}}">
-                            <dt>{{ post.date | date: "%Y年%m月%d日" }}</dt>
-                            <dd>{{ post.title }}</dd>
+            <div class="col-lg-4 col-md-5">
+                <div class="jfic-event-card">
+                    <div class="jfic-event-card__header">
+                        <h3 class="jfic-event-card__title">NEXT EVENT</h3>
+                    </div>
+                    <div class="jfic-event-card__body">
+                        <div class="jfic-event-card__date">
+                            <span class="jfic-event-card__day">22</span>
+                            <span class="jfic-event-card__month">FEB 2026</span>
+                        </div>
+                        <h4 class="jfic-event-card__event-name">
+                            2026 UCI サイクルサッカー<br>ワールドカップ アジアラウンド
+                        </h4>
+                        <a class="jfic-btn jfic-btn--primary jfic-btn--block" href="{% post_url /competition_info/2026/2026-02-22-world-cup-2026-asia %}">
+                            イベント詳細
+                            <svg class="jfic-btn__icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                         </a>
-                    </li>
-
-                    {% endif %}
-                    {% endfor %}
-
-                </ul>
-
+                    </div>
+                </div>
             </div>
-            <a class="btn btn-primary btn-sm" href="topics.html">Topics一覧</a>
         </div>
+    </section>
 
-        <div class="col-sm-8 col-xs-12">
-            <div class="col-md-6 col-sm-12 col-xs-6 col-jfic-xxs-12">
-                <a href="about_cycleball.html">
-                    <h4><strong>サイクルサッカーとは？</strong></h4>
-                    <img class="img-responsive portfolio-item" src="{{ site.baseurl }}/img/intro/cycleball-500x300.jpg" alt="サイクルサッカーとは？">
-                </a>
-                <p>自転車とサッカーの融合、サイクルサッカー。自転車ならではのスピード感、テクニック、球技ならではのシュート打音、パスワーク、ボディコンタクト、あらゆる角度で楽しめるスポーツです。</p>
-
-                <a href="about_cycleball.html">&nbsp;&raquo;&nbsp;もっと詳しく</a>
-
+    <!-- Topics & Sports Introduction -->
+    <section class="jfic-content-section">
+        <div class="row">
+            <!-- Topics Column -->
+            <div class="col-lg-4 col-md-12">
+                <div class="jfic-topics">
+                    <div class="jfic-section-header">
+                        <h2 class="jfic-section-header__title">Topics</h2>
+                        <div class="jfic-section-header__line"></div>
+                    </div>
+                    
+                    <div class="jfic-topics__list">
+                        {% for post in site.posts limit:5 %}
+                        {% if post.tags contains 'topics' %}
+                        <article class="jfic-topic-item">
+                            <a href="{{ post.url | prepend: site.baseurl}}" class="jfic-topic-item__link">
+                                <time class="jfic-topic-item__date">{{ post.date | date: "%Y.%m.%d" }}</time>
+                                <h3 class="jfic-topic-item__title">{{ post.title }}</h3>
+                            </a>
+                        </article>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    
+                    <a class="jfic-btn jfic-btn--outline jfic-btn--block" href="topics.html">
+                        すべてのTopicsを見る
+                    </a>
+                </div>
             </div>
 
-            <div class="col-md-6 col-sm-12 col-xs-6 col-jfic-xxs-12">
-                <a href="about_cyclefigure.html">
-                    <h4><strong>サイクルフィギュアとは？</strong></h4>
-                    <img class="img-responsive portfolio-item" src="{{ site.baseurl }}/img/intro/cyclefigure-500x300.jpg" alt="サイクルフィギュアとは？">
-                </a>
-                <p>自転車版フィギュアスケート、その名もサイクルフィギュア。自転車だからこそ生み出せるダイナミックさ、自転車を超越した美技、そこに必要とされる繊細さ、あらゆる要素を含んだ競技です。</p>
-                <a href="about_cyclefigure.html">&nbsp;&raquo;&nbsp;もっと詳しく</a>
-            </div>
+            <!-- Sports Introduction -->
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="jfic-sport-card">
+                            <a href="about_cycleball.html" class="jfic-sport-card__link">
+                                <div class="jfic-sport-card__image-wrapper">
+                                    <img class="jfic-sport-card__image" src="{{ site.baseurl }}/img/intro/cycleball-500x300.jpg" alt="サイクルサッカー">
+                                    <div class="jfic-sport-card__overlay">
+                                        <span class="jfic-sport-card__cta">詳しく見る →</span>
+                                    </div>
+                                </div>
+                                <div class="jfic-sport-card__content">
+                                    <h3 class="jfic-sport-card__title">サイクルサッカー</h3>
+                                    <p class="jfic-sport-card__description">
+                                        自転車とサッカーの融合。自転車ならではのスピード感、テクニック、球技ならではのシュート打音、パスワーク、ボディコンタクト、あらゆる角度で楽しめるスポーツです。
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
+                    <div class="col-sm-6">
+                        <div class="jfic-sport-card">
+                            <a href="about_cyclefigure.html" class="jfic-sport-card__link">
+                                <div class="jfic-sport-card__image-wrapper">
+                                    <img class="jfic-sport-card__image" src="{{ site.baseurl }}/img/intro/cyclefigure-500x300.jpg" alt="サイクルフィギュア">
+                                    <div class="jfic-sport-card__overlay">
+                                        <span class="jfic-sport-card__cta">詳しく見る →</span>
+                                    </div>
+                                </div>
+                                <div class="jfic-sport-card__content">
+                                    <h3 class="jfic-sport-card__title">サイクルフィギュア</h3>
+                                    <p class="jfic-sport-card__description">
+                                        自転車版フィギュアスケート。自転車だからこそ生み出せるダイナミックさ、自転車を超越した美技、そこに必要とされる繊細さ、あらゆる要素を含んだ競技です。
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-    </div>
-    <!-- /.row -->
+    <!-- Call to Action -->
+    <section class="jfic-cta-section">
+        <div class="jfic-cta-card">
+            <div class="jfic-cta-card__icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                    <path d="M24 4L6 14L24 24L42 14L24 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 34L24 44L42 34" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 24L24 34L42 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <h3 class="jfic-cta-card__title">賛助会員募集</h3>
+            <p class="jfic-cta-card__description">
+                連盟の活動を支えてくださる会員様を募集しております
+            </p>
+            <a class="jfic-btn jfic-btn--primary jfic-btn--large" href="{{ site.baseurl }}{% post_url /info/2019-10-08-invite-donation-detail %}">
+                詳細を見る
+            </a>
+        </div>
+    </section>
 
-    <br>
-
-         <div class="row">
-    <!--
-         <div class="col-md-6">
-         <div class="well">
-         <h4><strong>2018年度加盟申請</strong></h4>
-         <p><strong>JFIC主催・主管事業に参加する選手は連盟への加盟申請が必要です。</strong></p>
-         <a class="btn btn-primary btn-sm" href="{{ site.baseurl }}{% post_url /info/2018-03-21-registration-for-2018 %}">加盟申請詳細へ</a>
-         </div>
-         </div>
-         -->
-         <div class="col-lg-12">
-         <div class="well text-center">
-         <h4><strong>賛助会員募集のお知らせ</strong></h4>
-         <p><strong>連盟の活動を支えてくださる会員様を募集しております。</strong></p>
-         <a class="btn btn-primary btn-sm" href="{{ site.baseurl }}{% post_url /info/2019-10-08-invite-donation-detail %}">賛助会員詳細へ</a>
-         </div>
-         </div>
-         </div>
-
-    <!-- Call to Action Well -->
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="well text-center">
-
-                <strong>
+    <!-- Sponsor Section -->
+    <section class="jfic-sponsor-section">
+        <div class="jfic-sponsor-card">
+            <p class="jfic-sponsor-card__text">
                 日本室内自転車競技連盟は、公益財団法人JKAの支援を受けて、活動しております。
-                </strong>
-                <a href="https://hojo.keirin-autorace.or.jp/">
-                    <img class="img-responsive center-block" style="padding-top:0.5em; max-width:180px;" src="{{ site.baseurl }}/img/sponsor/origin/bunner_jka_social_action.png"  alt="JKA Social Action">
-                </a>
-            </div>
+            </p>
+            <a href="https://hojo.keirin-autorace.or.jp/" class="jfic-sponsor-card__logo-link">
+                <img class="jfic-sponsor-card__logo" src="{{ site.baseurl }}/img/sponsor/origin/bunner_jka_social_action.png" alt="JKA Social Action">
+            </a>
         </div>
-        <!-- /.col-lg-12 -->
-    </div>
-    <!-- /.row -->
-
-
+    </section>
 
 </div>
