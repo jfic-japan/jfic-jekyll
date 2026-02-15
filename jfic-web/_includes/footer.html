@@ -15,6 +15,22 @@
 
             <ul class="jfic-social-media-list">
 
+                {% if site.instagram_username %}
+                <li class="text-center">
+                    <a href="https://www.instagram.com/{{ site.instagram_username}}/">
+                        <span class="jfic-icon jfic-icon--instagram">
+                            <svg viewBox="0 0 16 16" width="16" height="16">
+                                <rect x="2" y="2" width="12" height="12" rx="3" stroke="#E4405F" stroke-width="1.5" fill="none"/>
+                                <circle cx="8" cy="8" r="3" stroke="#E4405F" stroke-width="1.5" fill="none"/>
+                                <circle cx="12" cy="4" r="0.8" fill="#E4405F"/>
+                            </svg>
+                        </span>
+
+                        <span class="username">{{ site.instagram_username }}</span>
+                    </a>
+                </li>
+                {% endif %}
+
                 {% if site.facebook_page %}
                 <li class="text-center">
                     <a href="https://facebook.com/{{ site.facebook_page}}">
