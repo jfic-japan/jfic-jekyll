@@ -2,21 +2,22 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      ruby: 3.4.9
     commands:
-      - gem install bundler
-      - gem install jekyll -v='4.3.2'
-      - gem install minima
-  pre_build:
-    commands:
-      - jekyll --version
-      - bundler --version
-  build:
-    commands:
+      - gem install bundler -v '4.0.8'
       - cd jfic-web
+      - bundle install --jobs 4 --retry 3
       - locale
       - locale -a
-      - export LC_CTYPE="C.utf8"
-      - bundle exec jekyll b
+      - export LC_CTYPE="C.utf8"      
+  pre_build:
+    commands:
+      - bundler --version
+      - bundle exec jekyll --version
+  build:
+    commands:    
+      - bundle exec jekyll build
   post_build:
     commands:
       - cd _site
