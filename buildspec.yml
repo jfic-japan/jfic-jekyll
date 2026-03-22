@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      ruby: 3.4.9
+      ruby: 3.4
     commands:
       - gem install bundler -v '4.0.8'
       - cd jfic-web
