@@ -214,10 +214,14 @@ body {
     box-shadow: var(--jfic-shadow-md);
     overflow: hidden;
     height: 100%;
-    min-height: 400px;
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2rem;  /* カード間の隙間 */
+}
+
+.jfic-event-card:last-child {
+    margin-bottom: 0;  /* 最後のカードは下マージンなし */
 }
 
 .jfic-event-card:hover {
@@ -597,14 +601,39 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 991px) {
+/* Extra Large画面 (≥1200px): 画像の高さを調整 */
+@media (min-width: 1200px) {
+    .jfic-featured__image-wrapper {
+        min-height: 0;
+        height: auto;
+        aspect-ratio: 3 / 2;
+    }
+}
+
+/* Large画面 (992px-1199px): 横並びだが画像が小さめなので高さ調整 */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .jfic-featured__image-wrapper {
+        min-height: 0;
+        height: auto;
+        aspect-ratio: 3 / 2;
+    }
+    
+    .jfic-event-card {
+        min-height: 0;  /* イベントカードのmin-heightを解除して画像に合わせる */
+    }
+}
+
+/* Medium画面 (768px-991px): 横並びで高さ調整が必要 */
+@media (min-width: 768px) and (max-width: 991px) {
     .jfic-hero {
         padding: 4rem 0 2.5rem;
     }
     
     .jfic-featured__image-wrapper {
-        min-height: 300px;
-        margin-bottom: 1.5rem;
+        min-height: 0;
+        height: auto;
+        aspect-ratio: 3 / 2;
+        margin-bottom: 2rem;  /* 縦並びになる境界なので余白を追加 */
     }
     
     .jfic-event-card {
@@ -616,9 +645,17 @@ body {
     }
 }
 
+/* Small画面 (767px以下): 縦並びなので余白が必要 */
 @media (max-width: 767px) {
     .jfic-hero {
         padding: 2.5rem 0;
+    }
+    
+    .jfic-featured__image-wrapper {
+        min-height: 0;
+        height: auto;
+        aspect-ratio: 3 / 2;
+        margin-bottom: 2rem;
     }
     
     .jfic-cta-card {
