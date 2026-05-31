@@ -1,0 +1,64 @@
+- id: winter-cup
+  series_id: winter-cup
+  title: ウィンターカップ
+  date_label: 2023 年 2 月 11 日
+  venue: デザイン・クリエイティブセンター神戸（KIITO）
+  source_path: jfic-web/_posts/competition_info/2023/2023-02-11-winter-cup.html
+  source_url: "/competition_info/2023/winter-cup.html"
+  event_roles: []
+  results: []
+  date: '2023-02-11'
+- id: world-cup-2023-asia
+  series_id: world-cup-asia
+  title: 2023 UCI サイクルサッカーワールドカップ アジアラウンド
+  date_label: 2023 年 2 月 12 日
+  venue: デザイン・クリエイティブセンター神戸（KIITO）
+  source_path: jfic-web/_posts/competition_info/2023/2023-02-12-world-cup-2023-asia.html
+  source_url: "/competition_info/2023/world-cup-2023-asia.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2023-02-12'
+- id: champions-cup-2023
+  series_id: champions-cup
+  title: 2023 年度 チャンピオンズカップ（世界選手権派遣選手選考会）
+  date_label: 2023 年 5 月 13 日（土）
+  venue: 星槎箱根仙石原総合型スポーツクラブ
+  source_path: jfic-web/_posts/competition_info/2023/2023-05-13-champions-cup-2023.html
+  source_url: "/competition_info/2023/champions-cup-2023.html"
+  event_roles:
+  - world_championship_selection
+  results: []
+  date: '2023-05-13'
+- id: UCIWorldChampionships-2023
+  series_id: world-championships
+  title: 2023 UCI Cycling World Championships
+  date_label: 2023 年 8 月 3 日 - 13 日
+  venue: Glasgow and across Scotland
+  source_path: jfic-web/_posts/competition_info/2023/2023-08-03-UCIWorldChampionships-2023.html
+  source_url: "/competition_info/2023/UCIWorldChampionships-2023.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2023-08-03'
+- id: japancup-2023
+  series_id: japancup
+  title: ジャパンカップ 2023
+  date_label: 2023 年 9 月 18 日
+  venue: 立命館大学 草津キャンパス
+  source_path: jfic-web/_posts/competition_info/2023/2023-09-18-japancup-2023.html
+  source_url: "/competition_info/2023/japancup-2023.html"
+  event_roles: []
+  results: []
+  date: '2023-09-18'
+- id: japan-championship-2023
+  series_id: japan-championship
+  title: 第 54 回全日本室内自転車競技選手権大会
+  date_label: 2023 年 12 月 2 日（土）
+  venue: 東京工業大学 大岡山キャンパス 体育館アリーナ
+  source_path: jfic-web/_posts/competition_info/2023/2023-12-03-japan-championship-2023.html
+  source_url: "/competition_info/2023/japan-championship-2023.html"
+  event_roles:
+  - national_championship
+  results: []
+  date: '2023-12-03'

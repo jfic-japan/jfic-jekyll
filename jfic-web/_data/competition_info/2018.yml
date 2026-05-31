@@ -1,0 +1,167 @@
+- id: challenge-cup
+  series_id: challenge-cup
+  title: 2018年度チャレンジカップ
+  date_label: 2018年4月22日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2018/2018-04-22-challenge-cup.html
+  source_url: "/competition_info/2018/challenge-cup.html"
+  event_roles: []
+  results: []
+  date: '2018-04-22'
+- id: kanto-students-championship-spring-2018
+  series_id: kanto-student-spring-league
+  title: 2018 年度関東春季学生リーグ
+  date_label: 2018 年 5 月 27 日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2018/2018-05-27-kanto-students-championship-spring-2018.html
+  source_url: "/competition_info/2018/kanto-students-championship-spring-2018.html"
+  event_roles: []
+  results: []
+  date: '2018-05-27'
+- id: kanto-championship-spring-2018
+  series_id: kanto-social-spring-league
+  title: 2018 年度関東春季社会人リーグ
+  date_label: 2018 年 6 月 30 日
+  venue: たちかわ創造舎 体育館
+  source_path: jfic-web/_posts/competition_info/2018/2018-06-30-kanto-championship-spring-2018.html
+  source_url: "/competition_info/2018/kanto-championship-spring-2018.html"
+  event_roles: []
+  results: []
+  date: '2018-06-30'
+- id: champions-cup-2018
+  series_id: champions-cup
+  title: 2018年度チャンピオンズカップ
+  date_label: 2018 年 7 月 21 日、22 日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2018/2018-07-21-champions-cup-2018.html
+  source_url: "/competition_info/2018/champions-cup-2018.html"
+  event_roles:
+  - world_championship_selection
+  results: []
+  date: '2018-07-21'
+- id: artistic-cycling-asia-training
+  series_id: training-camp
+  title: サイクルフィギュアトレーニングキャンプ
+  date_label: 2018年8月6日-9日
+  venue: 香港
+  source_path: jfic-web/_posts/competition_info/2018/2018-08-06-artistic-cycling-asia-training.html
+  source_url: "/competition_info/2018/artistic-cycling-asia-training.html"
+  event_roles: []
+  results: []
+  date: '2018-08-06'
+- id: world-cup-2018-asia
+  series_id: world-cup-asia
+  title: 2018 UCI サイクルサッカーワールドカップ アジアラウンド
+  date_label: 2018年8月11日
+  venue: 香港
+  source_path: jfic-web/_posts/competition_info/2018/2018-08-11-world-cup-2018-asia.html
+  source_url: "/competition_info/2018/world-cup-2018-asia.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2018-08-11'
+- id: HK-open-2018
+  series_id: hong-kong-open
+  title: Hong Kong Open 2018
+  date_label: 2016年8月12日
+  venue: 香港
+  source_path: jfic-web/_posts/competition_info/2018/2018-08-12-HK-open-2018.html
+  source_url: "/competition_info/2018/HK-open-2018.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2018-08-12'
+- id: world-cup-2018-asia-artistic-cycling
+  series_id: world-cup-asia
+  title: 2018 UCI サイクルフィギュアワールドカップ アジアラウンド
+  date_label: 2018年8月12日
+  venue: 香港
+  source_path: jfic-web/_posts/competition_info/2018/2018-08-12-world-cup-2018-asia-artistic-cycling.html
+  source_url: "/competition_info/2018/world-cup-2018-asia-artistic-cycling.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2018-08-12'
+- id: kansai-student-championship-2018
+  series_id: kansai-student-championship
+  title: 2018 年度関西学生サイクルサッカー選手権
+  date_label: 2018年8月25日, 26日
+  venue: 関西大学 千里山キャンパス
+  source_path: jfic-web/_posts/competition_info/2018/2018-08-25-kansai-student-championship-2018.html
+  source_url: "/competition_info/2018/kansai-student-championship-2018.html"
+  event_roles: []
+  results: []
+  date: '2018-08-25'
+- id: japancup-2018
+  series_id: japancup
+  title: ジャパンカップ2018
+  date_label: 2018年9月29日
+  venue: たちかわ創造舎
+  source_path: jfic-web/_posts/competition_info/2018/2018-09-22-japancup-2018.html
+  source_url: "/competition_info/2018/japancup-2018.html"
+  event_roles: []
+  results: []
+  date: '2018-09-22'
+- id: rookie-cup-2018
+  series_id: rookie-cup
+  title: 2018年度新人戦
+  date_label: 2018年10月20日
+  venue: 立命館大学 びわこ・くさつキャンパス
+  source_path: jfic-web/_posts/competition_info/2018/2018-10-20-rookie-cup-2018.html
+  source_url: "/competition_info/2018/rookie-cup-2018.html"
+  event_roles: []
+  results: []
+  date: '2018-10-20'
+- id: japan-student-league-2018
+  series_id: japan-student-league
+  title: 2018年度全日本学生リーグ
+  date_label: 2018年10月21日
+  venue: 立命館大学 びわこ・くさつキャンパス
+  source_path: jfic-web/_posts/competition_info/2018/2018-10-21-japan-student-league-2018.html
+  source_url: "/competition_info/2018/japan-student-league-2018.html"
+  event_roles: []
+  results: []
+  date: '2018-10-21'
+- id: world-championships-2018
+  series_id: world-championships
+  title: UCI Indoor Cycling World Championships 2018
+  date_label: 2018 年 11 月 23 日 - 25 日
+  venue: ベルギー・リエージュ
+  source_path: jfic-web/_posts/competition_info/2018/2018-11-23-world-championships-2018.html
+  source_url: "/competition_info/2018/world-championships-2018.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2018-11-23'
+- id: inter-college-2018
+  series_id: inter-college
+  title: 2018 年度全日本学生選手権
+  date_label: 2018 年 11 月 24, 25 日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2018/2018-11-24-inter-college-2018.html
+  source_url: "/competition_info/2018/inter-college-2018.html"
+  event_roles: []
+  results: []
+  date: '2018-11-24'
+- id: japan-championship-2018
+  series_id: japan-championship
+  title: 第 49 回全日本選手権大会
+  date_label: 2018 年 12 月 8 日 - 9 日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2018/2018-12-08-japan-championship-2018.html
+  source_url: "/competition_info/2018/japan-championship-2018.html"
+  event_roles:
+  - national_championship
+  results: []
+  date: '2018-12-08'
+- id: cycleball-world-cup-final-2018
+  series_id: cycleball-world-cup-final
+  title: UCI Cycle Ball World Cup Final 2018
+  date_label: 2019 年 1 月 19 日
+  venue: ドイツ・クラインゲラウ
+  source_path: jfic-web/_posts/competition_info/2018/2019-01-19-cycleball-world-cup-final-2018.html
+  source_url: "/competition_info/2018/cycleball-world-cup-final-2018.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2019-01-19'

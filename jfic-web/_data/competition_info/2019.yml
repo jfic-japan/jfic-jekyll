@@ -1,0 +1,105 @@
+- id: challenge-cup
+  series_id: challenge-cup
+  title: 2019 年度チャレンジカップ
+  date_label: 2019 年 5 月 12 日
+  venue: 東京工業大学
+  source_path: jfic-web/_posts/competition_info/2019/2019-05-12-challenge-cup.html
+  source_url: "/competition_info/2019/challenge-cup.html"
+  event_roles: []
+  results: []
+  date: '2019-05-12'
+- id: champions-cup-2019
+  series_id: champions-cup
+  title: 2019 年度チャンピオンズカップ
+  date_label: 2019 年 7 月 7 日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2019/2019-07-06-champions-cup-2019.html
+  source_url: "/competition_info/2019/champions-cup-2019.html"
+  event_roles:
+  - world_championship_selection
+  results: []
+  date: '2019-07-06'
+- id: japancup-2019
+  series_id: japancup
+  title: ジャパンカップ 2019
+  date_label: 2019 年 9 月 15 日
+  venue: アクティブ・スクウェア・大東
+  source_path: jfic-web/_posts/competition_info/2019/2019-09-15-japancup-2019.html
+  source_url: "/competition_info/2019/japancup-2019.html"
+  event_roles: []
+  results: []
+  date: '2019-09-15'
+- id: world-cup-stgallen
+  series_id: cycleball-world-cup
+  title: 2019 UCI サイクルサッカーワールドカップ St. Gallen 大会
+  date_label: 2019 年 10 月 12 日
+  venue: St.Gallen @スイス
+  source_path: jfic-web/_posts/competition_info/2019/2019-10-12-world-cup-stgallen.html
+  source_url: "/competition_info/2019/world-cup-stgallen.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2019-10-12'
+- id: rookie-cup-2019
+  series_id: rookie-cup
+  title: 2019 年度新人戦
+  date_label: ''
+  venue: ''
+  source_path: jfic-web/_posts/competition_info/2019/2019-10-20-rookie-cup-2019.html
+  source_url: "/competition_info/2019/rookie-cup-2019.html"
+  event_roles: []
+  results: []
+  date: '2019-10-20'
+- id: japan-student-league-2018
+  series_id: japan-student-league
+  title: 2019 年度全日本学生リーグ
+  date_label: ''
+  venue: ''
+  source_path: jfic-web/_posts/competition_info/2019/2019-10-21-japan-student-league-2018.html
+  source_url: "/competition_info/2019/japan-student-league-2018.html"
+  event_roles: []
+  results: []
+  date: '2019-10-21'
+- id: inter-college-2019
+  series_id: inter-college
+  title: 2019 年度全日本学生選手権
+  date_label: 2019 年 11 月 16, 17 日
+  venue: ''
+  source_path: jfic-web/_posts/competition_info/2019/2019-11-16-inter-college-2019.html
+  source_url: "/competition_info/2019/inter-college-2019.html"
+  event_roles: []
+  results: []
+  date: '2019-11-16'
+- id: world-championships-2019
+  series_id: world-championships
+  title: UCI Indoor Cycling World Championships 2019
+  date_label: 2019 年 12 月 6 日 - 8 日
+  venue: スイス・バーゼル
+  source_path: jfic-web/_posts/competition_info/2019/2019-12-06-world-championships-2019.html
+  source_url: "/competition_info/2019/world-championships-2019.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2019-12-06'
+- id: japan-championship-2019
+  series_id: japan-championship
+  title: 第 50 回全日本室内自転車競技選手権大会
+  date_label: 2019 年 12 月 14 日 - 15 日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2019/2019-12-14-japan-championship-2019.html
+  source_url: "/competition_info/2019/japan-championship-2019.html"
+  event_roles:
+  - national_championship
+  results: []
+  date: '2019-12-14'
+- id: cycleball-world-cup-final-2019
+  series_id: cycleball-world-cup-final
+  title: UCI Cycle Ball World Cup Final 2019
+  date_label: 2020 年 1 月 19 日
+  venue: スイス・メーリン
+  source_path: jfic-web/_posts/competition_info/2019/2020-01-19-cycleball-world-cup-final-2019.html
+  source_url: "/competition_info/2019/cycleball-world-cup-final-2019.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2020-01-19'

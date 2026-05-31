@@ -1,0 +1,22 @@
+- id: japan-championship-2025
+  series_id: japan-championship
+  title: 2025 全日本選手権 兼 世界選手権選考会
+  date_label: 2025 年 8 月 30 日
+  venue: 立命館大学 びわこ・くさつキャンパス
+  source_path: jfic-web/_posts/competition_info/2025/2025-08-30-japan-championship-2025.html
+  source_url: "/competition_info/2025/japan-championship-2025.html"
+  event_roles:
+  - national_championship
+  - world_championship_selection
+  results: []
+  date: '2025-08-30'
+- id: japancup-2025
+  series_id: japancup
+  title: ジャパンカップ 2025
+  date_label: 2025 年 9 月 14 日
+  venue: 関西大学 千里山キャンパス 中央体育館
+  source_path: jfic-web/_posts/competition_info/2025/2025-09-14-japancup-2025.html
+  source_url: "/competition_info/2025/japancup-2025.html"
+  event_roles: []
+  results: []
+  date: '2025-09-14'

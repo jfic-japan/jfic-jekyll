@@ -1,0 +1,46 @@
+cycleball-world-cup:
+  name: サイクルサッカー ワールドカップ
+japan-championship:
+  name: 全日本選手権
+japan-championship-qualifying:
+  name: 全日本選手権予選
+  parent_series_id: japan-championship
+world-championships:
+  name: 世界選手権
+world-cup-asia:
+  name: ワールドカップ アジアラウンド
+  parent_series_id: cycleball-world-cup
+cycleball-world-cup-final:
+  name: サイクルサッカー ワールドカップファイナル
+japancup:
+  name: ジャパンカップ
+champions-cup:
+  name: チャンピオンズカップ
+challenge-cup:
+  name: チャレンジカップ
+rookie-cup:
+  name: 新人戦
+jfic-cup:
+  name: JFIC カップ
+winter-cup:
+  name: ウィンターカップ
+hong-kong-open:
+  name: Hong Kong Open
+asian-championship:
+  name: アジア室内自転車競技選手権大会
+kanto-student-spring-league:
+  name: 関東春季学生リーグ
+kanto-social-spring-league:
+  name: 関東春季社会人リーグ
+kansai-spring-league:
+  name: 関西春季リーグ
+japan-student-league:
+  name: 全日本学生リーグ
+inter-college:
+  name: 全日本学生選手権
+kansai-student-championship:
+  name: 関西学生選手権
+training-camp:
+  name: トレーニングキャンプ
+other:
+  name: その他

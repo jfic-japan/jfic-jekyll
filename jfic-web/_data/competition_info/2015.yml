@@ -1,0 +1,148 @@
+- id: kanto_student_championship_spring
+  series_id: kanto-student-spring-league
+  title: 関東春季学生リーグ
+  date_label: 2015年5月16日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2015/2015-05-16-kanto_student_championship_spring.html
+  source_url: "/competition_info/2015/kanto_student_championship_spring.html"
+  event_roles: []
+  results: []
+  date: '2015-05-16'
+- id: kanto_championship_spring
+  series_id: kanto-social-spring-league
+  title: 関東春季社会人リーグ
+  date_label: 2015年5月17日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2015/2015-05-17-kanto_championship_spring.html
+  source_url: "/competition_info/2015/kanto_championship_spring.html"
+  event_roles: []
+  results: []
+  date: '2015-05-17'
+- id: may-cup-kansai
+  series_id: kansai-spring-league
+  title: 関西サイクルサッカー春季リーグ戦 兼ワールドカップ出場チーム選考会
+  date_label: 2015年5月17日
+  venue: 関西大学 千里山キャンパス
+  source_path: jfic-web/_posts/competition_info/2015/2015-05-17-may-cup-kansai.html
+  source_url: "/competition_info/2015/may-cup-kansai.html"
+  event_roles:
+  - world_cup_selection
+  results: []
+  date: '2015-05-17'
+- id: champions-cup
+  series_id: champions-cup
+  title: チャンピオンズカップ（世界選手権派遣選手決定戦）
+  date_label: 2015年7月4日
+  venue: Bumb東京 スポーツ文化館
+  source_path: jfic-web/_posts/competition_info/2015/2015-07-04-champions-cup.html
+  source_url: "/competition_info/2015/champions-cup.html"
+  event_roles:
+  - world_championship_selection
+  results: []
+  date: '2015-07-04'
+- id: uci-wc-3rd
+  series_id: world-cup-asia
+  title: UCIサイクルサッカーワールドカップ第３戦(アジア大会)
+  date_label: 2015年7月5日
+  venue: Bumb東京 スポーツ文化館
+  source_path: jfic-web/_posts/competition_info/2015/2015-07-05-uci-wc-3rd.html
+  source_url: "/competition_info/2015/uci-wc-3rd.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2015-07-05'
+- id: HongKongOpen
+  series_id: hong-kong-open
+  title: Hong Kong Open 2015
+  date_label: 2015年8月2日
+  venue: Chai Wan Sports Centre （香港）
+  source_path: jfic-web/_posts/competition_info/2015/2015-08-02-HongKongOpen.html
+  source_url: "/competition_info/2015/HongKongOpen.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2015-08-02'
+- id: asian-championship
+  series_id: asian-championship
+  title: 第１３回アジア室内自転車競技選手権大会
+  date_label: 2015年8月23日
+  venue: Tap Seac Multisport Pavilion （マカオ）
+  source_path: jfic-web/_posts/competition_info/2015/2015-08-23-asian-championship.html
+  source_url: "/competition_info/2015/asian-championship.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2015-08-23'
+- id: JapanCup
+  series_id: japancup
+  title: ジャパンカップ（ドイツU-19交流大会）
+  date_label: 2015年9月19日〜21日
+  venue: 梅田東コミュニティ会館
+  source_path: jfic-web/_posts/competition_info/2015/2015-09-21-JapanCup.html
+  source_url: "/competition_info/2015/JapanCup.html"
+  event_roles: []
+  results: []
+  date: '2015-09-21'
+- id: rookie-cup
+  series_id: rookie-cup
+  title: 2015年度新人戦
+  date_label: 2015年10月24日
+  venue: 東京工業大学大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2015/2015-10-24-rookie-cup.html
+  source_url: "/competition_info/2015/rookie-cup.html"
+  event_roles: []
+  results: []
+  date: '2015-10-24'
+- id: japan-student-league
+  series_id: japan-student-league
+  title: 2015年度全日本学生リーグ
+  date_label: 2015年10月25日
+  venue: 東京工業大学大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2015/2015-10-25-japan-student-league.html
+  source_url: "/competition_info/2015/japan-student-league.html"
+  event_roles: []
+  results: []
+  date: '2015-10-25'
+- id: interCollege
+  series_id: inter-college
+  title: 2015年度全日本学生選手権
+  date_label: 2015年11月14日,15日
+  venue: 大阪大学、関西大学
+  source_path: jfic-web/_posts/competition_info/2015/2015-11-14-interCollege.html
+  source_url: "/competition_info/2015/interCollege.html"
+  event_roles: []
+  results: []
+  date: '2015-11-14'
+- id: wm2015
+  series_id: world-championships
+  title: UCI Indoor Cycling World Championships 2015
+  date_label: 2015年11月20日〜22日
+  venue: マレーシア　ジョホールバル
+  source_path: jfic-web/_posts/competition_info/2015/2015-11-20-wm2015.html
+  source_url: "/competition_info/2015/wm2015.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2015-11-20'
+- id: world-cup-final
+  series_id: cycleball-world-cup-final
+  title: UCI Cycle Ball World Cup Final
+  date_label: 2015年12月5日
+  venue: スイス　モスナング
+  source_path: jfic-web/_posts/competition_info/2015/2015-12-05-world-cup-final.html
+  source_url: "/competition_info/2015/world-cup-final.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2015-12-05'
+- id: Japan-champions-ship
+  series_id: japan-championship
+  title: 第４６回 全日本選手権
+  date_label: 2015年12月12日-13日
+  venue: 福岡・那珂川町民体育館
+  source_path: jfic-web/_posts/competition_info/2015/2015-12-12-Japan-champions-ship.html
+  source_url: "/competition_info/2015/Japan-champions-ship.html"
+  event_roles:
+  - national_championship
+  results: []
+  date: '2015-12-12'

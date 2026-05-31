@@ -1,0 +1,70 @@
+- id: world-cup-2024-asia
+  series_id: world-cup-asia
+  title: 2024 UCI サイクルサッカーワールドカップ アジアラウンド
+  date_label: 2024 年 3 月 23 日
+  venue: デザイン・クリエイティブセンター神戸（KIITO）
+  source_path: jfic-web/_posts/competition_info/2024/2024-03-23-world-cup-2024-asia.html
+  source_url: "/competition_info/2024/world-cup-2024-asia.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2024-03-23'
+- id: champions-cup-2024-kanto-qualifying-round
+  series_id: japan-championship-qualifying
+  title: 2024 全日本選手権 兼 世界戦選手権選考会関東予選
+  date_label: 2024 年 6 月 8 日
+  venue: 東京工業大学体育館アリーナ
+  source_path: jfic-web/_posts/competition_info/2024/2024-06-08-champions-cup-2024-kanto-qualifying-round.html
+  source_url: "/competition_info/2024/champions-cup-2024-kanto-qualifying-round.html"
+  event_roles:
+  - national_championship_qualifier
+  - world_championship_selection_qualifier
+  results: []
+  parent_series_id: japan-championship
+  date: '2024-06-08'
+- id: champions-cup-2024-kansai-qualifying-round
+  series_id: japan-championship-qualifying
+  title: 2024 全日本選手権 兼 世界戦選手権選考会関西予選
+  date_label: 2024 年 6 月 29 日
+  venue: 神戸製鋼加古川体育館（予定）
+  source_path: jfic-web/_posts/competition_info/2024/2024-06-29-champions-cup-2024-kansai-qualifying-round.html
+  source_url: "/competition_info/2024/champions-cup-2024-kansai-qualifying-round.html"
+  event_roles:
+  - national_championship_qualifier
+  - world_championship_selection_qualifier
+  results: []
+  parent_series_id: japan-championship
+  date: '2024-06-29'
+- id: japan-championship-2024
+  series_id: japan-championship
+  title: 2024 全日本選手権 兼 世界戦選手権選考会
+  date_label: 2024 年 8 月 3 日
+  venue: 関西大学 千里山キャンパス 中央体育館
+  source_path: jfic-web/_posts/competition_info/2024/2024-08-03-japan-championship-2024.html
+  source_url: "/competition_info/2024/japan-championship-2024.html"
+  event_roles:
+  - national_championship
+  - world_championship_selection
+  results: []
+  date: '2024-08-03'
+- id: hk-open
+  series_id: hong-kong-open
+  title: 香港オープン
+  date_label: 2024 年 8 月 10 日（土）
+  venue: Chai Wan Sports Centre, HongKong
+  source_path: jfic-web/_posts/competition_info/2024/2024-08-10-hk-open.html
+  source_url: "/competition_info/2024/hk-open.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2024-08-10'
+- id: japancup-2024
+  series_id: japancup
+  title: ジャパンカップ 2024
+  date_label: 2024 年 9 月 21 日
+  venue: たちかわ創造舎
+  source_path: jfic-web/_posts/competition_info/2024/2024-09-21-japancup-2024.html
+  source_url: "/competition_info/2024/japancup-2024.html"
+  event_roles: []
+  results: []
+  date: '2024-09-21'
