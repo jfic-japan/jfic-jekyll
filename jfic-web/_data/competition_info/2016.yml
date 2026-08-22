@@ -1,0 +1,192 @@
+- id: kanto_student_championship_spring
+  series_id: kanto-student-spring-league
+  title: 2016年度関東春季学生リーグ
+  date_label: 2016年5月14日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2016/2016-05-14-kanto_student_championship_spring.html
+  source_url: "/competition_info/2016/kanto_student_championship_spring.html"
+  event_roles: []
+  results: []
+  date: '2016-05-14'
+- id: kanto-championship-spring
+  series_id: kanto-social-spring-league
+  title: 2016年度関東春季社会人リーグ
+  date_label: 2016年5月15日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2016/2016-05-15-kanto-championship-spring.html
+  source_url: "/competition_info/2016/kanto-championship-spring.html"
+  event_roles: []
+  results: []
+  date: '2016-05-15'
+- id: kansai-spring-withHK
+  series_id: kansai-spring-league
+  title: 香港チームとの交流試合（関西）スプリングカップ
+  date_label: 2016年6月12日
+  venue: 関西大学千里山キャンパス　東体育館
+  source_path: jfic-web/_posts/competition_info/2016/2016-06-12-kansai-spring-withHK.html
+  source_url: "/competition_info/2016/kansai-spring-withHK.html"
+  event_roles: []
+  results: []
+  date: '2016-06-12'
+- id: champions-cup-2016
+  series_id: champions-cup
+  title: 2016チャンピオンズカップ（世界選手権派遣選手決定戦）
+  date_label: 2016年7月9日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2016/2016-07-09-champions-cup-2016.html
+  source_url: "/competition_info/2016/champions-cup-2016.html"
+  event_roles:
+  - world_championship_selection
+  results: []
+  date: '2016-07-09'
+- id: world-cup-2016-asia
+  series_id: world-cup-asia
+  title: 2016 UCI サイクルサッカーワールドカップ 第3戦
+  date_label: 2016年7月10日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2016/2016-07-10-world-cup-2016-asia.html
+  source_url: "/competition_info/2016/world-cup-2016-asia.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2016-07-10'
+- id: asian-championship-2016
+  series_id: asian-championship
+  title: 第14回アジア室内自転車競技選手権大会
+  date_label: 2016年8月6日
+  venue: Infield, Hong Kong Velodrome
+  source_path: jfic-web/_posts/competition_info/2016/2016-08-06-asian-championship-2016.html
+  source_url: "/competition_info/2016/asian-championship-2016.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2016-08-06'
+- id: HK-open-2016
+  series_id: hong-kong-open
+  title: Hong Kong Open 2016
+  date_label: 2016年8月7日
+  venue: Infield, Hong Kong Velodrome
+  source_path: jfic-web/_posts/competition_info/2016/2016-08-07-HK-open-2016.html
+  source_url: "/competition_info/2016/HK-open-2016.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2016-08-07'
+- id: japancup-2016
+  series_id: japancup
+  title: ジャパンカップ2016
+  date_label: 2016年9月17日、18日
+  venue: 梅田東コミュニティ会館
+  source_path: jfic-web/_posts/competition_info/2016/2016-09-17-japancup-2016.html
+  source_url: "/competition_info/2016/japancup-2016.html"
+  event_roles: []
+  results: []
+  date: '2016-09-17'
+- id: rookie-cup-2016
+  series_id: rookie-cup
+  title: 2016年度新人戦
+  date_label: 2016年10月22日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2016/2016-10-22-rookie-cup-2016.html
+  source_url: "/competition_info/2016/rookie-cup-2016.html"
+  event_roles: []
+  results: []
+  date: '2016-10-22'
+- id: japan-students-league-2016
+  series_id: japan-student-league
+  title: 2016年度全日本学生リーグ
+  date_label: 2016年10月23日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2016/2016-10-23-japan-students-league-2016.html
+  source_url: "/competition_info/2016/japan-students-league-2016.html"
+  event_roles: []
+  results: []
+  date: '2016-10-23'
+- id: cycleball-world-cup-final-2016
+  series_id: cycleball-world-cup-final
+  title: UCI Cycle Ball World Cup Final 2016
+  date_label: 2016年11月12日
+  venue: Turnhalle（スイス Winterthur）
+  source_path: jfic-web/_posts/competition_info/2016/2016-11-12-cycleball-world-cup-final-2016.html
+  source_url: "/competition_info/2016/cycleball-world-cup-final-2016.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2016-11-12'
+- id: inter-college-2016
+  series_id: inter-college
+  title: 2016年度全日本学生選手権
+  date_label: 2016年11月26日、27日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2016/2016-11-26-inter-college-2016.html
+  source_url: "/competition_info/2016/inter-college-2016.html"
+  event_roles: []
+  results: []
+  date: '2016-11-26'
+- id: world-championships-2016
+  series_id: world-championships
+  title: UCI Indoor Cycling World Championships 2016
+  date_label: 2016年12月2日-4日
+  venue: ポルシェアリーナ（ドイツ・シュツットガルト）
+  source_path: jfic-web/_posts/competition_info/2016/2016-12-02-world-championships-2016.html
+  source_url: "/competition_info/2016/world-championships-2016.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2016-12-02'
+- id: japan-championship-2016
+  series_id: japan-championship
+  title: 第47回全日本選手権大会
+  date_label: 2016年12月17日,18日
+  venue: 関西大学千里山キャンパス　東体育館
+  source_path: jfic-web/_posts/competition_info/2016/2016-12-17-japan-championship-2016.html
+  source_url: "/competition_info/2016/japan-championship-2016.html"
+  event_roles:
+  - national_championship
+  results:
+  - category: サイクルサッカー
+    entries:
+    - rank: 優勝
+      team: 蔵前
+      members:
+      - 藤田 洋介
+      - 時倉 宗大
+    - rank: 準優勝
+      team: RSV OSAKA
+      members:
+      - 村上 裕亮
+      - 岡嶋 紘次
+    - rank: 3 位
+      team: STAR BICYCLE OSAKA 2
+      members:
+      - 田中 勝也
+      - 杉谷 嘉紀
+    - rank: 4 位
+      team: たちかわクラブ
+      members:
+      - 赤津 陸
+      - 松田 鋼
+  - category: サイクルフィギュア女子シングル
+    entries:
+    - rank: 優勝
+      athlete: 近藤 菜月
+      affiliation: Blue Lake Angels
+    - rank: 準優勝
+      athlete: 佐藤 凪沙
+      affiliation: 京都産業大学
+    - rank: 3 位
+      athlete: 國久 結希乃
+      affiliation: Blue Lake Angels
+  - category: サイクルフィギュア男子シングル
+    entries:
+    - rank: 優勝
+      athlete: 芦田 史朗
+      affiliation: ALMOSTBLACKS
+    - rank: 準優勝
+      athlete: 中川 凱公
+      affiliation: Blue Lake Angels
+  date: '2016-12-17'
+  links:
+    result:
+    - label: PDF
+      url: "/doc/2016/2016NCH_result.pdf"

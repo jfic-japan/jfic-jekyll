@@ -1,0 +1,35 @@
+- id: champions-cup-2021
+  series_id: champions-cup
+  title: 2021 年度チャンピオンズカップ（世界選手権派遣選手選考会）
+  date_label: 2021 年 9 月 4 日
+  venue: アクティブ・スクウェア・大東（大阪）
+  source_path: jfic-web/_posts/competition_info/2021/2021-09-04-champions-cup-2021.html
+  source_url: "/competition_info/2021/champions-cup-2021.html"
+  event_roles:
+  - world_championship_selection
+  results: []
+  date: '2021-09-04'
+- id: world-championships-2021
+  series_id: world-championships
+  title: UCI Indoor Cycling World Championships 2021
+  date_label: 2021 年 10 月 29 日 - 31 日
+  venue: ドイツ・シュツットガルト
+  source_path: jfic-web/_posts/competition_info/2021/2021-10-29-world-championships-2021.html
+  source_url: "/competition_info/2021/world-championships-2021.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2021-10-29'
+- id: japan-championship-2021
+  series_id: japan-championship
+  title: 第 52 回全日本室内自転車競技選手権大会（中止）
+  date_label: 2022 年 3 月 5 日
+  venue: 東京工業大学
+  source_path: jfic-web/_posts/competition_info/2021/2022-03-05-japan-championship-2021.html
+  source_url: "/competition_info/2021/japan-championship-2021.html"
+  event_roles:
+  - national_championship
+  - cancelled
+  results: []
+  date: '2022-03-05'
+  results_note: 大会中止のため結果なし。

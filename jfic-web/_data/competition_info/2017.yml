@@ -1,0 +1,185 @@
+- id: kanto-student-championship-spring-2017
+  series_id: kanto-student-spring-league
+  title: 2017年度関東春季学生リーグ
+  date_label: 2017年6月3日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2017/2017-06-03-kanto-student-championship-spring-2017.html
+  source_url: "/competition_info/2017/kanto-student-championship-spring-2017.html"
+  event_roles: []
+  results: []
+  date: '2017-06-03'
+- id: challenge-cup
+  series_id: challenge-cup
+  title: 2017年度チャレンジカップ
+  date_label: 2017年6月4日
+  venue: 東京工業大学 大岡山キャンパス
+  source_path: jfic-web/_posts/competition_info/2017/2017-06-04-challenge-cup.html
+  source_url: "/competition_info/2017/challenge-cup.html"
+  event_roles: []
+  results: []
+  date: '2017-06-04'
+- id: kanto-championship-spring-2017
+  series_id: kanto-social-spring-league
+  title: 2017年度関東春季社会人リーグ
+  date_label: 2017年6月17日
+  venue: 日本サイクルスポーツセンター多目的ホール（修善寺）
+  source_path: jfic-web/_posts/competition_info/2017/2017-06-17-kanto-championship-spring-2017.html
+  source_url: "/competition_info/2017/kanto-championship-spring-2017.html"
+  event_roles: []
+  results: []
+  date: '2017-06-17'
+- id: champions-cup-2017
+  series_id: champions-cup
+  title: 2017年度チャンピオンズカップ
+  date_label: 2017年7月9日
+  venue: 桃山学院大学総合体育館　サブアリーナ1
+  source_path: jfic-web/_posts/competition_info/2017/2017-07-09-champions-cup-2017.html
+  source_url: "/competition_info/2017/champions-cup-2017.html"
+  event_roles:
+  - world_championship_selection
+  results: []
+  date: '2017-07-09'
+- id: japancup-2017
+  series_id: japancup
+  title: ジャパンカップ2017
+  date_label: 2017年9月23日、24日
+  venue: 東京工業大学　大岡山キャンパス体育館
+  source_path: jfic-web/_posts/competition_info/2017/2017-09-23-japancup-2017.html
+  source_url: "/competition_info/2017/japancup-2017.html"
+  event_roles: []
+  results: []
+  date: '2017-09-23'
+- id: rookie-cup-2017
+  series_id: rookie-cup
+  title: 2017年度新人戦
+  date_label: 2017年10月28日
+  venue: 東京工業大学 大岡山キャンパス体育館
+  source_path: jfic-web/_posts/competition_info/2017/2017-10-28-rookie-cup-2017.html
+  source_url: "/competition_info/2017/rookie-cup-2017.html"
+  event_roles: []
+  results: []
+  date: '2017-10-28'
+- id: japan-student-league-2017
+  series_id: japan-student-league
+  title: 2017年度全日本学生リーグ
+  date_label: 2017年10月29日
+  venue: 東京工業大学 大岡山キャンパス体育館
+  source_path: jfic-web/_posts/competition_info/2017/2017-10-29-japan-student-league-2017.html
+  source_url: "/competition_info/2017/japan-student-league-2017.html"
+  event_roles: []
+  results: []
+  date: '2017-10-29'
+- id: inter-college-2017
+  series_id: inter-college
+  title: 2017年度全日本学生選手権
+  date_label: 2017年11月11日,12日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2017/2017-11-11-inter-college-2017.html
+  source_url: "/competition_info/2017/inter-college-2017.html"
+  event_roles: []
+  results: []
+  date: '2017-11-11'
+- id: world-championships-2017
+  series_id: world-championships
+  title: UCI Indoor Cycling World Championships 2017
+  date_label: 2017年11月24日-26日
+  venue: オーストリア・ドルンビルン
+  source_path: jfic-web/_posts/competition_info/2017/2017-11-24-world-championships-2017.html
+  source_url: "/competition_info/2017/world-championships-2017.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2017-11-24'
+- id: cycleball-world-cup-final-2017
+  series_id: cycleball-world-cup-final
+  title: UCI Cycle Ball World Cup Final 2017
+  date_label: 2017年12月2日
+  venue: ドイツ
+  source_path: jfic-web/_posts/competition_info/2017/2017-12-02-cycleball-world-cup-final-2017.html
+  source_url: "/competition_info/2017/cycleball-world-cup-final-2017.html"
+  event_roles:
+  - international_event
+  results: []
+  date: '2017-12-02'
+- id: japan-championship-2017
+  series_id: japan-championship
+  title: 第48回全日本選手権大会
+  date_label: 2017年12月16日、17日
+  venue: 桃山学院大学
+  source_path: jfic-web/_posts/competition_info/2017/2017-12-16-japan-championship-2017.html
+  source_url: "/competition_info/2017/japan-championship-2017.html"
+  event_roles:
+  - national_championship
+  results:
+  - category: サイクルサッカー
+    entries:
+    - rank: 優勝
+      team: RSV OSAKA
+      members:
+      - 村上 裕亮
+      - 岡嶋 紘次
+    - rank: 準優勝
+      team: STAR BICYCLE OSAKA
+      members:
+      - 田中 勝也
+      - 杉谷 嘉紀
+    - rank: 3 位
+      team: Team Danke
+      members:
+      - 山縣 智
+      - 石崎 颯斗
+    - rank: 4 位
+      team: 蔵前
+      members:
+      - 藤田 洋介
+      - 時倉 宗大
+    - rank: 5 位
+      team: 舞馬
+      members:
+      - 安井 英己
+      - 谷川 拓真
+    - rank: 6 位
+      team: ダンシンググレープス
+      members:
+      - 西光 拳人
+      - 山本 勝敏
+    - rank: 7 位
+      team: たちかわクラブ 1
+      members:
+      - 赤津 陸
+      - 松田 鋼
+    - rank: 8 位
+      team: 大阪経済大学 3
+      members:
+      - 南 拓磨
+      - 玉松 寛晃
+  - category: サイクルフィギュア女子シングル
+    entries:
+    - rank: 優勝
+      athlete: 近藤 菜月
+      affiliation: 滋賀CFC BlueLakeAngels
+    - rank: 準優勝
+      athlete: 大幡 心
+      affiliation: 滋賀CFC BlueLakeAngels
+    - rank: 3 位
+      athlete: 久保 かなえ
+      affiliation: 滋賀CFC BlueLakeAngels
+    - rank: 4 位
+      athlete: 折戸 優羽
+      affiliation: 滋賀CFC BlueLakeAngels
+    - rank: 5 位
+      athlete: 髙岡 真心
+      affiliation: 滋賀CFC BlueLakeAngels
+  - category: サイクルフィギュア男子シングル
+    entries:
+    - rank: 優勝
+      athlete: 芦田 史朗
+      affiliation: ALMOSTBLACKS
+    - rank: 準優勝
+      athlete: 中川 凱公
+      affiliation: 滋賀CFC BlueLakeAngels
+  date: '2017-12-16'
+  links:
+    result:
+    - label: PDF
+      url: "/doc/2017/2017NCH_result.pdf"

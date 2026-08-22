@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">歴代全日本選手権</h1>
+        </div>
+    </div>
+</div>
+
+<div class="jfic-top-img">
+    <img class="img-responsive portfolio-item center-block" src="{{ site.baseurl }}/img/top/trophy-1140x460.jpg" alt="trophy">
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p>
+                全日本選手権系列の大会を、各年の大会情報データから一覧表示しています。
+            </p>
+
+            <hr>
+
+            {% assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015" | split: "," %}
+
+            <ul class="list-unstyled">
+                {% for year in years %}
+                {% assign events = site.data.competition_info[year] %}
+                {% for event in events %}
+                {% if event.series_id == "japan-championship" %}
+                <li>
+                    <h3>
+                        <a href="{{ event.source_url | prepend: site.baseurl }}">
+                            {{ event.title }}
+                        </a>
+                        {% if event.event_roles contains "world_championship_selection" %}
+                        <br>
+                        <small>世界選手権選考会を兼ねる大会</small>
+                        {% endif %}
+                        {% if event.event_roles contains "cancelled" %}
+                        <br>
+                        <small>中止</small>
+                        {% endif %}
+                    </h3>
+                    <dl>
+                        <dt>開催日</dt>
+                        <dd>{{ event.date_label }}</dd>
+                        <dt>会場</dt>
+                        <dd>{{ event.venue }}</dd>
+                        {% if event.results_note %}
+                        <dt>結果</dt>
+                        <dd>{{ event.results_note }}</dd>
+                        {% endif %}
+                        {% if event.results and event.results.size > 0 %}
+                        <dt>結果</dt>
+                        <dd>
+                            {% for category in event.results %}
+                            <strong>{{ category.category }}</strong>
+                            <ul>
+                                {% for entry in category.entries %}
+                                <li>
+                                    {{ entry.rank }}:
+                                    {% if entry.team %}
+                                    {{ entry.team }}
+                                    {% if entry.members %}
+                                    （{{ entry.members | join: "・" }}）
+                                    {% endif %}
+                                    {% elsif entry.members %}
+                                    {{ entry.members | join: "・" }}
+                                    {% elsif entry.athlete %}
+                                    {{ entry.athlete }}
+                                    {% if entry.affiliation %}
+                                    （{{ entry.affiliation }}{% if entry.score_label %}, {{ entry.score_label }}{% endif %}）
+                                    {% endif %}
+                                    {% endif %}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% endfor %}
+                        </dd>
+                        {% endif %}
+                    </dl>
+                    <hr>
+                </li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
