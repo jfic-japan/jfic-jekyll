@@ -110,5 +110,76 @@
   source_url: "/competition_info/2017/japan-championship-2017.html"
   event_roles:
   - national_championship
-  results: []
+  results:
+  - category: サイクルサッカー
+    entries:
+    - rank: 優勝
+      team: RSV OSAKA
+      members:
+      - 村上 裕亮
+      - 岡嶋 紘次
+    - rank: 準優勝
+      team: STAR BICYCLE OSAKA
+      members:
+      - 田中 勝也
+      - 杉谷 嘉紀
+    - rank: 3 位
+      team: Team Danke
+      members:
+      - 山縣 智
+      - 石崎 颯斗
+    - rank: 4 位
+      team: 蔵前
+      members:
+      - 藤田 洋介
+      - 時倉 宗大
+    - rank: 5 位
+      team: 舞馬
+      members:
+      - 安井 英己
+      - 谷川 拓真
+    - rank: 6 位
+      team: ダンシンググレープス
+      members:
+      - 西光 拳人
+      - 山本 勝敏
+    - rank: 7 位
+      team: たちかわクラブ 1
+      members:
+      - 赤津 陸
+      - 松田 鋼
+    - rank: 8 位
+      team: 大阪経済大学 3
+      members:
+      - 南 拓磨
+      - 玉松 寛晃
+  - category: サイクルフィギュア女子シングル
+    entries:
+    - rank: 優勝
+      athlete: 近藤 菜月
+      affiliation: 滋賀CFC BlueLakeAngels
+    - rank: 準優勝
+      athlete: 大幡 心
+      affiliation: 滋賀CFC BlueLakeAngels
+    - rank: 3 位
+      athlete: 久保 かなえ
+      affiliation: 滋賀CFC BlueLakeAngels
+    - rank: 4 位
+      athlete: 折戸 優羽
+      affiliation: 滋賀CFC BlueLakeAngels
+    - rank: 5 位
+      athlete: 髙岡 真心
+      affiliation: 滋賀CFC BlueLakeAngels
+  - category: サイクルフィギュア男子シングル
+    entries:
+    - rank: 優勝
+      athlete: 芦田 史朗
+      affiliation: ALMOSTBLACKS
+    - rank: 準優勝
+      athlete: 中川 凱公
+      affiliation: 滋賀CFC BlueLakeAngels
   date: '2017-12-16'
+  links:
+    result:
+    - label: PDF
+      url: "/doc/2017/2017NCH_result.pdf"

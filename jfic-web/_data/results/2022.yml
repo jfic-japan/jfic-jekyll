@@ -1,50 +1,16 @@
-- id: jfic-cup-2022
-  title: JFIC カップ
-  date: 2022-05-22
-  date_label: 2022 年 5 月 22 日（日）
-  venue: 関西大学 千里山キャンパス 中央体育館
-  source_path: jfic-web/_posts/competition_info/2022/2022-05-22-jfic-cup.html
-  source_url: /competition_info/2022/jfic-cup.html
-  disciplines:
-    - サイクルサッカー
-    - サイクルフィギュア
-  summary: 2021 年度全日本選手権の代替大会
-  links:
-    entry:
-      - label: 登録フォーム
-        url: https://forms.gle/bFcTngEYc4jmMmSA6
-  results: []
-
-- id: champions-cup-2022
-  title: 2022 年度チャンピオンズカップ（世界選手権派遣選手選考会）
-  date: 2022-08-27
-  date_label: 2022 年 8 月 27 日（土）
-  venue: 星槎箱根仙石原総合型スポーツクラブ
-  source_path: jfic-web/_posts/competition_info/2022/2022-08-27-champions-cup-2022.html
-  source_url: /competition_info/2022/champions-cup-2022.html
-  links:
-    outline:
-      - label: PDF
-        url: /doc/2022/2022-08-27_Champions-Cup.pdf
-    schedule:
-      - label: PDF
-        url: /doc/2022/2022-08-27_Champions-Cup_Schedule.pdf
-  results: []
-
-- id: japancup-2022
+- event_id: japancup-2022
   title: ジャパンカップ 2022
   date: 2022-10-16
   date_label: 2022 年 10 月 16 日（日）
   venue: 大阪府立大阪わかば高等学校 体育館（2階）特設コート
   source_path: jfic-web/_posts/competition_info/2022/2022-10-16-japancup-2022.html
   source_url: /competition_info/2022/japancup-2022.html
-  links:
-    result:
-      - label: PDF
-        url: /doc/2022/20221016-JapanCup-result.pdf
-  results:
-    - category: サイクルサッカー
-      entries:
+  detail_links:
+    - label: PDF
+      url: /doc/2022/20221016-JapanCup-result.pdf
+  categories:
+    - name: サイクルサッカー
+      results:
         - rank: 優勝
           team: RSV OSAKA
           members:
@@ -86,7 +52,7 @@
             - 西條 晴幸
             - 鷲尾 隆磨
         - rank: 9 位
-          team: ＫＵvelo
+          team: KUvelo
           members:
             - 松田 靖史
             - 三神 信一郎
@@ -96,60 +62,19 @@
             - 永松 涼介
             - 浅野 光輝
 
-- id: world-championships-2022
-  title: UCI Indoor Cycling World Championships 2022
-  date: 2022-11-04
-  end_date: 2022-11-06
-  date_label: 2022 年 11 月 4 日（金）- 6 日（日）
-  venue: ベルギー・ゲント
-  source_path: jfic-web/_posts/competition_info/2022/2022-11-04-world-championships-2022.html
-  source_url: /competition_info/2022/world-championships-2022.html
-  links:
-    official:
-      - label: 公式サイト
-        url: https://www.indoorcyclingghent22.com/
-  teams:
-    - category: サイクルサッカー
-      entries:
-        - name: 村上 裕亮・高橋 祐馬
-          affiliation: RSV 大阪
-        - name: 徳広 昇・浦元 大雅
-          affiliation: RSV 大阪・リザーブ
-    - category: サイクルフィギュア
-      entries:
-        - name: 芝山 耕輔
-          affiliation: TSG Sonnenberg ドイツ
-        - name: 近藤 菜月
-          affiliation: 京都産業大学
-  staff:
-    - role: サイクルサッカーコーチ
-      members:
-        - Sebastian Kotb
-    - role: サイクルフィギュアコーチ
-      members:
-        - Murke Petra
-    - role: メカニシャン・マッサー
-      members:
-        - 山﨑 颯斗 (関西大学)
-  results: []
-
-- id: japan-championship-2022
+- event_id: japan-championship-2022
   title: 第 53 回全日本室内自転車競技選手権大会
   date: 2022-12-03
   date_label: 2022 年 12 月 3 日（土）
   venue: 星槎箱根仙石原総合型スポーツクラブ
   source_path: jfic-web/_posts/competition_info/2022/2022-12-03-japan-championship-2022.html
   source_url: /competition_info/2022/japan-championship-2022.html
-  links:
-    schedule:
-      - label: PDF
-        url: /doc/2022/20221203-JapanChampionShip-Schedule.pdf
-    result:
-      - label: PDF
-        url: /doc/2022/20221203-JapanChampionShip-result.pdf
-  results:
-    - category: サイクルサッカー
-      entries:
+  detail_links:
+    - label: PDF
+      url: /doc/2022/20221203-JapanChampionShip-result.pdf
+  categories:
+    - name: サイクルサッカー
+      results:
         - rank: 優勝
           team: RSV OSAKA
           members:
@@ -190,8 +115,8 @@
           members:
             - 清水 厚行
             - 山本 勝敏
-    - category: サイクルサッカー女子
-      entries:
+    - name: サイクルサッカー女子
+      results:
         - rank: 優勝
           team: ウッドモック
           members:
@@ -207,8 +132,8 @@
           members:
             - 柳澤 なつみ
             - 大西 香乃
-    - category: サイクルフィギュア女子シングル
-      entries:
+    - name: サイクルフィギュア女子シングル
+      results:
         - rank: 優勝
           athlete: 近藤 菜月
           affiliation: 京都産業大学

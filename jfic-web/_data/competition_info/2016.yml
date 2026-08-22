@@ -143,5 +143,50 @@
   source_url: "/competition_info/2016/japan-championship-2016.html"
   event_roles:
   - national_championship
-  results: []
+  results:
+  - category: サイクルサッカー
+    entries:
+    - rank: 優勝
+      team: 蔵前
+      members:
+      - 藤田 洋介
+      - 時倉 宗大
+    - rank: 準優勝
+      team: RSV OSAKA
+      members:
+      - 村上 裕亮
+      - 岡嶋 紘次
+    - rank: 3 位
+      team: STAR BICYCLE OSAKA 2
+      members:
+      - 田中 勝也
+      - 杉谷 嘉紀
+    - rank: 4 位
+      team: たちかわクラブ
+      members:
+      - 赤津 陸
+      - 松田 鋼
+  - category: サイクルフィギュア女子シングル
+    entries:
+    - rank: 優勝
+      athlete: 近藤 菜月
+      affiliation: Blue Lake Angels
+    - rank: 準優勝
+      athlete: 佐藤 凪沙
+      affiliation: 京都産業大学
+    - rank: 3 位
+      athlete: 國久 結希乃
+      affiliation: Blue Lake Angels
+  - category: サイクルフィギュア男子シングル
+    entries:
+    - rank: 優勝
+      athlete: 芦田 史朗
+      affiliation: ALMOSTBLACKS
+    - rank: 準優勝
+      athlete: 中川 凱公
+      affiliation: Blue Lake Angels
   date: '2016-12-17'
+  links:
+    result:
+    - label: PDF
+      url: "/doc/2016/2016NCH_result.pdf"

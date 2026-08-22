@@ -146,3 +146,8 @@
   - national_championship
   results: []
   date: '2015-12-12'
+  results_note: 本文には順位の記載がなく、大会結果PDFのみ掲載されています。
+  links:
+    result:
+    - label: PDF
+      url: "/doc/2015/japan-championship/46thNCH_result.pdf"

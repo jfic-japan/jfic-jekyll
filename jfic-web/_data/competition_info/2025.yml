@@ -8,7 +8,77 @@
   event_roles:
   - national_championship
   - world_championship_selection
-  results: []
+  results:
+  - category: サイクルサッカー男子
+    entries:
+    - rank: 優勝
+      team: ''
+      members:
+      - 村上 裕亮
+      - 髙橋 祐馬
+      note: 元記事にチーム名の記載なし
+    - rank: 準優勝
+      team: ".LINK Tokyo"
+      members:
+      - 徳広 昇
+      - 小川 拓真
+    - rank: 3 位
+      team: RSV KOBE 2
+      members:
+      - 岡嶋 絋次
+      - 那須 誉之
+    - rank: 4 位
+      team: たちかわサイクルサッカークラブ 2
+      members:
+      - 安井 英己
+      - 平野 賢
+    - rank: 5 位
+      team: たちかわサイクルサッカークラブ 1
+      members:
+      - 赤津 陸
+      - 小高 悠太郎
+    - rank: 6 位
+      team: murata＋R
+      members:
+      - 清水 厚行
+      - 草加 恭弘
+  - category: サイクルサッカー女子
+    entries:
+    - rank: 優勝
+      team: ＷＭ.LINK
+      members:
+      - 木澤 佐椰茄
+      - 山下 奈々
+    - rank: 準優勝
+      team: RSV大阪
+      members:
+      - 田中 早紀
+      - 曽谷 あかり
+    - rank: 3 位
+      team: 関西大学
+      members:
+      - 吉村 優花
+      - 鶴我 悠菜
+  - category: サイクルフィギュア男子
+    entries:
+    - rank: 優勝
+      athlete: 芝山 耕輔
+      affiliation: たちかわサイクルサッカークラブ
+      score_label: 67.95pt
+  - category: サイクルフィギュア女子
+    entries:
+    - rank: 優勝
+      athlete: 近藤 菜月
+      affiliation: 京都産業大学
+      score_label: 80.75pt
+    - rank: 準優勝
+      athlete: 高岡 真心
+      affiliation: 滋賀 Blue Lake Angels
+      score_label: 44.65pt
+    - rank: 3 位
+      athlete: 高岡 希心
+      affiliation: 滋賀 Blue Lake Angels
+      score_label: 40.45pt
   date: '2025-08-30'
 - id: japancup-2025
   series_id: japancup
