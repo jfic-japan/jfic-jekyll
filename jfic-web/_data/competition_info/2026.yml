@@ -21,3 +21,13 @@
   - world_championship_selection
   results: []
   date: '2026-08-30'
+- id: japancup-2026
+  series_id: japancup
+  title: ジャパンカップ 2026
+  date_label: 2026 年 9 月 12 日
+  venue: 関西大学 千里山キャンパス 中央体育館
+  source_path: jfic-web/_posts/competition_info/2026/2026-09-12-japancup-2026.html
+  source_url: "/competition_info/2026/japancup-2026.html"
+  event_roles: []
+  results: []
+  date: '2026-09-12'
